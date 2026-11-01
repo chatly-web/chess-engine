@@ -6,4 +6,4 @@ OUTPUT_FILE="${2:-engine/clash-trained-experimental}"
 mkdir -p build/trained
 cp source/cpp/engine.cpp build/trained/engine.cpp
 "${PYTHON:-python3}" source/cpp/generate_tables.py --weights "$WEIGHTS_FILE" --output build/trained/tables.h
-"${CXX:-c++}" -std=c++17 -O3 -DNDEBUG -pthread build/trained/engine.cpp -o "$OUTPUT_FILE"
+"${CXX:-c++}" -std=c++17 -O3 -DNDEBUG -pthread -DCLASH_SEARCH_V2=2 -DCLASH_TACTICAL_GEN=1 build/trained/engine.cpp -o "$OUTPUT_FILE"

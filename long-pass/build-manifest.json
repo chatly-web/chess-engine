@@ -1,0 +1,12 @@
+{
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread -DCLASH_SEARCH_V2=2 -DCLASH_TACTICAL_GEN=1",
+  "source_sha256": {
+    "source/cpp/engine.cpp": "db2ebed4657981965f30d05f2dfe8ee32e814975e6c2b981a1844e4622da8855",
+    "source/cpp/tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125"
+  },
+  "release_binary_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "rebuild_binary_sha256": "ee13677c4278c45120de4683c5c475f7c062075a41e313478c9494cde8ca1cb4",
+  "rebuild_text_section_identical": true,
+  "note": "Rebuilt executable has identical __TEXT,__text machine code; 63 differing bytes occur in Mach-O UUID/signature metadata. Frozen originally tested executable is delivered."
+}

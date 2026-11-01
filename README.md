@@ -1,10 +1,18 @@
-## Outcome-based self-play training
+# Clash Native C++ chess engine
 
-See [TRAINING-CYCLE.md](TRAINING-CYCLE.md) for the completed 402-game training experiment and 160 held-out validation games. The fitted candidate was not promoted; the recommended executable retains the previous weights. Native build-time scalar tuning is now supported.
+The recommended competition executable is `./engine/clash-native`. The same frozen C++ release is used for **180+2 (3+2)** and **600+5 (10+5)**. Rebuild on another platform with `./build-native.sh`; the included executable targets Apple Silicon macOS. Python is used for offline tests/training and the separate Lichess bridge, while C++ chooses every move.
 
-# Recommended native C++ launch
+The latest long validation pass completed **1,574 held-out short-control games** against the previous release: **818 wins, 353 draws, 403 losses**, scoring **63.18% of available points**. That is evidence of an improvement over our baseline, not Lichess move accuracy. Actual 3+2 and 10+5 games, losses to stronger opponents, hashes, tactical checks and limitations are in [LONG-PASS.md](LONG-PASS.md).
 
-Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-native.sh` on your hosting system. See [NATIVE.md](NATIVE.md) for source, validation, limitations and setup. The Python implementation below remains the reference and tuning version. The current native candidate is 1.62x faster on the fixed-search comparison suite and won both recorded 3+2 games against reduced-strength Stockfish Level 3; the two-game sample is not a win-rate guarantee.
+BOT account: [ayushgohil](https://lichess.org/@/ayushgohil). BOT conversion and authenticated bridge connection are verified. A completed live Lichess game remains to be validated. See [BOT-SETUP.md](BOT-SETUP.md) for hosting and submission steps.
+
+Original AI-assisted search/evaluation; no external engine source, pretrained weights, opening books, tablebases or external-engine analysis labels are used. External engines are separately installed offline opponents only. Competition acceptance of AI assistance should be confirmed with the organisers. No first-prize or near-100% accuracy claim is supported by these tests.
+
+See [NATIVE.md](NATIVE.md) for implementation details and [TRAINING-CYCLE.md](TRAINING-CYCLE.md) for the earlier 402-game weight-fitting experiment. Its fitted weights were not promoted; this release improves search while retaining the original default weights.
+
+## Historical Python implementation and earlier results
+
+The following describes the earlier Python reference. Its architecture and results must not be attributed to the latest C++ release.
 
 # Clash Original 0.4.1
 

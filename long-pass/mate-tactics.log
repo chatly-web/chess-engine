@@ -1,0 +1,9 @@
+{
+  "binary_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "tests": 84,
+  "shortest_mate_passed": 83,
+  "passed": 84,
+  "failed": 0,
+  "seconds": 0.584830417,
+  "note": "Finite synthetic mate-in-one and mate-in-two positions, both colours; shortest-mate results reported separately. Unexpected choices exhaustively checked for forced mate within three moves by a rules-only oracle. No tablebase used by the engine. This does not establish general accuracy."
+}

@@ -17,9 +17,13 @@ try:
   if b.is_game_over() or b.ply()>180:b=chess.Board()
   b.push(rng.choice(list(b.legal_moves)))
   actual=set(query(b,'legal').split());expected={m.uci() for m in b.legal_moves};assert actual==expected,(b.fen(),actual^expected)
+  if os.environ.get('CLASH_TACTICAL_CHECK'):
+   actual_captures=set(query(b,'legalcaptures').split())
+   expected_captures={m.uci() for m in b.legal_moves if b.is_capture(m) or m.promotion}
+   assert actual_captures==expected_captures,(b.fen(),actual_captures^expected_captures)
   a=int(query(b,'eval'));e=evaluator.evaluate(b)
   if a!=e:mismatches.append(dict(fen=b.fen(),native=a,python=e))
- report['legal_positions']=2000;report['evaluation_mismatches']=len(mismatches);report['examples']=mismatches[:5]
+ report['tactical_move_sets_checked']=bool(os.environ.get('CLASH_TACTICAL_CHECK'));report['legal_positions']=2000;report['evaluation_mismatches']=len(mismatches);report['examples']=mismatches[:5]
 finally:p.stdin.write('quit\n');p.stdin.flush();p.wait();p.stdin.close();p.stdout.close()
 report['seconds']=time.monotonic()-start
 report_name=os.environ.get('CLASH_VERIFY_REPORT','cpp-verification.json')

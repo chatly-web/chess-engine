@@ -3,10 +3,12 @@ import argparse,json,pathlib,sys,time,hashlib
 import chess,chess.engine,chess.pgn
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def main():
- p=argparse.ArgumentParser();p.add_argument('--native',action='store_true');p.add_argument('--opponent',required=True);p.add_argument('--opponent-arg',action='append',default=[]);p.add_argument('--protocol',choices=['uci','xboard'],default='uci');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);p.add_argument('--colour',choices=['white','black'],default='white');p.add_argument('--label',required=True);p.add_argument('--movetime',type=float);p.add_argument('--skill-level',type=int,default=None);a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--native',action='store_true');p.add_argument('--our-binary');p.add_argument('--our-revision');p.add_argument('--opponent',required=True);p.add_argument('--opponent-arg',action='append',default=[]);p.add_argument('--protocol',choices=['uci','xboard'],default='uci');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);p.add_argument('--colour',choices=['white','black'],default='white');p.add_argument('--label',required=True);p.add_argument('--movetime',type=float);p.add_argument('--skill-level',type=int,default=None);a=p.parse_args()
  our_command=[str(ROOT/'engine/clash-native')] if a.native else [sys.executable,str(ROOT/'engine/main.py')]
  sources=[ROOT/'source/cpp/engine.cpp',ROOT/'source/cpp/tables.h',ROOT/'engine/clash-native'] if a.native else [ROOT/'source/search.py',ROOT/'source/clock_budget.py',ROOT/'engine/main.py']
- hashes={str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in sources}
+ if a.our_binary:
+  our_command=[str(pathlib.Path(a.our_binary).resolve())];sources=[pathlib.Path(a.our_binary).resolve()]
+ hashes={str(f.relative_to(ROOT)) if ROOT in f.parents else f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in sources}
  ours=chess.engine.SimpleEngine.popen_uci(our_command,timeout=30)
  other=(chess.engine.SimpleEngine.popen_uci if a.protocol=='uci' else chess.engine.SimpleEngine.popen_xboard)([a.opponent]+a.opponent_arg,timeout=30)
  options={k:v for k,v in {'Threads':1,'Hash':64,'Ponder':False}.items() if k in other.options and not other.options[k].is_managed()}
@@ -34,6 +36,6 @@ def main():
     engine.quit()
    except Exception as exc:print("Opponent cleanup: "+type(exc).__name__,file=sys.stderr)
    finally:engine.close()
- report=dict(opponent=opponent_id,skill_level=a.skill_level,opponent_options=options,our_colour=a.colour,base=a.base,increment=a.increment,movetime=a.movetime,result=result,failure=failure,finished=result!='*',plies=b.ply(),seconds=time.monotonic()-start,moves=log,source_hashes=hashes)
+ report=dict(our_revision=a.our_revision,opponent=opponent_id,skill_level=a.skill_level,opponent_options=options,our_colour=a.colour,base=a.base,increment=a.increment,movetime=a.movetime,result=result,failure=failure,finished=result!='*',plies=b.ply(),seconds=time.monotonic()-start,moves=log,source_hashes=hashes)
  (ROOT/(a.label+'.json')).write_text(json.dumps(report,indent=2));g=chess.pgn.Game.from_board(b);g.headers.update(White='Clash' if white else opponent_id.get('name','Opponent'),Black=opponent_id.get('name','Opponent') if white else 'Clash',Result=result,TimeControl=f'{a.base}+{a.increment}' if not a.movetime else f'{a.movetime}s/move');(ROOT/(a.label+'.pgn')).write_text(str(g)+'\n');print(json.dumps({k:v for k,v in report.items() if k not in ('moves','source_hashes')}),flush=True)
 if __name__=='__main__':main()

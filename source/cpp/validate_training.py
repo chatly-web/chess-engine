@@ -2,11 +2,11 @@
 import argparse,pathlib,random,json,time,hashlib,concurrent.futures,math
 import chess,chess.engine,chess.pgn
 ROOT=pathlib.Path(__file__).resolve().parents[2]
-p=argparse.ArgumentParser();p.add_argument('--candidate',required=True);p.add_argument('--baseline',required=True);p.add_argument('--pairs',type=int,default=32);p.add_argument('--seed-base',type=int,default=91000);a=p.parse_args();commands=[str(pathlib.Path(v).resolve()) for v in (a.candidate,a.baseline)]
+p=argparse.ArgumentParser();p.add_argument('--candidate',required=True);p.add_argument('--baseline',required=True);p.add_argument('--pairs',type=int,default=32);p.add_argument('--seed-base',type=int,default=91000);p.add_argument('--workers',type=int,default=4);p.add_argument('--fast-seconds',type=float,default=.05);p.add_argument('--slow-seconds',type=float,default=.1);p.add_argument('--label',default='training-validation');a=p.parse_args();commands=[str(pathlib.Path(v).resolve()) for v in (a.candidate,a.baseline)]
 def play_pair(seed):
  rng=random.Random(a.seed_base+seed);initial=chess.Board()
  for _ in range(8):initial.push(rng.choice(list(initial.legal_moves)))
- seconds=.05 if seed%2 else .1;rows=[];pgn=[]
+ seconds=a.fast_seconds if seed%2 else a.slow_seconds;rows=[];pgn=[]
  for white in (True,False):
   b=initial.copy()
   with chess.engine.SimpleEngine.popen_uci(commands[0]) as c,chess.engine.SimpleEngine.popen_uci(commands[1]) as base:
@@ -19,7 +19,7 @@ def play_pair(seed):
   g=chess.pgn.Game.from_board(b);g.headers.update(White='Trained' if white else 'Default',Black='Default' if white else 'Trained',Result=result,Event='Held-out validation');pgn.append(str(g))
  return rows,pgn
 rows=[];games=[];pair_scores=[];start=time.monotonic()
-with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
  for results,pgn in pool.map(play_pair,range(a.pairs)):
   rows+=results;games+=pgn;print(results,flush=True)
   if all(r['score'] is not None for r in results):pair_scores.append(sum(r['score'] for r in results))
@@ -34,4 +34,4 @@ for score in pair_scores:
  if llr<=-math.log(19):decision='accept_h0';break
 completed=[r for r in rows if r['score'] is not None]
 report=dict(games=rows,completed=len(completed),unfinished=len(rows)-len(completed),wins=sum(r['score']==1 for r in completed),draws=sum(r['score']==.5 for r in completed),losses=sum(r['score']==0 for r in completed),points=sum(r['score'] for r in completed),paired_sprt=dict(decision=decision,llr=llr,pairs_observed=observed,p0=.5,p1=.6,assumptions='Independent sampled starting-position pairs and stationary conditional pair-win probability; drawn pairs ignored. Not an Elo or universal accuracy guarantee.'),promoted=decision=='accept_h1' and len(completed)==len(rows),duration=time.monotonic()-start,candidate_sha256=hashlib.sha256(pathlib.Path(commands[0]).read_bytes()).hexdigest(),baseline_sha256=hashlib.sha256(pathlib.Path(commands[1]).read_bytes()).hexdigest())
-(ROOT/'training-validation.json').write_text(json.dumps(report,indent=2));(ROOT/'training-validation.pgn').write_text('\n\n'.join(games)+'\n');print({k:v for k,v in report.items() if k!='games'},flush=True)
+(ROOT/(a.label+'.json')).write_text(json.dumps(report,indent=2));(ROOT/(a.label+'.pgn')).write_text('\n\n'.join(games)+'\n');print({k:v for k,v in report.items() if k!='games'},flush=True)

@@ -1,0 +1,28 @@
+{
+  "games": 1168,
+  "completed_games": 1168,
+  "unfinished_games": 0,
+  "wins": 605,
+  "draws": 256,
+  "losses": 307,
+  "points": 733.0,
+  "paired_mean_score": 0.627568493150685,
+  "paired_normal_95_interval": [
+    0.6057357188760177,
+    0.6494012674253522
+  ],
+  "complete_pairs": 584,
+  "technical_failures": 0,
+  "pair_win_sprt": {
+    "decision": "accept_h1",
+    "first_crossing": {
+      "pair": 100,
+      "seed": 99,
+      "llr": 3.0531347967881977
+    },
+    "final_llr": 31.010693115643154,
+    "p0": 0.5,
+    "p1": 0.6
+  },
+  "limitations": "Approximate descriptive normal interval over independent starting-position pairs; SPRT models stationary conditional decisive-pair win probability, not Elo. Fixed binaries, mixed short controls, concurrent local games. Not a tournament-field win-rate or accuracy guarantee."
+}

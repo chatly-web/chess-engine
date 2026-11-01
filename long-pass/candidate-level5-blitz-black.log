@@ -1,0 +1,1 @@
+{"our_revision": "search-v2+tactical", "opponent": {"name": "Stockfish 19", "author": "the Stockfish developers (see AUTHORS file)"}, "skill_level": 5, "opponent_options": {"Threads": 1, "Hash": 64, "Skill Level": 5}, "our_colour": "black", "base": 180.0, "increment": 2.0, "movetime": null, "result": "0-1", "failure": null, "finished": true, "plies": 92, "seconds": 475.599159875}

@@ -1,0 +1,6 @@
+{'position': 0, 'candidate': {'move': 'b1c3', 'score': 12, 'depth': 4, 'nodes': 1747, 'seconds': 0.008317999999999992}, 'baseline': {'move': 'b1c3', 'score': 12, 'depth': 4, 'nodes': 1747, 'seconds': 0.008800749999999996}}
+{'position': 1, 'candidate': {'move': 'd1g4', 'score': 156, 'depth': 4, 'nodes': 5100, 'seconds': 0.02265624999999999}, 'baseline': {'move': 'd1g4', 'score': 156, 'depth': 4, 'nodes': 5100, 'seconds': 0.03415299999999999}}
+{'position': 2, 'candidate': {'move': 'e4d5', 'score': -155, 'depth': 4, 'nodes': 6338, 'seconds': 0.02738950000000001}, 'baseline': {'move': 'e4d5', 'score': -155, 'depth': 4, 'nodes': 6338, 'seconds': 0.041796500000000014}}
+{'position': 3, 'candidate': {'move': 'a2d5', 'score': 273, 'depth': 4, 'nodes': 12181, 'seconds': 0.051567417000000004}, 'baseline': {'move': 'a2d5', 'score': 273, 'depth': 4, 'nodes': 12181, 'seconds': 0.08650125000000003}}
+{'position': 4, 'candidate': {'move': 'c3b4', 'score': 691, 'depth': 4, 'nodes': 10212, 'seconds': 0.04860329199999991}, 'baseline': {'move': 'c3b4', 'score': 691, 'depth': 4, 'nodes': 10212, 'seconds': 0.08060374999999997}}
+{'position': 5, 'candidate': {'move': 'f1d3', 'score': 545, 'depth': 4, 'nodes': 11162, 'seconds': 0.05698220900000006}, 'baseline': {'move': 'f1d3', 'score': 545, 'depth': 4, 'nodes': 11162, 'seconds': 0.08419191600000009}}

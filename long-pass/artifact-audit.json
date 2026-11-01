@@ -1,0 +1,93 @@
+{
+  "sustained_pgns_replayed": 1574,
+  "sustained_jsonl_rows": 1574,
+  "rules_results_match": true,
+  "clock_games": [
+    {
+      "file": "long-baseline-10plus5-black.json",
+      "result": "1/2-1/2",
+      "plies": 115,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-baseline-10plus5-white.json",
+      "result": "1-0",
+      "plies": 61,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-10plus5-black.json",
+      "result": "0-1",
+      "plies": 52,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-10plus5-white.json",
+      "result": "1-0",
+      "plies": 87,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-full-black.json",
+      "result": "1-0",
+      "plies": 87,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-full-white.json",
+      "result": "0-1",
+      "plies": 126,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-gnu-rapid-black.json",
+      "result": "1-0",
+      "plies": 71,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-gnu-rapid-white.json",
+      "result": "0-1",
+      "plies": 128,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-level5-black.json",
+      "result": "1-0",
+      "plies": 79,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-level5-blitz-black.json",
+      "result": "0-1",
+      "plies": 92,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-level5-blitz-white.json",
+      "result": "0-1",
+      "plies": 74,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "long-candidate-level5-white.json",
+      "result": "0-1",
+      "plies": 186,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "candidate-baseline-3plus2",
+      "candidate_white": true,
+      "result": "1-0",
+      "plies": 169,
+      "clock_arithmetic_verified": true
+    },
+    {
+      "file": "candidate-baseline-3plus2",
+      "candidate_white": false,
+      "result": "1-0",
+      "plies": 139,
+      "clock_arithmetic_verified": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "start_utc": "2026-11-01T18:46:57Z",
+  "minimum_finish_utc": "2026-11-01T20:16:57Z",
+  "requested_minutes": "90\u2013120",
+  "baseline_commit": "cfb06e1",
+  "baseline_sha256": "11274859f0388942c5c20ff261dd98336720976db7b4bb09bace66a2e0f76a3f",
+  "focus": [
+    "Native C++ search strength",
+    "Complete 600+5 games",
+    "Complete 180+2 games",
+    "Frozen binaries and independent validation"
+  ],
+  "status": "complete",
+  "phase": "frozen candidate promoted; all planned clock games completed",
+  "frozen_candidate_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "bot": {
+    "username": "ayushgohil",
+    "upgraded": true,
+    "bridge_connected": true,
+    "bridge_stopped": false,
+    "allowlist_closed": false,
+    "allowlist_scope": "single user-approved friend; private config",
+    "launcher_duplicate_guard_verified": true,
+    "live_games_completed": 0
+  },
+  "candidate_executable": "engine/clash-search-v08-candidate",
+  "live_competition_executable_still_unchanged": false,
+  "promoted_binary_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "validation_results": {
+    "sustained_games": 1574,
+    "wins": 818,
+    "draws": 353,
+    "losses": 403,
+    "point_score": 0.6318297331639136,
+    "technical_failures": 0,
+    "exact_clocks_seconds": [
+      [
+        180,
+        2
+      ],
+      [
+        600,
+        5
+      ]
+    ],
+    "tactical_cases": 84,
+    "shortest_mates": 83,
+    "bounded_forced_mates": 84
+  },
+  "finished_utc": "2026-11-01T20:29:40.731439+00:00",
+  "elapsed_minutes": 102.72885731666666,
+  "completed_clock_games": 14,
+  "candidate_clock_games": 12,
+  "baseline_reference_clock_games": 2
+}

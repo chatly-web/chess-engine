@@ -1,0 +1,104 @@
+[
+  {
+    "position": 0,
+    "candidate": {
+      "move": "b1c3",
+      "score": 12,
+      "depth": 4,
+      "nodes": 1747,
+      "seconds": 0.008805083000000047
+    },
+    "baseline": {
+      "move": "b1c3",
+      "score": 12,
+      "depth": 4,
+      "nodes": 1747,
+      "seconds": 0.008004541000000032
+    }
+  },
+  {
+    "position": 1,
+    "candidate": {
+      "move": "d1g4",
+      "score": 156,
+      "depth": 4,
+      "nodes": 5100,
+      "seconds": 0.022221000000000046
+    },
+    "baseline": {
+      "move": "d1g4",
+      "score": 156,
+      "depth": 4,
+      "nodes": 5100,
+      "seconds": 0.021337542000000043
+    }
+  },
+  {
+    "position": 2,
+    "candidate": {
+      "move": "e4d5",
+      "score": -155,
+      "depth": 4,
+      "nodes": 6338,
+      "seconds": 0.029336624999999894
+    },
+    "baseline": {
+      "move": "e4d5",
+      "score": -155,
+      "depth": 4,
+      "nodes": 6338,
+      "seconds": 0.0294335
+    }
+  },
+  {
+    "position": 3,
+    "candidate": {
+      "move": "a2d5",
+      "score": 273,
+      "depth": 4,
+      "nodes": 12181,
+      "seconds": 0.05432233399999986
+    },
+    "baseline": {
+      "move": "a2d5",
+      "score": 273,
+      "depth": 4,
+      "nodes": 12181,
+      "seconds": 0.05275070900000012
+    }
+  },
+  {
+    "position": 4,
+    "candidate": {
+      "move": "c3b4",
+      "score": 691,
+      "depth": 4,
+      "nodes": 10212,
+      "seconds": 0.04586987499999995
+    },
+    "baseline": {
+      "move": "c3b4",
+      "score": 691,
+      "depth": 4,
+      "nodes": 10212,
+      "seconds": 0.04398175000000015
+    }
+  },
+  {
+    "position": 5,
+    "candidate": {
+      "move": "f1d3",
+      "score": 545,
+      "depth": 4,
+      "nodes": 11162,
+      "seconds": 0.04800562500000005
+    },
+    "baseline": {
+      "move": "f1d3",
+      "score": 545,
+      "depth": 4,
+      "nodes": 11162,
+      "seconds": 0.04816466599999991
+    }
+  }
+]

@@ -1,5 +1,7 @@
 # Native C++ engine
 
+The current promoted release and its full-clock results are documented in [LONG-PASS.md](LONG-PASS.md). Sections below also preserve earlier release measurements, identified by version and report.
+
 The recommended UCI launch is `./engine/clash-native` on the tested Apple Silicon macOS machine. The previous Python engine remains available as `python engine/main.py`. Both are original AI-assisted implementations; organiser acceptance of AI assistance still needs confirmation.
 
 Build on the hosting machine with `./build-native.sh` (C++17 compiler and threads required). A ready-to-run Apple Silicon executable and the complete source are included. A macOS executable does not run on Linux or Windows: rebuild there before the event. No chess engine library or external engine source is linked. Runtime Python is not required by the native executable.
@@ -35,7 +37,7 @@ The benchmark does not load an opening book into the engine. It uses determinist
 
 ## Event setup
 
-Configure lichess-bot for UCI and the executable `clash-native` in `engine/`; no Python interpreter is needed for this launch. Disable online moves, books and tablebases. Keep the bot:play token private. Live Lichess testing is still required, as are the BOT account, organiser access to the repository, and submission of the separately scoped challenge token. Freeze the same executable for both tournament stages.
+Configure lichess-bot for UCI and the executable `clash-native` in `engine/`; no Python interpreter is needed for this launch. Disable online moves, books and tablebases. Keep the bot:play token private. The dedicated BOT account `ayushgohil` and bridge connection are verified. Completed live Lichess games, organiser access and submission of the separately scoped challenge token still need verification. Freeze the same executable for both tournament stages.
 
 A separate full-strength Stockfish 19 game at a 0.25-second requested move limit ended in a normal loss after 60 plies. No technical failure was recorded. This remains a large strength gap; the native engine is not claimed to beat Stockfish.
 
@@ -50,4 +52,4 @@ Two actual 180+2 games against Stockfish 19 configured with `Skill Level=3` were
 
 The candidate repeated the 2,000-position differential tests, perft checks, UCI/clock/interruption checks and address/undefined-behaviour sanitizer run. See `native-improvement-summary.json`, `native-improvement-fixed.json`, `native-improvement-matches.json`, and the `native-v06-level3-*` reports/PGNs.
 
-The BOT account has not been created. See `BOT-SETUP.md` for the remaining live-hosting and submission steps.
+The BOT account `ayushgohil` is created and converted; the bridge connection is verified. See `BOT-SETUP.md` for the remaining live-game and submission steps.

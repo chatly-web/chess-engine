@@ -1,0 +1,26 @@
+{
+  "start_utc": "2026-11-01T18:55:31.581817+00:00",
+  "elapsed": 4904.026231765747,
+  "games": 1574,
+  "completed": 1574,
+  "unfinished": 0,
+  "wins": 818,
+  "draws": 353,
+  "losses": 403,
+  "points": 994.5,
+  "technical_failures": 0,
+  "binary_sha256": [
+    "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+    "11274859f0388942c5c20ff261dd98336720976db7b4bb09bace66a2e0f76a3f"
+  ],
+  "until_utc": "2026-11-01T20:16:57Z",
+  "stationarity_note": "Fixed binaries, independent random starting-position pairs, colours reversed; mixed short controls and concurrent local games, not official-clock win-rate evidence.",
+  "paired_sprt": {
+    "decision": "accept_h1",
+    "llr": 3.053134796788198,
+    "pairs_observed": 100,
+    "p0": 0.5,
+    "p1": 0.6
+  },
+  "finished_utc": "2026-11-01T20:17:15.610533+00:00"
+}
