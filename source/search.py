@@ -253,17 +253,17 @@ class Search:
                 b_ring = chess.BB_KING_ATTACKS[bk]
                 w_att = 0
                 for sq in chess.scan_forward(b.occupied_co[chess.WHITE] & ~b.pawns & ~b.kings):
-                    if chess.square_distance(sq, bk) <= 3 and (b.attacks(sq) & b_ring):
+                    if b.attacks(sq) & b_ring:
                         pt = b.piece_type_at(sq)
-                        w_att += 50 if pt == chess.QUEEN else (30 if pt == chess.ROOK else 25)
+                        w_att += 50 if pt == chess.QUEEN else (35 if pt == chess.ROOK else 25)
                 if w_att >= 50: mg += w_att * 2
                 else: mg += w_att
 
                 b_att = 0
                 for sq in chess.scan_forward(b.occupied_co[chess.BLACK] & ~b.pawns & ~b.kings):
-                    if chess.square_distance(sq, wk) <= 3 and (b.attacks(sq) & w_ring):
+                    if b.attacks(sq) & w_ring:
                         pt = b.piece_type_at(sq)
-                        b_att += 50 if pt == chess.QUEEN else (30 if pt == chess.ROOK else 25)
+                        b_att += 50 if pt == chess.QUEEN else (35 if pt == chess.ROOK else 25)
                 if b_att >= 50: mg -= b_att * 2
                 else: mg -= b_att
 
@@ -328,6 +328,40 @@ class Search:
                     if not (all_pawns & chess.BB_FILES[bf]): mg += 40
                     elif not (b_pawns & chess.BB_FILES[bf]): mg += 20
                     if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += 40
+
+        # Endgame King safety & Passed pawn dynamics
+        if phase <= 16:
+            wk = b.king(chess.WHITE)
+            bk = b.king(chess.BLACK)
+            if wk is not None and bk is not None:
+                wf = wk & 7; wr = wk >> 3
+                bf = bk & 7; br = bk >> 3
+
+                # Back-rank / board-edge mating net danger:
+                # Defending king trapped on back-rank/edge with enemy king in close opposition and enemy major piece
+                if (wr == 0 or wf in (0, 7)) and ((b.rooks | b.queens) & b.occupied_co[chess.BLACK]) and chess.square_distance(wk, bk) <= 2:
+                    eg -= 160
+                if (br == 7 or bf in (0, 7)) and ((b.rooks | b.queens) & b.occupied_co[chess.WHITE]) and chess.square_distance(bk, wk) <= 2:
+                    eg += 160
+
+                # King proximity to passed pawns
+                for sq in chess.scan_forward(w_pawns):
+                    f = sq & 7; r = sq >> 3
+                    if r >= 2:
+                        adjacent = PASSED_PAWN_FILES[f]
+                        ahead = (chess.BB_ALL << (8 * (r + 1))) & chess.BB_ALL
+                        if not (b_pawns & adjacent & ahead):
+                            eg += (7 - chess.square_distance(wk, sq)) * 12
+                            eg -= (7 - chess.square_distance(bk, sq)) * 16
+
+                for sq in chess.scan_forward(b_pawns):
+                    f = sq & 7; r = 7 - (sq >> 3)
+                    if r >= 2:
+                        adjacent = PASSED_PAWN_FILES[f]
+                        ahead = (1 << (8 * (sq >> 3))) - 1
+                        if not (w_pawns & adjacent & ahead):
+                            eg -= (7 - chess.square_distance(bk, sq)) * 12
+                            eg += (7 - chess.square_distance(wk, sq)) * 16
 
         # Pawn structure: doubled and isolated pawns
         for i in range(8):
@@ -417,6 +451,8 @@ class Search:
 
         # MVV-LVA for captures
         def cap_key(m):
+            if m.promotion == chess.QUEEN:
+                return 20000
             victim = b.piece_type_at(m.to_square) or 1
             attacker = b.piece_type_at(m.from_square) or 1
             return 10 * V[victim] - V[attacker]
@@ -427,7 +463,7 @@ class Search:
             if not check:
                 victim = b.piece_type_at(m.to_square) or 1
                 attacker = b.piece_type_at(m.from_square) or 1
-                if self.reductions and V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square):
+                if not m.promotion and self.reductions and V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square):
                     continue
             b.push(m)
             try:
@@ -554,7 +590,7 @@ class Search:
         for d in range(1, max(1, depth) + 1):
             try:
                 if d >= 4 and abs(score) < 25000:
-                    delta = 40
+                    delta = 50
                     alpha = max(-32000, score - delta)
                     beta = min(32000, score + delta)
                     score = self.search(b, d, alpha, beta)

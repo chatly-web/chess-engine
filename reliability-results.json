@@ -6,202 +6,202 @@
   "uci_clock_samples": [
     {
       "clock_ms": 5,
-      "elapsed_ms": 2.4288329999997416,
+      "elapsed_ms": 2.239416000000105,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.8880409999999515,
+      "elapsed_ms": 1.873375000000621,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.7854580000005171,
+      "elapsed_ms": 1.843791999998956,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.7484579999997862,
+      "elapsed_ms": 1.7361669999989005,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.122916999999781,
+      "elapsed_ms": 3.1170419999995147,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.003666000000571,
+      "elapsed_ms": 3.056458999999734,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 2.9702079999998077,
+      "elapsed_ms": 3.008000000001232,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.0224580000002277,
+      "elapsed_ms": 3.0109579999990643,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.029041000000241,
+      "elapsed_ms": 12.989582999999527,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 12.998041000000349,
+      "elapsed_ms": 12.987500000001262,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.048416000000174,
+      "elapsed_ms": 13.054832999999988,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.127292000000068,
+      "elapsed_ms": 13.201042000000385,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.56141699999994,
+      "elapsed_ms": 50.539041000000395,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.599208000000395,
+      "elapsed_ms": 50.53550000000051,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.56870900000021,
+      "elapsed_ms": 50.508417000001415,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.52495899999965,
+      "elapsed_ms": 50.53966700000068,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.54366599999955,
+      "elapsed_ms": 250.52704199999988,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.6349169999993,
+      "elapsed_ms": 250.61812499999903,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.5598340000006,
+      "elapsed_ms": 250.8102920000006,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.69841700000063,
+      "elapsed_ms": 250.94358399999982,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 2.034832999999736,
+      "elapsed_ms": 2.026125000000434,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.8463749999995116,
+      "elapsed_ms": 2.0048329999990955,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.7744999999997901,
+      "elapsed_ms": 1.8497499999998723,
       "within_clock": true
     },
     {
       "clock_ms": 5,
-      "elapsed_ms": 1.7510830000002642,
+      "elapsed_ms": 1.8177920000006509,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.0384580000006878,
+      "elapsed_ms": 3.068292000000028,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.045833999999914,
+      "elapsed_ms": 3.0535419999999647,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.0008329999997585,
+      "elapsed_ms": 3.002916999999883,
       "within_clock": true
     },
     {
       "clock_ms": 10,
-      "elapsed_ms": 3.0095000000009975,
+      "elapsed_ms": 3.06783300000113,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.022041999999345,
+      "elapsed_ms": 13.026165999999506,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.214500000000129,
+      "elapsed_ms": 13.041417000000166,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.17791700000015,
+      "elapsed_ms": 13.022458000000015,
       "within_clock": true
     },
     {
       "clock_ms": 50,
-      "elapsed_ms": 13.069749999999658,
+      "elapsed_ms": 13.11154100000067,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.55116599999998,
+      "elapsed_ms": 50.606165999999675,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.63562499999996,
+      "elapsed_ms": 50.560875000000394,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.61749999999954,
+      "elapsed_ms": 50.54466699999871,
       "within_clock": true
     },
     {
       "clock_ms": 200,
-      "elapsed_ms": 50.56895900000136,
+      "elapsed_ms": 50.529541999999594,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.54649999999867,
+      "elapsed_ms": 250.62195900000006,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.80766700000012,
+      "elapsed_ms": 250.76233400000092,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.69020799999998,
+      "elapsed_ms": 250.85162499999925,
       "within_clock": true
     },
     {
       "clock_ms": 1000,
-      "elapsed_ms": 250.71533400000055,
+      "elapsed_ms": 250.69254099999938,
       "within_clock": true
     }
   ],
