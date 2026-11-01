@@ -299,10 +299,20 @@ class Search:
                 b_kf = PASSED_PAWN_FILES[bf]
                 if (b_pawns & (chess.BB_RANKS[1] | chess.BB_RANKS[2]) & w_kf): mg -= 70
                 if (w_pawns & (chess.BB_RANKS[5] | chess.BB_RANKS[6]) & b_kf): mg += 70
-                mg -= chess.popcount(b.rooks & b.occupied_co[chess.BLACK] & w_kf) * 40
-                mg += chess.popcount(b.rooks & b.occupied_co[chess.WHITE] & b_kf) * 40
-                mg -= chess.popcount(b.queens & b.occupied_co[chess.BLACK] & w_kf) * 50
-                mg += chess.popcount(b.queens & b.occupied_co[chess.WHITE] & b_kf) * 50
+
+                for f in (wf - 1, wf, wf + 1):
+                    if 0 <= f <= 7:
+                        f_mask = chess.BB_FILES[f]
+                        if not (w_pawns & f_mask):
+                            if (b.rooks & b.occupied_co[chess.BLACK] & f_mask): mg -= 40
+                            if (b.queens & b.occupied_co[chess.BLACK] & f_mask): mg -= 50
+
+                for f in (bf - 1, bf, bf + 1):
+                    if 0 <= f <= 7:
+                        f_mask = chess.BB_FILES[f]
+                        if not (b_pawns & f_mask):
+                            if (b.rooks & b.occupied_co[chess.WHITE] & f_mask): mg += 40
+                            if (b.queens & b.occupied_co[chess.WHITE] & f_mask): mg += 50
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
                 if wf >= 6 and wr == 0: # Kingside castled (g1, h1)
@@ -315,6 +325,7 @@ class Search:
                     elif not (w_pawns & chess.BB_FILES[7]): mg -= 30
                     if not (all_pawns & chess.BB_FILES[5]): mg -= 45
                     elif not (w_pawns & chess.BB_FILES[5]): mg -= 25
+                    mg += 35
                 elif wf <= 2 and wr == 0: # Queenside castled
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
                     if shield < 3: mg -= (3 - shield) * 20
@@ -322,11 +333,12 @@ class Search:
                     elif not (w_pawns & chess.BB_FILES[1]): mg -= 35
                     if not (all_pawns & chess.BB_FILES[2]): mg -= 45
                     elif not (w_pawns & chess.BB_FILES[2]): mg -= 25
+                    mg += 30
                 else: # Exposed king in center / uncastled in middlegame
-                    mg -= 60
-                    if not (all_pawns & chess.BB_FILES[wf]): mg -= 40
-                    elif not (w_pawns & chess.BB_FILES[wf]): mg -= 20
-                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)): mg -= 40
+                    mg -= 110
+                    if not (all_pawns & chess.BB_FILES[wf]): mg -= 50
+                    elif not (w_pawns & chess.BB_FILES[wf]): mg -= 30
+                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)): mg -= 60
 
             bk = b.king(chess.BLACK)
             if bk is not None:
@@ -339,7 +351,8 @@ class Search:
                     if not (all_pawns & chess.BB_FILES[7]): mg += 55
                     elif not (b_pawns & chess.BB_FILES[7]): mg += 30
                     if not (all_pawns & chess.BB_FILES[5]): mg += 45
-                    elif not (b_pawns & chess.BB_FILES[5]): mg += 25
+                    elif not (b_pawns & chess.BB_FILES[5]): mg -= 25
+                    mg -= 35
                 elif bf <= 2 and br == 7: # Queenside castled
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
                     if shield < 3: mg += (3 - shield) * 20
@@ -347,11 +360,12 @@ class Search:
                     elif not (b_pawns & chess.BB_FILES[1]): mg += 35
                     if not (all_pawns & chess.BB_FILES[2]): mg += 45
                     elif not (b_pawns & chess.BB_FILES[2]): mg += 25
+                    mg -= 30
                 else:
-                    mg += 60
-                    if not (all_pawns & chess.BB_FILES[bf]): mg += 40
-                    elif not (b_pawns & chess.BB_FILES[bf]): mg += 20
-                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += 40
+                    mg += 110
+                    if not (all_pawns & chess.BB_FILES[bf]): mg += 50
+                    elif not (b_pawns & chess.BB_FILES[bf]): mg += 30
+                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += 60
 
         # Endgame King safety & Passed pawn dynamics
         if phase <= 16:
@@ -403,7 +417,7 @@ class Search:
         if phase >= 20:
             uw = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.WHITE] & WHITE_HOME_MINORS)
             ub = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.BLACK] & BLACK_HOME_MINORS)
-            mg -= (uw - ub) * 12
+            mg -= (uw - ub) * 32
 
         score = int((mg * phase + eg * (24 - phase)) / 24)
         tempo = 12 if b.turn == chess.WHITE else -12
@@ -435,6 +449,8 @@ class Search:
                 return 1000000 + 10 * V[victim] - V[attacker]
             if m.promotion:
                 return 900000 + V[m.promotion]
+            if b.is_castling(m):
+                return 880000
             if m == k0:
                 return 850000
             if m == k1:

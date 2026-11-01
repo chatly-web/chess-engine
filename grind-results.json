@@ -1,134 +1,134 @@
 {
   "total_games": 16,
-  "our_score": 7.5,
-  "win_rate": 0.46875,
+  "our_score": 7.0,
+  "win_rate": 0.4375,
   "games": [
     {
       "opponent": "Stockfish Level 0",
       "our_colour": "white",
       "result": "1-0",
-      "plies": 95,
-      "duration": 21.400128166,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 0",
-      "our_colour": "black",
-      "result": "0-1",
-      "plies": 124,
-      "duration": 27.163298667,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 1",
-      "our_colour": "white",
-      "result": "0-1",
-      "plies": 162,
-      "duration": 35.318066042000005,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 1",
-      "our_colour": "black",
-      "result": "0-1",
-      "plies": 76,
-      "duration": 16.3419035,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 2",
-      "our_colour": "white",
-      "result": "0-1",
-      "plies": 206,
-      "duration": 46.039450667,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 2",
-      "our_colour": "black",
-      "result": "1-0",
-      "plies": 53,
-      "duration": 11.517464375000003,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 3",
-      "our_colour": "white",
-      "result": "1/2-1/2",
-      "plies": 117,
-      "duration": 26.195954666999995,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 3",
-      "our_colour": "black",
-      "result": "1-0",
-      "plies": 133,
-      "duration": 27.431777458,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 0",
-      "our_colour": "white",
-      "result": "1-0",
-      "plies": 129,
-      "duration": 28.359694250000018,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 0",
-      "our_colour": "black",
-      "result": "1-0",
-      "plies": 109,
-      "duration": 23.959790499999997,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 1",
-      "our_colour": "white",
-      "result": "1-0",
-      "plies": 79,
-      "duration": 17.312616875000003,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 1",
-      "our_colour": "black",
-      "result": "1/2-1/2",
-      "plies": 210,
-      "duration": 47.87783058299999,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 2",
-      "our_colour": "white",
-      "result": "1-0",
-      "plies": 101,
-      "duration": 22.28832541600002,
-      "failure": null
-    },
-    {
-      "opponent": "Stockfish Level 2",
-      "our_colour": "black",
-      "result": "1-0",
       "plies": 73,
-      "duration": 15.559075208000024,
+      "duration": 15.783098292000002,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 0",
+      "our_colour": "black",
+      "result": "0-1",
+      "plies": 70,
+      "duration": 15.449719709000004,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 1",
+      "our_colour": "white",
+      "result": "0-1",
+      "plies": 40,
+      "duration": 8.736231832999998,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 1",
+      "our_colour": "black",
+      "result": "0-1",
+      "plies": 102,
+      "duration": 22.215636458,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 2",
+      "our_colour": "white",
+      "result": "1-0",
+      "plies": 71,
+      "duration": 14.891667083999991,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 2",
+      "our_colour": "black",
+      "result": "1-0",
+      "plies": 147,
+      "duration": 31.584503792000007,
       "failure": null
     },
     {
       "opponent": "Stockfish Level 3",
       "our_colour": "white",
-      "result": "1/2-1/2",
-      "plies": 193,
-      "duration": 41.00486087500002,
+      "result": "0-1",
+      "plies": 168,
+      "duration": 37.69016887500001,
       "failure": null
     },
     {
       "opponent": "Stockfish Level 3",
       "our_colour": "black",
       "result": "1-0",
-      "plies": 109,
-      "duration": 24.10307899999998,
+      "plies": 153,
+      "duration": 34.35671241699998,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 0",
+      "our_colour": "white",
+      "result": "1-0",
+      "plies": 45,
+      "duration": 9.731538165999979,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 0",
+      "our_colour": "black",
+      "result": "1/2-1/2",
+      "plies": 208,
+      "duration": 46.645507458,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 1",
+      "our_colour": "white",
+      "result": "1-0",
+      "plies": 65,
+      "duration": 13.730755708000004,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 1",
+      "our_colour": "black",
+      "result": "1-0",
+      "plies": 165,
+      "duration": 31.875075750000036,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 2",
+      "our_colour": "white",
+      "result": "0-1",
+      "plies": 38,
+      "duration": 8.481259040999987,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 2",
+      "our_colour": "black",
+      "result": "1/2-1/2",
+      "plies": 108,
+      "duration": 24.603961042000037,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 3",
+      "our_colour": "white",
+      "result": "0-1",
+      "plies": 50,
+      "duration": 10.961712250000005,
+      "failure": null
+    },
+    {
+      "opponent": "Stockfish Level 3",
+      "our_colour": "black",
+      "result": "1-0",
+      "plies": 41,
+      "duration": 8.98547587500002,
       "failure": null
     }
   ]
