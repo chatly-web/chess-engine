@@ -256,7 +256,8 @@ class Search:
                     if b.attacks(sq) & b_ring:
                         pt = b.piece_type_at(sq)
                         w_att += 50 if pt == chess.QUEEN else (35 if pt == chess.ROOK else 25)
-                if w_att >= 50: mg += w_att * 2
+                if w_att >= 80: mg += w_att * 3
+                elif w_att >= 50: mg += w_att * 2
                 else: mg += w_att
 
                 b_att = 0
@@ -264,21 +265,44 @@ class Search:
                     if b.attacks(sq) & w_ring:
                         pt = b.piece_type_at(sq)
                         b_att += 50 if pt == chess.QUEEN else (35 if pt == chess.ROOK else 25)
-                if b_att >= 50: mg -= b_att * 2
+                if b_att >= 80: mg -= b_att * 3
+                elif b_att >= 50: mg -= b_att * 2
                 else: mg -= b_att
+
+                under_attack_w = (b_att >= 50)
+                under_attack_b = (w_att >= 50)
 
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.WHITE]):
                     d = chess.square_distance(q, bk)
                     if d <= 3: mg += (4 - d) * 35
                     d_own = chess.square_distance(q, wk)
-                    if d_own <= 2: mg += 25
-                    elif d_own >= 4: mg -= 35
+                    if under_attack_w:
+                        if d_own <= 2: mg += 45
+                        elif d_own >= 4: mg -= 75
+                    else:
+                        if d_own <= 2: mg += 25
+                        elif d_own >= 4: mg -= 35
+
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.BLACK]):
                     d = chess.square_distance(q, wk)
                     if d <= 3: mg -= (4 - d) * 35
                     d_own = chess.square_distance(q, bk)
-                    if d_own <= 2: mg -= 25
-                    elif d_own >= 4: mg += 35
+                    if under_attack_b:
+                        if d_own <= 2: mg -= 45
+                        elif d_own >= 4: mg += 75
+                    else:
+                        if d_own <= 2: mg -= 25
+                        elif d_own >= 4: mg += 35
+
+                wf = wk & 7; bf = bk & 7
+                w_kf = PASSED_PAWN_FILES[wf]
+                b_kf = PASSED_PAWN_FILES[bf]
+                if (b_pawns & (chess.BB_RANKS[1] | chess.BB_RANKS[2]) & w_kf): mg -= 70
+                if (w_pawns & (chess.BB_RANKS[5] | chess.BB_RANKS[6]) & b_kf): mg += 70
+                mg -= chess.popcount(b.rooks & b.occupied_co[chess.BLACK] & w_kf) * 40
+                mg += chess.popcount(b.rooks & b.occupied_co[chess.WHITE] & b_kf) * 40
+                mg -= chess.popcount(b.queens & b.occupied_co[chess.BLACK] & w_kf) * 50
+                mg += chess.popcount(b.queens & b.occupied_co[chess.WHITE] & b_kf) * 50
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
                 if wf >= 6 and wr == 0: # Kingside castled (g1, h1)
