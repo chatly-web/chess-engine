@@ -1,0 +1,33 @@
+{
+  "weights": {
+    "coefficient_32": 38,
+    "coefficient_18": 24,
+    "coefficient_15": 9,
+    "coefficient_20": 14,
+    "coefficient_16": 10,
+    "coefficient_12": 18,
+    "coefficient_160": 160,
+    "coefficient_60": 66,
+    "coefficient_30": 36,
+    "coefficient_50": 44,
+    "coefficient_110": 116,
+    "coefficient_25": 19,
+    "coefficient_45": 39,
+    "coefficient_35": 41,
+    "coefficient_55": 49,
+    "coefficient_40": 34,
+    "coefficient_65": 59,
+    "coefficient_70": 76,
+    "coefficient_75": 75,
+    "coefficient_10": 16
+  },
+  "K": 0.25,
+  "training_positions": 55,
+  "validation_positions": 20,
+  "training_games": 15,
+  "validation_games": 5,
+  "validation_before": 0.017605167163354977,
+  "validation_after": 0.017351257108229386,
+  "promoted": false,
+  "note": "Experimental. Validation error is not playing strength; requires independent selfplay SPRT before promotion."
+}

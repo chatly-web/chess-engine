@@ -1,0 +1,8 @@
+{'seed': 781, 'candidate_white': True, 'result': '0-1', 'score': 0.0}
+{'seed': 781, 'candidate_white': False, 'result': '0-1', 'score': 1.0}
+{'seed': 782, 'candidate_white': True, 'result': '1/2-1/2', 'score': 0.5}
+{'seed': 782, 'candidate_white': False, 'result': '0-1', 'score': 1.0}
+{'seed': 783, 'candidate_white': True, 'result': '0-1', 'score': 0.0}
+{'seed': 783, 'candidate_white': False, 'result': '1/2-1/2', 'score': 0.5}
+{'seed': 784, 'candidate_white': True, 'result': '0-1', 'score': 0.0}
+{'seed': 784, 'candidate_white': False, 'result': '1-0', 'score': 0.0}

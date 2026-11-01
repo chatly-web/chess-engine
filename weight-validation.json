@@ -1,0 +1,65 @@
+{
+  "games": [
+    {
+      "seed": 781,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0
+    },
+    {
+      "seed": 781,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0
+    },
+    {
+      "seed": 782,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5
+    },
+    {
+      "seed": 782,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0
+    },
+    {
+      "seed": 783,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0
+    },
+    {
+      "seed": 783,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5
+    },
+    {
+      "seed": 784,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0
+    },
+    {
+      "seed": 784,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0
+    }
+  ],
+  "sprt": {
+    "decision": "continue",
+    "games": 8,
+    "llr": -0.12517684882873253,
+    "lower": -2.9444389791664403,
+    "upper": 2.9444389791664403,
+    "elo0": 0,
+    "elo1": 10,
+    "draw_probability": 0.5,
+    "assumptions": "Independent WDL observations and fixed draw probability specified before matches; paired-game correlation and misspecified draw rate invalidate nominal error guarantees."
+  },
+  "promoted": false,
+  "note": "Exploratory small paired sample; fixed-draw independent-game SPRT assumptions do not cover paired correlation. No automatic promotion."
+}

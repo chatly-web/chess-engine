@@ -119,3 +119,7 @@ Tested across 2 full rounds against Stockfish Levels 0 through 3 across both Whi
 - [x] Verified under official 3+2 (knockout) and 10+5 (final) competition time controls.
 - [x] Handles low-clock blitz scenarios (down to 10 ms) without flagging.
 - [x] Ready for deployment via official `lichess-bot` bridge.
+
+## Supplied plan implementation
+
+See [PLAN-STATUS.md](PLAN-STATUS.md) for the current implementation, tuning experiment, rejected candidate and remaining account/statistical requirements. Configurations are in `default-weights.json`; experimental settings are opt-in through `CLASH_WEIGHTS`. Run `python source/tuning_test.py` for tuning/provenance/configuration tests. Existing external-game reports identify older source hashes and must not be attributed to the updated source.

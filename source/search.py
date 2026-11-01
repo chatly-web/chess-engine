@@ -133,6 +133,11 @@ KING_TABLE_EG = [
     -30, -20, -10, -10, -10, -10, -20, -30
 ]
 
+from weights import overrides
+_table_weights = overrides({k:v for k,v in globals().copy().items() if k in ['PIECE_VALUES_MG', 'PIECE_VALUES_EG', 'PAWN_TABLE_MG', 'PAWN_TABLE_EG', 'KNIGHT_TABLE_MG', 'KNIGHT_TABLE_EG', 'BISHOP_TABLE_MG', 'BISHOP_TABLE_EG', 'ROOK_TABLE_MG', 'ROOK_TABLE_EG', 'QUEEN_TABLE_MG', 'QUEEN_TABLE_EG', 'KING_TABLE_MG', 'KING_TABLE_EG']})
+globals().update(_table_weights)
+V=PIECE_VALUES_MG
+
 PST_MG = [None, PAWN_TABLE_MG, KNIGHT_TABLE_MG, BISHOP_TABLE_MG, ROOK_TABLE_MG, QUEEN_TABLE_MG, KING_TABLE_MG]
 PST_EG = [None, PAWN_TABLE_EG, KNIGHT_TABLE_EG, BISHOP_TABLE_EG, ROOK_TABLE_EG, QUEEN_TABLE_EG, KING_TABLE_EG]
 
@@ -156,6 +161,13 @@ ISOLATED_PAWN_FILES = [
 WHITE_HOME_MINORS = (1 << 1) | (1 << 6) | (1 << 2) | (1 << 5)
 BLACK_HOME_MINORS = (1 << 57) | (1 << 62) | (1 << 58) | (1 << 61)
 
+
+from weights import overrides
+EVAL_WEIGHTS = overrides({'coefficient_32': 32, 'coefficient_18': 18, 'coefficient_15': 15, 'coefficient_20': 20, 'coefficient_16': 16, 'coefficient_12': 12, 'coefficient_160': 160, 'coefficient_60': 60, 'coefficient_30': 30, 'coefficient_50': 50, 'coefficient_110': 110, 'coefficient_25': 25, 'coefficient_45': 45, 'coefficient_35': 35, 'coefficient_55': 55, 'coefficient_40': 40, 'coefficient_65': 65, 'coefficient_70': 70, 'coefficient_75': 75, 'coefficient_10': 10})
+EVAL_WEIGHTS.update(overrides({'tempo': 12, 'mobility_mg': 0, 'mobility_eg': 0}))
+_passed_weights=overrides({'PASSED_BONUS_MG':PASSED_BONUS_MG,'PASSED_BONUS_EG':PASSED_BONUS_EG})
+globals().update(_passed_weights)
+
 class Timeout(Exception): pass
 
 class Search:
@@ -174,7 +186,7 @@ class Search:
         position = (
             b.pawns, b.knights, b.bishops, b.rooks, b.queens, b.kings,
             b.occupied_co[0], b.occupied_co[1], b.turn, b.castling_rights,
-            b.ep_square
+            b.ep_square, b.halfmove_clock
         )
         hist = tuple(b.move_stack[-b.halfmove_clock:]) if b.halfmove_clock else ()
         return (position, hist)
@@ -199,11 +211,11 @@ class Search:
                 if p == 4: # Rook on open/semi-open file or 7th rank
                     f_mask = chess.BB_FILES[sq & 7]
                     if not (all_pawns & f_mask):
-                        mg += 25; eg += 15
+                        mg += EVAL_WEIGHTS["coefficient_25"]; eg += EVAL_WEIGHTS["coefficient_15"]
                     elif not (w_pawns & f_mask):
-                        mg += 15; eg += 10
+                        mg += EVAL_WEIGHTS["coefficient_15"]; eg += EVAL_WEIGHTS["coefficient_10"]
                     if (sq >> 3) == 6: # 7th rank
-                        mg += 30; eg += 35
+                        mg += EVAL_WEIGHTS["coefficient_30"]; eg += EVAL_WEIGHTS["coefficient_35"]
                 elif p == 1: # Passed pawn
                     f = sq & 7; r = sq >> 3
                     if r >= 2:
@@ -223,11 +235,11 @@ class Search:
                 if p == 4:
                     f_mask = chess.BB_FILES[sq & 7]
                     if not (all_pawns & f_mask):
-                        mg -= 25; eg -= 15
+                        mg -= EVAL_WEIGHTS["coefficient_25"]; eg -= EVAL_WEIGHTS["coefficient_15"]
                     elif not (b_pawns & f_mask):
-                        mg -= 15; eg -= 10
+                        mg -= EVAL_WEIGHTS["coefficient_15"]; eg -= EVAL_WEIGHTS["coefficient_10"]
                     if (sq >> 3) == 1: # 7th rank for black
-                        mg -= 30; eg -= 35
+                        mg -= EVAL_WEIGHTS["coefficient_30"]; eg -= EVAL_WEIGHTS["coefficient_35"]
                 elif p == 1:
                     f = sq & 7; r = 7 - (sq >> 3)
                     if r >= 2:
@@ -240,9 +252,9 @@ class Search:
 
         # Bishop pairs
         if chess.popcount(b.bishops & b.occupied_co[chess.WHITE]) >= 2:
-            mg += 35; eg += 50
+            mg += EVAL_WEIGHTS["coefficient_35"]; eg += EVAL_WEIGHTS["coefficient_50"]
         if chess.popcount(b.bishops & b.occupied_co[chess.BLACK]) >= 2:
-            mg -= 35; eg -= 50
+            mg -= EVAL_WEIGHTS["coefficient_35"]; eg -= EVAL_WEIGHTS["coefficient_50"]
 
         # King safety & Pawn shield (critical in MG)
         if phase > 8:
@@ -274,98 +286,98 @@ class Search:
 
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.WHITE]):
                     d = chess.square_distance(q, bk)
-                    if d <= 3: mg += (4 - d) * 35
+                    if d <= 3: mg += (4 - d) * EVAL_WEIGHTS["coefficient_35"]
                     d_own = chess.square_distance(q, wk)
                     if under_attack_w:
-                        if d_own <= 2: mg += 45
-                        elif d_own >= 4: mg -= 75
+                        if d_own <= 2: mg += EVAL_WEIGHTS["coefficient_45"]
+                        elif d_own >= 4: mg -= EVAL_WEIGHTS["coefficient_75"]
                     else:
-                        if d_own <= 2: mg += 25
-                        elif d_own >= 4: mg -= 35
+                        if d_own <= 2: mg += EVAL_WEIGHTS["coefficient_25"]
+                        elif d_own >= 4: mg -= EVAL_WEIGHTS["coefficient_35"]
 
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.BLACK]):
                     d = chess.square_distance(q, wk)
-                    if d <= 3: mg -= (4 - d) * 35
+                    if d <= 3: mg -= (4 - d) * EVAL_WEIGHTS["coefficient_35"]
                     d_own = chess.square_distance(q, bk)
                     if under_attack_b:
-                        if d_own <= 2: mg -= 45
-                        elif d_own >= 4: mg += 75
+                        if d_own <= 2: mg -= EVAL_WEIGHTS["coefficient_45"]
+                        elif d_own >= 4: mg += EVAL_WEIGHTS["coefficient_75"]
                     else:
-                        if d_own <= 2: mg -= 25
-                        elif d_own >= 4: mg += 35
+                        if d_own <= 2: mg -= EVAL_WEIGHTS["coefficient_25"]
+                        elif d_own >= 4: mg += EVAL_WEIGHTS["coefficient_35"]
 
                 wf = wk & 7; bf = bk & 7
                 w_kf = PASSED_PAWN_FILES[wf]
                 b_kf = PASSED_PAWN_FILES[bf]
-                if (b_pawns & (chess.BB_RANKS[1] | chess.BB_RANKS[2]) & w_kf): mg -= 70
-                if (w_pawns & (chess.BB_RANKS[5] | chess.BB_RANKS[6]) & b_kf): mg += 70
+                if (b_pawns & (chess.BB_RANKS[1] | chess.BB_RANKS[2]) & w_kf): mg -= EVAL_WEIGHTS["coefficient_70"]
+                if (w_pawns & (chess.BB_RANKS[5] | chess.BB_RANKS[6]) & b_kf): mg += EVAL_WEIGHTS["coefficient_70"]
 
                 for f in (wf - 1, wf, wf + 1):
                     if 0 <= f <= 7:
                         f_mask = chess.BB_FILES[f]
                         if not (w_pawns & f_mask):
-                            if (b.rooks & b.occupied_co[chess.BLACK] & f_mask): mg -= 40
-                            if (b.queens & b.occupied_co[chess.BLACK] & f_mask): mg -= 50
+                            if (b.rooks & b.occupied_co[chess.BLACK] & f_mask): mg -= EVAL_WEIGHTS["coefficient_40"]
+                            if (b.queens & b.occupied_co[chess.BLACK] & f_mask): mg -= EVAL_WEIGHTS["coefficient_50"]
 
                 for f in (bf - 1, bf, bf + 1):
                     if 0 <= f <= 7:
                         f_mask = chess.BB_FILES[f]
                         if not (b_pawns & f_mask):
-                            if (b.rooks & b.occupied_co[chess.WHITE] & f_mask): mg += 40
-                            if (b.queens & b.occupied_co[chess.WHITE] & f_mask): mg += 50
+                            if (b.rooks & b.occupied_co[chess.WHITE] & f_mask): mg += EVAL_WEIGHTS["coefficient_40"]
+                            if (b.queens & b.occupied_co[chess.WHITE] & f_mask): mg += EVAL_WEIGHTS["coefficient_50"]
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
                 if wf >= 6 and wr == 0: # Kingside castled (g1, h1)
                     # Check pawn shield on f, g, h
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
-                    if shield < 3: mg -= (3 - shield) * 25
-                    if not (all_pawns & chess.BB_FILES[6]): mg -= 65
-                    elif not (w_pawns & chess.BB_FILES[6]): mg -= 40
-                    if not (all_pawns & chess.BB_FILES[7]): mg -= 55
-                    elif not (w_pawns & chess.BB_FILES[7]): mg -= 30
-                    if not (all_pawns & chess.BB_FILES[5]): mg -= 45
-                    elif not (w_pawns & chess.BB_FILES[5]): mg -= 25
-                    mg += 35
+                    if shield < 3: mg -= (3 - shield) * EVAL_WEIGHTS["coefficient_25"]
+                    if not (all_pawns & chess.BB_FILES[6]): mg -= EVAL_WEIGHTS["coefficient_65"]
+                    elif not (w_pawns & chess.BB_FILES[6]): mg -= EVAL_WEIGHTS["coefficient_40"]
+                    if not (all_pawns & chess.BB_FILES[7]): mg -= EVAL_WEIGHTS["coefficient_55"]
+                    elif not (w_pawns & chess.BB_FILES[7]): mg -= EVAL_WEIGHTS["coefficient_30"]
+                    if not (all_pawns & chess.BB_FILES[5]): mg -= EVAL_WEIGHTS["coefficient_45"]
+                    elif not (w_pawns & chess.BB_FILES[5]): mg -= EVAL_WEIGHTS["coefficient_25"]
+                    mg += EVAL_WEIGHTS["coefficient_35"]
                 elif wf <= 2 and wr == 0: # Queenside castled
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
-                    if shield < 3: mg -= (3 - shield) * 20
-                    if not (all_pawns & chess.BB_FILES[1]): mg -= 60
-                    elif not (w_pawns & chess.BB_FILES[1]): mg -= 35
-                    if not (all_pawns & chess.BB_FILES[2]): mg -= 45
-                    elif not (w_pawns & chess.BB_FILES[2]): mg -= 25
-                    mg += 30
+                    if shield < 3: mg -= (3 - shield) * EVAL_WEIGHTS["coefficient_20"]
+                    if not (all_pawns & chess.BB_FILES[1]): mg -= EVAL_WEIGHTS["coefficient_60"]
+                    elif not (w_pawns & chess.BB_FILES[1]): mg -= EVAL_WEIGHTS["coefficient_35"]
+                    if not (all_pawns & chess.BB_FILES[2]): mg -= EVAL_WEIGHTS["coefficient_45"]
+                    elif not (w_pawns & chess.BB_FILES[2]): mg -= EVAL_WEIGHTS["coefficient_25"]
+                    mg += EVAL_WEIGHTS["coefficient_30"]
                 else: # Exposed king in center / uncastled in middlegame
-                    mg -= 110
-                    if not (all_pawns & chess.BB_FILES[wf]): mg -= 50
-                    elif not (w_pawns & chess.BB_FILES[wf]): mg -= 30
-                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)): mg -= 60
+                    mg -= EVAL_WEIGHTS["coefficient_110"]
+                    if not (all_pawns & chess.BB_FILES[wf]): mg -= EVAL_WEIGHTS["coefficient_50"]
+                    elif not (w_pawns & chess.BB_FILES[wf]): mg -= EVAL_WEIGHTS["coefficient_30"]
+                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)): mg -= EVAL_WEIGHTS["coefficient_60"]
 
             bk = b.king(chess.BLACK)
             if bk is not None:
                 bf = bk & 7; br = bk >> 3
                 if bf >= 6 and br == 7: # Kingside castled (g8, h8)
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
-                    if shield < 3: mg += (3 - shield) * 25
-                    if not (all_pawns & chess.BB_FILES[6]): mg += 65
-                    elif not (b_pawns & chess.BB_FILES[6]): mg += 40
-                    if not (all_pawns & chess.BB_FILES[7]): mg += 55
-                    elif not (b_pawns & chess.BB_FILES[7]): mg += 30
-                    if not (all_pawns & chess.BB_FILES[5]): mg += 45
-                    elif not (b_pawns & chess.BB_FILES[5]): mg -= 25
-                    mg -= 35
+                    if shield < 3: mg += (3 - shield) * EVAL_WEIGHTS["coefficient_25"]
+                    if not (all_pawns & chess.BB_FILES[6]): mg += EVAL_WEIGHTS["coefficient_65"]
+                    elif not (b_pawns & chess.BB_FILES[6]): mg += EVAL_WEIGHTS["coefficient_40"]
+                    if not (all_pawns & chess.BB_FILES[7]): mg += EVAL_WEIGHTS["coefficient_55"]
+                    elif not (b_pawns & chess.BB_FILES[7]): mg += EVAL_WEIGHTS["coefficient_30"]
+                    if not (all_pawns & chess.BB_FILES[5]): mg += EVAL_WEIGHTS["coefficient_45"]
+                    elif not (b_pawns & chess.BB_FILES[5]): mg += EVAL_WEIGHTS["coefficient_25"]
+                    mg -= EVAL_WEIGHTS["coefficient_35"]
                 elif bf <= 2 and br == 7: # Queenside castled
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
-                    if shield < 3: mg += (3 - shield) * 20
-                    if not (all_pawns & chess.BB_FILES[1]): mg += 60
-                    elif not (b_pawns & chess.BB_FILES[1]): mg += 35
-                    if not (all_pawns & chess.BB_FILES[2]): mg += 45
-                    elif not (b_pawns & chess.BB_FILES[2]): mg += 25
-                    mg -= 30
+                    if shield < 3: mg += (3 - shield) * EVAL_WEIGHTS["coefficient_20"]
+                    if not (all_pawns & chess.BB_FILES[1]): mg += EVAL_WEIGHTS["coefficient_60"]
+                    elif not (b_pawns & chess.BB_FILES[1]): mg += EVAL_WEIGHTS["coefficient_35"]
+                    if not (all_pawns & chess.BB_FILES[2]): mg += EVAL_WEIGHTS["coefficient_45"]
+                    elif not (b_pawns & chess.BB_FILES[2]): mg += EVAL_WEIGHTS["coefficient_25"]
+                    mg -= EVAL_WEIGHTS["coefficient_30"]
                 else:
-                    mg += 110
-                    if not (all_pawns & chess.BB_FILES[bf]): mg += 50
-                    elif not (b_pawns & chess.BB_FILES[bf]): mg += 30
-                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += 60
+                    mg += EVAL_WEIGHTS["coefficient_110"]
+                    if not (all_pawns & chess.BB_FILES[bf]): mg += EVAL_WEIGHTS["coefficient_50"]
+                    elif not (b_pawns & chess.BB_FILES[bf]): mg += EVAL_WEIGHTS["coefficient_30"]
+                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += EVAL_WEIGHTS["coefficient_60"]
 
         # Endgame King safety & Passed pawn dynamics
         if phase <= 16:
@@ -378,9 +390,9 @@ class Search:
                 # Back-rank / board-edge mating net danger:
                 # Defending king trapped on back-rank/edge with enemy king in close opposition and enemy major piece
                 if (wr == 0 or wf in (0, 7)) and ((b.rooks | b.queens) & b.occupied_co[chess.BLACK]) and chess.square_distance(wk, bk) <= 2:
-                    eg -= 160
+                    eg -= EVAL_WEIGHTS["coefficient_160"]
                 if (br == 7 or bf in (0, 7)) and ((b.rooks | b.queens) & b.occupied_co[chess.WHITE]) and chess.square_distance(bk, wk) <= 2:
-                    eg += 160
+                    eg += EVAL_WEIGHTS["coefficient_160"]
 
                 # King proximity to passed pawns
                 for sq in chess.scan_forward(w_pawns):
@@ -389,8 +401,8 @@ class Search:
                         adjacent = PASSED_PAWN_FILES[f]
                         ahead = (chess.BB_ALL << (8 * (r + 1))) & chess.BB_ALL
                         if not (b_pawns & adjacent & ahead):
-                            eg += (7 - chess.square_distance(wk, sq)) * 12
-                            eg -= (7 - chess.square_distance(bk, sq)) * 16
+                            eg += (7 - chess.square_distance(wk, sq)) * EVAL_WEIGHTS["coefficient_12"]
+                            eg -= (7 - chess.square_distance(bk, sq)) * EVAL_WEIGHTS["coefficient_16"]
 
                 for sq in chess.scan_forward(b_pawns):
                     f = sq & 7; r = 7 - (sq >> 3)
@@ -398,29 +410,37 @@ class Search:
                         adjacent = PASSED_PAWN_FILES[f]
                         ahead = (1 << (8 * (sq >> 3))) - 1
                         if not (w_pawns & adjacent & ahead):
-                            eg -= (7 - chess.square_distance(bk, sq)) * 12
-                            eg += (7 - chess.square_distance(wk, sq)) * 16
+                            eg -= (7 - chess.square_distance(bk, sq)) * EVAL_WEIGHTS["coefficient_12"]
+                            eg += (7 - chess.square_distance(wk, sq)) * EVAL_WEIGHTS["coefficient_16"]
 
         # Pawn structure: doubled and isolated pawns
         for i in range(8):
             f_mask = chess.BB_FILES[i]
             w_f_cnt = chess.popcount(w_pawns & f_mask)
             b_f_cnt = chess.popcount(b_pawns & f_mask)
-            if w_f_cnt > 1: mg -= 15; eg -= 20
-            if b_f_cnt > 1: mg += 15; eg += 20
+            if w_f_cnt > 1: mg -= EVAL_WEIGHTS["coefficient_15"]; eg -= EVAL_WEIGHTS["coefficient_20"]
+            if b_f_cnt > 1: mg += EVAL_WEIGHTS["coefficient_15"]; eg += EVAL_WEIGHTS["coefficient_20"]
             if w_f_cnt > 0:
-                if not (w_pawns & ISOLATED_PAWN_FILES[i]): mg -= 15; eg -= 18
+                if not (w_pawns & ISOLATED_PAWN_FILES[i]): mg -= EVAL_WEIGHTS["coefficient_15"]; eg -= EVAL_WEIGHTS["coefficient_18"]
             if b_f_cnt > 0:
-                if not (b_pawns & ISOLATED_PAWN_FILES[i]): mg += 15; eg += 18
+                if not (b_pawns & ISOLATED_PAWN_FILES[i]): mg += EVAL_WEIGHTS["coefficient_15"]; eg += EVAL_WEIGHTS["coefficient_18"]
 
         # Opening development incentive: penalize minor pieces left on starting squares
         if phase >= 20:
             uw = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.WHITE] & WHITE_HOME_MINORS)
             ub = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.BLACK] & BLACK_HOME_MINORS)
-            mg -= (uw - ub) * 32
+            mg -= (uw - ub) * EVAL_WEIGHTS["coefficient_32"]
 
+        if EVAL_WEIGHTS['mobility_mg'] or EVAL_WEIGHTS['mobility_eg']:
+            mobility = 0
+            for color in chess.COLORS:
+                own = b.occupied_co[color]
+                count = sum(chess.popcount(b.attacks_mask(sq) & ~own) for sq in chess.scan_forward(own & ~b.pawns & ~b.kings))
+                mobility += count if color else -count
+            mg += mobility * EVAL_WEIGHTS['mobility_mg']
+            eg += mobility * EVAL_WEIGHTS['mobility_eg']
         score = int((mg * phase + eg * (24 - phase)) / 24)
-        tempo = 12 if b.turn == chess.WHITE else -12
+        tempo = EVAL_WEIGHTS['tempo'] if b.turn == chess.WHITE else -EVAL_WEIGHTS['tempo']
         return (score + tempo) if b.turn == chess.WHITE else -(score + tempo)
 
     def tick(self):
@@ -464,6 +484,12 @@ class Search:
     def quiesce(self, b, a, z, ply):
         self.tick()
         check = b.is_check()
+        if not any(b.legal_moves):
+            return -MATE + ply if check else 0
+        if b.is_insufficient_material() or b.is_fifty_moves() or b.is_repetition(3):
+            return 0
+        if ply >= 96:
+            return self.evaluate(b)
         if check:
             moves = list(b.legal_moves)
             if not moves:
@@ -484,7 +510,7 @@ class Search:
             p_mask = chess.BB_RANKS[6] if b.turn == chess.WHITE else chess.BB_RANKS[1]
             if (b.pawns & b.occupied_co[b.turn] & p_mask):
                 for m in b.legal_moves:
-                    if m.promotion == chess.QUEEN and not b.is_capture(m):
+                    if m.promotion and not b.is_capture(m):
                         moves.append(m)
             if not moves:
                 return a
@@ -522,6 +548,8 @@ class Search:
             return self.quiesce(b, a, z, ply)
 
         check = b.is_check()
+        if not any(b.legal_moves):
+            return -MATE + ply if check else 0
         if b.is_insufficient_material() or b.is_fifty_moves() or b.is_repetition(3):
             return 0
         if ply >= 96:
@@ -544,7 +572,7 @@ class Search:
                 return static_eval
 
         # Null Move Pruning
-        if self.reductions and d >= 3 and not check and ply > 0:
+        if self.reductions and d >= 3 and not check and ply > 0 and (not b.move_stack or b.peek()):
             has_pieces = bool(b.occupied_co[b.turn] & ~b.pawns & ~b.kings)
             if has_pieces:
                 b.push(chess.Move.null())
@@ -580,7 +608,7 @@ class Search:
                     # PVS null-window
                     v = -self.search(b, nd - reduction, -a - 1, -a, ply + 1)
                     if v > a and reduction:
-                        v = -self.search(b, nd - 1, -a - 1, -a, ply + 1)
+                        v = -self.search(b, nd, -a - 1, -a, ply + 1)
                     if a < v < z:
                         v = -self.search(b, nd, -z, -a, ply + 1)
             finally:
