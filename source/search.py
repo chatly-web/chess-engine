@@ -151,6 +151,9 @@ ISOLATED_PAWN_FILES = [
     for i in range(8)
 ]
 
+WHITE_HOME_MINORS = (1 << 1) | (1 << 6) | (1 << 2) | (1 << 5)
+BLACK_HOME_MINORS = (1 << 57) | (1 << 62) | (1 << 58) | (1 << 61)
+
 class Timeout(Exception): pass
 
 class Search:
@@ -162,6 +165,7 @@ class Search:
         self.tt = {}
         self.history = {}
         self.killers = {}
+        self.countermoves = {}
         self.deadline = 0
 
     def position_key(self, b):
@@ -243,10 +247,19 @@ class Search:
                     # Check pawn shield on f, g, h
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
                     if shield < 3: mg -= (3 - shield) * 25
-                    if not (w_pawns & chess.BB_FILES[6]): mg -= 40 # missing g-pawn penalty
+                    if not (all_pawns & chess.BB_FILES[6]): mg -= 65
+                    elif not (w_pawns & chess.BB_FILES[6]): mg -= 40
+                    if not (all_pawns & chess.BB_FILES[7]): mg -= 55
+                    elif not (w_pawns & chess.BB_FILES[7]): mg -= 30
+                    if not (all_pawns & chess.BB_FILES[5]): mg -= 45
+                    elif not (w_pawns & chess.BB_FILES[5]): mg -= 25
                 elif wf <= 2 and wr == 0: # Queenside castled
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
                     if shield < 3: mg -= (3 - shield) * 20
+                    if not (all_pawns & chess.BB_FILES[1]): mg -= 60
+                    elif not (w_pawns & chess.BB_FILES[1]): mg -= 35
+                    if not (all_pawns & chess.BB_FILES[2]): mg -= 45
+                    elif not (w_pawns & chess.BB_FILES[2]): mg -= 25
                 elif wr == 0 and (wf == 3 or wf == 4): # Uncastled king in center
                     if not (all_pawns & chess.BB_FILES[wf]):
                         mg -= 70 # open center file
@@ -261,10 +274,19 @@ class Search:
                 if bf >= 5 and br == 7: # Kingside castled
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
                     if shield < 3: mg += (3 - shield) * 25
-                    if not (b_pawns & chess.BB_FILES[6]): mg += 40
+                    if not (all_pawns & chess.BB_FILES[6]): mg += 65
+                    elif not (b_pawns & chess.BB_FILES[6]): mg += 40
+                    if not (all_pawns & chess.BB_FILES[7]): mg += 55
+                    elif not (b_pawns & chess.BB_FILES[7]): mg += 30
+                    if not (all_pawns & chess.BB_FILES[5]): mg += 45
+                    elif not (b_pawns & chess.BB_FILES[5]): mg += 25
                 elif bf <= 2 and br == 7: # Queenside castled
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[0] | chess.BB_FILES[1] | chess.BB_FILES[2]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
                     if shield < 3: mg += (3 - shield) * 20
+                    if not (all_pawns & chess.BB_FILES[1]): mg += 60
+                    elif not (b_pawns & chess.BB_FILES[1]): mg += 35
+                    if not (all_pawns & chess.BB_FILES[2]): mg += 45
+                    elif not (b_pawns & chess.BB_FILES[2]): mg += 25
                 elif br == 7 and (bf == 3 or bf == 4):
                     if not (all_pawns & chess.BB_FILES[bf]):
                         mg += 70
@@ -285,6 +307,12 @@ class Search:
             if b_f_cnt > 0:
                 if not (b_pawns & ISOLATED_PAWN_FILES[i]): mg += 15; eg += 18
 
+        # Opening development incentive: penalize minor pieces left on starting squares
+        if phase >= 20:
+            uw = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.WHITE] & WHITE_HOME_MINORS)
+            ub = chess.popcount((b.knights | b.bishops) & b.occupied_co[chess.BLACK] & BLACK_HOME_MINORS)
+            mg -= (uw - ub) * 12
+
         score = int((mg * phase + eg * (24 - phase)) / 24)
         tempo = 12 if b.turn == chess.WHITE else -12
         return (score + tempo) if b.turn == chess.WHITE else -(score + tempo)
@@ -300,6 +328,8 @@ class Search:
         k_list = self.killers.get(ply)
         k0 = k_list[0] if k_list and len(k_list) > 0 else None
         k1 = k_list[1] if k_list and len(k_list) > 1 else None
+        prev_m = b.peek() if b.move_stack else None
+        cm = self.countermoves.get((prev_m.from_square, prev_m.to_square)) if prev_m else None
 
         def score_move(m):
             if m == preferred:
@@ -317,6 +347,8 @@ class Search:
                 return 850000
             if m == k1:
                 return 800000
+            if m == cm:
+                return 750000
             return self.history.get((turn, m.from_square, m.to_square), 0)
 
         return sorted(moves, key=score_move, reverse=True)
@@ -456,6 +488,9 @@ class Search:
                         self.killers[ply] = [m] + curr_killers[:1]
                     k = (b.turn, m.from_square, m.to_square)
                     self.history[k] = min(70000, self.history.get(k, 0) + d * d)
+                    if b.move_stack:
+                        prev = b.peek()
+                        self.countermoves[(prev.from_square, prev.to_square)] = m
                 break
 
         tt_v = best
@@ -475,6 +510,9 @@ class Search:
         legal = list(b.legal_moves)
         if not legal:
             return chess.Move.null()
+        if len(legal) == 1:
+            report(1, 0, 1, legal[0])
+            return legal[0]
         best = legal[0]
 
         # Iterative deepening

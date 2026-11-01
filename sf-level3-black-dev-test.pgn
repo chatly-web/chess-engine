@@ -1,0 +1,10 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Stockfish 19"]
+[Black "Clash"]
+[Result "1-0"]
+[TimeControl "0.2s/move"]
+
+1. Nf3 Nf6 2. e3 Nc6 3. d4 d5 4. Bd2 Bf5 5. h3 Ne4 6. c4 e6 7. Nc3 Nxd2 8. Nxd2 Bb4 9. Be2 O-O 10. a3 Bxc3 11. bxc3 Qd6 12. Qc1 Rae8 13. a4 h6 14. Qa3 Qd7 15. Nb3 Be4 16. O-O a6 17. a5 e5 18. cxd5 Qxd5 19. Nd2 Bxg2 20. Bc4 Qxa5 21. Qxa5 Nxa5 22. Kxg2 Nxc4 23. Nxc4 exd4 24. exd4 Re2 25. Rfd1 Rfe8 26. Rab1 b5 27. Ne5 c5 28. Nc6 cxd4 29. cxd4 g6 30. Rb3 Kg7 31. Rf3 Rc8 32. d5 f5 33. Ra3 Ra8 34. Nd4 Rb2 35. d6 b4 36. Raa1 b3 37. Ra3 Rb8 38. d7 a5 39. Ne6+ Kh7 40. d8=Q Rxd8 41. Nxd8 Kg8 42. Nc6 Rc2 43. Rxb3 Rxc6 44. Rb5 a4 45. Rd4 a3 46. Ra5 Rc3 47. Ra8+ Kf7 48. Rb4 Kf6 49. Rb6+ Kg5 50. Ra5 h5 51. Rab5 a2 52. h4+ Kh6 53. Ra6 Rc2 54. Raa5 Re2 55. Kg3 f4+ 56. Kg2 Rc2 57. Rb8 Re2 58. Rd8 Rc2 59. Rb8 Rd2 60. Ra7 a1=Q 61. Rxa1 Rd7 62. Ra2 Rc7 63. Ra4 Rf7 64. Ra6 f3+ 65. Kf1 Rd7 66. Kg1 Rd1+ 67. Kh2 Rd7 68. Kg3 Rd4 69. Ra1 Rg4+ 70. Kh3 Rg2 71. Ra4 Rxf2 72. Ra7 Rh2+ 73. Kxh2 f2 74. Kg2 f1=Q+ 75. Kxf1 g5 76. Ra6+ Kg7 77. Rb7+ Kh8 78. Rb8+ Kg7 79. Rb7+ Kh8 80. Rc7 gxh4 81. Rb7 h3 82. Ra8# 1-0
