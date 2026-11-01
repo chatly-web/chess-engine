@@ -63,7 +63,7 @@ def main():
             try:
                 command = tokens[0]
                 if command == 'uci':
-                    emit('id name Clash Original 0.3')
+                    emit('id name Clash Original 0.3.1')
                     emit('id author AI-assisted development')
                     emit('uciok')
                 elif command == 'isready':

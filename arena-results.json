@@ -4,19 +4,19 @@
       "games": 16,
       "completed": 16,
       "unfinished": 0,
-      "wins": 10,
+      "wins": 9,
       "draws": 5,
-      "losses": 1,
-      "points": 12.5
+      "losses": 2,
+      "points": 11.5
     },
     "candidate": {
       "games": 16,
       "completed": 16,
       "unfinished": 0,
-      "wins": 15,
-      "draws": 1,
+      "wins": 14,
+      "draws": 2,
       "losses": 0,
-      "points": 15.5
+      "points": 15.0
     }
   },
   "games": [
@@ -25,10 +25,10 @@
       "opponent": "baseline",
       "seed": 0,
       "colour": "white",
-      "result": "1/2-1/2",
+      "result": "0-1",
       "finished": true,
-      "score": 0.5,
-      "plies": 81,
+      "score": 0.0,
+      "plies": 108,
       "seconds_per_search": 0.05
     },
     {
@@ -39,7 +39,7 @@
       "result": "1/2-1/2",
       "finished": true,
       "score": 0.5,
-      "plies": 81,
+      "plies": 41,
       "seconds_per_search": 0.05
     },
     {
@@ -61,7 +61,7 @@
       "result": "0-1",
       "finished": true,
       "score": 1.0,
-      "plies": 54,
+      "plies": 24,
       "seconds_per_search": 0.05
     },
     {
@@ -69,10 +69,10 @@
       "opponent": "material-search",
       "seed": 0,
       "colour": "white",
-      "result": "1-0",
+      "result": "1/2-1/2",
       "finished": true,
-      "score": 1.0,
-      "plies": 39,
+      "score": 0.5,
+      "plies": 145,
       "seconds_per_search": 0.05
     },
     {
@@ -204,7 +204,7 @@
       "result": "1-0",
       "finished": true,
       "score": 1.0,
-      "plies": 45,
+      "plies": 75,
       "seconds_per_search": 0.05
     },
     {
@@ -215,7 +215,7 @@
       "result": "0-1",
       "finished": true,
       "score": 1.0,
-      "plies": 44,
+      "plies": 38,
       "seconds_per_search": 0.05
     },
     {
@@ -237,40 +237,40 @@
       "result": "0-1",
       "finished": true,
       "score": 1.0,
-      "plies": 48,
+      "plies": 80,
       "seconds_per_search": 0.05
     },
     {
       "competitor": "candidate",
       "opponent": "material-search",
       "seed": 0,
-      "colour": "white",
-      "result": "1-0",
-      "finished": true,
-      "score": 1.0,
-      "plies": 45,
-      "seconds_per_search": 0.05
-    },
-    {
-      "competitor": "candidate",
-      "opponent": "material-search",
-      "seed": 0,
-      "colour": "black",
-      "result": "0-1",
-      "finished": true,
-      "score": 1.0,
-      "plies": 48,
-      "seconds_per_search": 0.05
-    },
-    {
-      "competitor": "candidate",
-      "opponent": "material-search",
-      "seed": 1,
       "colour": "white",
       "result": "1/2-1/2",
       "finished": true,
       "score": 0.5,
-      "plies": 63,
+      "plies": 19,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 86,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 1,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 51,
       "seconds_per_search": 0.05
     },
     {
@@ -278,10 +278,10 @@
       "opponent": "material-search",
       "seed": 1,
       "colour": "black",
-      "result": "0-1",
+      "result": "1/2-1/2",
       "finished": true,
-      "score": 1.0,
-      "plies": 48,
+      "score": 0.5,
+      "plies": 39,
       "seconds_per_search": 0.05
     },
     {
@@ -303,7 +303,7 @@
       "result": "0-1",
       "finished": true,
       "score": 1.0,
-      "plies": 48,
+      "plies": 20,
       "seconds_per_search": 0.05
     },
     {
@@ -314,7 +314,7 @@
       "result": "1-0",
       "finished": true,
       "score": 1.0,
-      "plies": 39,
+      "plies": 41,
       "seconds_per_search": 0.05
     },
     {
@@ -325,7 +325,7 @@
       "result": "0-1",
       "finished": true,
       "score": 1.0,
-      "plies": 26,
+      "plies": 22,
       "seconds_per_search": 0.05
     },
     {
@@ -358,7 +358,7 @@
       "result": "1-0",
       "finished": true,
       "score": 1.0,
-      "plies": 35,
+      "plies": 33,
       "seconds_per_search": 0.05
     },
     {
@@ -373,6 +373,6 @@
       "seconds_per_search": 0.05
     }
   ],
-  "duration": 56.739776333,
+  "duration": 61.0785595,
   "note": "Small original-opponent league at short search budgets; not Elo or official TC validation. Unfinished games excluded from points."
 }

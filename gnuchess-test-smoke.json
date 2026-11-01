@@ -1,0 +1,28 @@
+{
+  "opponent": {
+    "name": "GNU Chess"
+  },
+  "our_colour": "white",
+  "base": 180,
+  "increment": 2,
+  "movetime": 0.1,
+  "result": "1-0",
+  "failure": "TimeoutError",
+  "finished": true,
+  "plies": 1,
+  "seconds": 32.193893708,
+  "moves": [
+    {
+      "ply": 1,
+      "side": "ours",
+      "move": "g1f3",
+      "seconds": 0.08098912500000005,
+      "clock": 181.919010875
+    }
+  ],
+  "source_hashes": {
+    "source/search.py": "6e6556204233e0639d91b93c0cb61afe8aa584dadcf9272040aa9f8e4f6d5e28",
+    "source/clock_budget.py": "9ae1c22c7c9bfa9e1569aad8e0fd8e73f5839dd25748d4f4221eebfe0d4fbd6a",
+    "engine/main.py": "d85db0a5d852c8721d8615b9ab2c9533826c992e380557533a75d3e3b96a74b2"
+  }
+}

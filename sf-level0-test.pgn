@@ -1,0 +1,10 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Stockfish 19"]
+[Result "1-0"]
+[TimeControl "0.2s/move"]
+
+1. Nf3 Nf6 2. Nc3 e6 3. d4 d5 4. Bf4 Bb4 5. e3 Ne4 6. Qd3 g5 7. Be5 f6 8. Bg3 Nd7 9. O-O-O f5 10. Nxe4 fxe4 11. Qb5 Qe7 12. Nxg5 O-O 13. Nxe6 c6 14. Bh4 Nf6 15. Qe2 Qxe6 16. a3 Bd6 17. Kb1 Ng4 18. f4 Qh6 19. Bg5 Qh5 20. h3 Kg7 21. Rg1 Bd7 22. Rd2 b5 23. hxg4 Qxg4 24. Rh1 Rae8 25. Bh6+ Kf7 26. Qxg4 Re7 27. Qg7+ Ke6 28. Qxf8 Rf7 29. Qa8 Rf6 30. Qg8+ Rf7 31. f5+ Kf6 32. Qg5# 1-0

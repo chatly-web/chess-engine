@@ -136,6 +136,21 @@ KING_TABLE_EG = [
 PST_MG = [None, PAWN_TABLE_MG, KNIGHT_TABLE_MG, BISHOP_TABLE_MG, ROOK_TABLE_MG, QUEEN_TABLE_MG, KING_TABLE_MG]
 PST_EG = [None, PAWN_TABLE_EG, KNIGHT_TABLE_EG, BISHOP_TABLE_EG, ROOK_TABLE_EG, QUEEN_TABLE_EG, KING_TABLE_EG]
 
+# Precomputed combined piece-square values for White and Black (White perspecive, Black flipped)
+PST_VAL_MG = [[PIECE_VALUES_MG[p] + PST_MG[p][sq] for sq in range(64)] if PST_MG[p] else None for p in range(7)]
+PST_VAL_EG = [[PIECE_VALUES_EG[p] + PST_EG[p][sq] for sq in range(64)] if PST_EG[p] else None for p in range(7)]
+PST_VAL_MG_B = [[PST_VAL_MG[p][sq ^ 56] for sq in range(64)] if PST_VAL_MG[p] else None for p in range(7)]
+PST_VAL_EG_B = [[PST_VAL_EG[p][sq ^ 56] for sq in range(64)] if PST_VAL_EG[p] else None for p in range(7)]
+
+PASSED_PAWN_FILES = [
+    (chess.BB_FILES[i] | (chess.BB_FILES[i-1] if i > 0 else 0) | (chess.BB_FILES[i+1] if i < 7 else 0))
+    for i in range(8)
+]
+ISOLATED_PAWN_FILES = [
+    ((chess.BB_FILES[i-1] if i > 0 else 0) | (chess.BB_FILES[i+1] if i < 7 else 0))
+    for i in range(8)
+]
+
 class Timeout(Exception): pass
 
 class Search:
@@ -171,9 +186,10 @@ class Search:
         
         # White pieces
         for p, mask in ((1, b.pawns), (2, b.knights), (3, b.bishops), (4, b.rooks), (5, b.queens), (6, b.kings)):
+            m_pst = PST_VAL_MG[p]; e_pst = PST_VAL_EG[p]
             for sq in chess.scan_forward(mask & b.occupied_co[chess.WHITE]):
-                mg += PIECE_VALUES_MG[p] + PST_MG[p][sq]
-                eg += PIECE_VALUES_EG[p] + PST_EG[p][sq]
+                mg += m_pst[sq]
+                eg += e_pst[sq]
                 if p == 4: # Rook on open/semi-open file or 7th rank
                     f_mask = chess.BB_FILES[sq & 7]
                     if not (all_pawns & f_mask):
@@ -184,18 +200,18 @@ class Search:
                         mg += 30; eg += 35
                 elif p == 1: # Passed pawn
                     f = sq & 7; r = sq >> 3
-                    adjacent = chess.BB_FILES[f] | (chess.BB_FILES[f-1] if f > 0 else 0) | (chess.BB_FILES[f+1] if f < 7 else 0)
+                    adjacent = PASSED_PAWN_FILES[f]
                     ahead = (chess.BB_ALL << (8 * (r + 1))) & chess.BB_ALL
                     if not (b_pawns & adjacent & ahead):
                         eg += (r * r * 4)
                         mg += (r * 4)
 
-        # Black pieces
+        # Black pieces (pre-flipped tables)
         for p, mask in ((1, b.pawns), (2, b.knights), (3, b.bishops), (4, b.rooks), (5, b.queens), (6, b.kings)):
+            m_pst = PST_VAL_MG_B[p]; e_pst = PST_VAL_EG_B[p]
             for sq in chess.scan_forward(mask & b.occupied_co[chess.BLACK]):
-                f_sq = sq ^ 56
-                mg -= PIECE_VALUES_MG[p] + PST_MG[p][f_sq]
-                eg -= PIECE_VALUES_EG[p] + PST_EG[p][f_sq]
+                mg -= m_pst[sq]
+                eg -= e_pst[sq]
                 if p == 4:
                     f_mask = chess.BB_FILES[sq & 7]
                     if not (all_pawns & f_mask):
@@ -206,7 +222,7 @@ class Search:
                         mg -= 30; eg -= 35
                 elif p == 1:
                     f = sq & 7; r = 7 - (sq >> 3)
-                    adjacent = chess.BB_FILES[f] | (chess.BB_FILES[f-1] if f > 0 else 0) | (chess.BB_FILES[f+1] if f < 7 else 0)
+                    adjacent = PASSED_PAWN_FILES[f]
                     ahead = (1 << (8 * (sq >> 3))) - 1
                     if not (w_pawns & adjacent & ahead):
                         eg -= (r * r * 4)
@@ -236,6 +252,8 @@ class Search:
                         mg -= 70 # open center file
                     elif not (w_pawns & chess.BB_FILES[wf]):
                         mg -= 40 # semi-open center file
+                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)):
+                        mg -= 50 # lost castling rights while stuck in center
 
             bk = b.king(chess.BLACK)
             if bk is not None:
@@ -252,6 +270,8 @@ class Search:
                         mg += 70
                     elif not (b_pawns & chess.BB_FILES[bf]):
                         mg += 40
+                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)):
+                        mg += 50
 
         # Pawn structure: doubled and isolated pawns
         for i in range(8):
@@ -261,13 +281,9 @@ class Search:
             if w_f_cnt > 1: mg -= 15; eg -= 20
             if b_f_cnt > 1: mg += 15; eg += 20
             if w_f_cnt > 0:
-                left = chess.BB_FILES[i-1] if i > 0 else 0
-                right = chess.BB_FILES[i+1] if i < 7 else 0
-                if not (w_pawns & (left | right)): mg -= 15; eg -= 18
+                if not (w_pawns & ISOLATED_PAWN_FILES[i]): mg -= 15; eg -= 18
             if b_f_cnt > 0:
-                left = chess.BB_FILES[i-1] if i > 0 else 0
-                right = chess.BB_FILES[i+1] if i < 7 else 0
-                if not (b_pawns & (left | right)): mg += 15; eg += 18
+                if not (b_pawns & ISOLATED_PAWN_FILES[i]): mg += 15; eg += 18
 
         score = int((mg * phase + eg * (24 - phase)) / 24)
         tempo = 12 if b.turn == chess.WHITE else -12
@@ -279,6 +295,12 @@ class Search:
             raise Timeout()
 
     def order_moves(self, b, moves, preferred, ply):
+        turn = b.turn
+        enemy = not turn
+        k_list = self.killers.get(ply)
+        k0 = k_list[0] if k_list and len(k_list) > 0 else None
+        k1 = k_list[1] if k_list and len(k_list) > 1 else None
+
         def score_move(m):
             if m == preferred:
                 return 2000000
@@ -286,18 +308,17 @@ class Search:
             if is_cap:
                 victim = b.piece_type_at(m.to_square) or 1
                 attacker = b.piece_type_at(m.from_square) or 1
-                enemy = not b.turn
-                if b.is_attacked_by(enemy, m.to_square) and V[victim] < V[attacker]:
+                if V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square):
                     return 50000 + 10 * V[victim] - V[attacker]
                 return 1000000 + 10 * V[victim] - V[attacker]
             if m.promotion:
                 return 900000 + V[m.promotion]
-            killers = self.killers.get(ply, [])
-            if len(killers) > 0 and m == killers[0]:
+            if m == k0:
                 return 850000
-            if len(killers) > 1 and m == killers[1]:
+            if m == k1:
                 return 800000
-            return self.history.get((b.turn, m.from_square, m.to_square), 0)
+            return self.history.get((turn, m.from_square, m.to_square), 0)
+
         return sorted(moves, key=score_move, reverse=True)
 
     def quiesce(self, b, a, z, ply):
@@ -316,9 +337,15 @@ class Search:
             if ply >= 96:
                 return a
             # Delta pruning
-            if stand + 1100 < a:
+            if self.reductions and stand + 1100 < a:
                 return a
             moves = list(b.generate_legal_captures())
+            # Include quiet promotions to Queen when pawn on 7th rank
+            p_mask = chess.BB_RANKS[6] if b.turn == chess.WHITE else chess.BB_RANKS[1]
+            if (b.pawns & b.occupied_co[b.turn] & p_mask):
+                for m in b.legal_moves:
+                    if m.promotion == chess.QUEEN and not b.is_capture(m):
+                        moves.append(m)
             if not moves:
                 return a
 
@@ -329,7 +356,13 @@ class Search:
             return 10 * V[victim] - V[attacker]
         moves.sort(key=cap_key, reverse=True)
 
+        enemy = not b.turn
         for m in moves:
+            if not check:
+                victim = b.piece_type_at(m.to_square) or 1
+                attacker = b.piece_type_at(m.from_square) or 1
+                if self.reductions and V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square):
+                    continue
             b.push(m)
             try:
                 v = -self.quiesce(b, -z, -a, ply + 1)
@@ -363,13 +396,13 @@ class Search:
             if flag == -1 and v <= a: return v
 
         # Reverse Futility Pruning
-        if d <= 2 and not check and ply > 0:
+        if self.reductions and d <= 2 and not check and ply > 0:
             static_eval = self.evaluate(b)
             if static_eval - 120 * d >= z:
                 return static_eval
 
         # Null Move Pruning
-        if d >= 3 and not check and ply > 0:
+        if self.reductions and d >= 3 and not check and ply > 0:
             has_pieces = bool(b.occupied_co[b.turn] & ~b.pawns & ~b.kings)
             if has_pieces:
                 b.push(chess.Move.null())
@@ -394,7 +427,7 @@ class Search:
             quiet = not b.is_capture(m) and not m.promotion
             b.push(m)
             try:
-                nd = d - 1
+                nd = d if (self.reductions and check and d > 0 and ply < 64) else (d - 1)
                 reduction = 0
                 if self.reductions and d >= 3 and i >= 3 and quiet and not check and not b.is_check():
                     reduction = 2 if (d >= 6 and i >= 6) else 1

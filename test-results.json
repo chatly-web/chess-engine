@@ -22,42 +22,42 @@
   {
     "test": "clock",
     "clock": 0.01,
-    "elapsed": 0.0017334169999999594,
+    "elapsed": 0.0018458329999999634,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 0.05,
-    "elapsed": 0.0023393339999999707,
+    "elapsed": 0.0023802909999999233,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 0.2,
-    "elapsed": 0.0072660840000000615,
+    "elapsed": 0.007257417000000044,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 1,
-    "elapsed": 0.033915625000000005,
+    "elapsed": 0.033933459,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 180,
-    "elapsed": 7.301037209,
+    "elapsed": 7.3009105,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 600,
-    "elapsed": 23.25125775,
+    "elapsed": 23.250900332999997,
     "legal": true,
     "within_clock": true
   },
@@ -65,14 +65,14 @@
     "test": "full_game",
     "base": 180,
     "increment": 2,
-    "plies": 39,
+    "plies": 37,
     "result": "1-0",
     "finished": true,
-    "duration": 104.37834237499999,
-    "max_think": 7.301340208999999,
+    "duration": 103.72563491699998,
+    "max_think": 7.301055708,
     "remaining": [
-      217.982277211,
-      115.65750295799998
+      215.98283266700003,
+      114.30871454200009
     ],
     "opponent": "original greedy material",
     "engine_color": "white"
@@ -81,14 +81,14 @@
     "test": "full_game",
     "base": 600,
     "increment": 5,
-    "plies": 39,
+    "plies": 41,
     "result": "1-0",
     "finished": true,
-    "duration": 355.05918691700003,
-    "max_think": 23.250979624999985,
+    "duration": 369.646349208,
+    "max_think": 23.250891959,
     "remaining": [
-      694.9806156239999,
-      344.97769371100003
+      699.9803242950002,
+      335.39181683000004
     ],
     "opponent": "original greedy material",
     "engine_color": "white"

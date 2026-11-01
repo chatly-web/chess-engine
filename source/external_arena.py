@@ -3,10 +3,12 @@ import argparse,json,pathlib,sys,time,hashlib
 import chess,chess.engine,chess.pgn
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 def main():
- p=argparse.ArgumentParser();p.add_argument('--opponent',required=True);p.add_argument('--opponent-arg',action='append',default=[]);p.add_argument('--protocol',choices=['uci','xboard'],default='uci');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);p.add_argument('--colour',choices=['white','black'],default='white');p.add_argument('--label',required=True);p.add_argument('--movetime',type=float);a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--opponent',required=True);p.add_argument('--opponent-arg',action='append',default=[]);p.add_argument('--protocol',choices=['uci','xboard'],default='uci');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);p.add_argument('--colour',choices=['white','black'],default='white');p.add_argument('--label',required=True);p.add_argument('--movetime',type=float);p.add_argument('--skill-level',type=int,default=None);a=p.parse_args()
  ours=chess.engine.SimpleEngine.popen_uci([sys.executable,str(ROOT/'engine/main.py')],timeout=30)
  other=(chess.engine.SimpleEngine.popen_uci if a.protocol=='uci' else chess.engine.SimpleEngine.popen_xboard)([a.opponent]+a.opponent_arg,timeout=30)
- options={k:v for k,v in {'Threads':1,'Hash':64,'Ponder':False}.items() if k in other.options and not other.options[k].is_managed()};other.configure(options)
+ options={k:v for k,v in {'Threads':1,'Hash':64,'Ponder':False}.items() if k in other.options and not other.options[k].is_managed()}
+ if a.skill_level is not None and 'Skill Level' in other.options: options['Skill Level']=a.skill_level
+ other.configure(options)
  opponent_id=dict(other.id);white=a.colour=='white';b=chess.Board();clocks={True:a.base,False:a.base};log=[];failure=None;result='*';start=time.monotonic()
  try:
   while not b.is_game_over(claim_draw=True) and b.ply()<300:
