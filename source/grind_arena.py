@@ -78,7 +78,7 @@ def main():
             for colour in ["white", "black"]:
                 total_games += 1
                 print(f"Round {r+1} | Clash ({colour}) vs {opp['name']}...", end=" ", flush=True)
-                res = run_game(opp, colour, movetime=0.15)
+                res = run_game(opp, colour, movetime=0.25)
                 results.append(res)
                 all_pgns.append(res["pgn"])
                 

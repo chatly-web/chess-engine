@@ -270,9 +270,15 @@ class Search:
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.WHITE]):
                     d = chess.square_distance(q, bk)
                     if d <= 3: mg += (4 - d) * 35
+                    d_own = chess.square_distance(q, wk)
+                    if d_own <= 2: mg += 25
+                    elif d_own >= 4: mg -= 35
                 for q in chess.scan_forward(b.queens & b.occupied_co[chess.BLACK]):
                     d = chess.square_distance(q, wk)
                     if d <= 3: mg -= (4 - d) * 35
+                    d_own = chess.square_distance(q, bk)
+                    if d_own <= 2: mg -= 25
+                    elif d_own >= 4: mg += 35
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
                 if wf >= 5 and wr == 0: # Kingside castled
