@@ -146,6 +146,8 @@ PASSED_PAWN_FILES = [
     (chess.BB_FILES[i] | (chess.BB_FILES[i-1] if i > 0 else 0) | (chess.BB_FILES[i+1] if i < 7 else 0))
     for i in range(8)
 ]
+PASSED_BONUS_MG = [0, 5, 15, 35, 75, 160]
+PASSED_BONUS_EG = [0, 20, 50, 110, 220, 420]
 ISOLATED_PAWN_FILES = [
     ((chess.BB_FILES[i-1] if i > 0 else 0) | (chess.BB_FILES[i+1] if i < 7 else 0))
     for i in range(8)
@@ -204,11 +206,13 @@ class Search:
                         mg += 30; eg += 35
                 elif p == 1: # Passed pawn
                     f = sq & 7; r = sq >> 3
-                    adjacent = PASSED_PAWN_FILES[f]
-                    ahead = (chess.BB_ALL << (8 * (r + 1))) & chess.BB_ALL
-                    if not (b_pawns & adjacent & ahead):
-                        eg += (r * r * 4)
-                        mg += (r * 4)
+                    if r >= 2:
+                        adjacent = PASSED_PAWN_FILES[f]
+                        ahead = (chess.BB_ALL << (8 * (r + 1))) & chess.BB_ALL
+                        if not (b_pawns & adjacent & ahead):
+                            idx = min(5, r - 1)
+                            mg += PASSED_BONUS_MG[idx]
+                            eg += PASSED_BONUS_EG[idx]
 
         # Black pieces (pre-flipped tables)
         for p, mask in ((1, b.pawns), (2, b.knights), (3, b.bishops), (4, b.rooks), (5, b.queens), (6, b.kings)):
@@ -226,11 +230,13 @@ class Search:
                         mg -= 30; eg -= 35
                 elif p == 1:
                     f = sq & 7; r = 7 - (sq >> 3)
-                    adjacent = PASSED_PAWN_FILES[f]
-                    ahead = (1 << (8 * (sq >> 3))) - 1
-                    if not (w_pawns & adjacent & ahead):
-                        eg -= (r * r * 4)
-                        mg -= (r * 4)
+                    if r >= 2:
+                        adjacent = PASSED_PAWN_FILES[f]
+                        ahead = (1 << (8 * (sq >> 3))) - 1
+                        if not (w_pawns & adjacent & ahead):
+                            idx = min(5, r - 1)
+                            mg -= PASSED_BONUS_MG[idx]
+                            eg -= PASSED_BONUS_EG[idx]
 
         # Bishop pairs
         if chess.popcount(b.bishops & b.occupied_co[chess.WHITE]) >= 2:
@@ -241,6 +247,32 @@ class Search:
         # King safety & Pawn shield (critical in MG)
         if phase > 8:
             wk = b.king(chess.WHITE)
+            bk = b.king(chess.BLACK)
+            if wk is not None and bk is not None:
+                w_ring = chess.BB_KING_ATTACKS[wk]
+                b_ring = chess.BB_KING_ATTACKS[bk]
+                w_att = 0
+                for sq in chess.scan_forward(b.occupied_co[chess.WHITE] & ~b.pawns & ~b.kings):
+                    if chess.square_distance(sq, bk) <= 3 and (b.attacks(sq) & b_ring):
+                        pt = b.piece_type_at(sq)
+                        w_att += 50 if pt == chess.QUEEN else (30 if pt == chess.ROOK else 25)
+                if w_att >= 50: mg += w_att * 2
+                else: mg += w_att
+
+                b_att = 0
+                for sq in chess.scan_forward(b.occupied_co[chess.BLACK] & ~b.pawns & ~b.kings):
+                    if chess.square_distance(sq, wk) <= 3 and (b.attacks(sq) & w_ring):
+                        pt = b.piece_type_at(sq)
+                        b_att += 50 if pt == chess.QUEEN else (30 if pt == chess.ROOK else 25)
+                if b_att >= 50: mg -= b_att * 2
+                else: mg -= b_att
+
+                for q in chess.scan_forward(b.queens & b.occupied_co[chess.WHITE]):
+                    d = chess.square_distance(q, bk)
+                    if d <= 3: mg += (4 - d) * 35
+                for q in chess.scan_forward(b.queens & b.occupied_co[chess.BLACK]):
+                    d = chess.square_distance(q, wk)
+                    if d <= 3: mg -= (4 - d) * 35
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
                 if wf >= 5 and wr == 0: # Kingside castled
@@ -260,13 +292,11 @@ class Search:
                     elif not (w_pawns & chess.BB_FILES[1]): mg -= 35
                     if not (all_pawns & chess.BB_FILES[2]): mg -= 45
                     elif not (w_pawns & chess.BB_FILES[2]): mg -= 25
-                elif wr == 0 and (wf == 3 or wf == 4): # Uncastled king in center
-                    if not (all_pawns & chess.BB_FILES[wf]):
-                        mg -= 70 # open center file
-                    elif not (w_pawns & chess.BB_FILES[wf]):
-                        mg -= 40 # semi-open center file
-                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)):
-                        mg -= 50 # lost castling rights while stuck in center
+                else: # Exposed king in center / uncastled in middlegame
+                    mg -= 60
+                    if not (all_pawns & chess.BB_FILES[wf]): mg -= 40
+                    elif not (w_pawns & chess.BB_FILES[wf]): mg -= 20
+                    if not (b.castling_rights & (chess.BB_H1 | chess.BB_A1)): mg -= 40
 
             bk = b.king(chess.BLACK)
             if bk is not None:
@@ -287,13 +317,11 @@ class Search:
                     elif not (b_pawns & chess.BB_FILES[1]): mg += 35
                     if not (all_pawns & chess.BB_FILES[2]): mg += 45
                     elif not (b_pawns & chess.BB_FILES[2]): mg += 25
-                elif br == 7 and (bf == 3 or bf == 4):
-                    if not (all_pawns & chess.BB_FILES[bf]):
-                        mg += 70
-                    elif not (b_pawns & chess.BB_FILES[bf]):
-                        mg += 40
-                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)):
-                        mg += 50
+                else:
+                    mg += 60
+                    if not (all_pawns & chess.BB_FILES[bf]): mg += 40
+                    elif not (b_pawns & chess.BB_FILES[bf]): mg += 20
+                    if not (b.castling_rights & (chess.BB_H8 | chess.BB_A8)): mg += 40
 
         # Pawn structure: doubled and isolated pawns
         for i in range(8):
@@ -461,7 +489,7 @@ class Search:
             try:
                 nd = d if (self.reductions and check and d > 0 and ply < 64) else (d - 1)
                 reduction = 0
-                if self.reductions and d >= 3 and i >= 3 and quiet and not check and not b.is_check():
+                if self.reductions and d >= 3 and i >= 3 and quiet and not check and not b.is_check() and m not in self.killers.get(ply, ()):
                     reduction = 2 if (d >= 6 and i >= 6) else 1
 
                 if i == 0:

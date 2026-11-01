@@ -22,42 +22,42 @@
   {
     "test": "clock",
     "clock": 0.01,
-    "elapsed": 0.0018458329999999634,
+    "elapsed": 0.0016746249999999296,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 0.05,
-    "elapsed": 0.0023802909999999233,
+    "elapsed": 0.002213125000000038,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 0.2,
-    "elapsed": 0.007257417000000044,
+    "elapsed": 0.007209083000000005,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 1,
-    "elapsed": 0.033933459,
+    "elapsed": 0.03401183299999999,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 180,
-    "elapsed": 7.3009105,
+    "elapsed": 7.300761166999999,
     "legal": true,
     "within_clock": true
   },
   {
     "test": "clock",
     "clock": 600,
-    "elapsed": 23.250900332999997,
+    "elapsed": 23.250907042,
     "legal": true,
     "within_clock": true
   },
@@ -65,14 +65,14 @@
     "test": "full_game",
     "base": 180,
     "increment": 2,
-    "plies": 37,
+    "plies": 29,
     "result": "1-0",
     "finished": true,
-    "duration": 103.72563491699998,
-    "max_think": 7.301055708,
+    "duration": 82.741370958,
+    "max_think": 7.324934875,
     "remaining": [
-      215.98283266700003,
-      114.30871454200009
+      207.985359873,
+      127.28750000299996
     ],
     "opponent": "original greedy material",
     "engine_color": "white"
@@ -81,14 +81,14 @@
     "test": "full_game",
     "base": 600,
     "increment": 5,
-    "plies": 41,
+    "plies": 29,
     "result": "1-0",
     "finished": true,
-    "duration": 369.646349208,
-    "max_think": 23.250891959,
+    "duration": 260.193388917,
+    "max_think": 23.25109120799999,
     "remaining": [
-      699.9803242950002,
-      335.39181683000004
+      669.9859375020001,
+      414.8338633770002
     ],
     "opponent": "original greedy material",
     "engine_color": "white"
