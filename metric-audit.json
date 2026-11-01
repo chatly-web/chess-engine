@@ -1,0 +1,16 @@
+{
+  "source": "grind-results.json",
+  "attempted": 16,
+  "completed": 15,
+  "wins": 9,
+  "draws": 2,
+  "losses": 4,
+  "unfinished": 1,
+  "completed_points": 10.0,
+  "completed_score_rate": 0.6666666666666666,
+  "completed_win_rate": 0.6,
+  "wins_per_attempt": 0.5625,
+  "accuracy_claim": "62.8% not reproducible from the available files",
+  "reliability_claim": "All recorded test cases passed; not a universal guarantee",
+  "version_note": "Historical Python grind, not a native C++ benchmark"
+}

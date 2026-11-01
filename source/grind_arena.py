@@ -71,6 +71,8 @@ def main():
     all_pgns = []
     our_score = 0.0
     total_games = 0
+    completed_games = 0
+    wins = draws = losses = 0
 
     print("Starting tournament grind session...", flush=True)
     for r in range(rounds):
@@ -89,15 +91,24 @@ def main():
                     pts = 1.0 if colour == "white" else 0.0
                 elif res_str == "0-1":
                     pts = 0.0 if colour == "white" else 1.0
-                elif res_str in ("1/2-1/2", "*"):
+                elif res_str == "1/2-1/2":
                     pts = 0.5
+                if res_str != '*':
+                    completed_games += 1
+                    wins += int(pts == 1.0)
+                    draws += int(pts == 0.5)
+                    losses += int(pts == 0.0)
                 our_score += pts
                 print(f"Result: {res_str} ({pts} pts in {res['plies']} plies, {res['duration']:.1f}s)", flush=True)
 
     summary = {
         "total_games": total_games,
         "our_score": our_score,
-        "win_rate": our_score / total_games if total_games else 0,
+        "completed_games": completed_games,
+        "unfinished_games": total_games - completed_games,
+        "wins": wins, "draws": draws, "losses": losses,
+        "win_rate": wins / completed_games if completed_games else None,
+        "score_rate": our_score / completed_games if completed_games else None,
         "games": [{k: v for k, v in g.items() if k != "pgn"} for g in results]
     }
     (ROOT / "grind-results.json").write_text(json.dumps(summary, indent=2))

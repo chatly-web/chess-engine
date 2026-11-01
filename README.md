@@ -4,7 +4,7 @@ Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-nat
 
 # Clash Original 0.4.1
 
-An original, tournament-hardened Python UCI chess engine. No external engine source code, neural network weights, opening books, tablebases, or engine-labelled training data are used. Move selection, search enhancements, and tapered evaluation are 100% original work.
+An original Python UCI chess engine with recorded local validation. No external engine source code, neural network weights, opening books, tablebases, or engine-labelled training data are used. Move selection, search enhancements, and tapered evaluation are 100% original work.
 
 ## Run
 
@@ -79,7 +79,7 @@ Use absolute path to the Python interpreter in `config.yml` of `lichess-bot`:
 ### 4. Transposition Table & Clock Budgeting
 - Capacity-bounded Transposition Table (200,000 entries) with depth-priority pruning.
 - Persisted across `go` moves within a game, reset on `ucinewgame`.
-- Safe clock budgeting reserving at least 25% of remaining clock on every move, strictly preventing time forfeits under Blitz 3+2 and Rapid 10+5.
+- Safe clock budgeting reserving at least 25% of remaining clock on every move, intended to reduce time-forfeit risk under Blitz 3+2 and Rapid 10+5; network and scheduling delays still require live validation.
 
 ---
 
@@ -87,10 +87,11 @@ Use absolute path to the Python interpreter in `config.yml` of `lichess-bot`:
 
 ### 1. 16-Game Tournament Grind Battery (`source/grind_arena.py`)
 Tested across 2 full rounds against Stockfish Levels 0 through 3 across both White and Black:
-- **Final Tournament Score**: **10.5 / 16 (65.6%)**
-- **Clean Sweep vs Stockfish Level 2 (Round 2)**: Won 1-0 as White in 31 plies, won 0-1 as Black in 66 plies.
-- **Domination vs Stockfish Level 3 (Round 2)**: Scored **1.5 / 2.0 (75%)** (Won 1-0 as White in 61 plies, held 1/2-1/2 draw as Black in 156 plies).
-- **Clean Sweeps vs Stockfish Level 0**: Wins achieved in 45, 58, 70, 73, and 84 plies.
+- Historical Python results: **9 wins, 2 draws, 4 losses, 1 unfinished game**.
+- Completed-game score: **10/15 (66.7%)**. Completed-game win rate: **9/15 (60%)**.
+- The old 10.5/16 (65.6%) figure incorrectly counted an unfinished game as a draw. The reporting code is corrected; `metric-audit.json` preserves the recalculation without altering the original results.
+- These were 0.25-second-per-move tests against reduced-strength Stockfish settings, not full-strength Stockfish or official 3+2 matches.
+- No reproducible report supporting the quoted 62.8% Lichess accuracy exists in this checkout. Passing every recorded regression test does not establish universal tactical or clock safety.
 
 ### 2. Full Clock Games (`source/validate.py`)
 - **Blitz 180+2 Time Control**: Won 1-0 in 23 plies; **201.99s remaining** (accumulated increment, zero clock panic).
