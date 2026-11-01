@@ -1,3 +1,7 @@
+# Recommended native C++ launch
+
+Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-native.sh` on your hosting system. See [NATIVE.md](NATIVE.md) for source, validation, limitations and setup. The Python implementation below remains the reference and tuning version.
+
 # Clash Original 0.4.1
 
 An original, tournament-hardened Python UCI chess engine. No external engine source code, neural network weights, opening books, tablebases, or engine-labelled training data are used. Move selection, search enhancements, and tapered evaluation are 100% original work.

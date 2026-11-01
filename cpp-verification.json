@@ -1,0 +1,11 @@
+{
+  "perft_nodes": [
+    197281,
+    97862,
+    43238
+  ],
+  "legal_positions": 2000,
+  "evaluation_mismatches": 0,
+  "examples": [],
+  "seconds": 1.756559167
+}

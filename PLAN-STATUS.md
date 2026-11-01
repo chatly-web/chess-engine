@@ -24,3 +24,8 @@ External benchmark reports predating the user's v0.4.1 changes record losses to 
 - Optional C++ move generator / compiled core and optional neural evaluator were not implemented. They are alternatives in the plan, not prerequisites for the Python UCI entry.
 - Live lichess-bot validation, BOT account and private tokens require account setup. Never publish bot:play credentials. Confirm organiser acceptance of AI-assisted code.
 - GitHub publication needs valid authentication. The located github.com credential returned HTTP 401. A broad Keychain scan was rejected by automatic approval review; no bypass was attempted. Use `gh auth login --hostname github.com --git-protocol https --web`, then publish with `gh repo create chess-engine --public --source . --remote origin --push` after checking that repository name is available.
+
+
+## Native implementation update
+
+The subsequent C++ implementation is complete and now recommended; see NATIVE.md. The earlier optional-C++ status above is historical. It passed differential move/evaluation tests, perft, sanitizer checks and eight short self-play matches against Python. Native runtime scalar tuning is not implemented, and the neural network remains optional and unimplemented. A 0.25-second-per-move game against full-strength Stockfish 19 was a normal loss after 60 plies; no illegal move or time failure was recorded. It was not a 3+2 game.

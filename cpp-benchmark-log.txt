@@ -1,0 +1,74 @@
+[
+  {
+    "position": 0,
+    "engine": "native",
+    "depth": 7,
+    "nodes": 26034,
+    "elapsed": 0.451441041,
+    "move": "b1c3"
+  },
+  {
+    "position": 0,
+    "engine": "python",
+    "depth": 5,
+    "nodes": 4608,
+    "elapsed": 0.45120345800000006,
+    "move": "g1f3"
+  },
+  {
+    "position": 1,
+    "engine": "native",
+    "depth": 6,
+    "nodes": 23566,
+    "elapsed": 0.45253699999999997,
+    "move": "f1d3"
+  },
+  {
+    "position": 1,
+    "engine": "python",
+    "depth": 4,
+    "nodes": 4131,
+    "elapsed": 0.4514954590000002,
+    "move": "d1h5"
+  },
+  {
+    "position": 2,
+    "engine": "native",
+    "depth": 6,
+    "nodes": 49518,
+    "elapsed": 0.45164337499999974,
+    "move": "c5b6"
+  },
+  {
+    "position": 2,
+    "engine": "python",
+    "depth": 4,
+    "nodes": 2437,
+    "elapsed": 0.45170987500000015,
+    "move": "c5b6"
+  },
+  {
+    "position": 3,
+    "engine": "native",
+    "depth": 6,
+    "nodes": 41360,
+    "elapsed": 0.45182983399999976,
+    "move": "d3g6"
+  },
+  {
+    "position": 3,
+    "engine": "python",
+    "depth": 3,
+    "nodes": 3931,
+    "elapsed": 0.45208812499999995,
+    "move": "d3g6"
+  }
+]
+{'seed': 0, 'native_white': True, 'result': '1-0', 'score': 1.0, 'plies': 39}
+{'seed': 0, 'native_white': False, 'result': '0-1', 'score': 1.0, 'plies': 38}
+{'seed': 1, 'native_white': True, 'result': '1-0', 'score': 1.0, 'plies': 31}
+{'seed': 1, 'native_white': False, 'result': '0-1', 'score': 1.0, 'plies': 54}
+{'seed': 2, 'native_white': True, 'result': '1-0', 'score': 1.0, 'plies': 91}
+{'seed': 2, 'native_white': False, 'result': '0-1', 'score': 1.0, 'plies': 68}
+{'seed': 3, 'native_white': True, 'result': '1-0', 'score': 1.0, 'plies': 47}
+{'seed': 3, 'native_white': False, 'result': '0-1', 'score': 1.0, 'plies': 34}

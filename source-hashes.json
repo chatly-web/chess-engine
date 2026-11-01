@@ -1,4 +1,5 @@
 {
+  "build-native.sh": "76a5ee8a255779900b04780ab4197a06c468db16a065df7033fd65c4b07b7912",
   "source/sprt.py": "35031ee728a487169c61dcc2480ca1581e8fef3b11a8869a22452efb558357b9",
   "source/protocol_test.py": "115634b12f4c9353ed239589019efac0a63024f00dc27c68a6c2521713793b30",
   "source/grind_arena.py": "ce682c2d6211be76fc2b37236dd2e4e7f3811f6c7450916b24efd5d1e397e068",
@@ -12,7 +13,13 @@
   "source/baseline_v02.py": "8dded9e5ec574242838455b2623d6245043577d9ee01075c70d2130f8e8a302d",
   "source/reliability_test.py": "26c40dbac746d827354816ce0df3e72cd690bc4c16d7e0d7e2a8f1c026b51efb",
   "source/weights.py": "ced1b06fcca8d2a7ca8e8d2e898f6081cc3106cd791a4c86fee08c75994ae41e",
-  "source/external_arena.py": "cf22a15833b92719dd949960517349ddf1afc8bd65a040d39a47ddcf6f05ec84",
+  "source/external_arena.py": "1e83a98caced738cfc44c0bbda402a996c18d7e99549a579b5db193352484e49",
   "source/arena.py": "4fbcdbcadcdd5327c16d3b53d1e31c818ca9bb88eeed4e0d707a341b7d37790b",
+  "source/cpp/benchmark.py": "7d59c6321270d7121aeb0b6da2da74df89a859c817fa74a3c6718bbc9cf7550e",
+  "source/cpp/protocol_test.py": "9150028edef00fcd4352a509a160ae4246faeb219bde91fa1409f65d011685b0",
+  "source/cpp/tables.h": "13b6519ec08d8c4eff1ba8634332a065b3189daca401db85ddad08b9710c5705",
+  "source/cpp/engine.cpp": "c26f3df8aaf62ba34d7e1fa5a48d13ca91a70b691253caf484f3f5e995c9f00b",
+  "source/cpp/generate_tables.py": "e761ffccdcc5bf18fbf4198c696deaacf4d093d50cbc7bc12fbbbfa5040e5d1e",
+  "source/cpp/verify.py": "1b6df967fa8acc167d4e75266311922445ecb82b0b570d90993d8d8496ca4310",
   "engine/main.py": "39b197ab9a76b96fdd969218fafb1995b93987fe571f595e1a5add0fc62c0328"
 }
