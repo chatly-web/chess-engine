@@ -463,7 +463,7 @@ class Search:
             if not check:
                 victim = b.piece_type_at(m.to_square) or 1
                 attacker = b.piece_type_at(m.from_square) or 1
-                if not m.promotion and self.reductions and V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square):
+                if not m.promotion and self.reductions and V[victim] < V[attacker] and b.is_attacked_by(enemy, m.to_square) and not b.is_attacked_by(b.turn, m.to_square):
                     continue
             b.push(m)
             try:
