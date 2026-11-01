@@ -1,0 +1,18 @@
+{'position': 0, 'candidate': {'move': 'b1c3', 'score': 12, 'depth': 4, 'nodes': 1353, 'seconds': 0.005959541999999984}, 'baseline': {'move': 'b1c3', 'score': 12, 'depth': 4, 'nodes': 1353, 'seconds': 0.009733207999999993}}
+{'position': 1, 'candidate': {'move': 'd1g4', 'score': 203, 'depth': 4, 'nodes': 3266, 'seconds': 0.014972415999999988}, 'baseline': {'move': 'd1g4', 'score': 203, 'depth': 4, 'nodes': 3266, 'seconds': 0.024920374999999995}}
+{'position': 2, 'candidate': {'move': 'e4d5', 'score': -155, 'depth': 4, 'nodes': 9993, 'seconds': 0.04457145799999995}, 'baseline': {'move': 'e4d5', 'score': -155, 'depth': 4, 'nodes': 9993, 'seconds': 0.07461741599999994}}
+{'position': 3, 'candidate': {'move': 'a2d5', 'score': 273, 'depth': 4, 'nodes': 9988, 'seconds': 0.046722249999999965}, 'baseline': {'move': 'a2d5', 'score': 273, 'depth': 4, 'nodes': 9988, 'seconds': 0.07534375000000004}}
+{'position': 4, 'candidate': {'move': 'c3b4', 'score': 693, 'depth': 4, 'nodes': 19207, 'seconds': 0.080852708}, 'baseline': {'move': 'c3b4', 'score': 693, 'depth': 4, 'nodes': 19207, 'seconds': 0.12381316700000011}}
+{'position': 5, 'candidate': {'move': 'f1d3', 'score': 545, 'depth': 4, 'nodes': 25014, 'seconds': 0.11439545900000003}, 'baseline': {'move': 'f1d3', 'score': 545, 'depth': 4, 'nodes': 25014, 'seconds': 0.17852666700000008}}
+{'seed': 0, 'candidate_white': True, 'result': '1/2-1/2', 'score': 0.5, 'plies': 96}
+{'seed': 0, 'candidate_white': False, 'result': '0-1', 'score': 1.0, 'plies': 100}
+{'seed': 1, 'candidate_white': True, 'result': '1-0', 'score': 1.0, 'plies': 113}
+{'seed': 1, 'candidate_white': False, 'result': '0-1', 'score': 1.0, 'plies': 62}
+{'seed': 2, 'candidate_white': True, 'result': '1/2-1/2', 'score': 0.5, 'plies': 131}
+{'seed': 2, 'candidate_white': False, 'result': '1-0', 'score': 0.0, 'plies': 97}
+{'seed': 3, 'candidate_white': True, 'result': '1-0', 'score': 1.0, 'plies': 145}
+{'seed': 3, 'candidate_white': False, 'result': '1-0', 'score': 0.0, 'plies': 103}
+{'seed': 4, 'candidate_white': True, 'result': '1-0', 'score': 1.0, 'plies': 147}
+{'seed': 4, 'candidate_white': False, 'result': '1-0', 'score': 0.0, 'plies': 145}
+{'seed': 5, 'candidate_white': True, 'result': '0-1', 'score': 0.0, 'plies': 136}
+{'seed': 5, 'candidate_white': False, 'result': '1/2-1/2', 'score': 0.5, 'plies': 92}

@@ -1,0 +1,26 @@
+{
+  "fixed_depth": 4,
+  "positions": 6,
+  "same_moves": true,
+  "same_scores": true,
+  "same_nodes": true,
+  "speedup_min": 1.5313422402623809,
+  "speedup_median": 1.6229011583990567,
+  "speedup_max": 1.674107586967427,
+  "baseline_commit": "26817ac",
+  "changes": [
+    "Target-based attack detection",
+    "Pawn-square lists and cached king squares within evaluation",
+    "King attack ring enumerated directly",
+    "Move ordering scores computed once per move"
+  ],
+  "matches": {
+    "games": 12,
+    "wins": 5,
+    "draws": 3,
+    "losses": 4,
+    "unfinished": 0,
+    "score": 6.5
+  },
+  "interpretation": "Performance gain confirmed on six identical fixed-depth searches; 12 short paired games are insufficient to establish a statistically reliable strength gain."
+}

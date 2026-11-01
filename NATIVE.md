@@ -38,3 +38,16 @@ The benchmark does not load an opening book into the engine. It uses determinist
 Configure lichess-bot for UCI and the executable `clash-native` in `engine/`; no Python interpreter is needed for this launch. Disable online moves, books and tablebases. Keep the bot:play token private. Live Lichess testing is still required, as are the BOT account, organiser access to the repository, and submission of the separately scoped challenge token. Freeze the same executable for both tournament stages.
 
 A separate full-strength Stockfish 19 game at a 0.25-second requested move limit ended in a normal loss after 60 plies. No technical failure was recorded. This remains a large strength gap; the native engine is not claimed to beat Stockfish.
+
+
+## Native v0.6 performance candidate
+
+The current build adds target-based attack detection, pawn-square lists/cached king positions within evaluation, direct king-ring enumeration, and precomputed move ordering scores. Evaluation weights and search decisions at a fixed completed depth were preserved. Across six depth-4 comparisons against commit `26817ac`, chosen moves, scores and searched node counts matched exactly; median elapsed-time speedup was 1.62x (range 1.53x–1.67x).
+
+Twelve new colour-reversed matches against the previous C++ binary at a 0.1-second requested move limit yielded 5 wins, 3 draws and 4 losses (6.5/12). This is insufficient to establish a statistically reliable strength gain. Baseline binary hashes and a baseline rebuild script are provided; rebuilding the baseline requires a Git clone with the historical commit, not only the ZIP.
+
+Two actual 180+2 games against Stockfish 19 configured with `Skill Level=3` were wins: White in 53 plies and Black in 44 plies. Both ended normally without recorded technical failures. Opponent threads were set to one and hash to 64 MB. These were concurrent local test games; they are not live Lichess tests, full-strength Stockfish wins, a reliable win-rate estimate, or a guarantee about the competition field.
+
+The candidate repeated the 2,000-position differential tests, perft checks, UCI/clock/interruption checks and address/undefined-behaviour sanitizer run. See `native-improvement-summary.json`, `native-improvement-fixed.json`, `native-improvement-matches.json`, and the `native-v06-level3-*` reports/PGNs.
+
+The BOT account has not been created. See `BOT-SETUP.md` for the remaining live-hosting and submission steps.

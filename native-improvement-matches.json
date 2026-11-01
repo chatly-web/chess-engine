@@ -1,0 +1,90 @@
+{
+  "games": [
+    {
+      "seed": 0,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 96
+    },
+    {
+      "seed": 0,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 100
+    },
+    {
+      "seed": 1,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 113
+    },
+    {
+      "seed": 1,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 62
+    },
+    {
+      "seed": 2,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 131
+    },
+    {
+      "seed": 2,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 97
+    },
+    {
+      "seed": 3,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 145
+    },
+    {
+      "seed": 3,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103
+    },
+    {
+      "seed": 4,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 147
+    },
+    {
+      "seed": 4,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 145
+    },
+    {
+      "seed": 5,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 136
+    },
+    {
+      "seed": 5,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 92
+    }
+  ],
+  "baseline_sha256": "e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825",
+  "candidate_sha256": "9a08443264eb940ecd91887bc0625a9869fba81180b8e195ced22f2225a84ee1"
+}

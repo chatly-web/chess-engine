@@ -34,6 +34,6 @@ def main():
     engine.quit()
    except Exception as exc:print("Opponent cleanup: "+type(exc).__name__,file=sys.stderr)
    finally:engine.close()
- report=dict(opponent=opponent_id,our_colour=a.colour,base=a.base,increment=a.increment,movetime=a.movetime,result=result,failure=failure,finished=result!='*',plies=b.ply(),seconds=time.monotonic()-start,moves=log,source_hashes=hashes)
+ report=dict(opponent=opponent_id,skill_level=a.skill_level,opponent_options=options,our_colour=a.colour,base=a.base,increment=a.increment,movetime=a.movetime,result=result,failure=failure,finished=result!='*',plies=b.ply(),seconds=time.monotonic()-start,moves=log,source_hashes=hashes)
  (ROOT/(a.label+'.json')).write_text(json.dumps(report,indent=2));g=chess.pgn.Game.from_board(b);g.headers.update(White='Clash' if white else opponent_id.get('name','Opponent'),Black=opponent_id.get('name','Opponent') if white else 'Clash',Result=result,TimeControl=f'{a.base}+{a.increment}' if not a.movetime else f'{a.movetime}s/move');(ROOT/(a.label+'.pgn')).write_text(str(g)+'\n');print(json.dumps({k:v for k,v in report.items() if k not in ('moves','source_hashes')}),flush=True)
 if __name__=='__main__':main()

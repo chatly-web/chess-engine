@@ -1,6 +1,6 @@
 # Recommended native C++ launch
 
-Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-native.sh` on your hosting system. See [NATIVE.md](NATIVE.md) for source, validation, limitations and setup. The Python implementation below remains the reference and tuning version.
+Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-native.sh` on your hosting system. See [NATIVE.md](NATIVE.md) for source, validation, limitations and setup. The Python implementation below remains the reference and tuning version. The current native candidate is 1.62x faster on the fixed-search comparison suite and won both recorded 3+2 games against reduced-strength Stockfish Level 3; the two-game sample is not a win-rate guarantee.
 
 # Clash Original 0.4.1
 
