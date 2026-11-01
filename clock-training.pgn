@@ -1,0 +1,29 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Clash"]
+[Result "1/2-1/2"]
+[TimeControl "180+2"]
+[TrainingGroup "clock-training"]
+[EngineSHA256 "09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648:e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825"]
+[WhiteVariant "09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648"]
+[BlackVariant "e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nc6 4. Nc3 Qe6+ 5. Be2 Bd7 6. O-O O-O-O 7. d4 Qf5 8. d5 Ne5 9. Qd4 Nxf3+ 10. Bxf3 Kb8 11. Be3 b6 12. Bf4 Nf6 13. Qc4 Ne8 14. Bg3 Nd6 15. Qe2 e6 16. Rad1 Be7 17. Rc1 Rhe8 18. Rfd1 exd5 19. Rxd5 Qe6 20. Re5 Qh6 21. Rd1 Bh4 22. Bxh4 Qxh4 23. Rxe8 Rxe8 24. Qd3 Be6 25. g3 Qh3 26. Nd5 Qf5 27. Qxf5 Bxf5 28. Ne3 Be6 29. a4 g5 30. b4 a5 31. Bc6 Rd8 32. bxa5 bxa5 33. c4 f5 34. c5 Nf7 35. Rb1+ Kc8 36. Rb5 Ne5 37. Bb7+ Kd7 38. Rxa5 f4 39. Nf1 fxg3 40. fxg3 g4 41. Be4 h5 42. Ra7 Nc6 43. Bxc6+ Kxc6 44. Ra6+ Kd5 45. Ne3+ Ke5 46. a5 Rd3 47. Nf1 Bc4 48. Ra8 Ra3 49. Nd2 Bd5 50. Ra7 c6 51. a6 Kd4 52. Ra8 Ra1+ 53. Kf2 Ra2 54. Ke1 Kxc5 55. a7 Ra5 56. Kf2 Ra3 57. Ke2 Ra2 58. Ke3 Ra3+ 59. Ke2 Ra2 60. Ke3 Kb6 61. Rh8 Rxa7 62. Rxh5 Ra3+ 63. Ke2 Ra7 64. Rg5 Be6 65. Ke3 Ra3+ 66. Kf4 Ra2 67. Ke3 Ra3+ 68. Ke2 Ra2 69. Ke3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Clash"]
+[Result "1-0"]
+[TimeControl "180+2"]
+[TrainingGroup "clock-training"]
+[EngineSHA256 "09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648:e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825"]
+[WhiteVariant "e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825"]
+[BlackVariant "09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648"]
+
+1. Nf3 Nf6 2. e3 Nc6 3. Bb5 e6 4. O-O Bd6 5. Nc3 O-O 6. d4 Qe7 7. Bd2 a6 8. Bd3 b5 9. e4 e5 10. d5 Nd4 11. a3 c5 12. Be3 Bb7 13. b3 Rac8 14. Nd2 Rfe8 15. Re1 b4 16. Na4 bxa3 17. Nc4 Bc7 18. Rxa3 d6 19. Nc3 Ra8 20. Ra1 a5 21. Bxd4 exd4 22. Nb5 Bb8 23. Qd2 Ng4 24. Nxa5 Qe5 25. f4 Qe7 26. h3 Ne3 27. f5 Ba6 28. Nc6 Qh4 29. Qf2 Qg5 30. Nbxd4 cxd4 31. Bxa6 Rxe4 32. Nxd4 Qf6 33. Rxe3 Qxd4 34. Rxe4 Qxa1+ 35. Re1 Rxa6 36. Kh2 Qxe1 37. Qxe1 Kf8 38. Qb4 Ba7 39. Qb5 Ra1 40. Qd7 Bg1+ 41. Kg3 Re1 42. Qxd6+ Re7 43. Qb8+ Re8 44. Qb4+ Kg8 45. d6 g6 46. d7 Rd8 47. f6 h5 48. Qe7 Bb6 49. Qe8+ Kh7 50. Qxf7+ Kh6 51. h4 Bc7+ 52. Kf3 Rxd7 53. Qxd7 Be5 54. Qg7# 1-0

@@ -1,3 +1,7 @@
+## Outcome-based self-play training
+
+See [TRAINING-CYCLE.md](TRAINING-CYCLE.md) for the completed 402-game training experiment and 160 held-out validation games. The fitted candidate was not promoted; the recommended executable retains the previous weights. Native build-time scalar tuning is now supported.
+
 # Recommended native C++ launch
 
 Run `./engine/clash-native` on Apple Silicon macOS, or rebuild with `./build-native.sh` on your hosting system. See [NATIVE.md](NATIVE.md) for source, validation, limitations and setup. The Python implementation below remains the reference and tuning version. The current native candidate is 1.62x faster on the fixed-search comparison suite and won both recorded 3+2 games against reduced-strength Stockfish Level 3; the two-game sample is not a win-rate guarantee.

@@ -1,0 +1,104 @@
+[
+  {
+    "position": 0,
+    "candidate": {
+      "move": "b1c3",
+      "score": 6,
+      "depth": 4,
+      "nodes": 1432,
+      "seconds": 0.006083333999999996
+    },
+    "baseline": {
+      "move": "b1c3",
+      "score": 6,
+      "depth": 4,
+      "nodes": 1432,
+      "seconds": 0.008188166999999996
+    }
+  },
+  {
+    "position": 1,
+    "candidate": {
+      "move": "d1g4",
+      "score": 200,
+      "depth": 4,
+      "nodes": 2904,
+      "seconds": 0.012808333000000005
+    },
+    "baseline": {
+      "move": "d1g4",
+      "score": 200,
+      "depth": 4,
+      "nodes": 2904,
+      "seconds": 0.018011625000000003
+    }
+  },
+  {
+    "position": 2,
+    "candidate": {
+      "move": "e4d5",
+      "score": -161,
+      "depth": 4,
+      "nodes": 10328,
+      "seconds": 0.04574924999999999
+    },
+    "baseline": {
+      "move": "e4d5",
+      "score": -161,
+      "depth": 4,
+      "nodes": 10328,
+      "seconds": 0.0657605
+    }
+  },
+  {
+    "position": 3,
+    "candidate": {
+      "move": "f4e5",
+      "score": 285,
+      "depth": 4,
+      "nodes": 16211,
+      "seconds": 0.07450616700000001
+    },
+    "baseline": {
+      "move": "f4e5",
+      "score": 285,
+      "depth": 4,
+      "nodes": 16211,
+      "seconds": 0.104435834
+    }
+  },
+  {
+    "position": 4,
+    "candidate": {
+      "move": "c3b4",
+      "score": 694,
+      "depth": 4,
+      "nodes": 24153,
+      "seconds": 0.10308229199999996
+    },
+    "baseline": {
+      "move": "c3b4",
+      "score": 694,
+      "depth": 4,
+      "nodes": 24153,
+      "seconds": 0.14125875
+    }
+  },
+  {
+    "position": 5,
+    "candidate": {
+      "move": "f1d3",
+      "score": 570,
+      "depth": 4,
+      "nodes": 26227,
+      "seconds": 0.12481462499999996
+    },
+    "baseline": {
+      "move": "f1d3",
+      "score": 570,
+      "depth": 4,
+      "nodes": 26227,
+      "seconds": 0.1654407080000001
+    }
+  }
+]

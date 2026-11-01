@@ -15,7 +15,9 @@ def extract(path,output,source):
    if game.errors:raise ValueError('Invalid PGN')
    result={'1-0':1.,'0-1':0.,'1/2-1/2':.5}.get(game.headers.get('Result'))
    if result is None:continue
-   gid=hashlib.sha256(str(game).encode()).hexdigest();b=game.board()
+   group=game.headers.get('TrainingGroup')
+   identity=(game.headers.get('EngineSHA256','')+':'+group) if source=='selfplay' and group is not None else str(game)
+   gid=hashlib.sha256(identity.encode()).hexdigest();b=game.board()
    for m in game.mainline_moves():
     b.push(m)
     if b.ply()<12 or b.ply()%4 or b.is_check() or b.is_game_over():continue
@@ -29,6 +31,13 @@ def train(path,output):
  games=sorted({r['game'] for r in rows});random.Random(17).shuffle(games)
  if len(games)<4:raise ValueError('At least four independent completed games required')
  hold=set(games[:max(1,len(games)//4)]);train=[r for r in rows if r['game'] not in hold];valid=[r for r in rows if r['game'] in hold]
+ # Remove canonical positions shared with the validation partition, including
+ # mirrored equivalents. Group separation alone cannot prevent transpositions.
+ def canonical(row):
+  b=chess.Board(row['fen'])
+  return min(' '.join(b.fen().split()[:4]),' '.join(b.mirror().fen().split()[:4]))
+ held_positions={canonical(r) for r in valid}
+ train=[r for r in train if canonical(r) not in held_positions]
  if not train or not valid:raise ValueError('Empty train/validation partition')
  engine=search.Search();boards={r['fen']:chess.Board(r['fen']) for r in rows}
  def loss(data,k):
@@ -45,7 +54,7 @@ def train(path,output):
   v=loss(valid,k)
   if v<bestvalid:bestvalid=v;best=dict(search.EVAL_WEIGHTS)
  search.EVAL_WEIGHTS.update(original)
- result=dict(weights=best,K=k,training_positions=len(train),validation_positions=len(valid),training_games=len(games)-len(hold),validation_games=len(hold),validation_before=before,validation_after=bestvalid,promoted=False,note='Experimental. Validation error is not playing strength; requires independent selfplay SPRT before promotion.')
+ result=dict(weights=best,K=k,training_positions=len(train),validation_positions=len(valid),training_game_groups=len(games)-len(hold),validation_game_groups=len(hold),data_sha256=hashlib.sha256(pathlib.Path(path).read_bytes()).hexdigest(),validation_before=before,validation_after=bestvalid,promoted=False,note='Experimental. Validation error is not playing strength; requires independent selfplay SPRT before promotion.')
  pathlib.Path(output).write_text(json.dumps(result,indent=2));return result
 if __name__=='__main__':
  p=argparse.ArgumentParser();sub=p.add_subparsers(dest='command',required=True)

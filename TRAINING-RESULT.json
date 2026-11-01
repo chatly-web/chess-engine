@@ -1,0 +1,20 @@
+{
+  "training_games": 402,
+  "pilot_games": 40,
+  "validation_games": 160,
+  "quiet_positions": 1296,
+  "final_candidate_points": 33.0,
+  "final_candidate_games": 64,
+  "final_candidate_wins": 24,
+  "final_candidate_draws": 18,
+  "final_candidate_losses": 22,
+  "promotion": false,
+  "promotion_reason": "Paired SPRT inconclusive; no statistically established strength gain",
+  "recommended_executable": "engine/clash-native",
+  "experimental_executable": "engine/clash-match-trained-efficient-experimental",
+  "inference_speedup_median": 1.3860282880372323,
+  "validation_loss_before": 0.058461580205626376,
+  "validation_loss_after": 0.05781843697927765,
+  "accuracy": "No reproducible Lichess accuracy measurement or near-100% guarantee",
+  "training_source": "Only original-engine moves and game outcomes; no external engine labels"
+}

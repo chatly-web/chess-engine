@@ -1,0 +1,2 @@
+{'a_white': True, 'result': '1/2-1/2', 'failure': None, 'plies': 137, 'base': 180, 'increment': 2, 'engine_sha256': ['09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648', 'e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825'], 'duration': 561.1000615840001}
+{'a_white': False, 'result': '1-0', 'failure': None, 'plies': 107, 'base': 180, 'increment': 2, 'engine_sha256': ['09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648', 'e8af578b1c6711c6fc14918af20e155e2da255705d05920fc098319a8b04e825'], 'duration': 450.912518833}

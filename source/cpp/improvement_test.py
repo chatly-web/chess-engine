@@ -1,7 +1,7 @@
 """Performance-only candidate gate against a specified frozen native baseline."""
-import argparse,chess,chess.engine,chess.pgn,pathlib,time,random,json,hashlib
+import sys,argparse,chess,chess.engine,chess.pgn,pathlib,time,random,json,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[2]
-p=argparse.ArgumentParser();p.add_argument('--baseline',required=True);a=p.parse_args();cmds={'candidate':str(ROOT/'engine/clash-native'),'baseline':str(pathlib.Path(a.baseline).resolve())}
+p=argparse.ArgumentParser();p.add_argument('--baseline',required=True);p.add_argument('--candidate');p.add_argument('--label',default='native-improvement');p.add_argument('--fixed-only',action='store_true');a=p.parse_args();cmds={'candidate':str(pathlib.Path(a.candidate).resolve()) if a.candidate else str(ROOT/'engine/clash-native'),'baseline':str(pathlib.Path(a.baseline).resolve())}
 positions=[];rng=random.Random(317);b=chess.Board();positions.append(b.copy())
 for i in range(40):
  b.push(rng.choice(list(b.legal_moves)))
@@ -18,7 +18,8 @@ for i,b in enumerate(positions):
  assert pair['candidate']['score']==pair['baseline']['score'],pair
  assert pair['candidate']['nodes']==pair['baseline']['nodes'],pair
  fixed.append(dict(position=i,**pair));print(fixed[-1],flush=True)
-(ROOT/'native-improvement-fixed.json').write_text(json.dumps(fixed,indent=2))
+(ROOT/(a.label+'-fixed.json')).write_text(json.dumps(fixed,indent=2))
+if a.fixed_only:sys.exit(0)
 games=[];pgn=[]
 for seed in range(6):
  rng=random.Random(8700+seed);initial=chess.Board()
@@ -31,4 +32,4 @@ for seed in range(6):
   result=b.result(claim_draw=True);score=None if result=='*' else .5 if result=='1/2-1/2' else float((result=='1-0')==white)
   row=dict(seed=seed,candidate_white=white,result=result,score=score,plies=b.ply());games.append(row);print(row,flush=True)
   game=chess.pgn.Game.from_board(b);game.headers.update(White='Candidate' if white else 'v0.5',Black='v0.5' if white else 'Candidate',Result=result);pgn.append(str(game))
-(ROOT/'native-improvement-matches.json').write_text(json.dumps(dict(games=games,baseline_sha256=hashlib.sha256(pathlib.Path(cmds['baseline']).read_bytes()).hexdigest(),candidate_sha256=hashlib.sha256(pathlib.Path(cmds['candidate']).read_bytes()).hexdigest()),indent=2));(ROOT/'native-improvement-matches.pgn').write_text('\n\n'.join(pgn)+'\n')
+(ROOT/(a.label+'-matches.json')).write_text(json.dumps(dict(games=games,baseline_sha256=hashlib.sha256(pathlib.Path(cmds['baseline']).read_bytes()).hexdigest(),candidate_sha256=hashlib.sha256(pathlib.Path(cmds['candidate']).read_bytes()).hexdigest()),indent=2));(ROOT/(a.label+'-matches.pgn')).write_text('\n\n'.join(pgn)+'\n')

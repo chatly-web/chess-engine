@@ -1,0 +1,2010 @@
+{
+  "source": "selfplay",
+  "engine_sha256": "9a08443264eb940ecd91887bc0625a9869fba81180b8e195ced22f2225a84ee1",
+  "games": [
+    {
+      "index": 0,
+      "result": "1-0",
+      "plies": 77
+    },
+    {
+      "index": 1,
+      "result": "1/2-1/2",
+      "plies": 148
+    },
+    {
+      "index": 2,
+      "result": "1-0",
+      "plies": 79
+    },
+    {
+      "index": 3,
+      "result": "0-1",
+      "plies": 138
+    },
+    {
+      "index": 4,
+      "result": "1-0",
+      "plies": 89
+    },
+    {
+      "index": 5,
+      "result": "0-1",
+      "plies": 86
+    },
+    {
+      "index": 6,
+      "result": "1-0",
+      "plies": 75
+    },
+    {
+      "index": 7,
+      "result": "1/2-1/2",
+      "plies": 45
+    },
+    {
+      "index": 8,
+      "result": "1-0",
+      "plies": 65
+    },
+    {
+      "index": 9,
+      "result": "0-1",
+      "plies": 102
+    },
+    {
+      "index": 10,
+      "result": "0-1",
+      "plies": 104
+    },
+    {
+      "index": 11,
+      "result": "0-1",
+      "plies": 88
+    },
+    {
+      "index": 12,
+      "result": "1/2-1/2",
+      "plies": 148
+    },
+    {
+      "index": 13,
+      "result": "1-0",
+      "plies": 141
+    },
+    {
+      "index": 14,
+      "result": "1-0",
+      "plies": 111
+    },
+    {
+      "index": 15,
+      "result": "0-1",
+      "plies": 108
+    },
+    {
+      "index": 16,
+      "result": "1-0",
+      "plies": 71
+    },
+    {
+      "index": 17,
+      "result": "1/2-1/2",
+      "plies": 61
+    },
+    {
+      "index": 18,
+      "result": "1-0",
+      "plies": 79
+    },
+    {
+      "index": 19,
+      "result": "1-0",
+      "plies": 111
+    },
+    {
+      "index": 20,
+      "result": "0-1",
+      "plies": 104
+    },
+    {
+      "index": 21,
+      "result": "1-0",
+      "plies": 51
+    },
+    {
+      "index": 22,
+      "result": "0-1",
+      "plies": 134
+    },
+    {
+      "index": 23,
+      "result": "1-0",
+      "plies": 139
+    },
+    {
+      "index": 24,
+      "result": "1-0",
+      "plies": 147
+    },
+    {
+      "index": 25,
+      "result": "1-0",
+      "plies": 125
+    },
+    {
+      "index": 26,
+      "result": "0-1",
+      "plies": 104
+    },
+    {
+      "index": 27,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 28,
+      "result": "1/2-1/2",
+      "plies": 106
+    },
+    {
+      "index": 29,
+      "result": "1/2-1/2",
+      "plies": 89
+    },
+    {
+      "index": 30,
+      "result": "0-1",
+      "plies": 134
+    },
+    {
+      "index": 31,
+      "result": "0-1",
+      "plies": 96
+    },
+    {
+      "index": 32,
+      "result": "1-0",
+      "plies": 79
+    },
+    {
+      "index": 33,
+      "result": "0-1",
+      "plies": 66
+    },
+    {
+      "index": 34,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 35,
+      "result": "0-1",
+      "plies": 98
+    },
+    {
+      "index": 36,
+      "result": "1-0",
+      "plies": 125
+    },
+    {
+      "index": 37,
+      "result": "0-1",
+      "plies": 132
+    },
+    {
+      "index": 38,
+      "result": "1-0",
+      "plies": 115
+    },
+    {
+      "index": 39,
+      "result": "1/2-1/2",
+      "plies": 102
+    },
+    {
+      "index": 40,
+      "result": "0-1",
+      "plies": 108
+    },
+    {
+      "index": 41,
+      "result": "1/2-1/2",
+      "plies": 144
+    },
+    {
+      "index": 42,
+      "result": "0-1",
+      "plies": 152
+    },
+    {
+      "index": 43,
+      "result": "1-0",
+      "plies": 113
+    },
+    {
+      "index": 44,
+      "result": "1/2-1/2",
+      "plies": 131
+    },
+    {
+      "index": 45,
+      "result": "1-0",
+      "plies": 71
+    },
+    {
+      "index": 46,
+      "result": "0-1",
+      "plies": 106
+    },
+    {
+      "index": 47,
+      "result": "1-0",
+      "plies": 111
+    },
+    {
+      "index": 48,
+      "result": "1-0",
+      "plies": 145
+    },
+    {
+      "index": 49,
+      "result": "1/2-1/2",
+      "plies": 52
+    },
+    {
+      "index": 50,
+      "result": "1-0",
+      "plies": 111
+    },
+    {
+      "index": 51,
+      "result": "1/2-1/2",
+      "plies": 238
+    },
+    {
+      "index": 52,
+      "result": "0-1",
+      "plies": 122
+    },
+    {
+      "index": 53,
+      "result": "0-1",
+      "plies": 104
+    },
+    {
+      "index": 54,
+      "result": "1/2-1/2",
+      "plies": 54
+    },
+    {
+      "index": 55,
+      "result": "0-1",
+      "plies": 100
+    },
+    {
+      "index": 56,
+      "result": "1/2-1/2",
+      "plies": 108
+    },
+    {
+      "index": 57,
+      "result": "1/2-1/2",
+      "plies": 133
+    },
+    {
+      "index": 58,
+      "result": "0-1",
+      "plies": 198
+    },
+    {
+      "index": 59,
+      "result": "1/2-1/2",
+      "plies": 74
+    },
+    {
+      "index": 60,
+      "result": "0-1",
+      "plies": 130
+    },
+    {
+      "index": 61,
+      "result": "0-1",
+      "plies": 126
+    },
+    {
+      "index": 62,
+      "result": "1-0",
+      "plies": 53
+    },
+    {
+      "index": 63,
+      "result": "1-0",
+      "plies": 143
+    },
+    {
+      "index": 64,
+      "result": "0-1",
+      "plies": 156
+    },
+    {
+      "index": 65,
+      "result": "1/2-1/2",
+      "plies": 121
+    },
+    {
+      "index": 66,
+      "result": "1-0",
+      "plies": 147
+    },
+    {
+      "index": 67,
+      "result": "0-1",
+      "plies": 62
+    },
+    {
+      "index": 68,
+      "result": "1/2-1/2",
+      "plies": 84
+    },
+    {
+      "index": 69,
+      "result": "1-0",
+      "plies": 113
+    },
+    {
+      "index": 70,
+      "result": "1-0",
+      "plies": 103
+    },
+    {
+      "index": 71,
+      "result": "0-1",
+      "plies": 88
+    },
+    {
+      "index": 72,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 73,
+      "result": "1-0",
+      "plies": 63
+    },
+    {
+      "index": 74,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 75,
+      "result": "0-1",
+      "plies": 118
+    },
+    {
+      "index": 76,
+      "result": "1-0",
+      "plies": 151
+    },
+    {
+      "index": 77,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 78,
+      "result": "1/2-1/2",
+      "plies": 91
+    },
+    {
+      "index": 79,
+      "result": "0-1",
+      "plies": 68
+    },
+    {
+      "index": 80,
+      "result": "1/2-1/2",
+      "plies": 100
+    },
+    {
+      "index": 81,
+      "result": "1/2-1/2",
+      "plies": 61
+    },
+    {
+      "index": 82,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 83,
+      "result": "1/2-1/2",
+      "plies": 114
+    },
+    {
+      "index": 84,
+      "result": "1-0",
+      "plies": 101
+    },
+    {
+      "index": 85,
+      "result": "0-1",
+      "plies": 94
+    },
+    {
+      "index": 86,
+      "result": "1-0",
+      "plies": 115
+    },
+    {
+      "index": 87,
+      "result": "0-1",
+      "plies": 102
+    },
+    {
+      "index": 88,
+      "result": "1-0",
+      "plies": 121
+    },
+    {
+      "index": 89,
+      "result": "1-0",
+      "plies": 133
+    },
+    {
+      "index": 90,
+      "result": "1-0",
+      "plies": 119
+    },
+    {
+      "index": 91,
+      "result": "1/2-1/2",
+      "plies": 122
+    },
+    {
+      "index": 92,
+      "result": "0-1",
+      "plies": 98
+    },
+    {
+      "index": 93,
+      "result": "1-0",
+      "plies": 109
+    },
+    {
+      "index": 94,
+      "result": "1-0",
+      "plies": 57
+    },
+    {
+      "index": 95,
+      "result": "1/2-1/2",
+      "plies": 150
+    },
+    {
+      "index": 96,
+      "result": "0-1",
+      "plies": 122
+    },
+    {
+      "index": 97,
+      "result": "1-0",
+      "plies": 157
+    },
+    {
+      "index": 98,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 99,
+      "result": "1-0",
+      "plies": 77
+    },
+    {
+      "index": 100,
+      "result": "1-0",
+      "plies": 81
+    },
+    {
+      "index": 101,
+      "result": "1/2-1/2",
+      "plies": 136
+    },
+    {
+      "index": 102,
+      "result": "1-0",
+      "plies": 83
+    },
+    {
+      "index": 103,
+      "result": "0-1",
+      "plies": 42
+    },
+    {
+      "index": 104,
+      "result": "0-1",
+      "plies": 142
+    },
+    {
+      "index": 105,
+      "result": "1/2-1/2",
+      "plies": 195
+    },
+    {
+      "index": 106,
+      "result": "1-0",
+      "plies": 137
+    },
+    {
+      "index": 107,
+      "result": "0-1",
+      "plies": 148
+    },
+    {
+      "index": 108,
+      "result": "0-1",
+      "plies": 82
+    },
+    {
+      "index": 109,
+      "result": "1/2-1/2",
+      "plies": 134
+    },
+    {
+      "index": 110,
+      "result": "0-1",
+      "plies": 98
+    },
+    {
+      "index": 111,
+      "result": "1-0",
+      "plies": 89
+    },
+    {
+      "index": 112,
+      "result": "1-0",
+      "plies": 101
+    },
+    {
+      "index": 113,
+      "result": "0-1",
+      "plies": 148
+    },
+    {
+      "index": 114,
+      "result": "1-0",
+      "plies": 109
+    },
+    {
+      "index": 115,
+      "result": "0-1",
+      "plies": 126
+    },
+    {
+      "index": 116,
+      "result": "1/2-1/2",
+      "plies": 127
+    },
+    {
+      "index": 117,
+      "result": "1/2-1/2",
+      "plies": 43
+    },
+    {
+      "index": 118,
+      "result": "1/2-1/2",
+      "plies": 54
+    },
+    {
+      "index": 119,
+      "result": "1-0",
+      "plies": 93
+    },
+    {
+      "index": 120,
+      "result": "1/2-1/2",
+      "plies": 83
+    },
+    {
+      "index": 121,
+      "result": "0-1",
+      "plies": 114
+    },
+    {
+      "index": 122,
+      "result": "1-0",
+      "plies": 93
+    },
+    {
+      "index": 123,
+      "result": "0-1",
+      "plies": 156
+    },
+    {
+      "index": 124,
+      "result": "1/2-1/2",
+      "plies": 110
+    },
+    {
+      "index": 125,
+      "result": "0-1",
+      "plies": 116
+    },
+    {
+      "index": 126,
+      "result": "1/2-1/2",
+      "plies": 100
+    },
+    {
+      "index": 127,
+      "result": "1/2-1/2",
+      "plies": 139
+    },
+    {
+      "index": 128,
+      "result": "1-0",
+      "plies": 137
+    },
+    {
+      "index": 129,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 130,
+      "result": "1/2-1/2",
+      "plies": 65
+    },
+    {
+      "index": 131,
+      "result": "1/2-1/2",
+      "plies": 204
+    },
+    {
+      "index": 132,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 133,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 134,
+      "result": "1-0",
+      "plies": 101
+    },
+    {
+      "index": 135,
+      "result": "0-1",
+      "plies": 56
+    },
+    {
+      "index": 136,
+      "result": "1/2-1/2",
+      "plies": 175
+    },
+    {
+      "index": 137,
+      "result": "0-1",
+      "plies": 142
+    },
+    {
+      "index": 138,
+      "result": "1-0",
+      "plies": 9
+    },
+    {
+      "index": 139,
+      "result": "0-1",
+      "plies": 10
+    },
+    {
+      "index": 140,
+      "result": "1/2-1/2",
+      "plies": 104
+    },
+    {
+      "index": 141,
+      "result": "1/2-1/2",
+      "plies": 158
+    },
+    {
+      "index": 142,
+      "result": "1/2-1/2",
+      "plies": 77
+    },
+    {
+      "index": 143,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 144,
+      "result": "1/2-1/2",
+      "plies": 65
+    },
+    {
+      "index": 145,
+      "result": "1/2-1/2",
+      "plies": 123
+    },
+    {
+      "index": 146,
+      "result": "1-0",
+      "plies": 77
+    },
+    {
+      "index": 147,
+      "result": "0-1",
+      "plies": 78
+    },
+    {
+      "index": 148,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 149,
+      "result": "0-1",
+      "plies": 116
+    },
+    {
+      "index": 150,
+      "result": "1-0",
+      "plies": 115
+    },
+    {
+      "index": 151,
+      "result": "1/2-1/2",
+      "plies": 67
+    },
+    {
+      "index": 152,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 153,
+      "result": "0-1",
+      "plies": 58
+    },
+    {
+      "index": 154,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 155,
+      "result": "1-0",
+      "plies": 169
+    },
+    {
+      "index": 156,
+      "result": "0-1",
+      "plies": 118
+    },
+    {
+      "index": 157,
+      "result": "1/2-1/2",
+      "plies": 85
+    },
+    {
+      "index": 158,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 159,
+      "result": "1/2-1/2",
+      "plies": 122
+    },
+    {
+      "index": 160,
+      "result": "1-0",
+      "plies": 47
+    },
+    {
+      "index": 161,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 162,
+      "result": "0-1",
+      "plies": 100
+    },
+    {
+      "index": 163,
+      "result": "0-1",
+      "plies": 82
+    },
+    {
+      "index": 164,
+      "result": "0-1",
+      "plies": 98
+    },
+    {
+      "index": 165,
+      "result": "1-0",
+      "plies": 133
+    },
+    {
+      "index": 166,
+      "result": "1/2-1/2",
+      "plies": 98
+    },
+    {
+      "index": 167,
+      "result": "1/2-1/2",
+      "plies": 83
+    },
+    {
+      "index": 168,
+      "result": "1-0",
+      "plies": 61
+    },
+    {
+      "index": 169,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 170,
+      "result": "1-0",
+      "plies": 59
+    },
+    {
+      "index": 171,
+      "result": "0-1",
+      "plies": 96
+    },
+    {
+      "index": 172,
+      "result": "0-1",
+      "plies": 128
+    },
+    {
+      "index": 173,
+      "result": "0-1",
+      "plies": 94
+    },
+    {
+      "index": 174,
+      "result": "1/2-1/2",
+      "plies": 151
+    },
+    {
+      "index": 175,
+      "result": "1/2-1/2",
+      "plies": 125
+    },
+    {
+      "index": 176,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 177,
+      "result": "1/2-1/2",
+      "plies": 163
+    },
+    {
+      "index": 178,
+      "result": "1-0",
+      "plies": 95
+    },
+    {
+      "index": 179,
+      "result": "1/2-1/2",
+      "plies": 136
+    },
+    {
+      "index": 180,
+      "result": "1/2-1/2",
+      "plies": 50
+    },
+    {
+      "index": 181,
+      "result": "1/2-1/2",
+      "plies": 132
+    },
+    {
+      "index": 182,
+      "result": "0-1",
+      "plies": 156
+    },
+    {
+      "index": 183,
+      "result": "1-0",
+      "plies": 95
+    },
+    {
+      "index": 184,
+      "result": "0-1",
+      "plies": 116
+    },
+    {
+      "index": 185,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 186,
+      "result": "1-0",
+      "plies": 49
+    },
+    {
+      "index": 187,
+      "result": "0-1",
+      "plies": 178
+    },
+    {
+      "index": 188,
+      "result": "1/2-1/2",
+      "plies": 57
+    },
+    {
+      "index": 189,
+      "result": "1-0",
+      "plies": 115
+    },
+    {
+      "index": 190,
+      "result": "1-0",
+      "plies": 125
+    },
+    {
+      "index": 191,
+      "result": "0-1",
+      "plies": 92
+    },
+    {
+      "index": 192,
+      "result": "1-0",
+      "plies": 161
+    },
+    {
+      "index": 193,
+      "result": "1/2-1/2",
+      "plies": 124
+    },
+    {
+      "index": 194,
+      "result": "1-0",
+      "plies": 145
+    },
+    {
+      "index": 195,
+      "result": "1/2-1/2",
+      "plies": 154
+    },
+    {
+      "index": 196,
+      "result": "1-0",
+      "plies": 63
+    },
+    {
+      "index": 197,
+      "result": "0-1",
+      "plies": 98
+    },
+    {
+      "index": 198,
+      "result": "1/2-1/2",
+      "plies": 109
+    },
+    {
+      "index": 199,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 200,
+      "result": "0-1",
+      "plies": 140
+    },
+    {
+      "index": 201,
+      "result": "0-1",
+      "plies": 58
+    },
+    {
+      "index": 202,
+      "result": "1/2-1/2",
+      "plies": 131
+    },
+    {
+      "index": 203,
+      "result": "0-1",
+      "plies": 130
+    },
+    {
+      "index": 204,
+      "result": "1/2-1/2",
+      "plies": 71
+    },
+    {
+      "index": 205,
+      "result": "0-1",
+      "plies": 114
+    },
+    {
+      "index": 206,
+      "result": "1/2-1/2",
+      "plies": 128
+    },
+    {
+      "index": 207,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 208,
+      "result": "1-0",
+      "plies": 59
+    },
+    {
+      "index": 209,
+      "result": "0-1",
+      "plies": 122
+    },
+    {
+      "index": 210,
+      "result": "0-1",
+      "plies": 162
+    },
+    {
+      "index": 211,
+      "result": "1-0",
+      "plies": 121
+    },
+    {
+      "index": 212,
+      "result": "1-0",
+      "plies": 97
+    },
+    {
+      "index": 213,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 214,
+      "result": "1-0",
+      "plies": 99
+    },
+    {
+      "index": 215,
+      "result": "0-1",
+      "plies": 142
+    },
+    {
+      "index": 216,
+      "result": "0-1",
+      "plies": 68
+    },
+    {
+      "index": 217,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 218,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 219,
+      "result": "0-1",
+      "plies": 94
+    },
+    {
+      "index": 220,
+      "result": "1/2-1/2",
+      "plies": 88
+    },
+    {
+      "index": 221,
+      "result": "1/2-1/2",
+      "plies": 114
+    },
+    {
+      "index": 222,
+      "result": "1/2-1/2",
+      "plies": 64
+    },
+    {
+      "index": 223,
+      "result": "1-0",
+      "plies": 131
+    },
+    {
+      "index": 224,
+      "result": "1-0",
+      "plies": 61
+    },
+    {
+      "index": 225,
+      "result": "1-0",
+      "plies": 131
+    },
+    {
+      "index": 226,
+      "result": "0-1",
+      "plies": 128
+    },
+    {
+      "index": 227,
+      "result": "1/2-1/2",
+      "plies": 83
+    },
+    {
+      "index": 228,
+      "result": "1-0",
+      "plies": 89
+    },
+    {
+      "index": 229,
+      "result": "0-1",
+      "plies": 148
+    },
+    {
+      "index": 230,
+      "result": "0-1",
+      "plies": 120
+    },
+    {
+      "index": 231,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 232,
+      "result": "0-1",
+      "plies": 148
+    },
+    {
+      "index": 233,
+      "result": "1-0",
+      "plies": 107
+    },
+    {
+      "index": 234,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 235,
+      "result": "0-1",
+      "plies": 108
+    },
+    {
+      "index": 236,
+      "result": "1-0",
+      "plies": 93
+    },
+    {
+      "index": 237,
+      "result": "1-0",
+      "plies": 111
+    },
+    {
+      "index": 238,
+      "result": "1-0",
+      "plies": 103
+    },
+    {
+      "index": 239,
+      "result": "1/2-1/2",
+      "plies": 101
+    },
+    {
+      "index": 240,
+      "result": "1-0",
+      "plies": 103
+    },
+    {
+      "index": 241,
+      "result": "0-1",
+      "plies": 76
+    },
+    {
+      "index": 242,
+      "result": "0-1",
+      "plies": 104
+    },
+    {
+      "index": 243,
+      "result": "1/2-1/2",
+      "plies": 90
+    },
+    {
+      "index": 244,
+      "result": "1-0",
+      "plies": 37
+    },
+    {
+      "index": 245,
+      "result": "0-1",
+      "plies": 122
+    },
+    {
+      "index": 246,
+      "result": "1-0",
+      "plies": 219
+    },
+    {
+      "index": 247,
+      "result": "1-0",
+      "plies": 85
+    },
+    {
+      "index": 248,
+      "result": "1-0",
+      "plies": 83
+    },
+    {
+      "index": 249,
+      "result": "0-1",
+      "plies": 118
+    },
+    {
+      "index": 250,
+      "result": "1/2-1/2",
+      "plies": 43
+    },
+    {
+      "index": 251,
+      "result": "1/2-1/2",
+      "plies": 81
+    },
+    {
+      "index": 252,
+      "result": "1-0",
+      "plies": 45
+    },
+    {
+      "index": 253,
+      "result": "0-1",
+      "plies": 58
+    },
+    {
+      "index": 254,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 255,
+      "result": "1/2-1/2",
+      "plies": 118
+    },
+    {
+      "index": 256,
+      "result": "1-0",
+      "plies": 95
+    },
+    {
+      "index": 257,
+      "result": "0-1",
+      "plies": 112
+    },
+    {
+      "index": 258,
+      "result": "1-0",
+      "plies": 131
+    },
+    {
+      "index": 259,
+      "result": "1/2-1/2",
+      "plies": 155
+    },
+    {
+      "index": 260,
+      "result": "1-0",
+      "plies": 113
+    },
+    {
+      "index": 261,
+      "result": "0-1",
+      "plies": 140
+    },
+    {
+      "index": 262,
+      "result": "1-0",
+      "plies": 87
+    },
+    {
+      "index": 263,
+      "result": "0-1",
+      "plies": 124
+    },
+    {
+      "index": 264,
+      "result": "1/2-1/2",
+      "plies": 148
+    },
+    {
+      "index": 265,
+      "result": "0-1",
+      "plies": 70
+    },
+    {
+      "index": 266,
+      "result": "1/2-1/2",
+      "plies": 233
+    },
+    {
+      "index": 267,
+      "result": "0-1",
+      "plies": 112
+    },
+    {
+      "index": 268,
+      "result": "1-0",
+      "plies": 75
+    },
+    {
+      "index": 269,
+      "result": "1-0",
+      "plies": 129
+    },
+    {
+      "index": 270,
+      "result": "1-0",
+      "plies": 93
+    },
+    {
+      "index": 271,
+      "result": "1-0",
+      "plies": 119
+    },
+    {
+      "index": 272,
+      "result": "0-1",
+      "plies": 106
+    },
+    {
+      "index": 273,
+      "result": "1-0",
+      "plies": 181
+    },
+    {
+      "index": 274,
+      "result": "0-1",
+      "plies": 102
+    },
+    {
+      "index": 275,
+      "result": "1/2-1/2",
+      "plies": 110
+    },
+    {
+      "index": 276,
+      "result": "0-1",
+      "plies": 86
+    },
+    {
+      "index": 277,
+      "result": "0-1",
+      "plies": 122
+    },
+    {
+      "index": 278,
+      "result": "1/2-1/2",
+      "plies": 116
+    },
+    {
+      "index": 279,
+      "result": "0-1",
+      "plies": 32
+    },
+    {
+      "index": 280,
+      "result": "1-0",
+      "plies": 127
+    },
+    {
+      "index": 281,
+      "result": "1-0",
+      "plies": 103
+    },
+    {
+      "index": 282,
+      "result": "1-0",
+      "plies": 127
+    },
+    {
+      "index": 283,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 284,
+      "result": "1-0",
+      "plies": 93
+    },
+    {
+      "index": 285,
+      "result": "1/2-1/2",
+      "plies": 132
+    },
+    {
+      "index": 286,
+      "result": "1-0",
+      "plies": 129
+    },
+    {
+      "index": 287,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 288,
+      "result": "1-0",
+      "plies": 51
+    },
+    {
+      "index": 289,
+      "result": "0-1",
+      "plies": 140
+    },
+    {
+      "index": 290,
+      "result": "1-0",
+      "plies": 81
+    },
+    {
+      "index": 291,
+      "result": "0-1",
+      "plies": 52
+    },
+    {
+      "index": 292,
+      "result": "0-1",
+      "plies": 56
+    },
+    {
+      "index": 293,
+      "result": "1-0",
+      "plies": 129
+    },
+    {
+      "index": 294,
+      "result": "1-0",
+      "plies": 107
+    },
+    {
+      "index": 295,
+      "result": "1-0",
+      "plies": 63
+    },
+    {
+      "index": 296,
+      "result": "0-1",
+      "plies": 52
+    },
+    {
+      "index": 297,
+      "result": "0-1",
+      "plies": 114
+    },
+    {
+      "index": 298,
+      "result": "1-0",
+      "plies": 89
+    },
+    {
+      "index": 299,
+      "result": "0-1",
+      "plies": 108
+    },
+    {
+      "index": 300,
+      "result": "1-0",
+      "plies": 99
+    },
+    {
+      "index": 301,
+      "result": "1/2-1/2",
+      "plies": 53
+    },
+    {
+      "index": 302,
+      "result": "1/2-1/2",
+      "plies": 128
+    },
+    {
+      "index": 303,
+      "result": "1/2-1/2",
+      "plies": 166
+    },
+    {
+      "index": 304,
+      "result": "1/2-1/2",
+      "plies": 67
+    },
+    {
+      "index": 305,
+      "result": "1/2-1/2",
+      "plies": 117
+    },
+    {
+      "index": 306,
+      "result": "1-0",
+      "plies": 75
+    },
+    {
+      "index": 307,
+      "result": "0-1",
+      "plies": 38
+    },
+    {
+      "index": 308,
+      "result": "1-0",
+      "plies": 51
+    },
+    {
+      "index": 309,
+      "result": "1/2-1/2",
+      "plies": 89
+    },
+    {
+      "index": 310,
+      "result": "1/2-1/2",
+      "plies": 83
+    },
+    {
+      "index": 311,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 312,
+      "result": "1/2-1/2",
+      "plies": 54
+    },
+    {
+      "index": 313,
+      "result": "1-0",
+      "plies": 129
+    },
+    {
+      "index": 314,
+      "result": "1-0",
+      "plies": 71
+    },
+    {
+      "index": 315,
+      "result": "0-1",
+      "plies": 120
+    },
+    {
+      "index": 316,
+      "result": "0-1",
+      "plies": 186
+    },
+    {
+      "index": 317,
+      "result": "1-0",
+      "plies": 99
+    },
+    {
+      "index": 318,
+      "result": "0-1",
+      "plies": 158
+    },
+    {
+      "index": 319,
+      "result": "0-1",
+      "plies": 132
+    },
+    {
+      "index": 320,
+      "result": "1/2-1/2",
+      "plies": 81
+    },
+    {
+      "index": 321,
+      "result": "1/2-1/2",
+      "plies": 41
+    },
+    {
+      "index": 322,
+      "result": "1/2-1/2",
+      "plies": 129
+    },
+    {
+      "index": 323,
+      "result": "0-1",
+      "plies": 148
+    },
+    {
+      "index": 324,
+      "result": "1-0",
+      "plies": 55
+    },
+    {
+      "index": 325,
+      "result": "1/2-1/2",
+      "plies": 61
+    },
+    {
+      "index": 326,
+      "result": "1/2-1/2",
+      "plies": 98
+    },
+    {
+      "index": 327,
+      "result": "0-1",
+      "plies": 94
+    },
+    {
+      "index": 328,
+      "result": "1-0",
+      "plies": 107
+    },
+    {
+      "index": 329,
+      "result": "1-0",
+      "plies": 121
+    },
+    {
+      "index": 330,
+      "result": "1-0",
+      "plies": 97
+    },
+    {
+      "index": 331,
+      "result": "1-0",
+      "plies": 153
+    },
+    {
+      "index": 332,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 333,
+      "result": "0-1",
+      "plies": 88
+    },
+    {
+      "index": 334,
+      "result": "1-0",
+      "plies": 135
+    },
+    {
+      "index": 335,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 336,
+      "result": "1/2-1/2",
+      "plies": 75
+    },
+    {
+      "index": 337,
+      "result": "0-1",
+      "plies": 76
+    },
+    {
+      "index": 338,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 339,
+      "result": "1/2-1/2",
+      "plies": 131
+    },
+    {
+      "index": 340,
+      "result": "1-0",
+      "plies": 143
+    },
+    {
+      "index": 341,
+      "result": "1/2-1/2",
+      "plies": 88
+    },
+    {
+      "index": 342,
+      "result": "1/2-1/2",
+      "plies": 114
+    },
+    {
+      "index": 343,
+      "result": "1-0",
+      "plies": 119
+    },
+    {
+      "index": 344,
+      "result": "0-1",
+      "plies": 78
+    },
+    {
+      "index": 345,
+      "result": "1/2-1/2",
+      "plies": 75
+    },
+    {
+      "index": 346,
+      "result": "1-0",
+      "plies": 123
+    },
+    {
+      "index": 347,
+      "result": "0-1",
+      "plies": 162
+    },
+    {
+      "index": 348,
+      "result": "1/2-1/2",
+      "plies": 159
+    },
+    {
+      "index": 349,
+      "result": "1-0",
+      "plies": 115
+    },
+    {
+      "index": 350,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 351,
+      "result": "1/2-1/2",
+      "plies": 95
+    },
+    {
+      "index": 352,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 353,
+      "result": "0-1",
+      "plies": 132
+    },
+    {
+      "index": 354,
+      "result": "1/2-1/2",
+      "plies": 100
+    },
+    {
+      "index": 355,
+      "result": "1/2-1/2",
+      "plies": 173
+    },
+    {
+      "index": 356,
+      "result": "1-0",
+      "plies": 113
+    },
+    {
+      "index": 357,
+      "result": "0-1",
+      "plies": 42
+    },
+    {
+      "index": 358,
+      "result": "1/2-1/2",
+      "plies": 126
+    },
+    {
+      "index": 359,
+      "result": "1-0",
+      "plies": 165
+    },
+    {
+      "index": 360,
+      "result": "0-1",
+      "plies": 110
+    },
+    {
+      "index": 361,
+      "result": "1/2-1/2",
+      "plies": 72
+    },
+    {
+      "index": 362,
+      "result": "1/2-1/2",
+      "plies": 47
+    },
+    {
+      "index": 363,
+      "result": "0-1",
+      "plies": 120
+    },
+    {
+      "index": 364,
+      "result": "0-1",
+      "plies": 82
+    },
+    {
+      "index": 365,
+      "result": "0-1",
+      "plies": 94
+    },
+    {
+      "index": 366,
+      "result": "1/2-1/2",
+      "plies": 136
+    },
+    {
+      "index": 367,
+      "result": "1-0",
+      "plies": 97
+    },
+    {
+      "index": 368,
+      "result": "0-1",
+      "plies": 30
+    },
+    {
+      "index": 369,
+      "result": "1-0",
+      "plies": 89
+    },
+    {
+      "index": 370,
+      "result": "1-0",
+      "plies": 87
+    },
+    {
+      "index": 371,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 372,
+      "result": "1/2-1/2",
+      "plies": 122
+    },
+    {
+      "index": 373,
+      "result": "1/2-1/2",
+      "plies": 160
+    },
+    {
+      "index": 374,
+      "result": "0-1",
+      "plies": 154
+    },
+    {
+      "index": 375,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 376,
+      "result": "1/2-1/2",
+      "plies": 48
+    },
+    {
+      "index": 377,
+      "result": "0-1",
+      "plies": 96
+    },
+    {
+      "index": 378,
+      "result": "1/2-1/2",
+      "plies": 52
+    },
+    {
+      "index": 379,
+      "result": "1-0",
+      "plies": 117
+    },
+    {
+      "index": 380,
+      "result": "1-0",
+      "plies": 83
+    },
+    {
+      "index": 381,
+      "result": "0-1",
+      "plies": 126
+    },
+    {
+      "index": 382,
+      "result": "0-1",
+      "plies": 130
+    },
+    {
+      "index": 383,
+      "result": "1/2-1/2",
+      "plies": 139
+    },
+    {
+      "index": 384,
+      "result": "1-0",
+      "plies": 105
+    },
+    {
+      "index": 385,
+      "result": "0-1",
+      "plies": 60
+    },
+    {
+      "index": 386,
+      "result": "0-1",
+      "plies": 64
+    },
+    {
+      "index": 387,
+      "result": "1-0",
+      "plies": 161
+    },
+    {
+      "index": 388,
+      "result": "0-1",
+      "plies": 128
+    },
+    {
+      "index": 389,
+      "result": "0-1",
+      "plies": 90
+    },
+    {
+      "index": 390,
+      "result": "1-0",
+      "plies": 107
+    },
+    {
+      "index": 391,
+      "result": "0-1",
+      "plies": 70
+    },
+    {
+      "index": 392,
+      "result": "0-1",
+      "plies": 114
+    },
+    {
+      "index": 393,
+      "result": "0-1",
+      "plies": 130
+    },
+    {
+      "index": 394,
+      "result": "1-0",
+      "plies": 149
+    },
+    {
+      "index": 395,
+      "result": "1/2-1/2",
+      "plies": 55
+    },
+    {
+      "index": 396,
+      "result": "1-0",
+      "plies": 139
+    },
+    {
+      "index": 397,
+      "result": "0-1",
+      "plies": 108
+    },
+    {
+      "index": 398,
+      "result": "0-1",
+      "plies": 142
+    },
+    {
+      "index": 399,
+      "result": "0-1",
+      "plies": 118
+    }
+  ],
+  "seconds_per_move": 0.03,
+  "workers": 4,
+  "duration": 256.504543084,
+  "note": "Only own-engine moves and final results. Fixed short controls generate data; these are not official-clock tournament tests. Unfinished games excluded by extractor."
+}

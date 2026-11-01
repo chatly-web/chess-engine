@@ -8,3 +8,5 @@ config.yml
 *secret*
 *-progress.json
 .DS_Store
+
+build/

@@ -1,0 +1,13 @@
+{
+  "native_binary_sha256": "5b92d976480950f9369211b709aa4230b93e713481afb95a020f26dac858b76e",
+  "weights_config_sha256": "4714b4ccabf9f88ee385619bb28e6c25a83fafa7325092037a57847969d9786c",
+  "perft_nodes": [
+    197281,
+    97862,
+    43238
+  ],
+  "legal_positions": 2000,
+  "evaluation_mismatches": 0,
+  "examples": [],
+  "seconds": 1.584068625
+}

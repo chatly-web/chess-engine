@@ -1,0 +1,278 @@
+{
+  "games": [
+    {
+      "seed": 0,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 101,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 0,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 77,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 1,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 145,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 1,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 54,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 2,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 74,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 2,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 146,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 3,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 138,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 3,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 129,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 4,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 84,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 4,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 139,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 5,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 62,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 5,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 171,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 6,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 92,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 6,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 103,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 7,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 101,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 7,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 78,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 8,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 118,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 8,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 127,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 9,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 58,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 9,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 116,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 10,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 125,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 10,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 199,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 11,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 148,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 11,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 90,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 12,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 121,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 12,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 109,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 13,
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 47,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 13,
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 115,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 14,
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 94,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 14,
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 86,
+      "seconds_per_move": 0.1
+    },
+    {
+      "seed": 15,
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 96,
+      "seconds_per_move": 0.05
+    },
+    {
+      "seed": 15,
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 161,
+      "seconds_per_move": 0.05
+    }
+  ],
+  "completed": 32,
+  "unfinished": 0,
+  "wins": 9,
+  "draws": 11,
+  "losses": 12,
+  "points": 14.5,
+  "paired_sprt": {
+    "decision": "continue",
+    "llr": -0.6503970752296951,
+    "pairs_observed": 16,
+    "p0": 0.5,
+    "p1": 0.6,
+    "assumptions": "Independent sampled starting-position pairs and stationary conditional pair-win probability; drawn pairs ignored. Not an Elo or universal accuracy guarantee."
+  },
+  "promoted": false,
+  "duration": 53.012181375,
+  "candidate_sha256": "898dbcf652dc5617cad25c80f2da44bca7aa162a274cedddb38cd6dc2d38b82a",
+  "baseline_sha256": "09662ab26935ea4674eec1659d8003c80816f4ff1c24ae905a015af2c123e648"
+}
