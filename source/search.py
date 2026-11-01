@@ -281,7 +281,7 @@ class Search:
                     elif d_own >= 4: mg += 35
             if wk is not None:
                 wf = wk & 7; wr = wk >> 3
-                if wf >= 5 and wr == 0: # Kingside castled
+                if wf >= 6 and wr == 0: # Kingside castled (g1, h1)
                     # Check pawn shield on f, g, h
                     shield = chess.popcount(w_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[1] | chess.BB_RANKS[2]))
                     if shield < 3: mg -= (3 - shield) * 25
@@ -307,7 +307,7 @@ class Search:
             bk = b.king(chess.BLACK)
             if bk is not None:
                 bf = bk & 7; br = bk >> 3
-                if bf >= 5 and br == 7: # Kingside castled
+                if bf >= 6 and br == 7: # Kingside castled (g8, h8)
                     shield = chess.popcount(b_pawns & (chess.BB_FILES[5] | chess.BB_FILES[6] | chess.BB_FILES[7]) & (chess.BB_RANKS[6] | chess.BB_RANKS[5]))
                     if shield < 3: mg += (3 - shield) * 25
                     if not (all_pawns & chess.BB_FILES[6]): mg += 65
