@@ -1,0 +1,13 @@
+test_clock_budget_grid (__main__.Reliability) ... ok
+test_draw_and_terminal (__main__.Reliability) ... ok
+test_generated_mates (__main__.Reliability) ... ok
+test_malformed_position_atomicity (__main__.Reliability) ... ok
+test_random_positions (__main__.Reliability) ... ok
+test_reference_minimax (__main__.Reliability) ... ok
+test_special_rules (__main__.Reliability) ... ok
+test_uci_clock_and_lifecycle (__main__.Reliability) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 11.821s
+
+OK

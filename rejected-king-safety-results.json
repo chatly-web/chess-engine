@@ -1,0 +1,378 @@
+{
+  "summary": {
+    "baseline": {
+      "games": 16,
+      "completed": 16,
+      "unfinished": 0,
+      "wins": 10,
+      "draws": 5,
+      "losses": 1,
+      "points": 12.5
+    },
+    "candidate": {
+      "games": 16,
+      "completed": 16,
+      "unfinished": 0,
+      "wins": 11,
+      "draws": 2,
+      "losses": 3,
+      "points": 12.0
+    }
+  },
+  "games": [
+    {
+      "competitor": "baseline",
+      "opponent": "baseline",
+      "seed": 0,
+      "colour": "white",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 41,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "baseline",
+      "seed": 0,
+      "colour": "black",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 41,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "baseline",
+      "seed": 1,
+      "colour": "white",
+      "result": "0-1",
+      "finished": true,
+      "score": 0.0,
+      "plies": 54,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "baseline",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 54,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-search",
+      "seed": 0,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 133,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-search",
+      "seed": 0,
+      "colour": "black",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 36,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-search",
+      "seed": 1,
+      "colour": "white",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 115,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-search",
+      "seed": 1,
+      "colour": "black",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 37,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "positional-greedy",
+      "seed": 0,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 19,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "positional-greedy",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 72,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "positional-greedy",
+      "seed": 1,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 23,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "positional-greedy",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 48,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-greedy",
+      "seed": 0,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 19,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-greedy",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 16,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-greedy",
+      "seed": 1,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 61,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "baseline",
+      "opponent": "material-greedy",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 16,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "baseline",
+      "seed": 0,
+      "colour": "white",
+      "result": "0-1",
+      "finished": true,
+      "score": 0.0,
+      "plies": 60,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "baseline",
+      "seed": 0,
+      "colour": "black",
+      "result": "1-0",
+      "finished": true,
+      "score": 0.0,
+      "plies": 55,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "baseline",
+      "seed": 1,
+      "colour": "white",
+      "result": "0-1",
+      "finished": true,
+      "score": 0.0,
+      "plies": 36,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "baseline",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 36,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 0,
+      "colour": "white",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 119,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 64,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 1,
+      "colour": "white",
+      "result": "1/2-1/2",
+      "finished": true,
+      "score": 0.5,
+      "plies": 103,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-search",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 54,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "positional-greedy",
+      "seed": 0,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 37,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "positional-greedy",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 60,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "positional-greedy",
+      "seed": 1,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 55,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "positional-greedy",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 40,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-greedy",
+      "seed": 0,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 27,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-greedy",
+      "seed": 0,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 26,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-greedy",
+      "seed": 1,
+      "colour": "white",
+      "result": "1-0",
+      "finished": true,
+      "score": 1.0,
+      "plies": 49,
+      "seconds_per_search": 0.05
+    },
+    {
+      "competitor": "candidate",
+      "opponent": "material-greedy",
+      "seed": 1,
+      "colour": "black",
+      "result": "0-1",
+      "finished": true,
+      "score": 1.0,
+      "plies": 16,
+      "seconds_per_search": 0.05
+    }
+  ],
+  "duration": 66.95337925,
+  "note": "Small original-opponent league at short search budgets; not Elo or official TC validation. Unfinished games excluded from points."
+}

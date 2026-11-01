@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+config.yml
+*token*
+*secret*
+*-progress.json
+.DS_Store

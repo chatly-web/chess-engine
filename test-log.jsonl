@@ -1,0 +1,12 @@
+{"test": "mate", "move": "f7f8", "pass_test": true}
+{"test": "promotion", "move": "a7a8q", "pass_test": true}
+{"test": "enpassant", "move": "e5d6", "pass_test": true}
+{"test": "castling", "move": "h1h8", "pass_test": true}
+{"test": "clock", "clock": 0.01, "elapsed": 0.0012910830000000262, "legal": true, "within_clock": true}
+{"test": "clock", "clock": 0.05, "elapsed": 0.002441291000000012, "legal": true, "within_clock": true}
+{"test": "clock", "clock": 0.2, "elapsed": 0.007220125000000022, "legal": true, "within_clock": true}
+{"test": "clock", "clock": 1, "elapsed": 0.03395608400000005, "legal": true, "within_clock": true}
+{"test": "clock", "clock": 180, "elapsed": 7.301068834, "legal": true, "within_clock": true}
+{"test": "clock", "clock": 600, "elapsed": 23.251987958, "legal": true, "within_clock": true}
+{"test": "full_game", "base": 180, "increment": 2, "plies": 23, "result": "1-0", "finished": true, "duration": 71.548169042, "max_think": 7.302833541999998, "remaining": [201.989214291, 132.473345041], "opponent": "original greedy material", "engine_color": "white"}
+{"test": "full_game", "base": 600, "increment": 5, "plies": 33, "result": "1-0", "finished": true, "duration": 309.304422209, "max_think": 23.25099633299999, "remaining": [679.9851195420001, 375.72547512499995], "opponent": "original greedy material", "engine_color": "white"}

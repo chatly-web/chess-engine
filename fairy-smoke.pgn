@@ -1,0 +1,10 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Fairy-Stockfish 14.0.1 XQ"]
+[Result "0-1"]
+[TimeControl "0.05s/move"]
+
+1. Nf3 Nf6 2. Nc3 d5 3. Ne5 d4 4. Nb5 a6 5. Na3 Qd5 6. Nac4 b5 7. Nxf7 Qxf7 8. Ne5 Qd5 9. f4 Nbd7 10. Nd3 e5 11. Nxe5 Nxe5 12. fxe5 Qxe5 13. h4 Qg3# 0-1
