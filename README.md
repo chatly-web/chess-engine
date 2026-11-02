@@ -16,6 +16,10 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Measured opponent level
+
+See [STRENGTH-LEVEL.md](STRENGTH-LEVEL.md) for the frozen `clash-draw-safe` build’s Stockfish 19 Skill 0–20 screen and genuine 3+2 / 10+5 results. These are game scores, not Lichess move accuracy, a human Elo estimate or guaranteed wins. The live BOT configuration is unchanged.
+
 ## Completed aggressive validation
 
 The timed pass completed **550 games**, including six full games at **3+2 and 10+5**, plus rules, mate, king-defence, draw, protocol and sanitizer checks. The larger-memory candidate scored **138 wins, 140 draws and 106 losses** against `clash-pgo` in 384 fresh short games (54.17% game points; conservative 97.5% interval 49.68–58.65%), but lost ground in the external comparison. It was not promoted. The running BOT and previous ZIP remain unchanged. See [COUNTER-MEMORY.md](COUNTER-MEMORY.md) for complete outcomes and limits.

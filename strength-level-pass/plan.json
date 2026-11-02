@@ -1,0 +1,23 @@
+{
+  "engine": "clash-draw-safe",
+  "sha256": "6e2abb852a87fa8c466f1f13c238eaaeb819c80876caf3d817dd29e4263c9bdb",
+  "scale": "Stockfish19 Skill Level0\u201320, not Lichess AI1\u20138 or a human Elo rating",
+  "levels": [
+    0,
+    2,
+    5,
+    8,
+    12,
+    20
+  ],
+  "screen_games_each": 8,
+  "screen_seconds": 0.2,
+  "screen_workers": 4,
+  "same_four_prefixes_across_levels": true,
+  "selection": "Highest tested skill with at least62.5percent game points and wins greater than losses; otherwise0. This selects a confirmation target, not a guaranteed winning level.",
+  "confirmation": "Four standard-start actual-clock games: both colours at180+2 and600+5, no movetime override",
+  "engine_frozen": true,
+  "no_foreign_analysis_or_weights_fitted": true,
+  "gnu_reference": "The same exact binary previously lost both full GNU games at3+2 and10+5; no unnecessary repeat",
+  "source": "https://official-stockfish.github.io/docs/stockfish-wiki/Stockfish-FAQ.html"
+}

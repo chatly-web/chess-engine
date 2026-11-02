@@ -1,0 +1,10 @@
+{
+  "skill": 5,
+  "screen_only": true,
+  "do_not_claim_guaranteed_wins": true,
+  "eligible_levels": [
+    0,
+    2,
+    5
+  ]
+}

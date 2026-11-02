@@ -1,0 +1,18 @@
+{
+  "skill": 2,
+  "games": [
+    {
+      "label": "strength-level-pass/skill2-180-2-white",
+      "result": "1-0",
+      "failure": null,
+      "finished": true
+    },
+    {
+      "label": "strength-level-pass/skill2-600-5-black",
+      "result": "0-1",
+      "failure": null,
+      "finished": true
+    }
+  ],
+  "scope": "One game per event clock, opposite colours; insufficient to guarantee a win probability"
+}

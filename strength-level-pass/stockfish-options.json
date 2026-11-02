@@ -1,0 +1,10 @@
+{
+  "identity": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "skill_min": 0,
+  "skill_max": 20,
+  "skill_default": 20,
+  "limit_strength_default": false
+}

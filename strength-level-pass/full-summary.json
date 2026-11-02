@@ -1,0 +1,35 @@
+{
+  "skill": 5,
+  "games": [
+    {
+      "label": "strength-level-pass/skill5-180-2-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "strength-level-pass/skill5-180-2-black",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "strength-level-pass/skill5-600-5-white",
+      "result": "1/2-1/2",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "strength-level-pass/skill5-600-5-black",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    }
+  ],
+  "engine_sha256": "6e2abb852a87fa8c466f1f13c238eaaeb819c80876caf3d817dd29e4263c9bdb",
+  "scope": "Four preliminary actual-clock games, not proof of a reliable win probability. Local four-game concurrency; both colours at each control."
+}

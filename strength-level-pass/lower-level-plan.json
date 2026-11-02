@@ -1,0 +1,20 @@
+{
+  "skill": 2,
+  "reason": "Skill2 won7/8 short games; obtain actual-clock observations for the practical lower target as well as the highest promising Skill5 setting",
+  "games": 2,
+  "controls": [
+    [
+      180,
+      2,
+      "white"
+    ],
+    [
+      600,
+      5,
+      "black"
+    ]
+  ],
+  "schedule": "Wait until both Skill5 blitz games finish, keeping at most4 concurrent full games",
+  "no_model_or_parameter_changes": true,
+  "scope": "Small actual-clock observations, not a guaranteed winning level"
+}
