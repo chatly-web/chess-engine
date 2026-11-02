@@ -1,0 +1,18 @@
+{
+  "frozen_variant": "half human adjustment, pruned costly unused feature",
+  "reason": "Predeclared GNU-first screen selected half: one draw vs16 losses for other versions, tied best aggregate; exploratory only, fresh confirmation required.",
+  "clock_policy": "own original instability-triggered soft/hard budget",
+  "move_order_variants": [
+    "unchanged ordering",
+    "quiet checks first plus own EWMA of search cutoffs/fail-lows"
+  ],
+  "screen_source": "outputs/clash-engine/learning-pass/screen-a.json",
+  "candidate": {
+    "source": "work/strength-v09/build-candidate/engine.cpp",
+    "move_order_style": 0
+  },
+  "tactical": {
+    "source": "work/strength-v09/build-tactical/engine.cpp",
+    "move_order_style": 1
+  }
+}

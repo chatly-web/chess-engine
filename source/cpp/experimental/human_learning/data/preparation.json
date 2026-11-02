@@ -1,0 +1,28 @@
+{
+  "positions": 23803,
+  "human_games_used": 3087,
+  "train_positions": 19143,
+  "validation_positions": 4660,
+  "train_games": 2453,
+  "validation_games": 634,
+  "game_split_disjoint": true,
+  "features": 42,
+  "label_source": "Human final Result, no engine analysis",
+  "own_feature_binary_sha256": "d23c9881a050950177b3c6349c87dee73ef0d0901d0c2c3e8473fa17dd016000",
+  "clean_corpus_sha256": "d431e9830e3858bcfa5ed06485800f760c7c5b93f17714a45bb63eee88683359",
+  "filters": [
+    "both players >=2200 Lichess",
+    "no BOT titles",
+    "standard rated >=180 seconds",
+    "normal termination",
+    "quiet positions: no check, capture or promotion available",
+    "plies16..160, no imminent rule draw",
+    "maximum24 sampled positions per game"
+  ],
+  "rejections": {
+    "no_quiet_position": 1310,
+    "non_board_termination": 901,
+    "already_decisive_position": 397
+  },
+  "seconds": 15.065354874997865
+}

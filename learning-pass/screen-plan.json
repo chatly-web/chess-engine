@@ -1,0 +1,17 @@
+{
+  "purpose": "Exploratory selection before fresh confirmation, GNU score primary, SF5 secondary; no accuracy claims.",
+  "versions": [
+    "baseline-v08",
+    "cached-zero",
+    "human-trained",
+    "half-human-adjustment"
+  ],
+  "source_human_games_not_used_in_any_fitting": true,
+  "pairs_per_opponent": 8,
+  "seconds_per_move": 0.12,
+  "workers": 4,
+  "planned_games": 128,
+  "seed_base": 20100000,
+  "selection": "Prefer highest GNU matched score, then strongest aggregate external score; never treat capped/failing games as wins/draws. Fresh independent confirmation required.",
+  "production_unchanged": true
+}

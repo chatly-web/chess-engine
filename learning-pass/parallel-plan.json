@@ -1,0 +1,15 @@
+{
+  "experiment": "Independent root-parallel original-evaluation screen",
+  "planned_games": 96,
+  "pairs_per_opponent": 8,
+  "seconds_per_move": 0.3,
+  "workers": 2,
+  "seed_base": 24100000,
+  "starts": "human-starts[128:], no overlap with fitting, hypervalidation, learned screen or confirmation",
+  "selection": "Primary compare parallel vs baseline; serial ablation identifies clock/eval-cache/root-search effects. More cores means more hardware, not intrinsic Elo or equal-CPU strength.",
+  "frozen_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "parallel_original": "5574626276e40ee9cf04d06b53a3684655c0338743f2788e7830248752759f19"
+  },
+  "gate": "No own failures; positive fresh matched lower95 score bound, nonnegative GNU, actual non-loss GNU full clock plus both competition controls. Otherwise retain v0.8 as recommended."
+}

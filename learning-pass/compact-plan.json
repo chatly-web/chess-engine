@@ -1,0 +1,15 @@
+{
+  "kind": "Search-preserving C++ storage optimisation, separate from learned/search-strategy promotion",
+  "change": "Store board pieces in signed8-bit cells instead of32-bit cells, all legal values are[-6,6]. No search/evaluation/pruning changes.",
+  "decision_rule_written_before_reviewing_timing_results": true,
+  "gate": [
+    "identical moves, scores, completed depths and nodes on304 fresh depth5 positions including retained-table history/mate cases",
+    "perft,2000 move/capture/mirror positions, protocol and bounded mate checks",
+    "ASAN/UBSAN with hash/king consistency checks",
+    "at least1.05 median position speed ratio over8depth7 positions with4alternating repeats",
+    "same frozen executable completes180+2 and600+5 without own technical failures"
+  ],
+  "limitations": "Pure fixed-tree performance improvement is not a newly established win-rate or Lichess accuracy gain. Learned/parallel candidates retain their separate unpassed match gate.",
+  "baseline_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "compact_sha256": "b4c74bc6a99c7a502d7e0777d8cbb43f1f028ac82ba9fd173b8a438f78ae396f"
+}

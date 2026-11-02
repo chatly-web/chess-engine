@@ -1,0 +1,69 @@
+{
+  "recommended_action": "retain-v08",
+  "recommended_binary_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "decisions": {
+    "confirmation/candidate": {
+      "qualified_on_match_and_clock_gate": false,
+      "candidate_sha256": "186024984611d97944a804f2e66fc71a8f870d22255a531a4be1ade252635504",
+      "matched_point_difference": 0.015625,
+      "approximate95": [
+        -0.05583333333333333,
+        0.08708333333333333
+      ],
+      "positive_lower_bound": false,
+      "gnu_nonnegative": true,
+      "both_controls_exact_binary_completed": false,
+      "actual_gnu_nonloss": false,
+      "own_recorded_failures": 0,
+      "note": "Passing these conditions also requires reviewed rules/protocol/tactics/inference/sanitizer checks before deployment."
+    },
+    "confirmation/tactical": {
+      "qualified_on_match_and_clock_gate": false,
+      "candidate_sha256": "59431de86ae29d3e5b5dc72ef1d0298063c371a9531a7aab638778362ee48a19",
+      "matched_point_difference": 0.007936507936507936,
+      "approximate95": [
+        -0.06474414355174353,
+        0.0806171594247594
+      ],
+      "positive_lower_bound": false,
+      "gnu_nonnegative": true,
+      "both_controls_exact_binary_completed": false,
+      "actual_gnu_nonloss": false,
+      "own_recorded_failures": 0,
+      "note": "Passing these conditions also requires reviewed rules/protocol/tactics/inference/sanitizer checks before deployment."
+    },
+    "parallel-screen/parallel": {
+      "qualified_on_match_and_clock_gate": false,
+      "candidate_sha256": "5574626276e40ee9cf04d06b53a3684655c0338743f2788e7830248752759f19",
+      "matched_point_difference": 0.05,
+      "approximate95": [
+        -0.08693307367713128,
+        0.1869330736771313
+      ],
+      "positive_lower_bound": false,
+      "gnu_nonnegative": false,
+      "both_controls_exact_binary_completed": true,
+      "actual_gnu_nonloss": true,
+      "own_recorded_failures": 0,
+      "note": "Passing these conditions also requires reviewed rules/protocol/tactics/inference/sanitizer checks before deployment."
+    },
+    "parallel-human/parallel-human": {
+      "qualified_on_match_and_clock_gate": false,
+      "candidate_sha256": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538",
+      "matched_point_difference": 0.09375,
+      "approximate95": [
+        -0.10058406589341629,
+        0.2880840658934163
+      ],
+      "positive_lower_bound": false,
+      "gnu_nonnegative": true,
+      "both_controls_exact_binary_completed": true,
+      "actual_gnu_nonloss": true,
+      "own_recorded_failures": 0,
+      "note": "Passing these conditions also requires reviewed rules/protocol/tactics/inference/sanitizer checks before deployment."
+    }
+  },
+  "finite_evidence_only": true,
+  "accuracy_measured": false,
+  "guaranteed_winner": false
+}

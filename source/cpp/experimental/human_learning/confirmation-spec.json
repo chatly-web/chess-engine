@@ -1,0 +1,2588 @@
+{
+  "baseline": "baseline",
+  "engines": {
+    "baseline": "source/cpp/experimental/human_learning/baseline",
+    "candidate": "source/cpp/experimental/human_learning/build-candidate/clash-native",
+    "tactical": "source/cpp/experimental/human_learning/build-tactical/clash-native"
+  },
+  "opponents": [
+    {
+      "label": "GNUChess6.3",
+      "command": [
+        "/opt/homebrew/bin/gnuchess",
+        "--uci"
+      ]
+    },
+    {
+      "label": "Stockfish19-Skill5",
+      "command": [
+        "/opt/homebrew/bin/stockfish"
+      ],
+      "options": {
+        "Skill Level": 5
+      }
+    }
+  ],
+  "starts": [
+    {
+      "game_id": "5g55vaSi",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "g1f3",
+        "g8f6",
+        "c1f4",
+        "c7c5",
+        "e2e3",
+        "c5d4",
+        "e3d4",
+        "b8c6",
+        "b1d2",
+        "c8f5",
+        "c2c3",
+        "e7e6",
+        "f1b5",
+        "f8d6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -60,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "QRC3hw22",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "d5c4",
+        "g1f3",
+        "g8f6",
+        "e2e3",
+        "c8g4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -69,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "J9DxwAw6",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6",
+        "b1c3",
+        "b8c6",
+        "c1g5",
+        "e7e6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 92,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "gc1XWPLQ",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6",
+        "b1c3",
+        "a7a6",
+        "c1g5",
+        "b8d7",
+        "f2f4",
+        "h7h6",
+        "g5h4",
+        "d8c7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 119,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "SVMZtwPu",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e5",
+        "d4e5",
+        "g8e7",
+        "g1f3",
+        "b8c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 8,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "vibPeDRH",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8e7",
+        "e1g1",
+        "e8g8",
+        "a2a4",
+        "d7d5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -71,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "4uHBewo8",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "e7e6",
+        "b5c6",
+        "b7c6",
+        "d2d3",
+        "g8e7",
+        "d1e2",
+        "e7g6",
+        "h2h4",
+        "h7h5",
+        "e4e5",
+        "f7f6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 89,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "MMaaFg8F",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "g7g6",
+        "b5c6",
+        "d7c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 38,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "2qQWl5XR",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "g1f3",
+        "f8g7",
+        "g2g3",
+        "e8g8",
+        "f1g2",
+        "d7d6",
+        "b1c3",
+        "b8d7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -76,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "cAVGffJ2",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c1f4",
+        "c7c6",
+        "g1f3",
+        "c8f5",
+        "b1c3",
+        "e7e6",
+        "e2e3",
+        "f8d6",
+        "f1d3",
+        "g8e7",
+        "e1g1",
+        "e8g8",
+        "f4d6",
+        "d8d6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 39,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "SHY1ST0Y",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "f8e7",
+        "g1f3",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 81,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "6LbGezRJ",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b1c3",
+        "d7d5",
+        "c4d5",
+        "f6d5",
+        "e2e4",
+        "d5c3",
+        "b2c3",
+        "f8g7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 42,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "1F5ODgsX",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "d5e4",
+        "c3e4",
+        "b8d7",
+        "g1f3",
+        "g8f6",
+        "e4f6",
+        "d7f6",
+        "c1e3",
+        "f6d5",
+        "d1d2",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 51,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "temyZG7w",
+      "moves": [
+        "e2e4",
+        "g8f6",
+        "e4e5",
+        "f6d5",
+        "d2d4",
+        "d7d6",
+        "c2c4",
+        "d5b6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 16,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "bw9EbseU",
+      "moves": [
+        "b2b3",
+        "c7c5",
+        "c1b2",
+        "b8c6",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6",
+        "c2c4",
+        "g7g6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -57,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "t6ShwvL1",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1d2",
+        "c7c5",
+        "g1f3",
+        "c5d4",
+        "e4d5",
+        "d8d5",
+        "f1c4",
+        "d5d6",
+        "d2e4",
+        "d6b4",
+        "f3d2",
+        "g8f6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -61,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "CRwJCEOp",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "d7d5",
+        "c1g5",
+        "f8e7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -3,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "6DwOLEih",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "b1c3",
+        "e7e6",
+        "g2g4",
+        "f5g6",
+        "g1e2",
+        "h7h6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 125,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "3CToUtxl",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1d2",
+        "c7c5",
+        "g1f3",
+        "c5d4",
+        "e4d5",
+        "d8d5",
+        "f1c4",
+        "d5d8",
+        "e1g1",
+        "g8f6",
+        "d1e2",
+        "b8c6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 87,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "U4tYqqFg",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g2g3",
+        "d7d5",
+        "f1g2",
+        "f8b4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -141,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "h9G4Wats",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6",
+        "b1c3",
+        "a7a6",
+        "g2g3",
+        "e7e5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 81,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "vDvJdRgs",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "g8f6",
+        "c1f4",
+        "c7c5",
+        "e2e3",
+        "c5d4",
+        "e3d4",
+        "c8g4",
+        "f1e2",
+        "g4e2",
+        "d1e2",
+        "b8c6",
+        "c3b5",
+        "a8c8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 54,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "i72yJTC1",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "c2c3",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "e6d5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 6,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "uo0SIHvM",
+      "moves": [
+        "b2b3",
+        "g8f6",
+        "c1b2",
+        "d7d5",
+        "d2d3",
+        "c8f5",
+        "b1d2",
+        "e7e6",
+        "g2g3",
+        "f5g6",
+        "f1g2",
+        "f8e7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -68,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "45MPp0NI",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6",
+        "f2f3",
+        "e7e5",
+        "d4b3",
+        "d6d5",
+        "c1g5",
+        "d5d4",
+        "c2c3",
+        "b8c6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -124,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "obcgOYFV",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "c2c4",
+        "c7c5",
+        "b1c3",
+        "e7e6",
+        "e2e3",
+        "a7a6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 99,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "yP0ngynN",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "c7c5",
+        "d4d5",
+        "e7e6",
+        "c2c4",
+        "e6d5",
+        "c4d5",
+        "f8d6",
+        "b1c3",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -65,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ygPvyrt8",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "d2d4",
+        "c5d4",
+        "g1f3",
+        "d7d6",
+        "f3d4",
+        "g7g6",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "b8c6",
+        "f2f3",
+        "c6d4",
+        "d1d4",
+        "f8g7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -8,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "yCqGxJpv",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "b1c3",
+        "e7e6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 77,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "UMDlnDCE",
+      "moves": [
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "d7d5",
+        "e2e3",
+        "g8f6",
+        "b1c3",
+        "f8e7",
+        "b2b3",
+        "e8g8",
+        "c1b2",
+        "c7c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -75,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "NVXe24VQ",
+      "moves": [
+        "b2b3",
+        "d7d5",
+        "c1b2",
+        "c8g4",
+        "f2f3",
+        "g4h5",
+        "e2e3",
+        "e7e6",
+        "g1e2",
+        "f7f6",
+        "b1c3",
+        "b8c6",
+        "d2d4",
+        "a7a6",
+        "d1d2",
+        "f8d6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 7,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "g64jGvO0",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "g2g3",
+        "f8g7",
+        "f1g2",
+        "e8g8"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -122,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "GXP0ky0Z",
+      "moves": [
+        "b2b3",
+        "d7d5",
+        "c1b2",
+        "g8f6",
+        "d2d3",
+        "e7e6",
+        "g1f3",
+        "f8e7",
+        "g2g3",
+        "e8g8",
+        "f1g2",
+        "c7c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -118,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "167BKMfR",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "g1f3",
+        "d7d5",
+        "b1c3",
+        "d5e4",
+        "c3e4",
+        "g8f6",
+        "e4f6",
+        "e7f6",
+        "f1c4",
+        "d8e7",
+        "d1e2",
+        "e7e2",
+        "c4e2",
+        "f8d6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 44,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "MgyrV3h4",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d1e2",
+        "c7c5",
+        "d2d3",
+        "b8c6",
+        "g1f3",
+        "g7g6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 76,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "wZIsULzV",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "g8f6",
+        "f3e5",
+        "d7d6",
+        "e5f3",
+        "f6e4",
+        "b1c3",
+        "e4c3",
+        "d2c3",
+        "f8e7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 7,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "TJHuFnml",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c1f4",
+        "b7b6",
+        "b1c3",
+        "c8b7",
+        "f2f3",
+        "a7a6",
+        "e2e4",
+        "e7e6",
+        "d4d5",
+        "f8b4",
+        "d5e6",
+        "f7e6",
+        "g1e2",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -31,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "VqGXyOgy",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "d2d4",
+        "e5d4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -45,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "UyUFR7nH",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "c7c5",
+        "d4d5",
+        "e6d5",
+        "c4d5",
+        "d7d6",
+        "e2e4",
+        "g7g6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 112,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "a66Aodqz",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "b8c6",
+        "b1c3",
+        "a7a6",
+        "c1e3",
+        "g8f6",
+        "a2a3",
+        "d7d6",
+        "d1e2",
+        "d8c7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 121,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "OfrKNXXh",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "e7e6",
+        "c2c4",
+        "d7d5",
+        "b1c3",
+        "f8b4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 14,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "qiT5Rjb4",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "b2b3",
+        "g7g6",
+        "c1b2",
+        "f8g7",
+        "g2g3",
+        "b7b5",
+        "c2c4",
+        "a7a6",
+        "b1c3",
+        "f6e4"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 41,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "eAFpFAaH",
+      "moves": [
+        "g1f3",
+        "g7g6",
+        "g2g3",
+        "f8g7",
+        "f1g2",
+        "g8f6",
+        "e1g1",
+        "e8g8",
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "c7c6",
+        "b2b3",
+        "a7a5",
+        "b1c3",
+        "c8f5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 28,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "bmlTLB5S",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "b2b3",
+        "a7a6",
+        "c2c4",
+        "b8c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 3,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "BnVO0wQl",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "g7g6",
+        "b5c6",
+        "b7c6",
+        "e1g1",
+        "f8g7",
+        "f1e1",
+        "d8c7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 108,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "8QI6YcuC",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "e6d5",
+        "g1f3",
+        "f8d6",
+        "f1d3",
+        "g8e7",
+        "e1g1",
+        "e8g8",
+        "f1e1",
+        "b8c6",
+        "c2c3",
+        "c8g4"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -84,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "LvKFqHaF",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "f1b5",
+        "c8d7",
+        "c2c4",
+        "e7e5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 91,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ZnQdpZKg",
+      "moves": [
+        "e2e4",
+        "d7d5",
+        "e4e5",
+        "c7c5",
+        "b2b4",
+        "c5b4",
+        "a2a3",
+        "b8c6",
+        "g1f3",
+        "c8g4",
+        "a3b4",
+        "e7e6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -58,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "f25kLiKv",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "g7g6",
+        "b1c3",
+        "d7d5",
+        "c1g5",
+        "f8g7",
+        "g5f6",
+        "g7f6",
+        "e2e4",
+        "d5e4",
+        "c3e4",
+        "c8f5",
+        "e4g3",
+        "f5g4"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 45,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "biw75amO",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c1f4",
+        "c7c5",
+        "e2e3",
+        "b8c6",
+        "c2c3",
+        "d8b6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 19,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "c1v6PVQe",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8e7",
+        "e1g1",
+        "e8g8",
+        "f1e1",
+        "d7d6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -10,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "0FS5fvSf",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "b2b4",
+        "e7e6",
+        "b4c5",
+        "g8f6",
+        "e4e5",
+        "f6d5",
+        "d2d4",
+        "d5e7",
+        "f1d3",
+        "e7g6",
+        "h2h4",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 114,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "24S4BWBP",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "d5c4",
+        "e2e4",
+        "g8f6",
+        "e4e5",
+        "f6d5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -68,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "cOudPnW6",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "d7d5",
+        "g2g3",
+        "f8e7",
+        "f1g2",
+        "e8g8",
+        "e1g1",
+        "a7a5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -17,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "vmWGnFq1",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "c2c3",
+        "g8f6",
+        "d2d3",
+        "d7d6",
+        "a2a4",
+        "a7a6",
+        "e1g1",
+        "e8g8",
+        "h2h3",
+        "f8e8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -97,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "wlw7xdUf",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "f1b5",
+        "c8d7",
+        "b5d7",
+        "d8d7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 99,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "TL1DvYBK",
+      "moves": [
+        "d2d4",
+        "b8c6",
+        "c2c4",
+        "e7e5",
+        "d4d5",
+        "c6e7",
+        "h2h4",
+        "h7h5",
+        "b1c3",
+        "e7g6",
+        "g1f3",
+        "f8c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 16,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "rdH1rS88",
+      "moves": [
+        "e2e4",
+        "g7g6",
+        "d2d4",
+        "f8g7",
+        "b1c3",
+        "e7e6",
+        "f2f4",
+        "d7d5",
+        "e4e5",
+        "a7a6",
+        "g1f3",
+        "c7c5",
+        "c1e3",
+        "c5d4",
+        "f3d4",
+        "g8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 134,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "U6mgMCuU",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c1f4",
+        "c7c5",
+        "e2e3",
+        "b8c6",
+        "g1f3",
+        "c8g4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 56,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "HCbgX7Lz",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "f3g5",
+        "d7d5",
+        "e4d5",
+        "c6a5",
+        "c4b5",
+        "c7c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 117,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "CBHT2Olj",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8c5",
+        "b1c3",
+        "d7d6",
+        "c3a4",
+        "c5b6",
+        "g1e2",
+        "b8c6",
+        "a4b6",
+        "a7b6",
+        "e1g1",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 63,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "tVl73NYK",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "f8b4",
+        "g1e2",
+        "b8c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 38,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "CzUoR0D3",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8e7",
+        "b1c3",
+        "d7d6",
+        "a2a3",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -56,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "11hGElC8",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "h2h4",
+        "d8b6",
+        "g2g4",
+        "f5d7",
+        "b1c3",
+        "e7e6",
+        "g1f3",
+        "c6c5",
+        "c1e3",
+        "b6b2"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 108,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ZEbAjyJM",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "h2h4",
+        "h7h5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 24,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "9OywbKnD",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "f1b5",
+        "c8d7",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "g7g6",
+        "d2d4",
+        "c5d4"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 10,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "yVb0JjwD",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "f3g5",
+        "d7d5",
+        "e4d5",
+        "c6a5",
+        "c4b5",
+        "c8d7",
+        "d1e2",
+        "f8d6",
+        "e1g1",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 18,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "iW12o8nN",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "h2h4",
+        "f7f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 47,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "dphdxrRo",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "g8f6",
+        "e4e5",
+        "f6d7",
+        "f2f4",
+        "c7c5",
+        "g1f3",
+        "b8c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 49,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ZB68GDIC",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "b8c6",
+        "d1d3",
+        "a7a6",
+        "d4c6",
+        "b7c6",
+        "d3g3",
+        "h7h5",
+        "h2h4",
+        "d7d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 44,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "7jymqq6H",
+      "moves": [
+        "g1f3",
+        "d7d5",
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "c7c6",
+        "e1g1",
+        "c8g4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 89,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "kX83J0uw",
+      "moves": [
+        "a2a3",
+        "e7e5",
+        "b1c3",
+        "d7d5",
+        "e2e3",
+        "g8f6",
+        "g1f3",
+        "e5e4",
+        "f3d4",
+        "c7c5",
+        "f1b5",
+        "b8d7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 77,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "iVvDkvSJ",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b2b4",
+        "f8g7",
+        "c1b2",
+        "a7a5",
+        "a2a3",
+        "a5b4",
+        "a3b4",
+        "a8a1",
+        "b2a1",
+        "b7b6",
+        "g2g3",
+        "c8b7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -50,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "1SPB8BFq",
+      "moves": [
+        "e2e4",
+        "d7d6",
+        "d2d4",
+        "g8f6",
+        "b1c3",
+        "b8d7",
+        "g1f3",
+        "e7e5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 68,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "4eGpOTsP",
+      "moves": [
+        "d2d4",
+        "f7f5",
+        "g1f3",
+        "g8f6",
+        "g2g4",
+        "f6g4",
+        "h1g1",
+        "g4f6",
+        "c1g5",
+        "e7e6",
+        "e2e3",
+        "d7d5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -27,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "jnyC6TLd",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8b4",
+        "e2e3",
+        "e8g8",
+        "f1d3",
+        "d7d5",
+        "a2a3",
+        "b4c3",
+        "b2c3",
+        "c7c5",
+        "c4d5",
+        "e6d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -59,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "aLZsAlgt",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "a7a6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 134,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ZjHCUi4R",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "a7a6",
+        "c4d5",
+        "e6d5",
+        "g2g3",
+        "c7c6",
+        "f1g2",
+        "b8d7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 76,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "emIYXnSH",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "a7a6",
+        "f1d3",
+        "g8f6",
+        "e1g1",
+        "d8c7",
+        "c2c4",
+        "b8c6",
+        "d4c6",
+        "d7c6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 86,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "zmX2G0Gv",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "c6d5",
+        "c2c4",
+        "d5c4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -56,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "PtNoAXdH",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8b4",
+        "d1c2",
+        "c7c5",
+        "d4c5",
+        "e8g8",
+        "g1f3",
+        "b8a6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 30,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "2YQczzsr",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "b1d2",
+        "d5e4",
+        "d2e4",
+        "c8f5",
+        "e4g3",
+        "f5g6",
+        "h2h4",
+        "h7h6",
+        "g1f3",
+        "b8d7",
+        "h4h5",
+        "g6h7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 140,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "FrTEcJAK",
+      "moves": [
+        "b2b3",
+        "d7d5",
+        "c1b2",
+        "g8f6",
+        "e2e3",
+        "c7c5",
+        "g1f3",
+        "e7e6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 20,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "TSCr5Btk",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1d2",
+        "c7c5",
+        "g1f3",
+        "a7a6",
+        "d4c5",
+        "f8c5",
+        "f1d3",
+        "b8c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 1,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "csE8y5gl",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6",
+        "e1g1",
+        "f8e7",
+        "f1e1",
+        "b7b5",
+        "a4b3",
+        "d7d6",
+        "c2c3",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -67,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "joKOclVd",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "c2c4",
+        "d7d5",
+        "c4d5",
+        "c6d5",
+        "e4d5",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 27,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "BBUowWM1",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8e7",
+        "e1g1",
+        "e8g8",
+        "b1c3",
+        "d7d6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 68,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "hwPeTBc6",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "d7d5",
+        "c1g5",
+        "b8d7",
+        "e2e3",
+        "f8e7",
+        "g1f3",
+        "e8g8",
+        "a1c1",
+        "d5c4",
+        "f1c4",
+        "c7c5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 30,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "cfMjZzNS",
+      "moves": [
+        "b2b3",
+        "g7g6",
+        "c1b2",
+        "g8f6",
+        "g1f3",
+        "f8g7",
+        "c2c4",
+        "e8g8"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -118,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "fqCI8Loy",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "g1f3",
+        "e7e6",
+        "c2c3",
+        "c6c5",
+        "c1e3",
+        "c5d4"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -63,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "mHQWGbtB",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "d5c4",
+        "g1f3",
+        "g8f6",
+        "e2e3",
+        "c8g4",
+        "f1c4",
+        "e7e6",
+        "h2h3",
+        "g4h5",
+        "b1c3",
+        "b8c6",
+        "c4b5",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 32,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "ARkqSGSE",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "b1c3",
+        "d7d5",
+        "c1f4",
+        "a7a6",
+        "e2e3",
+        "b8d7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 60,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "OFNudfqw",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "b7b6",
+        "a2a3",
+        "c8b7",
+        "b1c3",
+        "f6e4",
+        "c3e4",
+        "b7e4"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 44,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "quSkJTkl",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "d7d5",
+        "c4d5",
+        "e6d5",
+        "c1g5",
+        "c7c6",
+        "e2e3",
+        "f8e7",
+        "f1d3",
+        "e8g8",
+        "g1e2",
+        "f6e8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 105,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "lSqRGkwu",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "b2b4",
+        "c5b4",
+        "a2a3",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -81,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "YXmxpJXK",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "f3g5",
+        "d7d5",
+        "e4d5",
+        "b7b5",
+        "c4f1",
+        "f6d5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -113,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "05SokIsV",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "b8d7",
+        "e2e3",
+        "a7a6",
+        "b2b3",
+        "b7b6",
+        "c4d5",
+        "e6d5",
+        "c1b2",
+        "c8b7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 54,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "COyLHYdu",
+      "moves": [
+        "g1f3",
+        "d7d5",
+        "g2g3",
+        "c7c6",
+        "f1g2",
+        "c8f5",
+        "e1g1",
+        "e7e6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 124,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "K107NH7C",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "g7g6",
+        "c2c4",
+        "f8g7",
+        "b1c3",
+        "d7d5",
+        "c1f4",
+        "e8g8",
+        "e2e3",
+        "c7c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 22,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "A9s2YRDt",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8b4",
+        "e2e3",
+        "e8g8",
+        "f1d3",
+        "f8e8",
+        "g1e2",
+        "d7d5",
+        "e1g1",
+        "c8d7",
+        "c4d5",
+        "e6d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 34,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "VLY1zUk6",
+      "moves": [
+        "a2a3",
+        "d7d5",
+        "g2g3",
+        "e7e5",
+        "f1g2",
+        "g8f6",
+        "b2b4",
+        "a7a5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -144,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "8rBv1rdQ",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6",
+        "e1g1",
+        "b7b5",
+        "a4b3",
+        "f8c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 46,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "5GySS38U",
+      "moves": [
+        "d2d4",
+        "g7g6",
+        "e2e4",
+        "f8g7",
+        "c2c4",
+        "c7c5",
+        "d4d5",
+        "d7d6",
+        "f1d3",
+        "g8f6",
+        "b1c3",
+        "e8g8",
+        "h2h3",
+        "e7e6",
+        "g1f3",
+        "e6d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -120,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "818s075d",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -47,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "3FFci99m",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "d2d4",
+        "c5d4",
+        "c2c3",
+        "d4d3",
+        "f1d3",
+        "d7d5",
+        "e4d5",
+        "d8d5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 42,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "JMlz9xqG",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "c7c6",
+        "c1f4",
+        "c8f5",
+        "f2f3",
+        "e7e6",
+        "e2e4",
+        "f5g6",
+        "h2h4",
+        "h7h6",
+        "d1d2",
+        "g8f6",
+        "e4e5",
+        "f6d7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 60,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "eKIsEwB3",
+      "moves": [
+        "g1f3",
+        "d7d5",
+        "e2e3",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b2b3",
+        "c7c5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -51,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "gfNcwXaM",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "d5c4",
+        "e2e3",
+        "e7e5",
+        "f1c4",
+        "b8c6",
+        "d4d5",
+        "c6a5",
+        "c4e2",
+        "c7c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 52,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "1ZvLSJ4V",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "g1f3",
+        "g8f6",
+        "c1f4",
+        "c7c5",
+        "b1c3",
+        "c5d4",
+        "f3d4",
+        "b8c6",
+        "d4c6",
+        "b7c6",
+        "e2e3",
+        "c8g4",
+        "d1d4",
+        "e7e6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 12,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "HYQpKNVz",
+      "moves": [
+        "g1f3",
+        "d7d5",
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "c7c6",
+        "g2g3",
+        "c8f5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -56,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "aTYQJhF3",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "b8c6",
+        "b1c3",
+        "d8c7",
+        "g2g3",
+        "a7a6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 141,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "Wj4glie3",
+      "moves": [
+        "c2c4",
+        "e7e5",
+        "g2g3",
+        "c7c6",
+        "f1g2",
+        "d7d5",
+        "c4d5",
+        "c6d5",
+        "d2d4",
+        "e5e4",
+        "b1c3",
+        "f8b4",
+        "d1b3",
+        "b8c6",
+        "e2e3",
+        "g8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -106,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "pkkiaD5d",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "f8g7",
+        "e1g1",
+        "e8g8"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 12,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "k9YRmpi9",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "d2d4",
+        "g7g6",
+        "c2c4",
+        "f8g7",
+        "b1c3",
+        "d7d5",
+        "c1g5",
+        "c7c6",
+        "e2e3",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 16,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "8Bnu5W8p",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "d2d4",
+        "e5d4",
+        "f3d4",
+        "g8f6",
+        "b1c3",
+        "f8b4",
+        "d4c6",
+        "b7c6",
+        "f1d3",
+        "e8g8",
+        "e1g1",
+        "d7d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 65,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "H1tYenCx",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "g8f6",
+        "d2d3",
+        "f8e7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 9,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "5kb93ID3",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6",
+        "b1c3",
+        "f8e7",
+        "a4c6",
+        "d7c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -66,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "dPdB4FFy",
+      "moves": [
+        "d2d4",
+        "f7f5",
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "d7d6",
+        "c2c4",
+        "c7c6",
+        "b1c3",
+        "g7g6",
+        "g1h3",
+        "f8g7",
+        "h3f4",
+        "e8g8",
+        "d4d5",
+        "d8c7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 56,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "2eR1Jb21",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "g1f3",
+        "d7d5",
+        "e4d5",
+        "e6d5",
+        "d2d4",
+        "f8d6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 26,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "mT84ANIz",
+      "moves": [
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "b7b6",
+        "e1g1",
+        "c8b7",
+        "d2d4",
+        "f8g7",
+        "c2c4",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 18,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "SnTxEuyr",
+      "moves": [
+        "b2b3",
+        "d7d5",
+        "c1b2",
+        "g8f6",
+        "g1f3",
+        "c8f5",
+        "c2c4",
+        "c7c6",
+        "c4d5",
+        "c6d5",
+        "e2e3",
+        "e7e6",
+        "f1b5",
+        "b8d7",
+        "b1c3",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -17,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "FEvW8XZz",
+      "moves": [
+        "c2c4",
+        "f7f5",
+        "g1f3",
+        "d7d6",
+        "g2g3",
+        "g8f6",
+        "f1g2",
+        "g7g6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 37,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "jQM0mFEJ",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "d7d5",
+        "e4d5",
+        "f8d6",
+        "f1b5",
+        "c7c6",
+        "d5c6",
+        "b8c6",
+        "d2d3",
+        "g8e7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 24,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "lxYahD5P",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "b1c3",
+        "b8c6",
+        "g1e2",
+        "g7g6",
+        "d2d4",
+        "c5d4",
+        "e2d4",
+        "g8f6",
+        "c1e3",
+        "d7d6",
+        "f2f3",
+        "f8g7",
+        "d1d2",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -71,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "mjVKmra3",
+      "moves": [
+        "g1f3",
+        "d7d5",
+        "c2c4",
+        "d5c4",
+        "e2e3",
+        "b8c6",
+        "f1c4",
+        "e7e5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 0,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "xMK9QHeA",
+      "moves": [
+        "e2e4",
+        "d7d5",
+        "e4d5",
+        "g8f6",
+        "g1f3",
+        "d8d5",
+        "h2h3",
+        "e7e5",
+        "b1c3",
+        "d5a5",
+        "f1c4",
+        "b8c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 74,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "2JGULyFI",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "b2b3",
+        "c7c5",
+        "c1b2",
+        "b8c6",
+        "g1f3",
+        "g8f6",
+        "b1c3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "f8e7",
+        "d1d2",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -94,
+      "not_in_training_or_hyperparameter_validation": true
+    },
+    {
+      "game_id": "hpa29SuU",
+      "moves": [
+        "b2b3",
+        "e7e5",
+        "c1b2",
+        "b8c6",
+        "e2e3",
+        "g8f6",
+        "f1b5",
+        "f8d6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -134,
+      "not_in_training_or_hyperparameter_validation": true
+    }
+  ]
+}

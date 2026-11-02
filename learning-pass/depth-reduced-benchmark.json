@@ -1,0 +1,265 @@
+{
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "parallel-reduced": "c6bf205c43db440a303de9a0d1d6a7be63f7884521fe42ffc6b367b024574f6a",
+    "parallel-original": "5574626276e40ee9cf04d06b53a3684655c0338743f2788e7830248752759f19"
+  },
+  "requested_seconds": 0.75,
+  "rows": [
+    {
+      "position": 0,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 8,
+      "nodes": 153944,
+      "seconds": 0.7021918340178672,
+      "move": "b1c3",
+      "own_debug": "history_guarded_tt_cutoffs 1156"
+    },
+    {
+      "position": 0,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 342015,
+      "seconds": 0.7021989169879816,
+      "move": "f1d3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 98710 misses 238277"
+    },
+    {
+      "position": 0,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 414752,
+      "seconds": 0.70202616599272,
+      "move": "f1d3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 117056 misses 294135"
+    },
+    {
+      "position": 1,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 186074,
+      "seconds": 0.7024401660019066,
+      "move": "d1d4",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 164267 misses 292769"
+    },
+    {
+      "position": 1,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 344438,
+      "seconds": 0.7044480420008767,
+      "move": "d1d4",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 135995 misses 258103"
+    },
+    {
+      "position": 1,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 8,
+      "nodes": 164178,
+      "seconds": 0.7015944590093568,
+      "move": "d1d4",
+      "own_debug": "history_guarded_tt_cutoffs 749"
+    },
+    {
+      "position": 2,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 7,
+      "nodes": 151108,
+      "seconds": 0.7019381249847356,
+      "move": "b1c3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 117099 misses 252145"
+    },
+    {
+      "position": 2,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 7,
+      "nodes": 61339,
+      "seconds": 0.7019370420021005,
+      "move": "b1c3",
+      "own_debug": "history_guarded_tt_cutoffs 329"
+    },
+    {
+      "position": 2,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 232096,
+      "seconds": 0.701955333002843,
+      "move": "b1c3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 80899 misses 194819"
+    },
+    {
+      "position": 3,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 7,
+      "nodes": 90746,
+      "seconds": 0.7021575410035439,
+      "move": "g1f3",
+      "own_debug": "history_guarded_tt_cutoffs 1694"
+    },
+    {
+      "position": 3,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 268651,
+      "seconds": 0.7038260000117589,
+      "move": "g1f3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 139703 misses 306092"
+    },
+    {
+      "position": 3,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 654648,
+      "seconds": 0.7021827080170624,
+      "move": "b1c3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 174164 misses 458446"
+    },
+    {
+      "position": 4,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 9,
+      "nodes": 227104,
+      "seconds": 0.7023575420025736,
+      "move": "f1b5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 120333 misses 223202"
+    },
+    {
+      "position": 4,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 9,
+      "nodes": 412033,
+      "seconds": 0.7020469589915592,
+      "move": "f1b5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 149616 misses 260425"
+    },
+    {
+      "position": 4,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 9,
+      "nodes": 160838,
+      "seconds": 0.7018601660092827,
+      "move": "f1b5",
+      "own_debug": "history_guarded_tt_cutoffs 1311"
+    },
+    {
+      "position": 5,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 382468,
+      "seconds": 0.7020945420081262,
+      "move": "f1d3",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 125569 misses 258968"
+    },
+    {
+      "position": 5,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 7,
+      "nodes": 93416,
+      "seconds": 0.7021816660126206,
+      "move": "e4d5",
+      "own_debug": "history_guarded_tt_cutoffs 1098"
+    },
+    {
+      "position": 5,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 321101,
+      "seconds": 0.70173045899719,
+      "move": "e4d5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 99767 misses 222938"
+    },
+    {
+      "position": 6,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 8,
+      "nodes": 117862,
+      "seconds": 0.702131083002314,
+      "move": "d2d4",
+      "own_debug": "history_guarded_tt_cutoffs 2347"
+    },
+    {
+      "position": 6,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 267870,
+      "seconds": 0.7022584159858525,
+      "move": "f3e5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 107302 misses 261250"
+    },
+    {
+      "position": 6,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 329505,
+      "seconds": 0.702070041996194,
+      "move": "f3e5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 137603 misses 409926"
+    },
+    {
+      "position": 7,
+      "engine": "parallel-reduced",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 285759,
+      "seconds": 0.702527250017738,
+      "move": "d4f5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 202787 misses 336475"
+    },
+    {
+      "position": 7,
+      "engine": "parallel-original",
+      "threads": 4,
+      "depth": 8,
+      "nodes": 512931,
+      "seconds": 0.7021871250180993,
+      "move": "d4f5",
+      "own_debug": "root_threads 4 adaptive_time_extended 0 static_eval_hits 207451 misses 288396"
+    },
+    {
+      "position": 7,
+      "engine": "baseline",
+      "threads": 1,
+      "depth": 8,
+      "nodes": 196852,
+      "seconds": 0.7023791670217179,
+      "move": "d4b3",
+      "own_debug": "history_guarded_tt_cutoffs 708"
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "median_completed_depth": 8.0,
+      "median_elapsed": 0.7021443120029289
+    },
+    "parallel-reduced": {
+      "median_completed_depth": 8.0,
+      "median_elapsed": 0.702307978994213
+    },
+    "parallel-original": {
+      "median_completed_depth": 8.0,
+      "median_elapsed": 0.7020822920021601
+    }
+  },
+  "limitations": "Concurrent local CPU load; different selective trees, hardware thread counts and private tables. Depth and node counts do not establish stronger play or equal-search speedup."
+}

@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "binary_sha256": "cdd75947e83eac88ca4cb0b3b6683ffd0568ee277786a7187bc5a548a8d18075",
+  "rows": [
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.5302130409982055,
+      "depth": 3,
+      "nodes": 4504,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1359 misses 5052"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45516670899814926,
+      "depth": 4,
+      "nodes": 11623,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 3330 misses 12397"
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.00542308299918659
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0005062919808551669
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0014201670128386468
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.01748899999074638
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0021418340038508177
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.013354458002140746
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.010699124977691099
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0005495829973369837
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0017560000123921782
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.012641832989174873
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 2,
+      "depth": 4,
+      "move": "g1f3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "g1f3"
+    }
+  ]
+}

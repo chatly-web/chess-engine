@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "matches": [
+    {
+      "file": "confirmation.json",
+      "games": 384,
+      "finished": 383,
+      "failures": 0,
+      "json_sha256": "c1c87633dac119030f789f192ae7c19241d942610fc50b8ae620fa7df3a10125",
+      "pgn_sha256": "f98d9d364f494ff642343aec24a072271e961cda25d54c98cedf525c9a1eec17"
+    },
+    {
+      "file": "parallel-human.json",
+      "games": 64,
+      "finished": 64,
+      "failures": 0,
+      "json_sha256": "ffbdb8cf28fe389deb5ce7c331480820db4a2ed3b7111013702cab5945c90ccb",
+      "pgn_sha256": "60e64591d46eb6096e67fd52cf13ba7a359169df6ccd46298b89bc202376ca30"
+    },
+    {
+      "file": "parallel-screen.json",
+      "games": 96,
+      "finished": 95,
+      "failures": 0,
+      "json_sha256": "cf972055d9f20f6a46166f4df3bfe1aa5d2b671b5cb989b04cc6965022b6b049",
+      "pgn_sha256": "bc5611e2437d5f9a5f5bb0258ff267ce94c5e03827104aef5edfc4cf2355b875"
+    },
+    {
+      "file": "screen-a.json",
+      "games": 128,
+      "finished": 128,
+      "failures": 0,
+      "json_sha256": "2ceaef9fb1f4b34a2624dd4928de67cd55aa2a5d31c00d9adc9990f310c149d6",
+      "pgn_sha256": "02ea457e1ec15a9936977894d1e17c33a9f6251c4a486f2d088b0a0c0bd273bb"
+    }
+  ],
+  "clock_tests": [
+    {
+      "file": "compact-gnu-180-2-white.json",
+      "result": "0-1",
+      "finished": true,
+      "failure": null,
+      "plies": 106,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "b3d5a8951622b1320607d3a1ebf2537cf9075d6be4a7c78122d4143999c3a0de"
+    },
+    {
+      "file": "compact-gnu-600-5-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 115,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "a87843297ca07f43b684c5da0e8a23eda3bef8b484a7aad10b8bb6c3f1ffa2b9"
+    },
+    {
+      "file": "original-parallel-gnu-180-2-white.json",
+      "result": "1/2-1/2",
+      "finished": true,
+      "failure": null,
+      "plies": 150,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "8662edd077844294bba32193fe8936e07429129e6cc31c360528e288485f3461"
+    },
+    {
+      "file": "original-parallel-gnu-600-5-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 77,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "d61dc22930edcb58056de33c0355d74c440e14c5ba9206842e456abc818953be"
+    },
+    {
+      "file": "parallel-gnu-180-2-white.json",
+      "result": "1/2-1/2",
+      "finished": true,
+      "failure": null,
+      "plies": 225,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "f97b9f76d5241c7ece3ec7ffd4e451870752f1abaa4615bfa8d0a43db2787160"
+    },
+    {
+      "file": "parallel-gnu-600-5-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 209,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "4d8622fbfdda017feb906c840a80dec93839532677ea4fd135074a6485ed9140"
+    },
+    {
+      "file": "reduced-gnu-180-2-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 125,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "9d7493e085888de2a4726a287942a993d7d01ed540356ea499d531dadba65d29"
+    },
+    {
+      "file": "reduced-gnu-600-5-white.json",
+      "result": "1/2-1/2",
+      "finished": true,
+      "failure": null,
+      "plies": 86,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "d521f45bba58d36f292a561365e1aef163471a0bae52bf8c15ca1a78aa583e6b"
+    }
+  ],
+  "note": "Independent rules-only replay of saved moves/results and clock accounting; no foreign-engine analysis."
+}

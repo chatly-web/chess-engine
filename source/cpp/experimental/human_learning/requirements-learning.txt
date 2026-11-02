@@ -1,0 +1,4 @@
+# Offline research only; C++ inference has no Python model runtime.
+python-chess==1.999
+numpy==2.5.4
+scipy==1.18.1

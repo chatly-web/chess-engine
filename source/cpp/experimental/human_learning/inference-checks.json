@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "positions": 2000,
+  "models": [
+    "half",
+    "trained"
+  ],
+  "native_matches_own_fitted_formula": true,
+  "colour_symmetry": true,
+  "one_cp_feature_print_rounding_tolerance_cases": 0
+}

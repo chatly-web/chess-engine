@@ -1,0 +1,22 @@
+{
+  "fitted_parallel_frozen_sha256": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538",
+  "rebuilt_from_public_source_sha256": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538",
+  "binary_exact": true,
+  "compiler": "Apple clang21.0.0 clang-2100.3.34.2 arm64-apple-darwin27",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3",
+    "-DCLASH_MOVE_ORDER_STYLE=1"
+  ],
+  "source_sha256": {
+    "engine.cpp": "5210ee11786dd83d0521b4bf24e892d8779b9f31501be0b4325c911e021f48fb",
+    "tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+    "learned_scale.h": "b6779edb4b836cf72ee3d9ee22a38c529da06fc7210fc738886bc414dcc45d2d"
+  }
+}

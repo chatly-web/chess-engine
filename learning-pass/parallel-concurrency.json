@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "binary_sha256": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538",
+  "rows": [
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.4533959580003284,
+      "depth": 7,
+      "nodes": 267351,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 109328 misses 355223"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45145112500176765,
+      "depth": 7,
+      "nodes": 335350,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 130508 misses 340624"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45164316598675214,
+      "depth": 7,
+      "nodes": 218073,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 110107 misses 323491"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45123641699319705,
+      "depth": 6,
+      "nodes": 59220,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 71441 misses 170107"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.4514477080083452,
+      "depth": 8,
+      "nodes": 266017,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 121076 misses 365471"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.451586250012042,
+      "depth": 7,
+      "nodes": 334300,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 135900 misses 353910"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.451299584005028,
+      "depth": 7,
+      "nodes": 150330,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 138486 misses 309781"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.451229832979152,
+      "depth": 7,
+      "nodes": 207247,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 135223 misses 331231"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45149495801888406,
+      "depth": 8,
+      "nodes": 442789,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 144863 misses 347198"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45134504200541414,
+      "depth": 6,
+      "nodes": 194652,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 129743 misses 336354"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.4513928329979535,
+      "depth": 6,
+      "nodes": 383053,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 129281 misses 310070"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45157412500702776,
+      "depth": 7,
+      "nodes": 259863,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 140444 misses 361129"
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0009989580139517784
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.000551207980606705
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.00091683299979195
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0006327499868348241
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0008965420129243284
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007427090022247285
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007482919900212437
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0010352079989388585
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0008974589873105288
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007846250082366168
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.000531375000718981
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007230839983094484
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007478329935111105
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0007921250071376562
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.00047104101395234466
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.00068374999682419
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.000590000010561198
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0008305420051328838
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0006167090032249689
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0009042079909704626
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "d2d3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 2,
+      "depth": 4,
+      "move": "e2e3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "e2e3"
+    }
+  ]
+}

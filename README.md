@@ -16,6 +16,10 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Human learning and multicore experiments
+
+A further pass fits original C++ evaluation weights from 23,803 quiet positions in permitted human games and tests four-worker root search at both competition controls. The fitted four-worker candidate had a +9.375 percentage-point estimate in matched game score in its final 64-game comparison, but its approximate interval [−10.06, +28.81] pp did not establish improvement, so it remains experimental. A fitted parallel prototype drew one standard-start 180+2 game against GNU Chess; this does not establish superiority. See [HUMAN-LEARNING.md](HUMAN-LEARNING.md) for complete results and limitations.
+
 ## Latest external-opponent validation
 
 The selected build gained **+6.50 percentage points** in matched game-point score against the published baseline. Its approximate paired-unit 95% interval is **[+1.32, +11.67] pp**, over 127 completed matched colour pairs. The independent batch recorded 768 games across all tested versions.

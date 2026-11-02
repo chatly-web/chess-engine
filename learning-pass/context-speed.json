@@ -1,0 +1,631 @@
+{
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "context": "030f7d1534addc12841c1cfee31336354720e25bcf6518ce526749621a8533f6"
+  },
+  "depth": 7,
+  "repeats": 4,
+  "positions": 8,
+  "median_position_speed_ratio": 1.017944024180304,
+  "position_speed_ratios": [
+    1.0485963586542544,
+    1.0297846601774017,
+    1.0258698532176997,
+    1.0166200716136464,
+    0.9575951045000016,
+    0.9429891583455061,
+    1.0192679767469617,
+    0.9412659923562727
+  ],
+  "rows": [
+    {
+      "position": 0,
+      "repeat": 0,
+      "baseline": {
+        "seconds": 0.2751480419829022,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "context": {
+        "seconds": 0.21693112500361167,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.2683659017502504
+    },
+    {
+      "position": 0,
+      "repeat": 1,
+      "context": {
+        "seconds": 0.15836304100230336,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "baseline": {
+        "seconds": 0.1642367910244502,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.0370904093844815
+    },
+    {
+      "position": 0,
+      "repeat": 2,
+      "baseline": {
+        "seconds": 0.15872462501283735,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "context": {
+        "seconds": 0.15158712500124238,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.0470851334606186
+    },
+    {
+      "position": 0,
+      "repeat": 3,
+      "context": {
+        "seconds": 0.15414666599826887,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "baseline": {
+        "seconds": 0.16187058298964985,
+        "depth": 7,
+        "nodes": 48388,
+        "score": "PovScore(Cp(+30), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.0501075838478902
+    },
+    {
+      "position": 1,
+      "repeat": 0,
+      "context": {
+        "seconds": 0.18208245799178258,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "baseline": {
+        "seconds": 0.1745282500050962,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "speed_ratio": 0.9585121594358788
+    },
+    {
+      "position": 1,
+      "repeat": 1,
+      "baseline": {
+        "seconds": 0.18867170898010954,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "context": {
+        "seconds": 0.17555866698967293,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "speed_ratio": 1.0746932191687693
+    },
+    {
+      "position": 1,
+      "repeat": 2,
+      "context": {
+        "seconds": 0.18420887499814853,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "baseline": {
+        "seconds": 0.20266854201327078,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "speed_ratio": 1.1002105192559684
+    },
+    {
+      "position": 1,
+      "repeat": 3,
+      "baseline": {
+        "seconds": 0.17261820801650174,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "context": {
+        "seconds": 0.1752689580025617,
+        "depth": 7,
+        "nodes": 53146,
+        "score": "PovScore(Cp(+165), WHITE)",
+        "move": "f1c4"
+      },
+      "speed_ratio": 0.9848761011860342
+    },
+    {
+      "position": 2,
+      "repeat": 0,
+      "baseline": {
+        "seconds": 0.35578566702315584,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "context": {
+        "seconds": 0.3730935839994345,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "speed_ratio": 0.953609716922109
+    },
+    {
+      "position": 2,
+      "repeat": 1,
+      "context": {
+        "seconds": 0.37833300000056624,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "baseline": {
+        "seconds": 0.4261189579847269,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "speed_ratio": 1.1263066081575996
+    },
+    {
+      "position": 2,
+      "repeat": 2,
+      "baseline": {
+        "seconds": 0.37827300000935793,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "context": {
+        "seconds": 0.3634536250028759,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "speed_ratio": 1.0407737713617926
+    },
+    {
+      "position": 2,
+      "repeat": 3,
+      "context": {
+        "seconds": 0.35813562499242835,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "baseline": {
+        "seconds": 0.3620629170036409,
+        "depth": 7,
+        "nodes": 116734,
+        "score": "PovScore(Cp(+40), WHITE)",
+        "move": "b1c3"
+      },
+      "speed_ratio": 1.0109659350736069
+    },
+    {
+      "position": 3,
+      "repeat": 0,
+      "context": {
+        "seconds": 0.38350295898271725,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "baseline": {
+        "seconds": 0.4122419159975834,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "speed_ratio": 1.074938032006583
+    },
+    {
+      "position": 3,
+      "repeat": 1,
+      "baseline": {
+        "seconds": 0.3582485000079032,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "context": {
+        "seconds": 0.395994749997044,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "speed_ratio": 0.904679923182258
+    },
+    {
+      "position": 3,
+      "repeat": 2,
+      "context": {
+        "seconds": 0.3795369169965852,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "baseline": {
+        "seconds": 0.41894725000020117,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "speed_ratio": 1.1038379436590369
+    },
+    {
+      "position": 3,
+      "repeat": 3,
+      "baseline": {
+        "seconds": 0.36895637499401346,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "context": {
+        "seconds": 0.3850105000019539,
+        "depth": 7,
+        "nodes": 113142,
+        "score": "PovScore(Cp(+94), WHITE)",
+        "move": "e4d5"
+      },
+      "speed_ratio": 0.9583021112207096
+    },
+    {
+      "position": 4,
+      "repeat": 0,
+      "baseline": {
+        "seconds": 0.327913457993418,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "context": {
+        "seconds": 0.3452489160117693,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "speed_ratio": 0.9497885229630659
+    },
+    {
+      "position": 4,
+      "repeat": 1,
+      "context": {
+        "seconds": 0.35372008400736377,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "baseline": {
+        "seconds": 0.3367713750049006,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "speed_ratio": 0.9520844029820192
+    },
+    {
+      "position": 4,
+      "repeat": 2,
+      "baseline": {
+        "seconds": 0.338093583995942,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "context": {
+        "seconds": 0.34547245799330994,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "speed_ratio": 0.9786412090844278
+    },
+    {
+      "position": 4,
+      "repeat": 3,
+      "context": {
+        "seconds": 0.3517050410155207,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "baseline": {
+        "seconds": 0.33872916700784117,
+        "depth": 7,
+        "nodes": 91442,
+        "score": "PovScore(Cp(-35), WHITE)",
+        "move": "b1a3"
+      },
+      "speed_ratio": 0.963105806017984
+    },
+    {
+      "position": 5,
+      "repeat": 0,
+      "context": {
+        "seconds": 0.361686207994353,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "baseline": {
+        "seconds": 0.37988483300432563,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "speed_ratio": 1.0503160601862285
+    },
+    {
+      "position": 5,
+      "repeat": 1,
+      "baseline": {
+        "seconds": 0.3905984580051154,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "context": {
+        "seconds": 0.5006709580193274,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "speed_ratio": 0.7801500201855869
+    },
+    {
+      "position": 5,
+      "repeat": 2,
+      "context": {
+        "seconds": 0.39283329198951833,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "baseline": {
+        "seconds": 0.43126458299229853,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "speed_ratio": 1.0978310438205061
+    },
+    {
+      "position": 5,
+      "repeat": 3,
+      "baseline": {
+        "seconds": 0.39715795798110776,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "context": {
+        "seconds": 0.47526133302017115,
+        "depth": 7,
+        "nodes": 115841,
+        "score": "PovScore(Cp(+35), WHITE)",
+        "move": "f1b5"
+      },
+      "speed_ratio": 0.8356622565047839
+    },
+    {
+      "position": 6,
+      "repeat": 0,
+      "baseline": {
+        "seconds": 0.41956320800818503,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "context": {
+        "seconds": 0.4660359999979846,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 0.9002806822005155
+    },
+    {
+      "position": 6,
+      "repeat": 1,
+      "context": {
+        "seconds": 0.3852702079748269,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "baseline": {
+        "seconds": 0.40392916699056514,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.048430837966473
+    },
+    {
+      "position": 6,
+      "repeat": 2,
+      "baseline": {
+        "seconds": 0.3945707500097342,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "context": {
+        "seconds": 0.39851400000043213,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 0.9901051155274503
+    },
+    {
+      "position": 6,
+      "repeat": 3,
+      "context": {
+        "seconds": 0.4866511669824831,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "baseline": {
+        "seconds": 0.5334719160164241,
+        "depth": 7,
+        "nodes": 116400,
+        "score": "PovScore(Cp(+49), WHITE)",
+        "move": "c1e3"
+      },
+      "speed_ratio": 1.0962100827256955
+    },
+    {
+      "position": 7,
+      "repeat": 0,
+      "context": {
+        "seconds": 0.2703121660160832,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "baseline": {
+        "seconds": 0.2407050000037998,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "speed_ratio": 0.8904704643944075
+    },
+    {
+      "position": 7,
+      "repeat": 1,
+      "baseline": {
+        "seconds": 0.23084787500556558,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "context": {
+        "seconds": 0.24177374999271706,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "speed_ratio": 0.9548095068737587
+    },
+    {
+      "position": 7,
+      "repeat": 2,
+      "context": {
+        "seconds": 0.22862933299620636,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "baseline": {
+        "seconds": 0.2212477090070024,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "speed_ratio": 0.9677135742274748
+    },
+    {
+      "position": 7,
+      "repeat": 3,
+      "baseline": {
+        "seconds": 0.2097020410001278,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "context": {
+        "seconds": 0.22603962500579655,
+        "depth": 7,
+        "nodes": 67914,
+        "score": "PovScore(Cp(+88), WHITE)",
+        "move": "e1g1"
+      },
+      "speed_ratio": 0.9277224778387869
+    }
+  ],
+  "limitations": "Limited alternating-order fixed-tree timing sample under concurrent local match load. Not Elo, universal speedup or proof of stronger timed play."
+}

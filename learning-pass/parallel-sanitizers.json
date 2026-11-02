@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "binary_sha256": "618943ad6a43545c24b6c99a411216881e247311ad64b8cc094ea9efd42e73d9",
+  "rows": [
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.4594197499973234,
+      "depth": 5,
+      "nodes": 39060,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 22367 misses 75462"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.4526394580025226,
+      "depth": 5,
+      "nodes": 59163,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 27349 misses 92856"
+    },
+    {
+      "test": "parallel-clock",
+      "elapsed": 0.45743704101187177,
+      "depth": 6,
+      "nodes": 74271,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 28638 misses 77527"
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0017219160217791796
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0009090000239666551
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.011421416013035923
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.01673283299896866
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.01092304100166075
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.00324662501225248
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0009656659967731684
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0016836670110933483
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0008738750184420496
+    },
+    {
+      "test": "parallel-stop",
+      "elapsed": 0.0023358330072369426
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "e2e3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 2,
+      "depth": 4,
+      "move": "g1f3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 1,
+      "depth": 4,
+      "move": "b1c3"
+    },
+    {
+      "test": "resize-depth",
+      "threads": 4,
+      "depth": 4,
+      "move": "e2e3"
+    }
+  ]
+}

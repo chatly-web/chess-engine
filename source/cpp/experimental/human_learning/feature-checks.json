@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "positions": 2000,
+  "base_evaluation_exact": true,
+  "group_accounting_checked": true,
+  "all_group_colour_antisymmetry": true
+}

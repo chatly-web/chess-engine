@@ -1,0 +1,13 @@
+{
+  "arena_games": 672,
+  "arena_completed": 670,
+  "arena_unfinished": 2,
+  "arena_technical_failures": 0,
+  "full_clock_games": 8,
+  "full_clock_completed": 8,
+  "full_clock_technical_failures": 0,
+  "recommendation": "retain-v08",
+  "recommended_binary_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "new_accuracy_claim": false,
+  "guaranteed_winner": false
+}

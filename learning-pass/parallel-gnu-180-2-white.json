@@ -1,0 +1,2282 @@
+{
+  "our_revision": "experimental-human-half-parallel-020658f1",
+  "opponent": {
+    "name": "GNU Chess 6.3.0",
+    "author": "GNU Chess team"
+  },
+  "skill_level": null,
+  "opponent_options": {
+    "Hash": 64,
+    "OwnBook": false
+  },
+  "our_colour": "white",
+  "base": 180.0,
+  "increment": 2.0,
+  "movetime": null,
+  "result": "1/2-1/2",
+  "failure": null,
+  "failure_side": null,
+  "failed_move_seconds": null,
+  "remaining_before_failed_move": null,
+  "finished": true,
+  "plies": 225,
+  "seconds": 798.8911881669774,
+  "moves": [
+    {
+      "ply": 1,
+      "side": "ours",
+      "move": "g1f3",
+      "seconds": 16.06368950000615,
+      "clock": 165.93631049999385,
+      "own_search": {
+        "depth": 11,
+        "nodes": 5411164,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2234519 misses 8329829"
+      }
+    },
+    {
+      "ply": 2,
+      "side": "opponent",
+      "move": "g8f6",
+      "seconds": 5.930371041991748,
+      "clock": 176.06962895800825,
+      "own_search": {}
+    },
+    {
+      "ply": 3,
+      "side": "ours",
+      "move": "d2d4",
+      "seconds": 15.030274666001787,
+      "clock": 152.90603583399206,
+      "own_search": {
+        "depth": 12,
+        "nodes": 10454620,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2080172 misses 8521350"
+      }
+    },
+    {
+      "ply": 4,
+      "side": "opponent",
+      "move": "d7d5",
+      "seconds": 7.05520175001584,
+      "clock": 171.0144272079924,
+      "own_search": {}
+    },
+    {
+      "ply": 5,
+      "side": "ours",
+      "move": "b1c3",
+      "seconds": 14.074926000001142,
+      "clock": 140.83110983399092,
+      "own_search": {
+        "depth": 11,
+        "nodes": 7462029,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2620889 misses 10326060"
+      }
+    },
+    {
+      "ply": 6,
+      "side": "opponent",
+      "move": "b8c6",
+      "seconds": 5.239030582975829,
+      "clock": 167.77539662501658,
+      "own_search": {}
+    },
+    {
+      "ply": 7,
+      "side": "ours",
+      "move": "c1f4",
+      "seconds": 13.18933900000411,
+      "clock": 129.6417708339868,
+      "own_search": {
+        "depth": 11,
+        "nodes": 9867672,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2894220 misses 9139141"
+      }
+    },
+    {
+      "ply": 8,
+      "side": "opponent",
+      "move": "c8f5",
+      "seconds": 9.764784250000957,
+      "clock": 160.01061237501563,
+      "own_search": {}
+    },
+    {
+      "ply": 9,
+      "side": "ours",
+      "move": "e2e3",
+      "seconds": 5.6226806250051595,
+      "clock": 126.01909020898165,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1880186,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1143772 misses 3386844"
+      }
+    },
+    {
+      "ply": 10,
+      "side": "opponent",
+      "move": "e7e6",
+      "seconds": 4.445042457984528,
+      "clock": 157.5655699170311,
+      "own_search": {}
+    },
+    {
+      "ply": 11,
+      "side": "ours",
+      "move": "f1d3",
+      "seconds": 12.103183917002752,
+      "clock": 115.9159062919789,
+      "own_search": {
+        "depth": 11,
+        "nodes": 4884904,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2581054 misses 6748377"
+      }
+    },
+    {
+      "ply": 12,
+      "side": "opponent",
+      "move": "f5d3",
+      "seconds": 7.295088625018252,
+      "clock": 152.27048129201285,
+      "own_search": {}
+    },
+    {
+      "ply": 13,
+      "side": "ours",
+      "move": "d1d3",
+      "seconds": 5.165619665989652,
+      "clock": 112.75028662598925,
+      "own_search": {
+        "depth": 11,
+        "nodes": 3717456,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1197256 misses 3292243"
+      }
+    },
+    {
+      "ply": 14,
+      "side": "opponent",
+      "move": "f8b4",
+      "seconds": 5.306913000007626,
+      "clock": 148.96356829200522,
+      "own_search": {}
+    },
+    {
+      "ply": 15,
+      "side": "ours",
+      "move": "f3e5",
+      "seconds": 11.195624792017043,
+      "clock": 103.5546618339722,
+      "own_search": {
+        "depth": 11,
+        "nodes": 11242580,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 3121145 misses 8396845"
+      }
+    },
+    {
+      "ply": 16,
+      "side": "opponent",
+      "move": "c6e5",
+      "seconds": 6.063405875000171,
+      "clock": 144.90016241700505,
+      "own_search": {}
+    },
+    {
+      "ply": 17,
+      "side": "ours",
+      "move": "f4e5",
+      "seconds": 10.463721541018458,
+      "clock": 95.09094029295375,
+      "own_search": {
+        "depth": 12,
+        "nodes": 5231317,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2033319 misses 4567337"
+      }
+    },
+    {
+      "ply": 18,
+      "side": "opponent",
+      "move": "e8g8",
+      "seconds": 10.017902916995808,
+      "clock": 136.88225950000924,
+      "own_search": {}
+    },
+    {
+      "ply": 19,
+      "side": "ours",
+      "move": "e1g1",
+      "seconds": 9.834780582983512,
+      "clock": 87.25615970997023,
+      "own_search": {
+        "depth": 11,
+        "nodes": 9255391,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2788319 misses 7243513"
+      }
+    },
+    {
+      "ply": 20,
+      "side": "opponent",
+      "move": "a8c8",
+      "seconds": 13.070596959005343,
+      "clock": 125.8116625410039,
+      "own_search": {}
+    },
+    {
+      "ply": 21,
+      "side": "ours",
+      "move": "c3b5",
+      "seconds": 4.210046125022927,
+      "clock": 85.0461135849473,
+      "own_search": {
+        "depth": 10,
+        "nodes": 3940256,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1156184 misses 3173141"
+      }
+    },
+    {
+      "ply": 22,
+      "side": "opponent",
+      "move": "c7c6",
+      "seconds": 8.502498582995031,
+      "clock": 119.30916395800887,
+      "own_search": {}
+    },
+    {
+      "ply": 23,
+      "side": "ours",
+      "move": "a2a3",
+      "seconds": 9.098176291998243,
+      "clock": 77.94793729294906,
+      "own_search": {
+        "depth": 11,
+        "nodes": 4937905,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2169400 misses 4814112"
+      }
+    },
+    {
+      "ply": 24,
+      "side": "opponent",
+      "move": "b4e7",
+      "seconds": 6.616283041978022,
+      "clock": 114.69288091603084,
+      "own_search": {}
+    },
+    {
+      "ply": 25,
+      "side": "ours",
+      "move": "b5c3",
+      "seconds": 8.577932209009305,
+      "clock": 71.37000508393976,
+      "own_search": {
+        "depth": 12,
+        "nodes": 4845759,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2342571 misses 3500114"
+      }
+    },
+    {
+      "ply": 26,
+      "side": "opponent",
+      "move": "c6c5",
+      "seconds": 5.535467374982545,
+      "clock": 111.1574135410483,
+      "own_search": {}
+    },
+    {
+      "ply": 27,
+      "side": "ours",
+      "move": "e3e4",
+      "seconds": 8.096105000004172,
+      "clock": 65.27390008393559,
+      "own_search": {
+        "depth": 10,
+        "nodes": 5308691,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2051196 misses 5455292"
+      }
+    },
+    {
+      "ply": 28,
+      "side": "opponent",
+      "move": "c5d4",
+      "seconds": 3.6092056250199676,
+      "clock": 109.54820791602833,
+      "own_search": {}
+    },
+    {
+      "ply": 29,
+      "side": "ours",
+      "move": "e5d4",
+      "seconds": 3.486746790993493,
+      "clock": 63.787153292942094,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1798693,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1206773 misses 1693034"
+      }
+    },
+    {
+      "ply": 30,
+      "side": "opponent",
+      "move": "d5e4",
+      "seconds": 8.33491658300045,
+      "clock": 103.21329133302788,
+      "own_search": {}
+    },
+    {
+      "ply": 31,
+      "side": "ours",
+      "move": "c3e4",
+      "seconds": 3.4273112500086427,
+      "clock": 62.35984204293345,
+      "own_search": {
+        "depth": 10,
+        "nodes": 465714,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 628932 misses 1634495"
+      }
+    },
+    {
+      "ply": 32,
+      "side": "opponent",
+      "move": "f6e4",
+      "seconds": 6.400799499999266,
+      "clock": 98.81249183302862,
+      "own_search": {}
+    },
+    {
+      "ply": 33,
+      "side": "ours",
+      "move": "d3e4",
+      "seconds": 3.3799266669957433,
+      "clock": 60.97991537593771,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2818251,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1026871 misses 2561952"
+      }
+    },
+    {
+      "ply": 34,
+      "side": "opponent",
+      "move": "d8c7",
+      "seconds": 6.381408082990674,
+      "clock": 94.43108375003794,
+      "own_search": {}
+    },
+    {
+      "ply": 35,
+      "side": "ours",
+      "move": "c2c3",
+      "seconds": 7.333331709000049,
+      "clock": 55.64658366693766,
+      "own_search": {
+        "depth": 10,
+        "nodes": 5793500,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2124785 misses 5662635"
+      }
+    },
+    {
+      "ply": 36,
+      "side": "opponent",
+      "move": "f8d8",
+      "seconds": 4.027318875014316,
+      "clock": 92.40376487502363,
+      "own_search": {}
+    },
+    {
+      "ply": 37,
+      "side": "ours",
+      "move": "f1d1",
+      "seconds": 6.944474749994697,
+      "clock": 50.70210891694296,
+      "own_search": {
+        "depth": 9,
+        "nodes": 5301143,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1386829 misses 3720497"
+      }
+    },
+    {
+      "ply": 38,
+      "side": "opponent",
+      "move": "e7d6",
+      "seconds": 5.743157541990513,
+      "clock": 88.66060733303311,
+      "own_search": {}
+    },
+    {
+      "ply": 39,
+      "side": "ours",
+      "move": "g2g3",
+      "seconds": 6.579880375007633,
+      "clock": 46.12222854193533,
+      "own_search": {
+        "depth": 9,
+        "nodes": 2714767,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1240955 misses 3363998"
+      }
+    },
+    {
+      "ply": 40,
+      "side": "opponent",
+      "move": "c7c6",
+      "seconds": 4.709304999996675,
+      "clock": 85.95130233303644,
+      "own_search": {}
+    },
+    {
+      "ply": 41,
+      "side": "ours",
+      "move": "e4c6",
+      "seconds": 2.8387584580050316,
+      "clock": 45.2834700839303,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1324584,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 976228 misses 2124558"
+      }
+    },
+    {
+      "ply": 42,
+      "side": "opponent",
+      "move": "c8c6",
+      "seconds": 3.4370902920200024,
+      "clock": 84.51421204101644,
+      "own_search": {}
+    },
+    {
+      "ply": 43,
+      "side": "ours",
+      "move": "d4a7",
+      "seconds": 2.8106109170184936,
+      "clock": 44.4728591669118,
+      "own_search": {
+        "depth": 10,
+        "nodes": 816164,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 600324 misses 1225666"
+      }
+    },
+    {
+      "ply": 44,
+      "side": "opponent",
+      "move": "b7b6",
+      "seconds": 3.088485333020799,
+      "clock": 83.42572670799564,
+      "own_search": {}
+    },
+    {
+      "ply": 45,
+      "side": "ours",
+      "move": "b2b4",
+      "seconds": 6.125672374997521,
+      "clock": 40.34718679191428,
+      "own_search": {
+        "depth": 13,
+        "nodes": 7712041,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2960583 misses 4580956"
+      }
+    },
+    {
+      "ply": 46,
+      "side": "opponent",
+      "move": "d6c7",
+      "seconds": 4.543971957988106,
+      "clock": 80.88175475000753,
+      "own_search": {}
+    },
+    {
+      "ply": 47,
+      "side": "ours",
+      "move": "d1d8",
+      "seconds": 2.646412333007902,
+      "clock": 39.70077445890638,
+      "own_search": {
+        "depth": 12,
+        "nodes": 963634,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 833867 misses 1314460"
+      }
+    },
+    {
+      "ply": 48,
+      "side": "opponent",
+      "move": "c7d8",
+      "seconds": 0.001284583006054163,
+      "clock": 82.88047016700148,
+      "own_search": {}
+    },
+    {
+      "ply": 49,
+      "side": "ours",
+      "move": "a1d1",
+      "seconds": 2.6249705409863964,
+      "clock": 39.075803917919984,
+      "own_search": {
+        "depth": 12,
+        "nodes": 1697224,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1014699 misses 1858467"
+      }
+    },
+    {
+      "ply": 50,
+      "side": "opponent",
+      "move": "d8c7",
+      "seconds": 3.6534592090174556,
+      "clock": 81.22701095798402,
+      "own_search": {}
+    },
+    {
+      "ply": 51,
+      "side": "ours",
+      "move": "d1c1",
+      "seconds": 5.727172958984738,
+      "clock": 35.348630958935246,
+      "own_search": {
+        "depth": 12,
+        "nodes": 4092761,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2205642 misses 4156036"
+      }
+    },
+    {
+      "ply": 52,
+      "side": "opponent",
+      "move": "c6c4",
+      "seconds": 5.194191832997603,
+      "clock": 78.03281912498642,
+      "own_search": {}
+    },
+    {
+      "ply": 53,
+      "side": "ours",
+      "move": "f2f4",
+      "seconds": 5.453900249995058,
+      "clock": 31.894730708940187,
+      "own_search": {
+        "depth": 12,
+        "nodes": 5362524,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1769465 misses 4223673"
+      }
+    },
+    {
+      "ply": 54,
+      "side": "opponent",
+      "move": "h7h6",
+      "seconds": 5.143602124997415,
+      "clock": 74.889216999989,
+      "own_search": {}
+    },
+    {
+      "ply": 55,
+      "side": "ours",
+      "move": "g1f1",
+      "seconds": 5.200604834011756,
+      "clock": 28.69412587492843,
+      "own_search": {
+        "depth": 13,
+        "nodes": 4278852,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2200198 misses 3750813"
+      }
+    },
+    {
+      "ply": 56,
+      "side": "opponent",
+      "move": "g7g5",
+      "seconds": 4.233055124990642,
+      "clock": 72.65616187499836,
+      "own_search": {}
+    },
+    {
+      "ply": 57,
+      "side": "ours",
+      "move": "f4g5",
+      "seconds": 2.258120582991978,
+      "clock": 28.436005291936453,
+      "own_search": {
+        "depth": 13,
+        "nodes": 1807727,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1190476 misses 1516306"
+      }
+    },
+    {
+      "ply": 58,
+      "side": "opponent",
+      "move": "h6g5",
+      "seconds": 3.208097708004061,
+      "clock": 71.4480641669943,
+      "own_search": {}
+    },
+    {
+      "ply": 59,
+      "side": "ours",
+      "move": "f1e2",
+      "seconds": 2.2493593339750078,
+      "clock": 28.186645957961446,
+      "own_search": {
+        "depth": 12,
+        "nodes": 1407310,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 874635 misses 1630518"
+      }
+    },
+    {
+      "ply": 60,
+      "side": "opponent",
+      "move": "f7f5",
+      "seconds": 7.2384739159897435,
+      "clock": 66.20959025100456,
+      "own_search": {}
+    },
+    {
+      "ply": 61,
+      "side": "ours",
+      "move": "e2d3",
+      "seconds": 4.928861624997808,
+      "clock": 25.257784332963638,
+      "own_search": {
+        "depth": 12,
+        "nodes": 3320221,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2027403 misses 3807226"
+      }
+    },
+    {
+      "ply": 62,
+      "side": "opponent",
+      "move": "c4c6",
+      "seconds": 3.999548791995039,
+      "clock": 64.21004145900952,
+      "own_search": {}
+    },
+    {
+      "ply": 63,
+      "side": "ours",
+      "move": "c3c4",
+      "seconds": 2.143753790995106,
+      "clock": 25.114030541968532,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1440125,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 775649 misses 1835627"
+      }
+    },
+    {
+      "ply": 64,
+      "side": "opponent",
+      "move": "e6e5",
+      "seconds": 3.9353819579991978,
+      "clock": 62.27465950101032,
+      "own_search": {}
+    },
+    {
+      "ply": 65,
+      "side": "ours",
+      "move": "b4b5",
+      "seconds": 4.7031876249820925,
+      "clock": 22.41084291698644,
+      "own_search": {
+        "depth": 10,
+        "nodes": 4553971,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1766766 misses 4144765"
+      }
+    },
+    {
+      "ply": 66,
+      "side": "opponent",
+      "move": "e5e4",
+      "seconds": 3.718958167009987,
+      "clock": 60.55570133400033,
+      "own_search": {}
+    },
+    {
+      "ply": 67,
+      "side": "ours",
+      "move": "d3e3",
+      "seconds": 4.48350545798894,
+      "clock": 19.9273374589975,
+      "own_search": {
+        "depth": 11,
+        "nodes": 2389536,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1249718 misses 2488867"
+      }
+    },
+    {
+      "ply": 68,
+      "side": "opponent",
+      "move": "c6h6",
+      "seconds": 3.8215899580100086,
+      "clock": 58.734111375990324,
+      "own_search": {}
+    },
+    {
+      "ply": 69,
+      "side": "ours",
+      "move": "c1f1",
+      "seconds": 3.987071042007301,
+      "clock": 17.940266416990198,
+      "own_search": {
+        "depth": 12,
+        "nodes": 4145976,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1354672 misses 2486347"
+      }
+    },
+    {
+      "ply": 70,
+      "side": "opponent",
+      "move": "h6h2",
+      "seconds": 3.965041207993636,
+      "clock": 56.76907016799669,
+      "own_search": {}
+    },
+    {
+      "ply": 71,
+      "side": "ours",
+      "move": "f1f5",
+      "seconds": 1.9000208750076126,
+      "clock": 18.040245541982586,
+      "own_search": {
+        "depth": 10,
+        "nodes": 211684,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 389199 misses 731611"
+      }
+    },
+    {
+      "ply": 72,
+      "side": "opponent",
+      "move": "h2a2",
+      "seconds": 2.91002212499734,
+      "clock": 55.85904804299935,
+      "own_search": {}
+    },
+    {
+      "ply": 73,
+      "side": "ours",
+      "move": "f5g5",
+      "seconds": 3.6096744170063175,
+      "clock": 16.430571124976268,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1482933,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1603176 misses 2163343"
+      }
+    },
+    {
+      "ply": 74,
+      "side": "opponent",
+      "move": "g8f7",
+      "seconds": 3.673005250020651,
+      "clock": 54.1860427929787,
+      "own_search": {}
+    },
+    {
+      "ply": 75,
+      "side": "ours",
+      "move": "e3e4",
+      "seconds": 3.2877957920136396,
+      "clock": 15.142775332962628,
+      "own_search": {
+        "depth": 12,
+        "nodes": 2059538,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1403063 misses 1837765"
+      }
+    },
+    {
+      "ply": 76,
+      "side": "opponent",
+      "move": "a2a3",
+      "seconds": 2.2732717499893624,
+      "clock": 53.912771042989334,
+      "own_search": {}
+    },
+    {
+      "ply": 77,
+      "side": "ours",
+      "move": "a7b6",
+      "seconds": 1.8063523339806125,
+      "clock": 15.336422998982016,
+      "own_search": {
+        "depth": 12,
+        "nodes": 809587,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 840304 misses 259154"
+      }
+    },
+    {
+      "ply": 78,
+      "side": "opponent",
+      "move": "c7b6",
+      "seconds": 1.2360177499940619,
+      "clock": 54.67675329299527,
+      "own_search": {}
+    },
+    {
+      "ply": 79,
+      "side": "ours",
+      "move": "c4c5",
+      "seconds": 1.8128676670021378,
+      "clock": 15.523555331979878,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1025529,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 841197 misses 465208"
+      }
+    },
+    {
+      "ply": 80,
+      "side": "opponent",
+      "move": "b6c7",
+      "seconds": 3.6498462079907767,
+      "clock": 53.026907085004495,
+      "own_search": {}
+    },
+    {
+      "ply": 81,
+      "side": "ours",
+      "move": "g3g4",
+      "seconds": 3.1063732910261024,
+      "clock": 14.417182040953776,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1634037,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1001260 misses 1487193"
+      }
+    },
+    {
+      "ply": 82,
+      "side": "opponent",
+      "move": "a3a4",
+      "seconds": 2.4446542079967912,
+      "clock": 52.582252877007704,
+      "own_search": {}
+    },
+    {
+      "ply": 83,
+      "side": "ours",
+      "move": "e4d5",
+      "seconds": 1.7823064170079306,
+      "clock": 14.634875623945845,
+      "own_search": {
+        "depth": 10,
+        "nodes": 779543,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 693060 misses 946959"
+      }
+    },
+    {
+      "ply": 84,
+      "side": "opponent",
+      "move": "a4b4",
+      "seconds": 5.755001334007829,
+      "clock": 48.827251542999875,
+      "own_search": {}
+    },
+    {
+      "ply": 85,
+      "side": "ours",
+      "move": "d5c6",
+      "seconds": 2.9286912080133334,
+      "clock": 13.706184415932512,
+      "own_search": {
+        "depth": 13,
+        "nodes": 2140515,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1045603 misses 1083380"
+      }
+    },
+    {
+      "ply": 86,
+      "side": "opponent",
+      "move": "c7f4",
+      "seconds": 2.3565159999998286,
+      "clock": 48.470735543000046,
+      "own_search": {}
+    },
+    {
+      "ply": 87,
+      "side": "ours",
+      "move": "g5f5",
+      "seconds": 2.7426756249915343,
+      "clock": 12.963508790940978,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1053881,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 995267 misses 1197579"
+      }
+    },
+    {
+      "ply": 88,
+      "side": "opponent",
+      "move": "f7e6",
+      "seconds": 3.438886082993122,
+      "clock": 47.031849460006924,
+      "own_search": {}
+    },
+    {
+      "ply": 89,
+      "side": "ours",
+      "move": "b5b6",
+      "seconds": 1.7335935000155587,
+      "clock": 13.229915290925419,
+      "own_search": {
+        "depth": 10,
+        "nodes": 615949,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 545673 misses 815073"
+      }
+    },
+    {
+      "ply": 90,
+      "side": "opponent",
+      "move": "f4g3",
+      "seconds": 2.5547179589921143,
+      "clock": 46.47713150101481,
+      "own_search": {}
+    },
+    {
+      "ply": 91,
+      "side": "ours",
+      "move": "f5g5",
+      "seconds": 2.6476930000062566,
+      "clock": 12.582222290919162,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1451843,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2171998 misses 1394941"
+      }
+    },
+    {
+      "ply": 92,
+      "side": "opponent",
+      "move": "e6f6",
+      "seconds": 4.047161791997496,
+      "clock": 44.429969709017314,
+      "own_search": {}
+    },
+    {
+      "ply": 93,
+      "side": "ours",
+      "move": "g5g8",
+      "seconds": 2.5180044999870006,
+      "clock": 12.064217790932162,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1550869,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1245732 misses 1572825"
+      }
+    },
+    {
+      "ply": 94,
+      "side": "opponent",
+      "move": "f6f7",
+      "seconds": 3.3103684170055203,
+      "clock": 43.119601292011794,
+      "own_search": {}
+    },
+    {
+      "ply": 95,
+      "side": "ours",
+      "move": "g8g5",
+      "seconds": 2.414733042009175,
+      "clock": 11.649484748922987,
+      "own_search": {
+        "depth": 10,
+        "nodes": 644838,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1089109 misses 1422926"
+      }
+    },
+    {
+      "ply": 96,
+      "side": "opponent",
+      "move": "f7f6",
+      "seconds": 2.667764708021423,
+      "clock": 42.45183658399037,
+      "own_search": {}
+    },
+    {
+      "ply": 97,
+      "side": "ours",
+      "move": "g5h5",
+      "seconds": 2.3318317079974804,
+      "clock": 11.317653040925507,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1202328,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 891517 misses 1022378"
+      }
+    },
+    {
+      "ply": 98,
+      "side": "opponent",
+      "move": "b4g4",
+      "seconds": 3.246821250009816,
+      "clock": 41.205015333980555,
+      "own_search": {}
+    },
+    {
+      "ply": 99,
+      "side": "ours",
+      "move": "c6b5",
+      "seconds": 2.265120333991945,
+      "clock": 11.052532706933562,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1548078,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1211940 misses 1789599"
+      }
+    },
+    {
+      "ply": 100,
+      "side": "opponent",
+      "move": "f6e6",
+      "seconds": 2.523854333005147,
+      "clock": 40.68116100097541,
+      "own_search": {}
+    },
+    {
+      "ply": 101,
+      "side": "ours",
+      "move": "b6b7",
+      "seconds": 1.6701183330151252,
+      "clock": 11.382414373918436,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1480133,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 822347 misses 1090483"
+      }
+    },
+    {
+      "ply": 102,
+      "side": "opponent",
+      "move": "g4g7",
+      "seconds": 3.87125616701087,
+      "clock": 38.80990483396454,
+      "own_search": {}
+    },
+    {
+      "ply": 103,
+      "side": "ours",
+      "move": "c5c6",
+      "seconds": 2.2784288749971893,
+      "clock": 11.103985498921247,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2795931,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1358927 misses 1144263"
+      }
+    },
+    {
+      "ply": 104,
+      "side": "opponent",
+      "move": "g3c7",
+      "seconds": 2.2707394169992767,
+      "clock": 38.53916541696526,
+      "own_search": {}
+    },
+    {
+      "ply": 105,
+      "side": "ours",
+      "move": "b5c4",
+      "seconds": 2.222645207977621,
+      "clock": 10.881340290943626,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2028703,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2267236 misses 1449716"
+      }
+    },
+    {
+      "ply": 106,
+      "side": "opponent",
+      "move": "g7g1",
+      "seconds": 2.5518896669964306,
+      "clock": 37.98727574996883,
+      "own_search": {}
+    },
+    {
+      "ply": 107,
+      "side": "ours",
+      "move": "h5h6",
+      "seconds": 2.1778448749973904,
+      "clock": 10.703495415946236,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2905875,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2120453 misses 1382489"
+      }
+    },
+    {
+      "ply": 108,
+      "side": "opponent",
+      "move": "e6e5",
+      "seconds": 3.1065349580021575,
+      "clock": 36.88074079196667,
+      "own_search": {}
+    },
+    {
+      "ply": 109,
+      "side": "ours",
+      "move": "h6h7",
+      "seconds": 2.1420521670079324,
+      "clock": 10.561443248938303,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1270494,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2262628 misses 1250218"
+      }
+    },
+    {
+      "ply": 110,
+      "side": "opponent",
+      "move": "e5d6",
+      "seconds": 2.6944840000069235,
+      "clock": 36.18625679195975,
+      "own_search": {}
+    },
+    {
+      "ply": 111,
+      "side": "ours",
+      "move": "h7h6",
+      "seconds": 2.114044374990044,
+      "clock": 10.44739887394826,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1364476,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1632310 misses 1023518"
+      }
+    },
+    {
+      "ply": 112,
+      "side": "opponent",
+      "move": "d6e5",
+      "seconds": 2.636821249994682,
+      "clock": 35.54943554196507,
+      "own_search": {}
+    },
+    {
+      "ply": 113,
+      "side": "ours",
+      "move": "c4d3",
+      "seconds": 2.0910823340236675,
+      "clock": 10.356316539924592,
+      "own_search": {
+        "depth": 9,
+        "nodes": 977931,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1962490 misses 1148109"
+      }
+    },
+    {
+      "ply": 114,
+      "side": "opponent",
+      "move": "e5d5",
+      "seconds": 2.4199105000006966,
+      "clock": 35.12952504196437,
+      "own_search": {}
+    },
+    {
+      "ply": 115,
+      "side": "ours",
+      "move": "h6f6",
+      "seconds": 2.0728752910217736,
+      "clock": 10.283441248902818,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1436388,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1791022 misses 1175761"
+      }
+    },
+    {
+      "ply": 116,
+      "side": "opponent",
+      "move": "g1g8",
+      "seconds": 1.9698645419848617,
+      "clock": 35.15966049997951,
+      "own_search": {}
+    },
+    {
+      "ply": 117,
+      "side": "ours",
+      "move": "d3c3",
+      "seconds": 2.0584495829825755,
+      "clock": 10.224991665920243,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1768971,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1489922 misses 1242955"
+      }
+    },
+    {
+      "ply": 118,
+      "side": "opponent",
+      "move": "c7d6",
+      "seconds": 2.5076711250003427,
+      "clock": 34.651989374979166,
+      "own_search": {}
+    },
+    {
+      "ply": 119,
+      "side": "ours",
+      "move": "f6f1",
+      "seconds": 2.0465089999779593,
+      "clock": 10.178482665942283,
+      "own_search": {
+        "depth": 9,
+        "nodes": 491835,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1263176 misses 1116562"
+      }
+    },
+    {
+      "ply": 120,
+      "side": "opponent",
+      "move": "d5c6",
+      "seconds": 2.773010165983578,
+      "clock": 33.87897920899559,
+      "own_search": {}
+    },
+    {
+      "ply": 121,
+      "side": "ours",
+      "move": "f1f6",
+      "seconds": 2.07248679199256,
+      "clock": 10.105995873949723,
+      "own_search": {
+        "depth": 9,
+        "nodes": 877135,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1103256 misses 787779"
+      }
+    },
+    {
+      "ply": 122,
+      "side": "opponent",
+      "move": "g8b8",
+      "seconds": 3.1551056659955066,
+      "clock": 32.72387354300008,
+      "own_search": {}
+    },
+    {
+      "ply": 123,
+      "side": "ours",
+      "move": "f6f7",
+      "seconds": 2.024999542016303,
+      "clock": 10.08099633193342,
+      "own_search": {
+        "depth": 11,
+        "nodes": 993454,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1104181 misses 795710"
+      }
+    },
+    {
+      "ply": 124,
+      "side": "opponent",
+      "move": "d6c7",
+      "seconds": 2.7901689170103054,
+      "clock": 31.933704625989776,
+      "own_search": {}
+    },
+    {
+      "ply": 125,
+      "side": "ours",
+      "move": "c3b3",
+      "seconds": 2.0183965000032913,
+      "clock": 10.062599831930129,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2269710,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1261916 misses 1109237"
+      }
+    },
+    {
+      "ply": 126,
+      "side": "opponent",
+      "move": "b8b7",
+      "seconds": 2.9150176660041325,
+      "clock": 31.018686959985644,
+      "own_search": {}
+    },
+    {
+      "ply": 127,
+      "side": "ours",
+      "move": "b3c4",
+      "seconds": 1.6372463340230752,
+      "clock": 10.425353497907054,
+      "own_search": {
+        "depth": 10,
+        "nodes": 916325,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 774425 misses 496356"
+      }
+    },
+    {
+      "ply": 128,
+      "side": "opponent",
+      "move": "b7a7",
+      "seconds": 1.9054844159982167,
+      "clock": 31.113202543987427,
+      "own_search": {}
+    },
+    {
+      "ply": 129,
+      "side": "ours",
+      "move": "c4b3",
+      "seconds": 1.6494997910049278,
+      "clock": 10.775853706902126,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1957320,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1177204 misses 810984"
+      }
+    },
+    {
+      "ply": 130,
+      "side": "opponent",
+      "move": "a7a5",
+      "seconds": 2.8892905000247993,
+      "clock": 30.223912043962628,
+      "own_search": {}
+    },
+    {
+      "ply": 131,
+      "side": "ours",
+      "move": "f7g7",
+      "seconds": 2.157035749987699,
+      "clock": 10.618817956914427,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2950180,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1891867 misses 1135856"
+      }
+    },
+    {
+      "ply": 132,
+      "side": "opponent",
+      "move": "c7e5",
+      "seconds": 2.470934582990594,
+      "clock": 29.752977460972033,
+      "own_search": {}
+    },
+    {
+      "ply": 133,
+      "side": "ours",
+      "move": "g7h7",
+      "seconds": 2.125702417019056,
+      "clock": 10.49311553989537,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1570543,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1860836 misses 1371303"
+      }
+    },
+    {
+      "ply": 134,
+      "side": "opponent",
+      "move": "c6d5",
+      "seconds": 2.9778607909975108,
+      "clock": 28.775116669974523,
+      "own_search": {}
+    },
+    {
+      "ply": 135,
+      "side": "ours",
+      "move": "b3c2",
+      "seconds": 2.1002986670064274,
+      "clock": 10.392816872888943,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1345539,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1813545 misses 1022167"
+      }
+    },
+    {
+      "ply": 136,
+      "side": "opponent",
+      "move": "a5a3",
+      "seconds": 2.8148162919969764,
+      "clock": 27.960300377977546,
+      "own_search": {}
+    },
+    {
+      "ply": 137,
+      "side": "ours",
+      "move": "h7f7",
+      "seconds": 2.0805267079849727,
+      "clock": 10.31229016490397,
+      "own_search": {
+        "depth": 9,
+        "nodes": 1121653,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1566902 misses 827594"
+      }
+    },
+    {
+      "ply": 138,
+      "side": "opponent",
+      "move": "d5e4",
+      "seconds": 2.741601832996821,
+      "clock": 27.218698544980725,
+      "own_search": {}
+    },
+    {
+      "ply": 139,
+      "side": "ours",
+      "move": "f7e7",
+      "seconds": 2.0643363330163993,
+      "clock": 10.247953831887571,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2269102,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2146728 misses 1027015"
+      }
+    },
+    {
+      "ply": 140,
+      "side": "opponent",
+      "move": "a3c3",
+      "seconds": 2.764413540979149,
+      "clock": 26.454285004001576,
+      "own_search": {}
+    },
+    {
+      "ply": 141,
+      "side": "ours",
+      "move": "c2d2",
+      "seconds": 2.0720788330072537,
+      "clock": 10.175874998880317,
+      "own_search": {
+        "depth": 9,
+        "nodes": 586861,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1322707 misses 416825"
+      }
+    },
+    {
+      "ply": 142,
+      "side": "opponent",
+      "move": "c3b3",
+      "seconds": 2.0709011250000913,
+      "clock": 26.383383879001485,
+      "own_search": {}
+    },
+    {
+      "ply": 143,
+      "side": "ours",
+      "move": "d2c1",
+      "seconds": 2.0372119170206133,
+      "clock": 10.138663081859704,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1633699,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2039956 misses 732762"
+      }
+    },
+    {
+      "ply": 144,
+      "side": "opponent",
+      "move": "b3b5",
+      "seconds": 1.879234041000018,
+      "clock": 26.504149838001467,
+      "own_search": {}
+    },
+    {
+      "ply": 145,
+      "side": "ours",
+      "move": "c1d2",
+      "seconds": 2.029726375010796,
+      "clock": 10.108936706848908,
+      "own_search": {
+        "depth": 10,
+        "nodes": 399051,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 669326 misses 407091"
+      }
+    },
+    {
+      "ply": 146,
+      "side": "opponent",
+      "move": "b5b2",
+      "seconds": 2.7414893330133054,
+      "clock": 25.762660504988162,
+      "own_search": {}
+    },
+    {
+      "ply": 147,
+      "side": "ours",
+      "move": "d2e1",
+      "seconds": 2.023719666991383,
+      "clock": 10.085217039857525,
+      "own_search": {
+        "depth": 10,
+        "nodes": 699159,
+        "string": "root_threads 3 adaptive_time_extended 1 static_eval_hits 767819 misses 308609"
+      }
+    },
+    {
+      "ply": 148,
+      "side": "opponent",
+      "move": "b2a2",
+      "seconds": 2.9593059580074623,
+      "clock": 24.8033545469807,
+      "own_search": {}
+    },
+    {
+      "ply": 149,
+      "side": "ours",
+      "move": "e1f1",
+      "seconds": 2.018979959015269,
+      "clock": 10.066237080842257,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1633771,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1435425 misses 833251"
+      }
+    },
+    {
+      "ply": 150,
+      "side": "opponent",
+      "move": "a2h2",
+      "seconds": 2.9131001670029946,
+      "clock": 23.890254379977705,
+      "own_search": {}
+    },
+    {
+      "ply": 151,
+      "side": "ours",
+      "move": "f1e1",
+      "seconds": 1.6373137919872534,
+      "clock": 10.428923288855003,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1461271,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1298318 misses 706123"
+      }
+    },
+    {
+      "ply": 152,
+      "side": "opponent",
+      "move": "h2g2",
+      "seconds": 1.7230771250033285,
+      "clock": 24.167177254974376,
+      "own_search": {}
+    },
+    {
+      "ply": 153,
+      "side": "ours",
+      "move": "e1f1",
+      "seconds": 2.0874388749944046,
+      "clock": 10.341484413860599,
+      "own_search": {
+        "depth": 11,
+        "nodes": 2687628,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1843253 misses 1066429"
+      }
+    },
+    {
+      "ply": 154,
+      "side": "opponent",
+      "move": "g2c2",
+      "seconds": 1.884519791987259,
+      "clock": 24.282657462987117,
+      "own_search": {}
+    },
+    {
+      "ply": 155,
+      "side": "ours",
+      "move": "f1e1",
+      "seconds": 1.6463252500107046,
+      "clock": 10.695159163849894,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1727547,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1175828 misses 612762"
+      }
+    },
+    {
+      "ply": 156,
+      "side": "opponent",
+      "move": "c2h2",
+      "seconds": 2.4721183329820633,
+      "clock": 23.810539130005054,
+      "own_search": {}
+    },
+    {
+      "ply": 157,
+      "side": "ours",
+      "move": "e1d1",
+      "seconds": 2.1411189579812344,
+      "clock": 10.55404020586866,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1498317,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1491297 misses 612344"
+      }
+    },
+    {
+      "ply": 158,
+      "side": "opponent",
+      "move": "h2a2",
+      "seconds": 2.657376207993366,
+      "clock": 23.15316292201169,
+      "own_search": {}
+    },
+    {
+      "ply": 159,
+      "side": "ours",
+      "move": "d1e1",
+      "seconds": 2.113091874984093,
+      "clock": 10.440948330884567,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1729961,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1443535 misses 818847"
+      }
+    },
+    {
+      "ply": 160,
+      "side": "opponent",
+      "move": "a2b2",
+      "seconds": 1.6951224170043133,
+      "clock": 23.458040505007375,
+      "own_search": {}
+    },
+    {
+      "ply": 161,
+      "side": "ours",
+      "move": "e1f1",
+      "seconds": 1.6501210420101415,
+      "clock": 10.790827288874425,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1234385,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1040593 misses 515550"
+      }
+    },
+    {
+      "ply": 162,
+      "side": "opponent",
+      "move": "b2d2",
+      "seconds": 1.712191791011719,
+      "clock": 23.745848713995656,
+      "own_search": {}
+    },
+    {
+      "ply": 163,
+      "side": "ours",
+      "move": "f1e1",
+      "seconds": 1.661665042018285,
+      "clock": 11.12916224685614,
+      "own_search": {
+        "depth": 11,
+        "nodes": 1251149,
+        "string": "root_threads 4 adaptive_time_extended 0 static_eval_hits 1019195 misses 550935"
+      }
+    },
+    {
+      "ply": 164,
+      "side": "opponent",
+      "move": "d2c2",
+      "seconds": 1.8330644159868825,
+      "clock": 23.912784298008773,
+      "own_search": {}
+    },
+    {
+      "ply": 165,
+      "side": "ours",
+      "move": "e1f1",
+      "seconds": 2.2277503340155818,
+      "clock": 10.901411912840558,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1129031,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1471425 misses 840868"
+      }
+    },
+    {
+      "ply": 166,
+      "side": "opponent",
+      "move": "c2c1",
+      "seconds": 3.569686458009528,
+      "clock": 22.343097839999245,
+      "own_search": {}
+    },
+    {
+      "ply": 167,
+      "side": "ours",
+      "move": "f1e2",
+      "seconds": 2.1820653330069035,
+      "clock": 10.719346579833655,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1774850,
+        "string": "root_threads 3 adaptive_time_extended 1 static_eval_hits 1680066 misses 638648"
+      }
+    },
+    {
+      "ply": 168,
+      "side": "opponent",
+      "move": "c1g1",
+      "seconds": 2.6112354999931995,
+      "clock": 21.731862340006046,
+      "own_search": {}
+    },
+    {
+      "ply": 169,
+      "side": "ours",
+      "move": "e2f2",
+      "seconds": 2.1462348329951055,
+      "clock": 10.57311174683855,
+      "own_search": {
+        "depth": 11,
+        "nodes": 2107650,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1954338 misses 1032209"
+      }
+    },
+    {
+      "ply": 170,
+      "side": "opponent",
+      "move": "g1g8",
+      "seconds": 2.292693249997683,
+      "clock": 21.439169090008363,
+      "own_search": {}
+    },
+    {
+      "ply": 171,
+      "side": "ours",
+      "move": "f2f1",
+      "seconds": 2.1163505419972353,
+      "clock": 10.456761204841314,
+      "own_search": {
+        "depth": 10,
+        "nodes": 698070,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1354836 misses 634706"
+      }
+    },
+    {
+      "ply": 172,
+      "side": "opponent",
+      "move": "g8g6",
+      "seconds": 2.959261791984318,
+      "clock": 20.479907298024045,
+      "own_search": {}
+    },
+    {
+      "ply": 173,
+      "side": "ours",
+      "move": "f1e1",
+      "seconds": 2.1134156660118606,
+      "clock": 10.343345538829453,
+      "own_search": {
+        "depth": 10,
+        "nodes": 923486,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1332218 misses 748390"
+      }
+    },
+    {
+      "ply": 174,
+      "side": "opponent",
+      "move": "g6b6",
+      "seconds": 2.640832582983421,
+      "clock": 19.839074715040624,
+      "own_search": {}
+    },
+    {
+      "ply": 175,
+      "side": "ours",
+      "move": "e1f1",
+      "seconds": 2.0708120000199415,
+      "clock": 10.272533538809512,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2040759,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1465339 misses 754921"
+      }
+    },
+    {
+      "ply": 176,
+      "side": "opponent",
+      "move": "b6b1",
+      "seconds": 2.1084678340121172,
+      "clock": 19.730606881028507,
+      "own_search": {}
+    },
+    {
+      "ply": 177,
+      "side": "ours",
+      "move": "f1g2",
+      "seconds": 2.056960917019751,
+      "clock": 10.21557262178976,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1713907,
+        "string": "root_threads 3 adaptive_time_extended 1 static_eval_hits 1605988 misses 566273"
+      }
+    },
+    {
+      "ply": 178,
+      "side": "opponent",
+      "move": "b1b3",
+      "seconds": 2.3057277080079075,
+      "clock": 19.4248791730206,
+      "own_search": {}
+    },
+    {
+      "ply": 179,
+      "side": "ours",
+      "move": "g2f1",
+      "seconds": 2.0453763749974314,
+      "clock": 10.17019624679233,
+      "own_search": {
+        "depth": 11,
+        "nodes": 3433250,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2464936 misses 849203"
+      }
+    },
+    {
+      "ply": 180,
+      "side": "opponent",
+      "move": "b3a3",
+      "seconds": 3.485958999983268,
+      "clock": 17.93892017303733,
+      "own_search": {}
+    },
+    {
+      "ply": 181,
+      "side": "ours",
+      "move": "f1g1",
+      "seconds": 2.036208791017998,
+      "clock": 10.133987455774331,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1178103,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2572309 misses 935464"
+      }
+    },
+    {
+      "ply": 182,
+      "side": "opponent",
+      "move": "a3h3",
+      "seconds": 2.1758841660048347,
+      "clock": 17.763036007032497,
+      "own_search": {}
+    },
+    {
+      "ply": 183,
+      "side": "ours",
+      "move": "g1f2",
+      "seconds": 2.0288925000058953,
+      "clock": 10.105094955768436,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2281619,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2098883 misses 902030"
+      }
+    },
+    {
+      "ply": 184,
+      "side": "opponent",
+      "move": "h3c3",
+      "seconds": 2.1463605419849046,
+      "clock": 17.616675465047592,
+      "own_search": {}
+    },
+    {
+      "ply": 185,
+      "side": "ours",
+      "move": "f2g1",
+      "seconds": 2.0233605410030577,
+      "clock": 10.081734414765378,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1280116,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2161604 misses 656401"
+      }
+    },
+    {
+      "ply": 186,
+      "side": "opponent",
+      "move": "c3f3",
+      "seconds": 2.2566616250260267,
+      "clock": 17.360013840021566,
+      "own_search": {}
+    },
+    {
+      "ply": 187,
+      "side": "ours",
+      "move": "g1g2",
+      "seconds": 2.0184269580058753,
+      "clock": 10.063307456759503,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1552360,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1368024 misses 674334"
+      }
+    },
+    {
+      "ply": 188,
+      "side": "opponent",
+      "move": "f3g3",
+      "seconds": 1.479283291992033,
+      "clock": 17.880730548029533,
+      "own_search": {}
+    },
+    {
+      "ply": 189,
+      "side": "ours",
+      "move": "g2f1",
+      "seconds": 2.0146006669965573,
+      "clock": 10.048706789762946,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1395451,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1682221 misses 364669"
+      }
+    },
+    {
+      "ply": 190,
+      "side": "opponent",
+      "move": "g3g8",
+      "seconds": 2.4692405000096187,
+      "clock": 17.411490048019914,
+      "own_search": {}
+    },
+    {
+      "ply": 191,
+      "side": "ours",
+      "move": "f1e2",
+      "seconds": 2.011881500016898,
+      "clock": 10.036825289746048,
+      "own_search": {
+        "depth": 11,
+        "nodes": 2419818,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1906851 misses 771388"
+      }
+    },
+    {
+      "ply": 192,
+      "side": "opponent",
+      "move": "g8f8",
+      "seconds": 2.2645649159967434,
+      "clock": 17.14692513202317,
+      "own_search": {}
+    },
+    {
+      "ply": 193,
+      "side": "ours",
+      "move": "e2d1",
+      "seconds": 2.009493374993326,
+      "clock": 10.027331914752722,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1500971,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2168001 misses 820338"
+      }
+    },
+    {
+      "ply": 194,
+      "side": "opponent",
+      "move": "f8b8",
+      "seconds": 2.4459320419991855,
+      "clock": 16.700993090023985,
+      "own_search": {}
+    },
+    {
+      "ply": 195,
+      "side": "ours",
+      "move": "d1e1",
+      "seconds": 2.0075132909987587,
+      "clock": 10.019818623753963,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1799026,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2265401 misses 820152"
+      }
+    },
+    {
+      "ply": 196,
+      "side": "opponent",
+      "move": "b8c8",
+      "seconds": 1.6179927499906626,
+      "clock": 17.083000340033323,
+      "own_search": {}
+    },
+    {
+      "ply": 197,
+      "side": "ours",
+      "move": "e1d1",
+      "seconds": 2.0060134580126032,
+      "clock": 10.01380516574136,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1752959,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2229159 misses 787301"
+      }
+    },
+    {
+      "ply": 198,
+      "side": "opponent",
+      "move": "c8h8",
+      "seconds": 1.9834887920005713,
+      "clock": 17.09951154803275,
+      "own_search": {}
+    },
+    {
+      "ply": 199,
+      "side": "ours",
+      "move": "d1e1",
+      "seconds": 2.005031707987655,
+      "clock": 10.008773457753705,
+      "own_search": {
+        "depth": 10,
+        "nodes": 2509751,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2207415 misses 842689"
+      }
+    },
+    {
+      "ply": 200,
+      "side": "opponent",
+      "move": "h8h6",
+      "seconds": 2.0255782089952845,
+      "clock": 17.073933339037467,
+      "own_search": {}
+    },
+    {
+      "ply": 201,
+      "side": "ours",
+      "move": "e1d1",
+      "seconds": 2.004257791006239,
+      "clock": 10.004515666747466,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1587093,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1951316 misses 742802"
+      }
+    },
+    {
+      "ply": 202,
+      "side": "opponent",
+      "move": "h6b6",
+      "seconds": 2.440000750008039,
+      "clock": 16.633932589029428,
+      "own_search": {}
+    },
+    {
+      "ply": 203,
+      "side": "ours",
+      "move": "d1d2",
+      "seconds": 2.0065155000193045,
+      "clock": 9.998000166728161,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1470048,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1891067 misses 756166"
+      }
+    },
+    {
+      "ply": 204,
+      "side": "opponent",
+      "move": "b6b1",
+      "seconds": 1.5738187500101048,
+      "clock": 17.060113839019323,
+      "own_search": {}
+    },
+    {
+      "ply": 205,
+      "side": "ours",
+      "move": "d2e2",
+      "seconds": 2.0018605830264278,
+      "clock": 9.996139583701733,
+      "own_search": {
+        "depth": 10,
+        "nodes": 995493,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1704497 misses 749351"
+      }
+    },
+    {
+      "ply": 206,
+      "side": "opponent",
+      "move": "b1c1",
+      "seconds": 2.4374454579956364,
+      "clock": 16.622668381023686,
+      "own_search": {}
+    },
+    {
+      "ply": 207,
+      "side": "ours",
+      "move": "e2d2",
+      "seconds": 2.0013741249858867,
+      "clock": 9.994765458715847,
+      "own_search": {
+        "depth": 10,
+        "nodes": 961720,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1908608 misses 816680"
+      }
+    },
+    {
+      "ply": 208,
+      "side": "opponent",
+      "move": "c1c4",
+      "seconds": 2.972719915997004,
+      "clock": 15.649948465026682,
+      "own_search": {}
+    },
+    {
+      "ply": 209,
+      "side": "ours",
+      "move": "d2d1",
+      "seconds": 2.0013572500029113,
+      "clock": 9.993408208712935,
+      "own_search": {
+        "depth": 11,
+        "nodes": 2847111,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2191380 misses 1029696"
+      }
+    },
+    {
+      "ply": 210,
+      "side": "opponent",
+      "move": "c4c8",
+      "seconds": 2.3993251670035534,
+      "clock": 15.250623298023129,
+      "own_search": {}
+    },
+    {
+      "ply": 211,
+      "side": "ours",
+      "move": "d1d2",
+      "seconds": 2.00079624998034,
+      "clock": 9.992611958732596,
+      "own_search": {
+        "depth": 10,
+        "nodes": 1753828,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1498511 misses 724862"
+      }
+    },
+    {
+      "ply": 212,
+      "side": "opponent",
+      "move": "c8a8",
+      "seconds": 2.38658829202177,
+      "clock": 14.864035006001359,
+      "own_search": {}
+    },
+    {
+      "ply": 213,
+      "side": "ours",
+      "move": "d2c2",
+      "seconds": 2.000521290989127,
+      "clock": 9.992090667743469,
+      "own_search": {
+        "depth": 9,
+        "nodes": 420409,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 924732 misses 511291"
+      }
+    },
+    {
+      "ply": 214,
+      "side": "opponent",
+      "move": "a8b8",
+      "seconds": 13.122663082991494,
+      "clock": 3.741371923009865,
+      "own_search": {}
+    },
+    {
+      "ply": 215,
+      "side": "ours",
+      "move": "c2d2",
+      "seconds": 2.000699457974406,
+      "clock": 9.991391209769063,
+      "own_search": {
+        "depth": 9,
+        "nodes": 900812,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1340695 misses 711452"
+      }
+    },
+    {
+      "ply": 216,
+      "side": "opponent",
+      "move": "b8b5",
+      "seconds": 2.5560597089934163,
+      "clock": 3.1853122140164487,
+      "own_search": {}
+    },
+    {
+      "ply": 217,
+      "side": "ours",
+      "move": "d2c2",
+      "seconds": 2.0007322919846047,
+      "clock": 9.990658917784458,
+      "own_search": {
+        "depth": 9,
+        "nodes": 2169189,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1328999 misses 812951"
+      }
+    },
+    {
+      "ply": 218,
+      "side": "opponent",
+      "move": "b5b4",
+      "seconds": 2.0338552089815494,
+      "clock": 3.1514570050348993,
+      "own_search": {}
+    },
+    {
+      "ply": 219,
+      "side": "ours",
+      "move": "e7h7",
+      "seconds": 2.000466041994514,
+      "clock": 9.990192875789944,
+      "own_search": {
+        "depth": 9,
+        "nodes": 1674358,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 1354734 misses 780864"
+      }
+    },
+    {
+      "ply": 220,
+      "side": "opponent",
+      "move": "b4b2",
+      "seconds": 1.9981730410072487,
+      "clock": 3.1532839640276507,
+      "own_search": {}
+    },
+    {
+      "ply": 221,
+      "side": "ours",
+      "move": "c2c1",
+      "seconds": 2.000251624995144,
+      "clock": 9.9899412507948,
+      "own_search": {
+        "depth": 13,
+        "nodes": 1428268,
+        "string": "root_threads 2 adaptive_time_extended 1 static_eval_hits 878937 misses 291109"
+      }
+    },
+    {
+      "ply": 222,
+      "side": "opponent",
+      "move": "b2g2",
+      "seconds": 1.9970937500183936,
+      "clock": 3.156190214009257,
+      "own_search": {}
+    },
+    {
+      "ply": 223,
+      "side": "ours",
+      "move": "h7h4",
+      "seconds": 2.006133291986771,
+      "clock": 9.983807958808029,
+      "own_search": {
+        "depth": 17,
+        "nodes": 1740183,
+        "string": "root_threads 4 adaptive_time_extended 1 static_eval_hits 2014141 misses 128123"
+      }
+    },
+    {
+      "ply": 224,
+      "side": "opponent",
+      "move": "e5f4",
+      "seconds": 2.034884916007286,
+      "clock": 3.121305298001971,
+      "own_search": {}
+    },
+    {
+      "ply": 225,
+      "side": "ours",
+      "move": "c1d1",
+      "seconds": 1.6448819580255076,
+      "clock": 10.338926000782521,
+      "own_search": {
+        "depth": 61,
+        "nodes": 48148,
+        "string": "root_threads 3 adaptive_time_extended 0 static_eval_hits 526089 misses 76"
+      }
+    }
+  ],
+  "source_hashes": {
+    "clash-native": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538"
+  },
+  "max_plies": 600
+}

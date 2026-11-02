@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "binary_sha256": "c6bf205c43db440a303de9a0d1d6a7be63f7884521fe42ffc6b367b024574f6a",
+  "checks": [
+    {
+      "test": "parallel-clock",
+      "seconds": 0.45205679201171733,
+      "depth": 8,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 92195 misses 205287"
+    },
+    {
+      "test": "parallel-clock",
+      "seconds": 0.45106279200990684,
+      "depth": 9,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 74040 misses 132849"
+    },
+    {
+      "test": "parallel-clock",
+      "seconds": 0.4538953340088483,
+      "depth": 10,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 68735 misses 161719"
+    },
+    {
+      "test": "parallel-clock",
+      "seconds": 0.45109154100646265,
+      "depth": 10,
+      "detail": "root_threads 4 adaptive_time_extended 0 static_eval_hits 57351 misses 138180"
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0006637079932261258
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.000752499996451661
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0007020839839242399
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.005356499983463436
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0007705420139245689
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.013099250005325302
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.002583541994681582
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0008035000064410269
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0005677500157617033
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.000514666986418888
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0006468749779742211
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.000543708010809496
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0005326660175342113
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0008760830096434802
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0005456250219140202
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.000798458990175277
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0007839160098228604
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0007960420043673366
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0008069580071605742
+    },
+    {
+      "test": "parallel-stop",
+      "seconds": 0.0005279580072965473
+    }
+  ],
+  "note": "Finite UCI, rules and concurrency checks. Playing strength requires independent matches."
+}

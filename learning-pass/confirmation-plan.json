@@ -1,0 +1,27 @@
+{
+  "phase": "Fresh independent balanced-human-prefix confirmation",
+  "chosen_evaluation": "half of fitted human-result correction; existing material and tempo fixed",
+  "versions": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "candidate": "186024984611d97944a804f2e66fc71a8f870d22255a531a4be1ade252635504",
+    "tactical": "59431de86ae29d3e5b5dc72ef1d0298063c371a9531a7aab638778362ee48a19"
+  },
+  "pairs_per_opponent": 32,
+  "opponents": [
+    "GNUChess6.3",
+    "Stockfish19-Skill5"
+  ],
+  "seconds_per_move": 0.15,
+  "workers": 4,
+  "planned_games": 384,
+  "seed_base": 22100000,
+  "new_starts_excluded_from_training_validation_and_screen": true,
+  "gate": [
+    "positive overall matched point-score difference with descriptive95 percent lower bound above0",
+    "GNU nonnegative difference and at least one non-loss against GNU in actual full-clock test",
+    "no own technical failures",
+    "rules/protocol/tactics/inference/sanitizer checks",
+    "exact frozen version tested at180+2 and600+5"
+  ],
+  "warning": "Small score gains in selection screen were not statistically conclusive; fresh batch is required."
+}

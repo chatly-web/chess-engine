@@ -1,0 +1,13 @@
+{
+  "experiment": "Fresh direct test of the exact fitted parallel executable that drew GNU at180+2",
+  "planned_games": 64,
+  "pairs_per_opponent": 8,
+  "seconds_per_move": 0.3,
+  "workers": 2,
+  "seed_base": 26100000,
+  "starts": "human-starts[144:160], excluded from all fitting, hypervalidation and previous arena batches",
+  "selection_reason": "First standard-start GNU180+2 non-loss; other fitted serial/parallel-original versions do not validate this exact executable",
+  "frozen_sha256": "020658f1d950f8acff5fc9cd08e55472500277e679c922c1fe4791d5e41a9538",
+  "resources": "four own root workers vs one opponent thread; not equal-CPU Elo",
+  "gate": "positive fresh paired lower95 point-score bound; GNU nonnegative; own no technical failures; rules/protocol/mates/inference/sanitizers; same frozen executable180+2 and600+5 completed, at least one actual GNU non-loss; otherwise keep recommendedv08"
+}

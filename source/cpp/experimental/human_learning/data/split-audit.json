@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "training_games": 2453,
+  "validation_games": 634,
+  "positions": 23803,
+  "independent_specs": {
+    "screen": {
+      "human_starting_games": 16,
+      "fit_game_overlap": 0
+    },
+    "confirmation": {
+      "human_starting_games": 64,
+      "fit_game_overlap": 0
+    },
+    "parallel": {
+      "human_starting_games": 16,
+      "fit_game_overlap": 0
+    },
+    "parallel-human": {
+      "human_starting_games": 16,
+      "fit_game_overlap": 0
+    }
+  },
+  "clean_corpus_sha256": "d431e9830e3858bcfa5ed06485800f760c7c5b93f17714a45bb63eee88683359",
+  "note": "Game-level disjointness; human games can still share normal chess positions and openings."
+}
