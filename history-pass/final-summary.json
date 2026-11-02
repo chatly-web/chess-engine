@@ -1,0 +1,183 @@
+{
+  "selected": {
+    "chosen": "history",
+    "sha256": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=1",
+      "-DCLASH_HISTORY=1",
+      "-DCLASH_CAPTURE_LAST=0"
+    ],
+    "criterion": "Complete screen mean game-point score vs fast; ties combined,history,captures",
+    "screen_sha256": {
+      "combined": "b7fe91e86d8b223657165607b9d292b78f566f4ee064c156b9f313691fc4175b",
+      "history": "8d9f08653e97b47c8c694b723177480d44ff0204b2ac1fcf5474632ec1ef787f",
+      "captures": "980bf8e5c3c3a5dcea69bb4518c24e78b39e25692484e332be972d0ab7a6cc33"
+    },
+    "frozen_before_confirmation": true
+  },
+  "screen_games": 96,
+  "direct_fast_original": {
+    "games": 128,
+    "wins": 48,
+    "draws": 44,
+    "losses": 36,
+    "paired_mean_point_score": 0.546875,
+    "approximate_95_interval": [
+      0.482427225600879,
+      0.611322774399121
+    ]
+  },
+  "replication": {
+    "games": 128,
+    "wins": 43,
+    "draws": 55,
+    "losses": 30,
+    "paired_mean_point_score": 0.55078125,
+    "approximate_95_interval": [
+      0.4860525619251144,
+      0.6155099380748856
+    ]
+  },
+  "pooled_fast": {
+    "binary_sha256": {
+      "candidate": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+      "baseline": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7"
+    },
+    "pairs": 128,
+    "games": 256,
+    "finished": 256,
+    "wins": 91,
+    "draws": 99,
+    "losses": 66,
+    "failures": 0,
+    "mean_point_score": 0.548828125,
+    "corrected_97_5_interval": [
+      0.4968047210519447,
+      0.6008515289480554
+    ],
+    "initial_corrected_97_5_interval": [
+      0.4731742768743581,
+      0.6205757231256419
+    ],
+    "z": 2.2414027276049464,
+    "looks": 2,
+    "source_sha256": {
+      "direct-fast.json": "b8a89353c8022edbd40d73d88a543c954847376b25a1f0c0c3999c8199512a77",
+      "replication-fast.json": "5e2ef27c6f1e77e797a344b1f4727dd5bc15fcd2245abdb92138ccb3071c8382"
+    },
+    "note": "One fixed independent replication after the initial95interval crossed0.5. Approximate paired normal97.5percent intervals provide Bonferroni adjustment for two looks; common opening patterns and concurrent timing still limit inference. No further repetition or parameter changes."
+  },
+  "direct_old": {
+    "games": 64,
+    "wins": 31,
+    "draws": 19,
+    "losses": 14,
+    "paired_mean_point_score": 0.6328125,
+    "approximate_95_interval": [
+      0.5344565750191904,
+      0.7311684249808096
+    ]
+  },
+  "external": {
+    "baseline": {
+      "GNUChess6.3": {
+        "games": 32,
+        "completed": 32,
+        "wins": 0,
+        "draws": 2,
+        "losses": 30,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 32,
+        "completed": 32,
+        "wins": 7,
+        "draws": 13,
+        "losses": 12,
+        "points": 13.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "GNUChess6.3": {
+        "games": 32,
+        "completed": 32,
+        "wins": 2,
+        "draws": 1,
+        "losses": 29,
+        "points": 2.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 32,
+        "completed": 32,
+        "wins": 10,
+        "draws": 8,
+        "losses": 14,
+        "points": 14.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "short_games_played": 544,
+  "full_clock_games": [
+    {
+      "control": "180+2",
+      "colour": "white",
+      "outcome": "loss",
+      "plies": 128,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "180+2",
+      "colour": "black",
+      "outcome": "loss",
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "600+5",
+      "colour": "white",
+      "outcome": "loss",
+      "plies": 198,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "600+5",
+      "colour": "black",
+      "outcome": "loss",
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    }
+  ],
+  "gate_passed": false,
+  "installation": "retain-existing-builds",
+  "accuracy_measured": false,
+  "guaranteed_winner": false
+}

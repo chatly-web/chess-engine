@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "positions": 5000,
+  "target_squares_per_position": 64,
+  "colours_per_position": 2,
+  "checks": 640000,
+  "seed": 640261102,
+  "diagnostic_sha256": "a39581e2e165553c8f71e46314ebdb424951f5bf57db932099246bcf93c39e52",
+  "candidate_sha256": "852e73cae228cd78f323b5995222d563d89a766b5384f78b31df2b84e28b1b4a",
+  "seconds": 2.2946062500122935,
+  "note": "All attacked squares compared with chess rules library, including friendly occupied endpoints and colour mirrors; no engine analysis."
+}

@@ -1,0 +1,25 @@
+{
+  "chosen": "history",
+  "sha256": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3",
+    "-DCLASH_EVAL_FAST=1",
+    "-DCLASH_ACTIVITY=1",
+    "-DCLASH_HISTORY=1",
+    "-DCLASH_CAPTURE_LAST=0"
+  ],
+  "criterion": "Complete screen mean game-point score vs fast; ties combined,history,captures",
+  "screen_sha256": {
+    "combined": "b7fe91e86d8b223657165607b9d292b78f566f4ee064c156b9f313691fc4175b",
+    "history": "8d9f08653e97b47c8c694b723177480d44ff0204b2ac1fcf5474632ec1ef787f",
+    "captures": "980bf8e5c3c3a5dcea69bb4518c24e78b39e25692484e332be972d0ab7a6cc33"
+  },
+  "frozen_before_confirmation": true
+}

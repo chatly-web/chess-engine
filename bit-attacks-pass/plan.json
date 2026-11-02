@@ -1,0 +1,96 @@
+{
+  "objective": "Original bit-mask attack detection; identical board rules, evaluation, ordering, search and clock policy to fast build",
+  "changes": [
+    "Precomputed geometry for pawn, knight and king attacks",
+    "Nearest occupied square on each precomputed sliding ray using bit scans",
+    "Maintain occupied,pawn,knight geometry even on temporary legality/SEE boards"
+  ],
+  "not_used": [
+    "magic constants from another engine",
+    "foreign code or weights",
+    "opening books",
+    "tablebases"
+  ],
+  "benchmark": {
+    "starts": [
+      0,
+      16
+    ],
+    "depth": 6,
+    "repeats": 2,
+    "minimum_median_speed_ratio": 1.15,
+    "identical_move_score_depth_nodes_required": true
+  },
+  "confirmation": {
+    "direct_fast": {
+      "pairs": 64,
+      "games": 128,
+      "starts": [
+        16,
+        80
+      ],
+      "seconds": 0.08,
+      "workers": 2
+    },
+    "direct_old": {
+      "pairs": 32,
+      "games": 64,
+      "starts": [
+        80,
+        112
+      ],
+      "seconds": 0.08,
+      "workers": 1
+    },
+    "external": {
+      "pairs_per_opponent": 16,
+      "games": 128,
+      "starts": [
+        112,
+        144
+      ],
+      "seconds": 0.15,
+      "workers": 2,
+      "opponents": [
+        "GNUChess6.3",
+        "Stockfish19-Skill5"
+      ]
+    }
+  },
+  "full_clocks": [
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "black"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "white"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    }
+  ],
+  "ply_cap": 600,
+  "promotion_gate": [
+    "speed ratio>=1.15 with same fixed-depth work",
+    "positive direct-fast paired95 lower bound above0.5",
+    "direct-old point mean>=0.5",
+    "external points>=fast and GNU wins>=fast",
+    "allshort games complete without technical failures",
+    "all4full-clock games complete with no own technical failure",
+    "finite perft/legal/symmetry/full attack-map,protocol,mate,history,sanitizer,source and PGN/clock audits"
+  ],
+  "max_concurrent_game_workers": 9,
+  "candidate_freeze_before_confirm": true,
+  "no_extra_replication": true,
+  "no_accuracy_or_prize_guarantee": true
+}

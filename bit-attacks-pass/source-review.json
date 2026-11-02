@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "candidate_sha256": "852e73cae228cd78f323b5995222d563d89a766b5384f78b31df2b84e28b1b4a",
+  "byte_exact_public_source_rebuild": true,
+  "control_byte_identical": true,
+  "source_sha256": "d29e4eff0112970e0ab3e67e6169908f2f7a333ec2871387eb094fdffc4abe3d",
+  "tables_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125"
+}

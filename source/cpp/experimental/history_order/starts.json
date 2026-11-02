@@ -1,0 +1,3038 @@
+[
+  {
+    "game_id": "hblkl66Y",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "d7d5",
+      "g2g3",
+      "d5c4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -73
+  },
+  {
+    "game_id": "MEELJvAm",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "g7g6",
+      "c1f4",
+      "f8g7",
+      "e2e3",
+      "e8g8",
+      "h2h3",
+      "d7d6",
+      "f1e2",
+      "c7c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 7
+  },
+  {
+    "game_id": "hSYgmanH",
+    "moves": [
+      "e2e4",
+      "g7g6",
+      "d2d4",
+      "f8g7",
+      "g1f3",
+      "d7d6",
+      "f1c4",
+      "c7c6",
+      "e1g1",
+      "d6d5",
+      "e4d5",
+      "c6d5",
+      "c4d3",
+      "g8f6",
+      "h2h3",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 73
+  },
+  {
+    "game_id": "zzxWlwDc",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "g7g6",
+      "f1g2",
+      "f8g7",
+      "e1g1",
+      "e8g8"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 12
+  },
+  {
+    "game_id": "GalmkgN3",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "b7b6",
+      "c1f4",
+      "c8b7",
+      "e2e3",
+      "f6h5",
+      "f4g5",
+      "h7h6",
+      "g5h4",
+      "g7g5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 123
+  },
+  {
+    "game_id": "L5yugG4S",
+    "moves": [
+      "d2d4",
+      "f7f5",
+      "b1c3",
+      "d7d5",
+      "c1g5",
+      "c7c6",
+      "e2e3",
+      "g7g6",
+      "h2h4",
+      "f8g7",
+      "h4h5",
+      "g8h6",
+      "g1f3",
+      "h6f7",
+      "g5f4",
+      "b8d7"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 142
+  },
+  {
+    "game_id": "DBfMHt9R",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "f8c5",
+      "c2c3",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -128
+  },
+  {
+    "game_id": "uZZnXTu6",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "f8b4",
+      "d1d3",
+      "d5e4",
+      "d3e4",
+      "g8f6",
+      "e4h4",
+      "c7c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -31
+  },
+  {
+    "game_id": "WzVJtRCi",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "f8e7",
+      "f1g2",
+      "e8g8",
+      "e1g1",
+      "d5c4",
+      "d1c2",
+      "a7a6",
+      "c2c4",
+      "b7b5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 11
+  },
+  {
+    "game_id": "YYZ3lAai",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "e7e6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "a7a6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 134
+  },
+  {
+    "game_id": "PkjCubui",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "d2d4",
+      "c5d4",
+      "c3d4",
+      "d7d6",
+      "f1c4",
+      "d5b6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 120
+  },
+  {
+    "game_id": "dzcdnmi6",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1c4",
+      "g8f6",
+      "d2d3",
+      "f8e7",
+      "e1g1",
+      "e8g8",
+      "a2a4",
+      "d7d5",
+      "e4d5",
+      "f6d5",
+      "f1e1",
+      "c8g4"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -122
+  },
+  {
+    "game_id": "VrUuhL4O",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "b7b6",
+      "g2g3",
+      "c8b7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -25
+  },
+  {
+    "game_id": "cIjrSfcN",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "b1c3",
+      "g8f6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "f8b4",
+      "d4c6",
+      "b7c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 127
+  },
+  {
+    "game_id": "nxspSNTd",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "g8f6",
+      "e4e5",
+      "f6d7",
+      "f2f4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "c1e3",
+      "a7a6",
+      "d1d2",
+      "b7b5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 121
+  },
+  {
+    "game_id": "FAJ6zT4v",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "g1f3",
+      "e7e6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 67
+  },
+  {
+    "game_id": "tUUz4WCi",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "f1c4",
+      "b8c6",
+      "d2d3",
+      "f8c5",
+      "b1c3",
+      "d7d6",
+      "c3a4",
+      "g8f6",
+      "a4c5",
+      "d6c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 46
+  },
+  {
+    "game_id": "lgCiHhdM",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "e2e3",
+      "e8g8",
+      "a2a3",
+      "b4c3",
+      "b2c3",
+      "c7c5",
+      "f1d3",
+      "d7d5",
+      "c4d5",
+      "e6d5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -59
+  },
+  {
+    "game_id": "Ws3ma6sE",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "d7d6",
+      "d2d4",
+      "g8f6",
+      "d4c5",
+      "b8c6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -42
+  },
+  {
+    "game_id": "4jTzY3AS",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "b1c3",
+      "e7e6",
+      "g2g4",
+      "f5g6",
+      "g1e2",
+      "c6c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 121
+  },
+  {
+    "game_id": "30ISLQkK",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8e7",
+      "c1f4",
+      "e8g8",
+      "e2e3",
+      "b8d7",
+      "c4c5",
+      "f6e4",
+      "f1d3",
+      "f7f5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -10
+  },
+  {
+    "game_id": "nyVdmLL2",
+    "moves": [
+      "e2e4",
+      "d7d5",
+      "e4d5",
+      "e7e6",
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "f6d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 25
+  },
+  {
+    "game_id": "2i3IpNCP",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "e2e3",
+      "b7b6",
+      "g1e2",
+      "c8b7",
+      "a2a3",
+      "b4e7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 27
+  },
+  {
+    "game_id": "KIkRllLJ",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c1g5",
+      "g7g6",
+      "g5f6",
+      "e7f6",
+      "e2e3",
+      "d7d5",
+      "c2c4",
+      "d5c4",
+      "f1c4",
+      "f8d6",
+      "b1c3",
+      "b8d7",
+      "d1c2",
+      "f6f5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 68
+  },
+  {
+    "game_id": "DxQxrrqv",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "e7e6",
+      "b5c6",
+      "b7c6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 84
+  },
+  {
+    "game_id": "VwoN3GbM",
+    "moves": [
+      "g1f3",
+      "d7d5",
+      "c2c4",
+      "d5c4",
+      "b1a3",
+      "a7a6",
+      "a3c4",
+      "b7b5",
+      "c4e5",
+      "f7f6",
+      "e5d3",
+      "e7e5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 150
+  },
+  {
+    "game_id": "2wQNJbHl",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "c7c6",
+      "c1f4",
+      "c8f5",
+      "e2e3",
+      "e7e6",
+      "g1f3",
+      "f8d6",
+      "f1d3",
+      "g8e7",
+      "e1g1",
+      "e8g8",
+      "f4d6",
+      "d8d6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 39
+  },
+  {
+    "game_id": "ZoHUoVcb",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g2g3",
+      "d7d5",
+      "f1g2",
+      "f8b4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -141
+  },
+  {
+    "game_id": "Qkf824r0",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "d2d4",
+      "c5d4",
+      "d1d4",
+      "e7e6",
+      "d4g4",
+      "b8c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -149
+  },
+  {
+    "game_id": "87879ixi",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "a7a6",
+      "c4d5",
+      "e6d5",
+      "g2g3",
+      "h7h6",
+      "f1g2",
+      "g8f6",
+      "e2e3",
+      "f8e7",
+      "g1e2",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -73
+  },
+  {
+    "game_id": "7PCnTl6U",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "g8f6",
+      "g1f3",
+      "f8e7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 25
+  },
+  {
+    "game_id": "fPt65Is8",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "c7c5",
+      "d4d5",
+      "d7d6",
+      "g1f3",
+      "g7g6",
+      "h2h3",
+      "f8g7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 74
+  },
+  {
+    "game_id": "3Ggh2CVq",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "e2e3",
+      "e8g8",
+      "a2a3",
+      "b4c3",
+      "b2c3",
+      "d7d6",
+      "g1e2",
+      "e6e5",
+      "e2g3",
+      "f8e8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -105
+  },
+  {
+    "game_id": "X5kGLyvp",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "d7d6",
+      "e2e4",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 75
+  },
+  {
+    "game_id": "FKL7Owsy",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "a7a6",
+      "c4d5",
+      "e6d5",
+      "c1f4",
+      "g8f6",
+      "e2e3",
+      "c7c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 123
+  },
+  {
+    "game_id": "QOqTxj3f",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "d7d6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "a7a6",
+      "g2g3",
+      "e7e5",
+      "d4b3",
+      "f8e7",
+      "c1g5",
+      "c8e6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 13
+  },
+  {
+    "game_id": "bPSxlgnu",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "d5e4",
+      "c3e4",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 99
+  },
+  {
+    "game_id": "xG7oO5ew",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "g2g3",
+      "e8g8",
+      "f1g2",
+      "d7d6",
+      "g1f3",
+      "b8d7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -76
+  },
+  {
+    "game_id": "S0cPqBdj",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "f8c5",
+      "d4b3",
+      "c5b6",
+      "d1e2",
+      "d7d6",
+      "c1e3",
+      "g8f6",
+      "b1c3",
+      "c8e6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 3
+  },
+  {
+    "game_id": "32enqMAR",
+    "moves": [
+      "b2b3",
+      "b7b6",
+      "c1b2",
+      "c8b7",
+      "g1f3",
+      "g8f6",
+      "e2e3",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 55
+  },
+  {
+    "game_id": "vSJuRpqU",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "b1c3",
+      "g8f6",
+      "f2f4",
+      "d7d5",
+      "f4e5",
+      "f6e4",
+      "d1f3",
+      "e4c3",
+      "d2c3",
+      "f8e7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 7
+  },
+  {
+    "game_id": "6pftRxbj",
+    "moves": [
+      "c2c4",
+      "b7b6",
+      "b1c3",
+      "c8b7",
+      "e2e4",
+      "e7e6",
+      "d1c2",
+      "c7c5",
+      "g2g3",
+      "b8c6",
+      "f1g2",
+      "c6d4",
+      "c2d1",
+      "g8e7",
+      "g1e2",
+      "e7c6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -31
+  },
+  {
+    "game_id": "AkrIOK9F",
+    "moves": [
+      "b2b3",
+      "e7e5",
+      "c1b2",
+      "b8c6",
+      "g1f3",
+      "e5e4",
+      "f3d4",
+      "g8e7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -56
+  },
+  {
+    "game_id": "wOhL8KFd",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "b1d2",
+      "e7e6",
+      "d2b3",
+      "c6c5",
+      "d4c5",
+      "f8c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -90
+  },
+  {
+    "game_id": "0YvihqOa",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "d5c4",
+      "g1f3",
+      "g8f6",
+      "e2e3",
+      "c8g4",
+      "f1c4",
+      "e7e6",
+      "e1g1",
+      "g4h5",
+      "c4e2",
+      "b8d7",
+      "b1c3",
+      "f8d6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 115
+  },
+  {
+    "game_id": "OFWj6dGA",
+    "moves": [
+      "e2e4",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "d2d4",
+      "d7d6",
+      "c2c4",
+      "d5b6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 16
+  },
+  {
+    "game_id": "VCBAYByZ",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "g2g3",
+      "d7d5",
+      "f1g2",
+      "g8f6",
+      "b1c3",
+      "f8e7",
+      "d2d3",
+      "e8g8",
+      "g1e2",
+      "d5d4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -66
+  },
+  {
+    "game_id": "aQQjeIzh",
+    "moves": [
+      "e2e4",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "b1c3",
+      "d5c3",
+      "d2c3",
+      "g7g6",
+      "g1f3",
+      "f8g7",
+      "c1f4",
+      "d7d6",
+      "e5d6",
+      "e7d6",
+      "d1d2",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -94
+  },
+  {
+    "game_id": "CurCOSvw",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "d7d5",
+      "c4d5",
+      "f6d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 60
+  },
+  {
+    "game_id": "k1lM377n",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g7g6",
+      "c2c4",
+      "g8f6",
+      "b1c3",
+      "d7d6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 56
+  },
+  {
+    "game_id": "cE4J1BzN",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "f1c4",
+      "g8f6",
+      "d2d3",
+      "b8c6",
+      "b1c3",
+      "f8b4",
+      "g1f3",
+      "d7d5",
+      "e4d5",
+      "f6d5",
+      "e1g1",
+      "d5c3",
+      "b2c3",
+      "b4c3"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 35
+  },
+  {
+    "game_id": "n7PjlCzb",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "d7d5",
+      "c4d5",
+      "e6d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 4
+  },
+  {
+    "game_id": "ituqnaCn",
+    "moves": [
+      "b2b3",
+      "d7d5",
+      "c1b2",
+      "c8g4",
+      "f2f3",
+      "g4d7",
+      "e2e3",
+      "g8f6",
+      "d2d4",
+      "e7e6",
+      "b1c3",
+      "c7c5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 0
+  },
+  {
+    "game_id": "r5yfqSwi",
+    "moves": [
+      "e2e4",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "b1c3",
+      "d5c3",
+      "d2c3",
+      "b8c6",
+      "c1f4",
+      "g7g6",
+      "h2h4",
+      "h7h6",
+      "g1f3",
+      "f8g7",
+      "f1c4",
+      "d7d6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 128
+  },
+  {
+    "game_id": "hr46zzzd",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1c4",
+      "f8c5",
+      "c2c3",
+      "d7d6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -36
+  },
+  {
+    "game_id": "ssc3U3Rm",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "g8f6",
+      "d4c6",
+      "b7c6",
+      "e4e5",
+      "d8e7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 129
+  },
+  {
+    "game_id": "Ky9bu2cL",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "a7a6",
+      "c4d5",
+      "e6d5",
+      "c1f4",
+      "c7c6",
+      "e2e3",
+      "f8d6",
+      "f4d6",
+      "d8d6",
+      "f1d3",
+      "g8f6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 100
+  },
+  {
+    "game_id": "fopZw52x",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "d7d6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 53
+  },
+  {
+    "game_id": "U6nH22fz",
+    "moves": [
+      "b2b3",
+      "d7d5",
+      "c1b2",
+      "g8f6",
+      "g1f3",
+      "c7c5",
+      "e2e3",
+      "e7e6",
+      "f1b5",
+      "b8d7",
+      "e1g1",
+      "f8d6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 69
+  },
+  {
+    "game_id": "FgYqZwO6",
+    "moves": [
+      "c2c4",
+      "g8f6",
+      "b1c3",
+      "g7g6",
+      "e2e4",
+      "d7d6",
+      "d2d4",
+      "f8g7",
+      "f1e2",
+      "b8a6",
+      "c1e3",
+      "c7c6",
+      "g1f3",
+      "e8g8",
+      "f3d2",
+      "e7e5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 4
+  },
+  {
+    "game_id": "zTIcav4F",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "e2e4",
+      "e8g8"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -29
+  },
+  {
+    "game_id": "IfU2amv0",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8e7",
+      "c4d5",
+      "e6d5",
+      "c1f4",
+      "c7c6",
+      "e2e3",
+      "c8f5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 99
+  },
+  {
+    "game_id": "bgffWzeM",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "e7e5",
+      "d4b5",
+      "d7d6",
+      "c2c4",
+      "a7a6",
+      "b5c3",
+      "f8e7",
+      "b2b3",
+      "c8e6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -139
+  },
+  {
+    "game_id": "zO2UfqpE",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "e7e6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "b8c6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 47
+  },
+  {
+    "game_id": "pAn6EElQ",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "e7e5",
+      "e1g1",
+      "f8d6",
+      "d2d3",
+      "a7a6",
+      "b5c6",
+      "d7c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 139
+  },
+  {
+    "game_id": "SC6b5vVo",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "e7e6",
+      "a2a3",
+      "b8c6",
+      "c1e3",
+      "c5d4",
+      "c3d4",
+      "f8e7"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -65
+  },
+  {
+    "game_id": "oTOuVDiv",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "a7a6",
+      "b5c6",
+      "d7c6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -33
+  },
+  {
+    "game_id": "v5qI4Ajd",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "b1c3",
+      "e7e6",
+      "g2g3",
+      "g8f6",
+      "f1g2",
+      "d7d5",
+      "e4d5",
+      "e6d5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -4
+  },
+  {
+    "game_id": "g9MzhqiZ",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "f8e7",
+      "f1g2",
+      "e8g8",
+      "e1g1",
+      "d5c4",
+      "d1c2",
+      "b7b5",
+      "a2a4",
+      "b5b4"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -22
+  },
+  {
+    "game_id": "gd2mcRlJ",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "d7d6",
+      "g1f3",
+      "g7g6",
+      "b1c3",
+      "f8g7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 73
+  },
+  {
+    "game_id": "saWzXVMi",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "b7b6",
+      "a2a3",
+      "c8b7",
+      "b1c3",
+      "d7d5",
+      "c4d5",
+      "f6d5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 70
+  },
+  {
+    "game_id": "Kt8TKQOD",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "b2b3",
+      "b7b6",
+      "c1b2",
+      "c8b7",
+      "e2e3",
+      "g7g6",
+      "f1e2",
+      "f8g7",
+      "e1g1",
+      "e8g8",
+      "d2d4",
+      "c7c5",
+      "b1d2",
+      "b8c6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 80
+  },
+  {
+    "game_id": "RInzegpK",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "e7e5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 29
+  },
+  {
+    "game_id": "2PKVHqgR",
+    "moves": [
+      "c2c4",
+      "e7e5",
+      "b1c3",
+      "g8f6",
+      "g1f3",
+      "b8c6",
+      "g2g3",
+      "c6d4",
+      "f1g2",
+      "d4f3",
+      "g2f3",
+      "f8b4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -38
+  },
+  {
+    "game_id": "nfDeGIs4",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "g7g6",
+      "c1f4",
+      "d7d6",
+      "b1c3",
+      "f8g7",
+      "e2e4",
+      "b8c6",
+      "d4d5",
+      "e7e5",
+      "f4e3",
+      "c6e7",
+      "h2h3",
+      "f6h5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 139
+  },
+  {
+    "game_id": "Z8GcDPj8",
+    "moves": [
+      "c2c4",
+      "e7e6",
+      "g2g3",
+      "d7d5",
+      "f1g2",
+      "g8f6",
+      "g1f3",
+      "f8e7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -76
+  },
+  {
+    "game_id": "gybCW23G",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e5",
+      "d4e5",
+      "g8e7",
+      "g2g3",
+      "b8c6",
+      "f1g2",
+      "c8e6",
+      "g1f3",
+      "d5c4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -67
+  },
+  {
+    "game_id": "f66ncBjD",
+    "moves": [
+      "b2b3",
+      "b8c6",
+      "c1b2",
+      "g8f6",
+      "b2f6",
+      "g7f6",
+      "c2c4",
+      "f6f5",
+      "b1c3",
+      "f8g7",
+      "a1c1",
+      "e7e6",
+      "g2g3",
+      "e8g8",
+      "f1g2",
+      "a7a5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -127
+  },
+  {
+    "game_id": "XVGMKZeH",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "c7c6",
+      "g1f3",
+      "g8f6",
+      "d1b3",
+      "d5c4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -50
+  },
+  {
+    "game_id": "OY9SqNGh",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "d2d4",
+      "c5d4",
+      "d1d4",
+      "e7e6",
+      "d4g4",
+      "f7f5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -54
+  },
+  {
+    "game_id": "5igqzxUf",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "c7c5",
+      "g1f3",
+      "c5d4",
+      "f3d4",
+      "e6e5",
+      "d4c2",
+      "d5d4",
+      "c3d5",
+      "g8f6",
+      "c1g5",
+      "c8e6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -5
+  },
+  {
+    "game_id": "J1pbzA3c",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "g8f6",
+      "b1c3",
+      "c7c6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 83
+  },
+  {
+    "game_id": "6DdaAppB",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "e7e6",
+      "c2c3",
+      "g8e7",
+      "d2d4",
+      "c5d4",
+      "c3d4",
+      "d7d5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 36
+  },
+  {
+    "game_id": "We4qNRfx",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1d2",
+      "c7c5",
+      "g1f3",
+      "c5d4",
+      "e4d5",
+      "d8d5",
+      "f1c4",
+      "d5d6",
+      "d2e4",
+      "d6b4",
+      "f3d2",
+      "g8f6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -61
+  },
+  {
+    "game_id": "AOsM67o4",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "b1c3",
+      "g8f6",
+      "d2d4",
+      "e5d4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -45
+  },
+  {
+    "game_id": "A63SP4sj",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "e2e4",
+      "d7d6",
+      "g1f3",
+      "e8g8",
+      "h2h3",
+      "b8a6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -51
+  },
+  {
+    "game_id": "Z3mTJbHZ",
+    "moves": [
+      "c2c4",
+      "g8f6",
+      "g2g3",
+      "c7c6",
+      "f1g2",
+      "d7d5",
+      "d2d3",
+      "e7e5",
+      "g1f3",
+      "d5c4",
+      "d3c4",
+      "d8d1",
+      "e1d1",
+      "f6g4",
+      "d1e1",
+      "f8c5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -103
+  },
+  {
+    "game_id": "btcFj15l",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "f7f5",
+      "d2d4",
+      "f5e4",
+      "f3e5",
+      "d7d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 91
+  },
+  {
+    "game_id": "G3LbBgk5",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e5",
+      "d4e5",
+      "g8e7",
+      "g1f3",
+      "b8c6",
+      "c1g5",
+      "c8e6",
+      "c4d5",
+      "d8d5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -20
+  },
+  {
+    "game_id": "yDb6UFcY",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "g8f6",
+      "c4d5",
+      "e6d5",
+      "c1g5",
+      "f8e7",
+      "e2e3",
+      "e8g8",
+      "f1d3",
+      "c7c6",
+      "g1e2",
+      "f8e8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 46
+  },
+  {
+    "game_id": "wipQyh3z",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "a2a3",
+      "e7e6",
+      "b2b4",
+      "c5b4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -81
+  },
+  {
+    "game_id": "flZtMXOh",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "g8f6",
+      "f3e5",
+      "d7d6",
+      "e5f3",
+      "f6e4",
+      "d2d4",
+      "d6d5",
+      "f1d3",
+      "f8e7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -18
+  },
+  {
+    "game_id": "N1T5l5jm",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "b7b5",
+      "b1a3",
+      "a7a6",
+      "c2c4",
+      "e7e5",
+      "f3e5",
+      "c8b7",
+      "e5f3",
+      "f8a3",
+      "b2a3",
+      "b5c4",
+      "f1g2",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -91
+  },
+  {
+    "game_id": "De9Nt4DE",
+    "moves": [
+      "c2c4",
+      "f7f5",
+      "g2g3",
+      "g8f6",
+      "f1g2",
+      "d7d6",
+      "d2d4",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 16
+  },
+  {
+    "game_id": "xVuDhg2o",
+    "moves": [
+      "c2c4",
+      "e7e5",
+      "b1c3",
+      "f8b4",
+      "c3d5",
+      "a7a5",
+      "a2a3",
+      "b4c5",
+      "e2e3",
+      "c7c6",
+      "d2d4",
+      "c5a7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 149
+  },
+  {
+    "game_id": "aQGBMdco",
+    "moves": [
+      "g2g3",
+      "d7d5",
+      "f1g2",
+      "c7c6",
+      "d2d3",
+      "c8g4",
+      "b1d2",
+      "g8f6",
+      "h2h3",
+      "g4h5",
+      "b2b3",
+      "e7e5",
+      "c1b2",
+      "b8d7",
+      "g3g4",
+      "h5g6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -98
+  },
+  {
+    "game_id": "57Eelco3",
+    "moves": [
+      "e2e4",
+      "d7d5",
+      "e4e5",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "a2a3",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 28
+  },
+  {
+    "game_id": "m45Uq1Kl",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1d2",
+      "c7c5",
+      "g1f3",
+      "c5d4",
+      "e4d5",
+      "d8d5",
+      "f1c4",
+      "d5d6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 19
+  },
+  {
+    "game_id": "Z81e1Xar",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "d7d5",
+      "c4d5",
+      "f6d5",
+      "e2e4",
+      "d5c3",
+      "b2c3",
+      "c7c5",
+      "a1b1",
+      "f8e7",
+      "f1c4",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -39
+  },
+  {
+    "game_id": "gFYclqnz",
+    "moves": [
+      "d2d4",
+      "b7b6",
+      "b1c3",
+      "c8b7",
+      "e2e4",
+      "e7e6",
+      "a2a3",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 142
+  },
+  {
+    "game_id": "cttPXc3q",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "g2g3",
+      "d7d5",
+      "b2b3",
+      "d5d4",
+      "c1b2",
+      "c7c5",
+      "e2e3",
+      "b8c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -101
+  },
+  {
+    "game_id": "of7EOPf3",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "b1c3",
+      "d7d5",
+      "c1f4",
+      "g7g6",
+      "d1d2",
+      "f8g7",
+      "f4h6",
+      "e8g8",
+      "h6g7",
+      "g8g7",
+      "e2e3",
+      "c7c5",
+      "h2h3",
+      "c5d4"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -81
+  },
+  {
+    "game_id": "a6idzimP",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "a7a6",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "d8d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -6
+  },
+  {
+    "game_id": "KD60CQfY",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "g7g6",
+      "b1d2",
+      "d7d5",
+      "c2c4",
+      "f8g7",
+      "c4d5",
+      "f6d5",
+      "e2e4",
+      "d5b6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 132
+  },
+  {
+    "game_id": "L4qr6jcL",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "b1c3",
+      "d7d5",
+      "c1g5",
+      "h7h6",
+      "g5h4",
+      "b8d7",
+      "f2f3",
+      "c7c5",
+      "e2e4",
+      "c5d4",
+      "h4f6",
+      "e7f6",
+      "d1d4",
+      "d5e4"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -87
+  },
+  {
+    "game_id": "U1sDtXhs",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "b1c3",
+      "e7e6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 77
+  },
+  {
+    "game_id": "XKmkhfRp",
+    "moves": [
+      "g1f3",
+      "d7d5",
+      "g2g3",
+      "b8c6",
+      "f1g2",
+      "e7e5",
+      "d2d3",
+      "f8e7",
+      "e1g1",
+      "c8e6",
+      "a2a3",
+      "a7a5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 4
+  },
+  {
+    "game_id": "PnJ2dAy5",
+    "moves": [
+      "c2c4",
+      "f7f5",
+      "b2b4",
+      "g8f6",
+      "c1b2",
+      "d7d6",
+      "f2f4",
+      "e7e6",
+      "g1f3",
+      "g7g6",
+      "g2g3",
+      "f8g7",
+      "f1g2",
+      "e8g8",
+      "e1g1",
+      "a7a5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 10
+  },
+  {
+    "game_id": "HiM0EjV9",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "g8f6",
+      "e4e5",
+      "f6d7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 67
+  },
+  {
+    "game_id": "O5GgW5mW",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "b7b6",
+      "g2g3",
+      "c8b7",
+      "c2c4",
+      "g7g6",
+      "f1g2",
+      "f8g7",
+      "e1g1",
+      "e8g8"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 18
+  },
+  {
+    "game_id": "Oje0wwHj",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "d5e4",
+      "c3e4",
+      "c8f5",
+      "e4g3",
+      "f5g6",
+      "h2h4",
+      "h7h6",
+      "h4h5",
+      "g6h7",
+      "g1f3",
+      "g8f6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 120
+  },
+  {
+    "game_id": "mYlNcWge",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "g1f3",
+      "g8f6",
+      "c1f4",
+      "c7c5",
+      "e2e3",
+      "c5d4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -50
+  },
+  {
+    "game_id": "VUkdhjrl",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "e7e6",
+      "d2d4",
+      "c5d4",
+      "c3d4",
+      "d7d5",
+      "e4d5",
+      "e6d5",
+      "b1c3",
+      "f8b4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 46
+  },
+  {
+    "game_id": "YPbp5BHx",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "g8f6",
+      "c1g5",
+      "f8e7",
+      "e2e3",
+      "e8g8",
+      "a1c1",
+      "c7c6",
+      "g1f3",
+      "b8d7",
+      "a2a3",
+      "h7h6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -72
+  },
+  {
+    "game_id": "aU3Z0PUJ",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "a7a6",
+      "b5a4",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -47
+  },
+  {
+    "game_id": "sgAmB8k5",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "d5c4",
+      "g1f3",
+      "g8f6",
+      "e2e3",
+      "c8g4",
+      "f1c4",
+      "e7e6",
+      "h2h3",
+      "g4h5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 90
+  },
+  {
+    "game_id": "Hh597Vtj",
+    "moves": [
+      "g1f3",
+      "f7f5",
+      "g2g3",
+      "g8f6",
+      "f1g2",
+      "d7d6",
+      "e1g1",
+      "c7c6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "b2b4",
+      "e8g8",
+      "a2a4",
+      "e7e5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 61
+  },
+  {
+    "game_id": "X9ofzUD8",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "g8f6",
+      "d2d4",
+      "f6d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -34
+  },
+  {
+    "game_id": "Y9kvPFCt",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "e7e6",
+      "c2c3",
+      "g8e7",
+      "e1g1",
+      "a7a6",
+      "b5a4",
+      "c5c4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 105
+  },
+  {
+    "game_id": "zUm9IavO",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1c4",
+      "g8f6",
+      "f3g5",
+      "d7d5",
+      "e4d5",
+      "c6a5",
+      "c4b5",
+      "c8d7",
+      "d1e2",
+      "f8d6",
+      "e1g1",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 18
+  },
+  {
+    "game_id": "sky5rRkW",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "g2g3",
+      "c7c6",
+      "f1g2",
+      "d7d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -8
+  },
+  {
+    "game_id": "Wllge04x",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "f8b4",
+      "d1d3",
+      "d5e4",
+      "d3e4",
+      "g8f6",
+      "e4h4",
+      "b7b6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -32
+  },
+  {
+    "game_id": "GmmSkepg",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "b1c3",
+      "g8f6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "f8b4",
+      "d4c6",
+      "b7c6",
+      "f1d3",
+      "d7d5",
+      "e4d5",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 73
+  },
+  {
+    "game_id": "RLAB2LiF",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "d5c4",
+      "g1f3",
+      "g8f6",
+      "e2e3",
+      "c8g4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -69
+  },
+  {
+    "game_id": "haN2V28Y",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "a7a6",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "d2d4",
+      "e7e6",
+      "c1e3",
+      "b8d7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 95
+  },
+  {
+    "game_id": "fGIhPl0V",
+    "moves": [
+      "e2e4",
+      "e7e6",
+      "g2g3",
+      "d7d5",
+      "f1g2",
+      "d5e4",
+      "b1c3",
+      "g8f6",
+      "c3e4",
+      "f6e4",
+      "g2e4",
+      "b8d7",
+      "d2d4",
+      "c7c5",
+      "g1e2",
+      "f8e7"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 61
+  },
+  {
+    "game_id": "aDUWJVWv",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "b1c3",
+      "d5e4",
+      "c3e4",
+      "c8f5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 123
+  },
+  {
+    "game_id": "E0pu8pOm",
+    "moves": [
+      "b2b3",
+      "e7e5",
+      "c1b2",
+      "b8c6",
+      "e2e3",
+      "d7d5",
+      "g1f3",
+      "f8d6",
+      "c2c4",
+      "d5c4",
+      "f1c4",
+      "g8f6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -25
+  },
+  {
+    "game_id": "6QocbMGC",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "a7a6",
+      "b5a4",
+      "g8f6",
+      "e1g1",
+      "f8e7",
+      "d2d3",
+      "b7b5",
+      "a4b3",
+      "d7d6",
+      "c2c3",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -36
+  },
+  {
+    "game_id": "6awbaUJ2",
+    "moves": [
+      "e2e4",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "g1f3",
+      "g8f6",
+      "f1e2",
+      "d5d6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -52
+  },
+  {
+    "game_id": "FFDpfOya",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "c2c4",
+      "c7c5",
+      "b1c3",
+      "d7d5",
+      "c4d5",
+      "f6d5",
+      "e2e3",
+      "e7e6",
+      "c3d5",
+      "d8d5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 19
+  },
+  {
+    "game_id": "UDHdoOiX",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "d7d6",
+      "f1e2",
+      "g7g6",
+      "c1e3",
+      "f8g7",
+      "d1d2",
+      "e8g8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -9
+  },
+  {
+    "game_id": "3M9Zi7sy",
+    "moves": [
+      "g1f3",
+      "f7f5",
+      "c2c4",
+      "d7d6",
+      "d2d4",
+      "g8f6",
+      "g2g3",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 44
+  },
+  {
+    "game_id": "dM5nf32L",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "d7d6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "a7a6",
+      "g2g3",
+      "e7e5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 81
+  },
+  {
+    "game_id": "T3bdZsOg",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "b7b5",
+      "f1g2",
+      "c8b7",
+      "e1g1",
+      "g7g6",
+      "b1a3",
+      "a7a6",
+      "c2c4",
+      "b5b4",
+      "a3c2",
+      "a6a5",
+      "b2b3",
+      "f8g7"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 136
+  },
+  {
+    "game_id": "3hCuUP30",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "c7c5",
+      "d4d5",
+      "e7e6",
+      "b1c3",
+      "e6d5"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -84
+  },
+  {
+    "game_id": "ryaQn4KU",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "f1b5",
+      "a7a6",
+      "b5a4",
+      "g8f6",
+      "e1g1",
+      "f8c5",
+      "c2c3",
+      "b7b5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -21
+  },
+  {
+    "game_id": "G3QRDgSf",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "g7g6",
+      "e2e3",
+      "f8g7",
+      "f1e2",
+      "e8g8",
+      "e1g1",
+      "d7d6",
+      "b2b3",
+      "e7e5",
+      "d4e5",
+      "d6e5",
+      "c1a3",
+      "f8e8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 43
+  },
+  {
+    "game_id": "KfPT38ME",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "d8b6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 115
+  },
+  {
+    "game_id": "6pde2z49",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "b1d2",
+      "d5e4",
+      "d2e4",
+      "c8f5",
+      "e4g5",
+      "e7e6",
+      "g1f3",
+      "b8d7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 88
+  },
+  {
+    "game_id": "JM6Wrcyp",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "f8b4",
+      "d4c6",
+      "b7c6",
+      "f1d3",
+      "e8g8",
+      "e1g1",
+      "d7d6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 89
+  },
+  {
+    "game_id": "mEAJ4MTR",
+    "moves": [
+      "d2d4",
+      "d7d5",
+      "c2c4",
+      "e7e6",
+      "g1f3",
+      "g8f6",
+      "g2g3",
+      "f8e7"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -69
+  },
+  {
+    "game_id": "6pEu0G8r",
+    "moves": [
+      "e2e4",
+      "c7c6",
+      "d2d4",
+      "d7d5",
+      "e4e5",
+      "c8f5",
+      "b1d2",
+      "e7e6",
+      "d2b3",
+      "b8d7",
+      "g1f3",
+      "g8e7"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 10
+  },
+  {
+    "game_id": "jRUyKi79",
+    "moves": [
+      "e2e4",
+      "d7d6",
+      "d2d4",
+      "g8f6",
+      "b1c3",
+      "e7e5",
+      "g1f3",
+      "b8d7",
+      "h2h3",
+      "f8e7",
+      "f1c4",
+      "e8g8",
+      "e1g1",
+      "c7c6",
+      "a2a4",
+      "a7a5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 138
+  },
+  {
+    "game_id": "eynTSXAY",
+    "moves": [
+      "g1f3",
+      "d7d5",
+      "e2e3",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b2b3",
+      "a7a6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -61
+  },
+  {
+    "game_id": "XiyPm3ym",
+    "moves": [
+      "a2a3",
+      "e7e5",
+      "e2e4",
+      "f7f5",
+      "b1c3",
+      "g8f6",
+      "e4f5",
+      "f8c5",
+      "g2g4",
+      "e8g8",
+      "g4g5",
+      "c7c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -91
+  },
+  {
+    "game_id": "BzYso9y8",
+    "moves": [
+      "e2e3",
+      "f7f5",
+      "d2d3",
+      "g8f6",
+      "b1c3",
+      "d7d5",
+      "c1d2",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "f1e2",
+      "e7e5",
+      "e3e4",
+      "d5d4",
+      "c3b5",
+      "a7a6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 83
+  },
+  {
+    "game_id": "6uh6rPGT",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "b1c3",
+      "g8f6",
+      "f1e2",
+      "g7g6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 63
+  },
+  {
+    "game_id": "t76Vngtp",
+    "moves": [
+      "e2e4",
+      "d7d6",
+      "d2d4",
+      "g8f6",
+      "b1c3",
+      "e7e5",
+      "g1f3",
+      "b8d7",
+      "f1c4",
+      "f8e7",
+      "e1g1",
+      "e8g8"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 118
+  },
+  {
+    "game_id": "Lcft0UoH",
+    "moves": [
+      "b2b3",
+      "e7e5",
+      "c1b2",
+      "d8e7",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "c7c6",
+      "d2d4",
+      "d7d6",
+      "d4d5",
+      "f7f5",
+      "d5c6",
+      "b7c6",
+      "g1f3",
+      "g8f6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 140
+  },
+  {
+    "game_id": "vtAvUoFO",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "e5d4",
+      "f3d4",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -4
+  },
+  {
+    "game_id": "ng6t4K6F",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "e7e6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "b8c6",
+      "d4c6",
+      "b7c6"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 136
+  },
+  {
+    "game_id": "7EaEbHVz",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "g1f3",
+      "b8c6",
+      "d2d4",
+      "c5d4",
+      "f3d4",
+      "g8f6",
+      "b1c3",
+      "e7e5",
+      "d4b5",
+      "d7d6",
+      "c1g5",
+      "a7a6",
+      "b5a3",
+      "b7b5"
+    ],
+    "plies": 16,
+    "own_baseline_cp": 21
+  },
+  {
+    "game_id": "9mr8I0dL",
+    "moves": [
+      "g1f3",
+      "g8f6",
+      "c2c4",
+      "g7g6",
+      "b1c3",
+      "f8g7",
+      "e2e4",
+      "d7d6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": 65
+  },
+  {
+    "game_id": "QQC1PebP",
+    "moves": [
+      "e2e4",
+      "e7e5",
+      "g1f3",
+      "b8c6",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "d2d4",
+      "c8g4",
+      "f1e2",
+      "e5e4"
+    ],
+    "plies": 12,
+    "own_baseline_cp": -48
+  },
+  {
+    "game_id": "3WchdbPm",
+    "moves": [
+      "e2e4",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "b1c3",
+      "d5a5",
+      "g2g3",
+      "g8f6",
+      "f1g2",
+      "b8c6",
+      "g1e2",
+      "c8g4",
+      "h2h3",
+      "g4e2",
+      "c3e2",
+      "e7e6"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -64
+  },
+  {
+    "game_id": "pgMfx5YU",
+    "moves": [
+      "b2b3",
+      "d7d5",
+      "c1b2",
+      "c8f5",
+      "g2g3",
+      "e7e6",
+      "f1g2",
+      "g8f6"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -134
+  },
+  {
+    "game_id": "zTsuV5Tq",
+    "moves": [
+      "d2d4",
+      "g8f6",
+      "c2c4",
+      "e7e6",
+      "b1c3",
+      "f8b4",
+      "e2e3",
+      "b7b6",
+      "g1e2",
+      "c7c5",
+      "a2a3",
+      "b4a5"
+    ],
+    "plies": 12,
+    "own_baseline_cp": 108
+  },
+  {
+    "game_id": "s3ozkOQw",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "d7d5",
+      "e4d5",
+      "d8d5",
+      "d2d4",
+      "g8f6",
+      "g1f3",
+      "e7e6",
+      "b1a3",
+      "b8c6",
+      "c1e3",
+      "c5d4",
+      "a3b5",
+      "d5d8"
+    ],
+    "plies": 16,
+    "own_baseline_cp": -129
+  },
+  {
+    "game_id": "KmPamCji",
+    "moves": [
+      "e2e4",
+      "c7c5",
+      "c2c3",
+      "g8f6",
+      "e4e5",
+      "f6d5",
+      "d2d4",
+      "c5d4"
+    ],
+    "plies": 8,
+    "own_baseline_cp": -141
+  }
+]

@@ -1,0 +1,3608 @@
+{
+  "binary_sha256": {
+    "candidate": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+    "baseline": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7"
+  },
+  "requested_seconds": 0.08,
+  "workers": 2,
+  "games": 128,
+  "finished": 128,
+  "wins": 48,
+  "draws": 44,
+  "losses": 36,
+  "failures": 0,
+  "paired_units": 64,
+  "paired_mean_point_score": 0.546875,
+  "approximate_95_interval": [
+    0.482427225600879,
+    0.611322774399121
+  ],
+  "matches": [
+    {
+      "unit": 54,
+      "candidate_white": true,
+      "human_game_id": "saWzXVMi",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 86,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.6461894160020165,
+      "own_depths": {
+        "candidate": {
+          "moves": 36,
+          "median": 5.0,
+          "sum": 186
+        },
+        "baseline": {
+          "moves": 37,
+          "median": 5,
+          "sum": 183
+        }
+      },
+      "own_nodes": {
+        "candidate": 495899,
+        "baseline": 415319
+      }
+    },
+    {
+      "unit": 27,
+      "candidate_white": true,
+      "human_game_id": "wOhL8KFd",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 92,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.102318457997171,
+      "own_depths": {
+        "candidate": {
+          "moves": 38,
+          "median": 6.0,
+          "sum": 230
+        },
+        "baseline": {
+          "moves": 39,
+          "median": 6,
+          "sum": 234
+        }
+      },
+      "own_nodes": {
+        "candidate": 514375,
+        "baseline": 598074
+      }
+    },
+    {
+      "unit": 54,
+      "candidate_white": false,
+      "human_game_id": "saWzXVMi",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 85,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.29783395800041,
+      "own_depths": {
+        "candidate": {
+          "moves": 36,
+          "median": 6.0,
+          "sum": 207
+        },
+        "baseline": {
+          "moves": 37,
+          "median": 6,
+          "sum": 210
+        }
+      },
+      "own_nodes": {
+        "candidate": 435445,
+        "baseline": 427890
+      }
+    },
+    {
+      "unit": 27,
+      "candidate_white": false,
+      "human_game_id": "wOhL8KFd",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 150,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.157641750003677,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 7,
+          "sum": 442
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 6.0,
+          "sum": 444
+        }
+      },
+      "own_nodes": {
+        "candidate": 1144605,
+        "baseline": 1210436
+      }
+    },
+    {
+      "unit": 42,
+      "candidate_white": false,
+      "human_game_id": "U6nH22fz",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 172,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.785262166988105,
+      "own_depths": {
+        "candidate": {
+          "moves": 80,
+          "median": 6.0,
+          "sum": 496
+        },
+        "baseline": {
+          "moves": 77,
+          "median": 6,
+          "sum": 496
+        }
+      },
+      "own_nodes": {
+        "candidate": 1296333,
+        "baseline": 1227393
+      }
+    },
+    {
+      "unit": 20,
+      "candidate_white": false,
+      "human_game_id": "bPSxlgnu",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 121,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.356833625002764,
+      "own_depths": {
+        "candidate": {
+          "moves": 53,
+          "median": 6,
+          "sum": 329
+        },
+        "baseline": {
+          "moves": 57,
+          "median": 6,
+          "sum": 337
+        }
+      },
+      "own_nodes": {
+        "candidate": 735950,
+        "baseline": 862914
+      }
+    },
+    {
+      "unit": 20,
+      "candidate_white": true,
+      "human_game_id": "bPSxlgnu",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.723199874977581,
+      "own_depths": {
+        "candidate": {
+          "moves": 49,
+          "median": 7,
+          "sum": 311
+        },
+        "baseline": {
+          "moves": 48,
+          "median": 6.0,
+          "sum": 302
+        }
+      },
+      "own_nodes": {
+        "candidate": 803133,
+        "baseline": 709496
+      }
+    },
+    {
+      "unit": 42,
+      "candidate_white": true,
+      "human_game_id": "U6nH22fz",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 144,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.865740708017256,
+      "own_depths": {
+        "candidate": {
+          "moves": 63,
+          "median": 7,
+          "sum": 432
+        },
+        "baseline": {
+          "moves": 66,
+          "median": 7.0,
+          "sum": 441
+        }
+      },
+      "own_nodes": {
+        "candidate": 1065477,
+        "baseline": 1101763
+      }
+    },
+    {
+      "unit": 25,
+      "candidate_white": false,
+      "human_game_id": "6pftRxbj",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 140,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.348102999996627,
+      "own_depths": {
+        "candidate": {
+          "moves": 62,
+          "median": 6.0,
+          "sum": 347
+        },
+        "baseline": {
+          "moves": 61,
+          "median": 5,
+          "sum": 344
+        }
+      },
+      "own_nodes": {
+        "candidate": 842806,
+        "baseline": 792200
+      }
+    },
+    {
+      "unit": 63,
+      "candidate_white": false,
+      "human_game_id": "OY9SqNGh",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 157,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.974846166995121,
+      "own_depths": {
+        "candidate": {
+          "moves": 70,
+          "median": 7.0,
+          "sum": 538
+        },
+        "baseline": {
+          "moves": 73,
+          "median": 7,
+          "sum": 536
+        }
+      },
+      "own_nodes": {
+        "candidate": 1363657,
+        "baseline": 1271121
+      }
+    },
+    {
+      "unit": 63,
+      "candidate_white": true,
+      "human_game_id": "OY9SqNGh",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.104188500001328,
+      "own_depths": {
+        "candidate": {
+          "moves": 39,
+          "median": 6,
+          "sum": 247
+        },
+        "baseline": {
+          "moves": 37,
+          "median": 6,
+          "sum": 235
+        }
+      },
+      "own_nodes": {
+        "candidate": 605201,
+        "baseline": 635460
+      }
+    },
+    {
+      "unit": 25,
+      "candidate_white": true,
+      "human_game_id": "6pftRxbj",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 197,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.296849542006385,
+      "own_depths": {
+        "candidate": {
+          "moves": 91,
+          "median": 7,
+          "sum": 625
+        },
+        "baseline": {
+          "moves": 88,
+          "median": 7.0,
+          "sum": 614
+        }
+      },
+      "own_nodes": {
+        "candidate": 1500377,
+        "baseline": 1598394
+      }
+    },
+    {
+      "unit": 61,
+      "candidate_white": true,
+      "human_game_id": "f66ncBjD",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 159,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.717381708003813,
+      "own_depths": {
+        "candidate": {
+          "moves": 72,
+          "median": 6.0,
+          "sum": 507
+        },
+        "baseline": {
+          "moves": 69,
+          "median": 7,
+          "sum": 508
+        }
+      },
+      "own_nodes": {
+        "candidate": 1147699,
+        "baseline": 1326865
+      }
+    },
+    {
+      "unit": 50,
+      "candidate_white": true,
+      "human_game_id": "oTOuVDiv",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 57,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.1940977500053123,
+      "own_depths": {
+        "candidate": {
+          "moves": 23,
+          "median": 6,
+          "sum": 134
+        },
+        "baseline": {
+          "moves": 24,
+          "median": 6.0,
+          "sum": 140
+        }
+      },
+      "own_nodes": {
+        "candidate": 297192,
+        "baseline": 334133
+      }
+    },
+    {
+      "unit": 61,
+      "candidate_white": false,
+      "human_game_id": "f66ncBjD",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 68,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.5189928750041872,
+      "own_depths": {
+        "candidate": {
+          "moves": 26,
+          "median": 6.0,
+          "sum": 169
+        },
+        "baseline": {
+          "moves": 26,
+          "median": 6.0,
+          "sum": 167
+        }
+      },
+      "own_nodes": {
+        "candidate": 398096,
+        "baseline": 382965
+      }
+    },
+    {
+      "unit": 50,
+      "candidate_white": false,
+      "human_game_id": "oTOuVDiv",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 115,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.927381917019375,
+      "own_depths": {
+        "candidate": {
+          "moves": 53,
+          "median": 6,
+          "sum": 353
+        },
+        "baseline": {
+          "moves": 54,
+          "median": 6.0,
+          "sum": 365
+        }
+      },
+      "own_nodes": {
+        "candidate": 823178,
+        "baseline": 1118890
+      }
+    },
+    {
+      "unit": 5,
+      "candidate_white": false,
+      "human_game_id": "nyVdmLL2",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 68,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.119758041983005,
+      "own_depths": {
+        "candidate": {
+          "moves": 30,
+          "median": 6.0,
+          "sum": 181
+        },
+        "baseline": {
+          "moves": 30,
+          "median": 6.0,
+          "sum": 177
+        }
+      },
+      "own_nodes": {
+        "candidate": 413065,
+        "baseline": 448786
+      }
+    },
+    {
+      "unit": 34,
+      "candidate_white": false,
+      "human_game_id": "cE4J1BzN",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 134,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.972786790982354,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 8,
+          "sum": 422
+        },
+        "baseline": {
+          "moves": 57,
+          "median": 8,
+          "sum": 422
+        }
+      },
+      "own_nodes": {
+        "candidate": 1004457,
+        "baseline": 1007186
+      }
+    },
+    {
+      "unit": 5,
+      "candidate_white": true,
+      "human_game_id": "nyVdmLL2",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 129,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.966112042020541,
+      "own_depths": {
+        "candidate": {
+          "moves": 61,
+          "median": 6,
+          "sum": 351
+        },
+        "baseline": {
+          "moves": 59,
+          "median": 6,
+          "sum": 340
+        }
+      },
+      "own_nodes": {
+        "candidate": 969360,
+        "baseline": 752488
+      }
+    },
+    {
+      "unit": 33,
+      "candidate_white": true,
+      "human_game_id": "k1lM377n",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 126,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.173904750001384,
+      "own_depths": {
+        "candidate": {
+          "moves": 56,
+          "median": 6.0,
+          "sum": 349
+        },
+        "baseline": {
+          "moves": 57,
+          "median": 6,
+          "sum": 355
+        }
+      },
+      "own_nodes": {
+        "candidate": 887406,
+        "baseline": 916609
+      }
+    },
+    {
+      "unit": 34,
+      "candidate_white": true,
+      "human_game_id": "cE4J1BzN",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 149,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.114145125000505,
+      "own_depths": {
+        "candidate": {
+          "moves": 67,
+          "median": 7,
+          "sum": 485
+        },
+        "baseline": {
+          "moves": 66,
+          "median": 7.0,
+          "sum": 475
+        }
+      },
+      "own_nodes": {
+        "candidate": 1591990,
+        "baseline": 1401585
+      }
+    },
+    {
+      "unit": 33,
+      "candidate_white": false,
+      "human_game_id": "k1lM377n",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 131,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.361640582996188,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 6,
+          "sum": 376
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 6.0,
+          "sum": 378
+        }
+      },
+      "own_nodes": {
+        "candidate": 854672,
+        "baseline": 1027568
+      }
+    },
+    {
+      "unit": 49,
+      "candidate_white": false,
+      "human_game_id": "SC6b5vVo",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 155,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.942208749998827,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 6,
+          "sum": 395
+        },
+        "baseline": {
+          "moves": 70,
+          "median": 6.0,
+          "sum": 404
+        }
+      },
+      "own_nodes": {
+        "candidate": 1115044,
+        "baseline": 1150804
+      }
+    },
+    {
+      "unit": 52,
+      "candidate_white": true,
+      "human_game_id": "g9MzhqiZ",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 96,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.323497375007719,
+      "own_depths": {
+        "candidate": {
+          "moves": 40,
+          "median": 6.0,
+          "sum": 235
+        },
+        "baseline": {
+          "moves": 40,
+          "median": 6.0,
+          "sum": 241
+        }
+      },
+      "own_nodes": {
+        "candidate": 538890,
+        "baseline": 591592
+      }
+    },
+    {
+      "unit": 49,
+      "candidate_white": true,
+      "human_game_id": "SC6b5vVo",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 81,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.452567375003127,
+      "own_depths": {
+        "candidate": {
+          "moves": 33,
+          "median": 6,
+          "sum": 200
+        },
+        "baseline": {
+          "moves": 32,
+          "median": 6.0,
+          "sum": 187
+        }
+      },
+      "own_nodes": {
+        "candidate": 413684,
+        "baseline": 396514
+      }
+    },
+    {
+      "unit": 52,
+      "candidate_white": false,
+      "human_game_id": "g9MzhqiZ",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.985754499997711,
+      "own_depths": {
+        "candidate": {
+          "moves": 46,
+          "median": 5.5,
+          "sum": 246
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 5.0,
+          "sum": 237
+        }
+      },
+      "own_nodes": {
+        "candidate": 535645,
+        "baseline": 630732
+      }
+    },
+    {
+      "unit": 22,
+      "candidate_white": false,
+      "human_game_id": "S0cPqBdj",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 107,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.828796916001011,
+      "own_depths": {
+        "candidate": {
+          "moves": 44,
+          "median": 5.0,
+          "sum": 238
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 6.0,
+          "sum": 250
+        }
+      },
+      "own_nodes": {
+        "candidate": 613897,
+        "baseline": 615103
+      }
+    },
+    {
+      "unit": 48,
+      "candidate_white": true,
+      "human_game_id": "pAn6EElQ",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 139,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.201827833021525,
+      "own_depths": {
+        "candidate": {
+          "moves": 64,
+          "median": 7.0,
+          "sum": 491
+        },
+        "baseline": {
+          "moves": 62,
+          "median": 7.0,
+          "sum": 494
+        }
+      },
+      "own_nodes": {
+        "candidate": 1100435,
+        "baseline": 1279804
+      }
+    },
+    {
+      "unit": 22,
+      "candidate_white": true,
+      "human_game_id": "S0cPqBdj",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 109,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.399230166978668,
+      "own_depths": {
+        "candidate": {
+          "moves": 47,
+          "median": 6,
+          "sum": 278
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 6.0,
+          "sum": 265
+        }
+      },
+      "own_nodes": {
+        "candidate": 728725,
+        "baseline": 654888
+      }
+    },
+    {
+      "unit": 48,
+      "candidate_white": false,
+      "human_game_id": "pAn6EElQ",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 160,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.483036749996245,
+      "own_depths": {
+        "candidate": {
+          "moves": 74,
+          "median": 6.0,
+          "sum": 500
+        },
+        "baseline": {
+          "moves": 74,
+          "median": 6.0,
+          "sum": 503
+        }
+      },
+      "own_nodes": {
+        "candidate": 1126897,
+        "baseline": 1113930
+      }
+    },
+    {
+      "unit": 3,
+      "candidate_white": true,
+      "human_game_id": "4jTzY3AS",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 172,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.090888500009896,
+      "own_depths": {
+        "candidate": {
+          "moves": 80,
+          "median": 7.0,
+          "sum": 538
+        },
+        "baseline": {
+          "moves": 79,
+          "median": 7,
+          "sum": 527
+        }
+      },
+      "own_nodes": {
+        "candidate": 1533204,
+        "baseline": 1365983
+      }
+    },
+    {
+      "unit": 62,
+      "candidate_white": true,
+      "human_game_id": "XVGMKZeH",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 69,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.20550141701824,
+      "own_depths": {
+        "candidate": {
+          "moves": 31,
+          "median": 6,
+          "sum": 191
+        },
+        "baseline": {
+          "moves": 30,
+          "median": 6.0,
+          "sum": 183
+        }
+      },
+      "own_nodes": {
+        "candidate": 413295,
+        "baseline": 401448
+      }
+    },
+    {
+      "unit": 3,
+      "candidate_white": false,
+      "human_game_id": "4jTzY3AS",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.157431833998999,
+      "own_depths": {
+        "candidate": {
+          "moves": 48,
+          "median": 7.0,
+          "sum": 368
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 7,
+          "sum": 361
+        }
+      },
+      "own_nodes": {
+        "candidate": 776809,
+        "baseline": 838163
+      }
+    },
+    {
+      "unit": 62,
+      "candidate_white": false,
+      "human_game_id": "XVGMKZeH",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.534060292004142,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 6.0,
+          "sum": 289
+        },
+        "baseline": {
+          "moves": 48,
+          "median": 6.0,
+          "sum": 277
+        }
+      },
+      "own_nodes": {
+        "candidate": 833582,
+        "baseline": 675398
+      }
+    },
+    {
+      "unit": 35,
+      "candidate_white": true,
+      "human_game_id": "n7PjlCzb",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 82,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.020510333997663,
+      "own_depths": {
+        "candidate": {
+          "moves": 37,
+          "median": 6,
+          "sum": 225
+        },
+        "baseline": {
+          "moves": 37,
+          "median": 6,
+          "sum": 216
+        }
+      },
+      "own_nodes": {
+        "candidate": 588987,
+        "baseline": 493767
+      }
+    },
+    {
+      "unit": 23,
+      "candidate_white": false,
+      "human_game_id": "32enqMAR",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 144,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.076084416999947,
+      "own_depths": {
+        "candidate": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 455
+        },
+        "baseline": {
+          "moves": 65,
+          "median": 6,
+          "sum": 440
+        }
+      },
+      "own_nodes": {
+        "candidate": 1075450,
+        "baseline": 1165624
+      }
+    },
+    {
+      "unit": 35,
+      "candidate_white": false,
+      "human_game_id": "n7PjlCzb",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 180,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.292770333995577,
+      "own_depths": {
+        "candidate": {
+          "moves": 86,
+          "median": 7.0,
+          "sum": 577
+        },
+        "baseline": {
+          "moves": 80,
+          "median": 7.0,
+          "sum": 551
+        }
+      },
+      "own_nodes": {
+        "candidate": 1503398,
+        "baseline": 1532355
+      }
+    },
+    {
+      "unit": 23,
+      "candidate_white": true,
+      "human_game_id": "32enqMAR",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 81,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.910893624997698,
+      "own_depths": {
+        "candidate": {
+          "moves": 35,
+          "median": 6,
+          "sum": 217
+        },
+        "baseline": {
+          "moves": 36,
+          "median": 6.0,
+          "sum": 227
+        }
+      },
+      "own_nodes": {
+        "candidate": 481296,
+        "baseline": 477463
+      }
+    },
+    {
+      "unit": 40,
+      "candidate_white": false,
+      "human_game_id": "Ky9bu2cL",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 38,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 1.6846090420149267,
+      "own_depths": {
+        "candidate": {
+          "moves": 11,
+          "median": 5,
+          "sum": 56
+        },
+        "baseline": {
+          "moves": 11,
+          "median": 5,
+          "sum": 57
+        }
+      },
+      "own_nodes": {
+        "candidate": 105246,
+        "baseline": 135224
+      }
+    },
+    {
+      "unit": 40,
+      "candidate_white": true,
+      "human_game_id": "Ky9bu2cL",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 97,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.234020000003511,
+      "own_depths": {
+        "candidate": {
+          "moves": 41,
+          "median": 5,
+          "sum": 209
+        },
+        "baseline": {
+          "moves": 39,
+          "median": 5,
+          "sum": 198
+        }
+      },
+      "own_nodes": {
+        "candidate": 389820,
+        "baseline": 350101
+      }
+    },
+    {
+      "unit": 9,
+      "candidate_white": true,
+      "human_game_id": "VwoN3GbM",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 138,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.817590084014228,
+      "own_depths": {
+        "candidate": {
+          "moves": 63,
+          "median": 6,
+          "sum": 386
+        },
+        "baseline": {
+          "moves": 63,
+          "median": 6,
+          "sum": 388
+        }
+      },
+      "own_nodes": {
+        "candidate": 919704,
+        "baseline": 864498
+      }
+    },
+    {
+      "unit": 45,
+      "candidate_white": true,
+      "human_game_id": "IfU2amv0",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 118,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.151831958995899,
+      "own_depths": {
+        "candidate": {
+          "moves": 53,
+          "median": 6,
+          "sum": 327
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 6,
+          "sum": 327
+        }
+      },
+      "own_nodes": {
+        "candidate": 1011542,
+        "baseline": 854215
+      }
+    },
+    {
+      "unit": 9,
+      "candidate_white": false,
+      "human_game_id": "VwoN3GbM",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 106,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.899071666004602,
+      "own_depths": {
+        "candidate": {
+          "moves": 47,
+          "median": 6,
+          "sum": 255
+        },
+        "baseline": {
+          "moves": 45,
+          "median": 6,
+          "sum": 247
+        }
+      },
+      "own_nodes": {
+        "candidate": 522829,
+        "baseline": 611962
+      }
+    },
+    {
+      "unit": 39,
+      "candidate_white": false,
+      "human_game_id": "ssc3U3Rm",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 157,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.844362332980381,
+      "own_depths": {
+        "candidate": {
+          "moves": 70,
+          "median": 6.0,
+          "sum": 454
+        },
+        "baseline": {
+          "moves": 73,
+          "median": 7,
+          "sum": 483
+        }
+      },
+      "own_nodes": {
+        "candidate": 1247595,
+        "baseline": 1365537
+      }
+    },
+    {
+      "unit": 45,
+      "candidate_white": false,
+      "human_game_id": "IfU2amv0",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 173,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.76638895799988,
+      "own_depths": {
+        "candidate": {
+          "moves": 77,
+          "median": 6,
+          "sum": 507
+        },
+        "baseline": {
+          "moves": 79,
+          "median": 6,
+          "sum": 502
+        }
+      },
+      "own_nodes": {
+        "candidate": 1272398,
+        "baseline": 1222189
+      }
+    },
+    {
+      "unit": 39,
+      "candidate_white": true,
+      "human_game_id": "ssc3U3Rm",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 80,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.906489166984102,
+      "own_depths": {
+        "candidate": {
+          "moves": 34,
+          "median": 6.0,
+          "sum": 213
+        },
+        "baseline": {
+          "moves": 34,
+          "median": 6.0,
+          "sum": 209
+        }
+      },
+      "own_nodes": {
+        "candidate": 527970,
+        "baseline": 495853
+      }
+    },
+    {
+      "unit": 58,
+      "candidate_white": false,
+      "human_game_id": "nfDeGIs4",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 85,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.4927019590104464,
+      "own_depths": {
+        "candidate": {
+          "moves": 33,
+          "median": 5,
+          "sum": 171
+        },
+        "baseline": {
+          "moves": 35,
+          "median": 5,
+          "sum": 167
+        }
+      },
+      "own_nodes": {
+        "candidate": 329408,
+        "baseline": 308020
+      }
+    },
+    {
+      "unit": 58,
+      "candidate_white": true,
+      "human_game_id": "nfDeGIs4",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.419779249990825,
+      "own_depths": {
+        "candidate": {
+          "moves": 43,
+          "median": 6,
+          "sum": 266
+        },
+        "baseline": {
+          "moves": 41,
+          "median": 6,
+          "sum": 264
+        }
+      },
+      "own_nodes": {
+        "candidate": 629257,
+        "baseline": 546366
+      }
+    },
+    {
+      "unit": 43,
+      "candidate_white": false,
+      "human_game_id": "FgYqZwO6",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 114,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.344468583993148,
+      "own_depths": {
+        "candidate": {
+          "moves": 48,
+          "median": 7.0,
+          "sum": 298
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 6,
+          "sum": 284
+        }
+      },
+      "own_nodes": {
+        "candidate": 726463,
+        "baseline": 678775
+      }
+    },
+    {
+      "unit": 32,
+      "candidate_white": false,
+      "human_game_id": "CurCOSvw",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 55,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.487502667005174,
+      "own_depths": {
+        "candidate": {
+          "moves": 23,
+          "median": 6,
+          "sum": 139
+        },
+        "baseline": {
+          "moves": 24,
+          "median": 6.0,
+          "sum": 145
+        }
+      },
+      "own_nodes": {
+        "candidate": 261188,
+        "baseline": 286664
+      }
+    },
+    {
+      "unit": 43,
+      "candidate_white": true,
+      "human_game_id": "FgYqZwO6",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 153,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.631991457979893,
+      "own_depths": {
+        "candidate": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 469
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 462
+        }
+      },
+      "own_nodes": {
+        "candidate": 1437509,
+        "baseline": 1364808
+      }
+    },
+    {
+      "unit": 32,
+      "candidate_white": true,
+      "human_game_id": "CurCOSvw",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 128,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.215211709000869,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 5,
+          "sum": 332
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 5.0,
+          "sum": 335
+        }
+      },
+      "own_nodes": {
+        "candidate": 803434,
+        "baseline": 889277
+      }
+    },
+    {
+      "unit": 17,
+      "candidate_white": false,
+      "human_game_id": "X5kGLyvp",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 56,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 2.931423125002766,
+      "own_depths": {
+        "candidate": {
+          "moves": 24,
+          "median": 5.0,
+          "sum": 112
+        },
+        "baseline": {
+          "moves": 22,
+          "median": 5.5,
+          "sum": 118
+        }
+      },
+      "own_nodes": {
+        "candidate": 198506,
+        "baseline": 259530
+      }
+    },
+    {
+      "unit": 46,
+      "candidate_white": true,
+      "human_game_id": "bgffWzeM",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 153,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.848250250011915,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 8,
+          "sum": 600
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 584
+        }
+      },
+      "own_nodes": {
+        "candidate": 1304985,
+        "baseline": 1358212
+      }
+    },
+    {
+      "unit": 17,
+      "candidate_white": true,
+      "human_game_id": "X5kGLyvp",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 153,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.852281708997907,
+      "own_depths": {
+        "candidate": {
+          "moves": 73,
+          "median": 7,
+          "sum": 470
+        },
+        "baseline": {
+          "moves": 71,
+          "median": 7,
+          "sum": 458
+        }
+      },
+      "own_nodes": {
+        "candidate": 1110209,
+        "baseline": 1168756
+      }
+    },
+    {
+      "unit": 46,
+      "candidate_white": false,
+      "human_game_id": "bgffWzeM",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 149,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.797524416993838,
+      "own_depths": {
+        "candidate": {
+          "moves": 66,
+          "median": 6.0,
+          "sum": 425
+        },
+        "baseline": {
+          "moves": 67,
+          "median": 6,
+          "sum": 431
+        }
+      },
+      "own_nodes": {
+        "candidate": 1010698,
+        "baseline": 948298
+      }
+    },
+    {
+      "unit": 11,
+      "candidate_white": true,
+      "human_game_id": "ZoHUoVcb",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 185,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.910839959018631,
+      "own_depths": {
+        "candidate": {
+          "moves": 89,
+          "median": 6,
+          "sum": 553
+        },
+        "baseline": {
+          "moves": 87,
+          "median": 6,
+          "sum": 530
+        }
+      },
+      "own_nodes": {
+        "candidate": 1111670,
+        "baseline": 1109227
+      }
+    },
+    {
+      "unit": 12,
+      "candidate_white": false,
+      "human_game_id": "Qkf824r0",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 158,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.704512666008668,
+      "own_depths": {
+        "candidate": {
+          "moves": 72,
+          "median": 6.5,
+          "sum": 490
+        },
+        "baseline": {
+          "moves": 72,
+          "median": 6.0,
+          "sum": 497
+        }
+      },
+      "own_nodes": {
+        "candidate": 1031189,
+        "baseline": 966633
+      }
+    },
+    {
+      "unit": 11,
+      "candidate_white": false,
+      "human_game_id": "ZoHUoVcb",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 160,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.121668834006414,
+      "own_depths": {
+        "candidate": {
+          "moves": 76,
+          "median": 6.0,
+          "sum": 495
+        },
+        "baseline": {
+          "moves": 76,
+          "median": 6.0,
+          "sum": 491
+        }
+      },
+      "own_nodes": {
+        "candidate": 1225909,
+        "baseline": 1204022
+      }
+    },
+    {
+      "unit": 12,
+      "candidate_white": true,
+      "human_game_id": "Qkf824r0",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 208,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.84720908300369,
+      "own_depths": {
+        "candidate": {
+          "moves": 97,
+          "median": 7,
+          "sum": 653
+        },
+        "baseline": {
+          "moves": 95,
+          "median": 7,
+          "sum": 659
+        }
+      },
+      "own_nodes": {
+        "candidate": 1972191,
+        "baseline": 2009080
+      }
+    },
+    {
+      "unit": 16,
+      "candidate_white": false,
+      "human_game_id": "3Ggh2CVq",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 73,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.4826608750154264,
+      "own_depths": {
+        "candidate": {
+          "moves": 24,
+          "median": 6.0,
+          "sum": 132
+        },
+        "baseline": {
+          "moves": 29,
+          "median": 6,
+          "sum": 169
+        }
+      },
+      "own_nodes": {
+        "candidate": 276295,
+        "baseline": 366570
+      }
+    },
+    {
+      "unit": 2,
+      "candidate_white": false,
+      "human_game_id": "Ws3ma6sE",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 157,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.781784999999218,
+      "own_depths": {
+        "candidate": {
+          "moves": 71,
+          "median": 6,
+          "sum": 431
+        },
+        "baseline": {
+          "moves": 75,
+          "median": 6,
+          "sum": 447
+        }
+      },
+      "own_nodes": {
+        "candidate": 1072416,
+        "baseline": 1117384
+      }
+    },
+    {
+      "unit": 16,
+      "candidate_white": true,
+      "human_game_id": "3Ggh2CVq",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 143,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.462497665983392,
+      "own_depths": {
+        "candidate": {
+          "moves": 64,
+          "median": 7.0,
+          "sum": 426
+        },
+        "baseline": {
+          "moves": 62,
+          "median": 7.0,
+          "sum": 418
+        }
+      },
+      "own_nodes": {
+        "candidate": 1279312,
+        "baseline": 1136015
+      }
+    },
+    {
+      "unit": 2,
+      "candidate_white": true,
+      "human_game_id": "Ws3ma6sE",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 120,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.742673125001602,
+      "own_depths": {
+        "candidate": {
+          "moves": 54,
+          "median": 6.0,
+          "sum": 332
+        },
+        "baseline": {
+          "moves": 56,
+          "median": 6.0,
+          "sum": 345
+        }
+      },
+      "own_nodes": {
+        "candidate": 785840,
+        "baseline": 869705
+      }
+    },
+    {
+      "unit": 14,
+      "candidate_white": false,
+      "human_game_id": "7PCnTl6U",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 31,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 1.6453523750242312,
+      "own_depths": {
+        "candidate": {
+          "moves": 11,
+          "median": 5,
+          "sum": 57
+        },
+        "baseline": {
+          "moves": 12,
+          "median": 5.0,
+          "sum": 65
+        }
+      },
+      "own_nodes": {
+        "candidate": 121724,
+        "baseline": 145813
+      }
+    },
+    {
+      "unit": 14,
+      "candidate_white": true,
+      "human_game_id": "7PCnTl6U",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 31,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 1.632363750017248,
+      "own_depths": {
+        "candidate": {
+          "moves": 12,
+          "median": 5.0,
+          "sum": 66
+        },
+        "baseline": {
+          "moves": 11,
+          "median": 5,
+          "sum": 57
+        }
+      },
+      "own_nodes": {
+        "candidate": 151664,
+        "baseline": 115458
+      }
+    },
+    {
+      "unit": 51,
+      "candidate_white": true,
+      "human_game_id": "v5qI4Ajd",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.579292249982245,
+      "own_depths": {
+        "candidate": {
+          "moves": 39,
+          "median": 6,
+          "sum": 202
+        },
+        "baseline": {
+          "moves": 35,
+          "median": 5,
+          "sum": 177
+        }
+      },
+      "own_nodes": {
+        "candidate": 426187,
+        "baseline": 408460
+      }
+    },
+    {
+      "unit": 51,
+      "candidate_white": false,
+      "human_game_id": "v5qI4Ajd",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 104,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.556307584018214,
+      "own_depths": {
+        "candidate": {
+          "moves": 46,
+          "median": 6.0,
+          "sum": 274
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 6.0,
+          "sum": 282
+        }
+      },
+      "own_nodes": {
+        "candidate": 708890,
+        "baseline": 723997
+      }
+    },
+    {
+      "unit": 47,
+      "candidate_white": true,
+      "human_game_id": "zO2UfqpE",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 153,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.602052416012157,
+      "own_depths": {
+        "candidate": {
+          "moves": 73,
+          "median": 6,
+          "sum": 522
+        },
+        "baseline": {
+          "moves": 70,
+          "median": 6.5,
+          "sum": 503
+        }
+      },
+      "own_nodes": {
+        "candidate": 1346813,
+        "baseline": 1229028
+      }
+    },
+    {
+      "unit": 26,
+      "candidate_white": false,
+      "human_game_id": "AkrIOK9F",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 148,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.711083792004501,
+      "own_depths": {
+        "candidate": {
+          "moves": 70,
+          "median": 9.0,
+          "sum": 576
+        },
+        "baseline": {
+          "moves": 70,
+          "median": 9.0,
+          "sum": 575
+        }
+      },
+      "own_nodes": {
+        "candidate": 1593411,
+        "baseline": 1643132
+      }
+    },
+    {
+      "unit": 47,
+      "candidate_white": false,
+      "human_game_id": "zO2UfqpE",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 124,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.831427958008135,
+      "own_depths": {
+        "candidate": {
+          "moves": 58,
+          "median": 7.0,
+          "sum": 393
+        },
+        "baseline": {
+          "moves": 57,
+          "median": 7,
+          "sum": 393
+        }
+      },
+      "own_nodes": {
+        "candidate": 1105497,
+        "baseline": 1060118
+      }
+    },
+    {
+      "unit": 60,
+      "candidate_white": true,
+      "human_game_id": "gybCW23G",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 75,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.622759624995524,
+      "own_depths": {
+        "candidate": {
+          "moves": 32,
+          "median": 7.0,
+          "sum": 235
+        },
+        "baseline": {
+          "moves": 31,
+          "median": 7,
+          "sum": 223
+        }
+      },
+      "own_nodes": {
+        "candidate": 538774,
+        "baseline": 422528
+      }
+    },
+    {
+      "unit": 26,
+      "candidate_white": true,
+      "human_game_id": "AkrIOK9F",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.087941125006182,
+      "own_depths": {
+        "candidate": {
+          "moves": 64,
+          "median": 7.0,
+          "sum": 452
+        },
+        "baseline": {
+          "moves": 62,
+          "median": 7.0,
+          "sum": 437
+        }
+      },
+      "own_nodes": {
+        "candidate": 1101710,
+        "baseline": 1007388
+      }
+    },
+    {
+      "unit": 60,
+      "candidate_white": false,
+      "human_game_id": "gybCW23G",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 141,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.81729295902187,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 7,
+          "sum": 409
+        },
+        "baseline": {
+          "moves": 65,
+          "median": 7,
+          "sum": 451
+        }
+      },
+      "own_nodes": {
+        "candidate": 1023988,
+        "baseline": 1151380
+      }
+    },
+    {
+      "unit": 6,
+      "candidate_white": false,
+      "human_game_id": "2i3IpNCP",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 80,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.98623112498899,
+      "own_depths": {
+        "candidate": {
+          "moves": 34,
+          "median": 5.0,
+          "sum": 173
+        },
+        "baseline": {
+          "moves": 34,
+          "median": 5.0,
+          "sum": 167
+        }
+      },
+      "own_nodes": {
+        "candidate": 233738,
+        "baseline": 315288
+      }
+    },
+    {
+      "unit": 24,
+      "candidate_white": false,
+      "human_game_id": "vSJuRpqU",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.9398805829987396,
+      "own_depths": {
+        "candidate": {
+          "moves": 40,
+          "median": 7.0,
+          "sum": 263
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 7.0,
+          "sum": 295
+        }
+      },
+      "own_nodes": {
+        "candidate": 685703,
+        "baseline": 722916
+      }
+    },
+    {
+      "unit": 6,
+      "candidate_white": true,
+      "human_game_id": "2i3IpNCP",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 121,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.701860083005158,
+      "own_depths": {
+        "candidate": {
+          "moves": 55,
+          "median": 6,
+          "sum": 342
+        },
+        "baseline": {
+          "moves": 54,
+          "median": 6.0,
+          "sum": 327
+        }
+      },
+      "own_nodes": {
+        "candidate": 757432,
+        "baseline": 653154
+      }
+    },
+    {
+      "unit": 24,
+      "candidate_white": true,
+      "human_game_id": "vSJuRpqU",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 113,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.3440246249956544,
+      "own_depths": {
+        "candidate": {
+          "moves": 51,
+          "median": 7,
+          "sum": 314
+        },
+        "baseline": {
+          "moves": 49,
+          "median": 6,
+          "sum": 307
+        }
+      },
+      "own_nodes": {
+        "candidate": 826115,
+        "baseline": 762737
+      }
+    },
+    {
+      "unit": 18,
+      "candidate_white": true,
+      "human_game_id": "FKL7Owsy",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 122,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.634185125003569,
+      "own_depths": {
+        "candidate": {
+          "moves": 55,
+          "median": 7,
+          "sum": 359
+        },
+        "baseline": {
+          "moves": 55,
+          "median": 7,
+          "sum": 371
+        }
+      },
+      "own_nodes": {
+        "candidate": 912599,
+        "baseline": 1006860
+      }
+    },
+    {
+      "unit": 0,
+      "candidate_white": false,
+      "human_game_id": "tUUz4WCi",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 79,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.260799833980855,
+      "own_depths": {
+        "candidate": {
+          "moves": 30,
+          "median": 5.0,
+          "sum": 160
+        },
+        "baseline": {
+          "moves": 34,
+          "median": 6.0,
+          "sum": 183
+        }
+      },
+      "own_nodes": {
+        "candidate": 286355,
+        "baseline": 356108
+      }
+    },
+    {
+      "unit": 18,
+      "candidate_white": false,
+      "human_game_id": "FKL7Owsy",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 88,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.947987708990695,
+      "own_depths": {
+        "candidate": {
+          "moves": 38,
+          "median": 6.0,
+          "sum": 209
+        },
+        "baseline": {
+          "moves": 37,
+          "median": 5,
+          "sum": 198
+        }
+      },
+      "own_nodes": {
+        "candidate": 472169,
+        "baseline": 407131
+      }
+    },
+    {
+      "unit": 0,
+      "candidate_white": true,
+      "human_game_id": "tUUz4WCi",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 146,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.763009625021368,
+      "own_depths": {
+        "candidate": {
+          "moves": 66,
+          "median": 8.0,
+          "sum": 486
+        },
+        "baseline": {
+          "moves": 67,
+          "median": 8,
+          "sum": 476
+        }
+      },
+      "own_nodes": {
+        "candidate": 1269389,
+        "baseline": 1230063
+      }
+    },
+    {
+      "unit": 53,
+      "candidate_white": true,
+      "human_game_id": "gd2mcRlJ",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 198,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.010820166993653,
+      "own_depths": {
+        "candidate": {
+          "moves": 94,
+          "median": 6.0,
+          "sum": 539
+        },
+        "baseline": {
+          "moves": 95,
+          "median": 6,
+          "sum": 543
+        }
+      },
+      "own_nodes": {
+        "candidate": 1456913,
+        "baseline": 1568554
+      }
+    },
+    {
+      "unit": 59,
+      "candidate_white": true,
+      "human_game_id": "Z8GcDPj8",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 148,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.431810290989233,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 7,
+          "sum": 521
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 523
+        }
+      },
+      "own_nodes": {
+        "candidate": 1429304,
+        "baseline": 1371947
+      }
+    },
+    {
+      "unit": 53,
+      "candidate_white": false,
+      "human_game_id": "gd2mcRlJ",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 115,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.914206416986417,
+      "own_depths": {
+        "candidate": {
+          "moves": 52,
+          "median": 5.5,
+          "sum": 289
+        },
+        "baseline": {
+          "moves": 54,
+          "median": 5.0,
+          "sum": 289
+        }
+      },
+      "own_nodes": {
+        "candidate": 767950,
+        "baseline": 764619
+      }
+    },
+    {
+      "unit": 59,
+      "candidate_white": false,
+      "human_game_id": "Z8GcDPj8",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 132,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.738736500003142,
+      "own_depths": {
+        "candidate": {
+          "moves": 62,
+          "median": 5.0,
+          "sum": 326
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 5.0,
+          "sum": 319
+        }
+      },
+      "own_nodes": {
+        "candidate": 838951,
+        "baseline": 811210
+      }
+    },
+    {
+      "unit": 38,
+      "candidate_white": true,
+      "human_game_id": "hr46zzzd",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 131,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.763290875009261,
+      "own_depths": {
+        "candidate": {
+          "moves": 61,
+          "median": 6,
+          "sum": 381
+        },
+        "baseline": {
+          "moves": 59,
+          "median": 6,
+          "sum": 367
+        }
+      },
+      "own_nodes": {
+        "candidate": 1080403,
+        "baseline": 983059
+      }
+    },
+    {
+      "unit": 56,
+      "candidate_white": true,
+      "human_game_id": "RInzegpK",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 156,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.45747074999963,
+      "own_depths": {
+        "candidate": {
+          "moves": 72,
+          "median": 6.0,
+          "sum": 444
+        },
+        "baseline": {
+          "moves": 73,
+          "median": 6,
+          "sum": 445
+        }
+      },
+      "own_nodes": {
+        "candidate": 995868,
+        "baseline": 1038761
+      }
+    },
+    {
+      "unit": 38,
+      "candidate_white": false,
+      "human_game_id": "hr46zzzd",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.442297166999197,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 6.0,
+          "sum": 296
+        },
+        "baseline": {
+          "moves": 50,
+          "median": 6.0,
+          "sum": 288
+        }
+      },
+      "own_nodes": {
+        "candidate": 816855,
+        "baseline": 887858
+      }
+    },
+    {
+      "unit": 56,
+      "candidate_white": false,
+      "human_game_id": "RInzegpK",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 115,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.114529833983397,
+      "own_depths": {
+        "candidate": {
+          "moves": 52,
+          "median": 7.0,
+          "sum": 356
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 7,
+          "sum": 362
+        }
+      },
+      "own_nodes": {
+        "candidate": 956089,
+        "baseline": 947527
+      }
+    },
+    {
+      "unit": 37,
+      "candidate_white": true,
+      "human_game_id": "r5yfqSwi",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 115,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.471551291993819,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 6.0,
+          "sum": 304
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 6.0,
+          "sum": 275
+        }
+      },
+      "own_nodes": {
+        "candidate": 860467,
+        "baseline": 729159
+      }
+    },
+    {
+      "unit": 15,
+      "candidate_white": false,
+      "human_game_id": "fPt65Is8",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.7402130409900565,
+      "own_depths": {
+        "candidate": {
+          "moves": 60,
+          "median": 5.0,
+          "sum": 304
+        },
+        "baseline": {
+          "moves": 62,
+          "median": 5.0,
+          "sum": 315
+        }
+      },
+      "own_nodes": {
+        "candidate": 671687,
+        "baseline": 580008
+      }
+    },
+    {
+      "unit": 37,
+      "candidate_white": false,
+      "human_game_id": "r5yfqSwi",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 117,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.346795791992918,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 6.0,
+          "sum": 313
+        },
+        "baseline": {
+          "moves": 51,
+          "median": 6,
+          "sum": 317
+        }
+      },
+      "own_nodes": {
+        "candidate": 872987,
+        "baseline": 875629
+      }
+    },
+    {
+      "unit": 13,
+      "candidate_white": false,
+      "human_game_id": "87879ixi",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.321714457997587,
+      "own_depths": {
+        "candidate": {
+          "moves": 39,
+          "median": 6,
+          "sum": 247
+        },
+        "baseline": {
+          "moves": 43,
+          "median": 6,
+          "sum": 268
+        }
+      },
+      "own_nodes": {
+        "candidate": 544759,
+        "baseline": 717628
+      }
+    },
+    {
+      "unit": 13,
+      "candidate_white": true,
+      "human_game_id": "87879ixi",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 83,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.173611167003401,
+      "own_depths": {
+        "candidate": {
+          "moves": 34,
+          "median": 6.0,
+          "sum": 201
+        },
+        "baseline": {
+          "moves": 33,
+          "median": 6,
+          "sum": 197
+        }
+      },
+      "own_nodes": {
+        "candidate": 459263,
+        "baseline": 464193
+      }
+    },
+    {
+      "unit": 15,
+      "candidate_white": true,
+      "human_game_id": "fPt65Is8",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 216,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.725747916992987,
+      "own_depths": {
+        "candidate": {
+          "moves": 102,
+          "median": 7.0,
+          "sum": 727
+        },
+        "baseline": {
+          "moves": 102,
+          "median": 7.0,
+          "sum": 732
+        }
+      },
+      "own_nodes": {
+        "candidate": 2105566,
+        "baseline": 2243973
+      }
+    },
+    {
+      "unit": 8,
+      "candidate_white": false,
+      "human_game_id": "DxQxrrqv",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 165,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.067599375004647,
+      "own_depths": {
+        "candidate": {
+          "moves": 76,
+          "median": 7.0,
+          "sum": 504
+        },
+        "baseline": {
+          "moves": 79,
+          "median": 6,
+          "sum": 491
+        }
+      },
+      "own_nodes": {
+        "candidate": 1406856,
+        "baseline": 1303937
+      }
+    },
+    {
+      "unit": 4,
+      "candidate_white": true,
+      "human_game_id": "30ISLQkK",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 125,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.89219912502449,
+      "own_depths": {
+        "candidate": {
+          "moves": 54,
+          "median": 6.0,
+          "sum": 362
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 6,
+          "sum": 361
+        }
+      },
+      "own_nodes": {
+        "candidate": 1042102,
+        "baseline": 969627
+      }
+    },
+    {
+      "unit": 4,
+      "candidate_white": false,
+      "human_game_id": "30ISLQkK",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 125,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.761280417005764,
+      "own_depths": {
+        "candidate": {
+          "moves": 52,
+          "median": 6.0,
+          "sum": 288
+        },
+        "baseline": {
+          "moves": 55,
+          "median": 6,
+          "sum": 300
+        }
+      },
+      "own_nodes": {
+        "candidate": 595698,
+        "baseline": 699468
+      }
+    },
+    {
+      "unit": 8,
+      "candidate_white": true,
+      "human_game_id": "DxQxrrqv",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 173,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.577984458010178,
+      "own_depths": {
+        "candidate": {
+          "moves": 82,
+          "median": 7.0,
+          "sum": 568
+        },
+        "baseline": {
+          "moves": 79,
+          "median": 7,
+          "sum": 567
+        }
+      },
+      "own_nodes": {
+        "candidate": 1483879,
+        "baseline": 1677843
+      }
+    },
+    {
+      "unit": 29,
+      "candidate_white": false,
+      "human_game_id": "OFWj6dGA",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.263350999972317,
+      "own_depths": {
+        "candidate": {
+          "moves": 39,
+          "median": 6,
+          "sum": 258
+        },
+        "baseline": {
+          "moves": 40,
+          "median": 6.0,
+          "sum": 249
+        }
+      },
+      "own_nodes": {
+        "candidate": 739270,
+        "baseline": 736318
+      }
+    },
+    {
+      "unit": 44,
+      "candidate_white": false,
+      "human_game_id": "zTIcav4F",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 149,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.075968999997713,
+      "own_depths": {
+        "candidate": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 455
+        },
+        "baseline": {
+          "moves": 71,
+          "median": 6,
+          "sum": 457
+        }
+      },
+      "own_nodes": {
+        "candidate": 1226839,
+        "baseline": 1183233
+      }
+    },
+    {
+      "unit": 29,
+      "candidate_white": true,
+      "human_game_id": "OFWj6dGA",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.0412608749757055,
+      "own_depths": {
+        "candidate": {
+          "moves": 49,
+          "median": 6,
+          "sum": 296
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 6,
+          "sum": 281
+        }
+      },
+      "own_nodes": {
+        "candidate": 787272,
+        "baseline": 758522
+      }
+    },
+    {
+      "unit": 44,
+      "candidate_white": true,
+      "human_game_id": "zTIcav4F",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 160,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.701188499981072,
+      "own_depths": {
+        "candidate": {
+          "moves": 76,
+          "median": 7.0,
+          "sum": 497
+        },
+        "baseline": {
+          "moves": 76,
+          "median": 7.0,
+          "sum": 490
+        }
+      },
+      "own_nodes": {
+        "candidate": 1374627,
+        "baseline": 1414000
+      }
+    },
+    {
+      "unit": 7,
+      "candidate_white": true,
+      "human_game_id": "KIkRllLJ",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.276851916976739,
+      "own_depths": {
+        "candidate": {
+          "moves": 43,
+          "median": 7,
+          "sum": 270
+        },
+        "baseline": {
+          "moves": 41,
+          "median": 6,
+          "sum": 255
+        }
+      },
+      "own_nodes": {
+        "candidate": 813841,
+        "baseline": 765271
+      }
+    },
+    {
+      "unit": 21,
+      "candidate_white": false,
+      "human_game_id": "xG7oO5ew",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 110,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.067194458999438,
+      "own_depths": {
+        "candidate": {
+          "moves": 49,
+          "median": 7,
+          "sum": 337
+        },
+        "baseline": {
+          "moves": 45,
+          "median": 7,
+          "sum": 309
+        }
+      },
+      "own_nodes": {
+        "candidate": 796015,
+        "baseline": 604724
+      }
+    },
+    {
+      "unit": 7,
+      "candidate_white": false,
+      "human_game_id": "KIkRllLJ",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.909311916999286,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 6,
+          "sum": 356
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 6.0,
+          "sum": 361
+        }
+      },
+      "own_nodes": {
+        "candidate": 839341,
+        "baseline": 834147
+      }
+    },
+    {
+      "unit": 57,
+      "candidate_white": true,
+      "human_game_id": "2PKVHqgR",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 130,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.842274541995721,
+      "own_depths": {
+        "candidate": {
+          "moves": 58,
+          "median": 5.5,
+          "sum": 322
+        },
+        "baseline": {
+          "moves": 59,
+          "median": 6,
+          "sum": 331
+        }
+      },
+      "own_nodes": {
+        "candidate": 631141,
+        "baseline": 738906
+      }
+    },
+    {
+      "unit": 21,
+      "candidate_white": true,
+      "human_game_id": "xG7oO5ew",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 215,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.409284207999008,
+      "own_depths": {
+        "candidate": {
+          "moves": 102,
+          "median": 8.0,
+          "sum": 781
+        },
+        "baseline": {
+          "moves": 101,
+          "median": 8,
+          "sum": 775
+        }
+      },
+      "own_nodes": {
+        "candidate": 1913026,
+        "baseline": 1803500
+      }
+    },
+    {
+      "unit": 57,
+      "candidate_white": false,
+      "human_game_id": "2PKVHqgR",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 100,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.706596417003311,
+      "own_depths": {
+        "candidate": {
+          "moves": 44,
+          "median": 6.0,
+          "sum": 243
+        },
+        "baseline": {
+          "moves": 44,
+          "median": 6.0,
+          "sum": 237
+        }
+      },
+      "own_nodes": {
+        "candidate": 604389,
+        "baseline": 648641
+      }
+    },
+    {
+      "unit": 10,
+      "candidate_white": true,
+      "human_game_id": "2wQNJbHl",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 99,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.443829416006338,
+      "own_depths": {
+        "candidate": {
+          "moves": 40,
+          "median": 6.0,
+          "sum": 240
+        },
+        "baseline": {
+          "moves": 41,
+          "median": 6,
+          "sum": 252
+        }
+      },
+      "own_nodes": {
+        "candidate": 647665,
+        "baseline": 552591
+      }
+    },
+    {
+      "unit": 28,
+      "candidate_white": false,
+      "human_game_id": "0YvihqOa",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 145,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.193946874991525,
+      "own_depths": {
+        "candidate": {
+          "moves": 62,
+          "median": 8.0,
+          "sum": 472
+        },
+        "baseline": {
+          "moves": 65,
+          "median": 8,
+          "sum": 484
+        }
+      },
+      "own_nodes": {
+        "candidate": 1332519,
+        "baseline": 1321508
+      }
+    },
+    {
+      "unit": 28,
+      "candidate_white": true,
+      "human_game_id": "0YvihqOa",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 82,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.517673249996733,
+      "own_depths": {
+        "candidate": {
+          "moves": 33,
+          "median": 7,
+          "sum": 225
+        },
+        "baseline": {
+          "moves": 33,
+          "median": 7,
+          "sum": 220
+        }
+      },
+      "own_nodes": {
+        "candidate": 534621,
+        "baseline": 503930
+      }
+    },
+    {
+      "unit": 10,
+      "candidate_white": false,
+      "human_game_id": "2wQNJbHl",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 119,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.991560624999693,
+      "own_depths": {
+        "candidate": {
+          "moves": 51,
+          "median": 6,
+          "sum": 308
+        },
+        "baseline": {
+          "moves": 52,
+          "median": 6.0,
+          "sum": 305
+        }
+      },
+      "own_nodes": {
+        "candidate": 689098,
+        "baseline": 740972
+      }
+    },
+    {
+      "unit": 19,
+      "candidate_white": false,
+      "human_game_id": "QOqTxj3f",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 91,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.665143624995835,
+      "own_depths": {
+        "candidate": {
+          "moves": 35,
+          "median": 6,
+          "sum": 200
+        },
+        "baseline": {
+          "moves": 38,
+          "median": 6.0,
+          "sum": 210
+        }
+      },
+      "own_nodes": {
+        "candidate": 432185,
+        "baseline": 428924
+      }
+    },
+    {
+      "unit": 31,
+      "candidate_white": false,
+      "human_game_id": "aQQjeIzh",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 130,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.30140900000697,
+      "own_depths": {
+        "candidate": {
+          "moves": 57,
+          "median": 7,
+          "sum": 407
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 6,
+          "sum": 382
+        }
+      },
+      "own_nodes": {
+        "candidate": 1003464,
+        "baseline": 917438
+      }
+    },
+    {
+      "unit": 19,
+      "candidate_white": true,
+      "human_game_id": "QOqTxj3f",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.610840832989197,
+      "own_depths": {
+        "candidate": {
+          "moves": 42,
+          "median": 6.0,
+          "sum": 251
+        },
+        "baseline": {
+          "moves": 41,
+          "median": 6,
+          "sum": 244
+        }
+      },
+      "own_nodes": {
+        "candidate": 671375,
+        "baseline": 570039
+      }
+    },
+    {
+      "unit": 31,
+      "candidate_white": true,
+      "human_game_id": "aQQjeIzh",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.669344916997943,
+      "own_depths": {
+        "candidate": {
+          "moves": 60,
+          "median": 6.0,
+          "sum": 412
+        },
+        "baseline": {
+          "moves": 58,
+          "median": 7.0,
+          "sum": 406
+        }
+      },
+      "own_nodes": {
+        "candidate": 1171061,
+        "baseline": 1030921
+      }
+    },
+    {
+      "unit": 55,
+      "candidate_white": true,
+      "human_game_id": "Kt8TKQOD",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 137,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.136571542010643,
+      "own_depths": {
+        "candidate": {
+          "moves": 61,
+          "median": 7,
+          "sum": 411
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 7.0,
+          "sum": 411
+        }
+      },
+      "own_nodes": {
+        "candidate": 1144951,
+        "baseline": 1148409
+      }
+    },
+    {
+      "unit": 30,
+      "candidate_white": false,
+      "human_game_id": "VCBAYByZ",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 131,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.428373208007542,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 7,
+          "sum": 381
+        },
+        "baseline": {
+          "moves": 58,
+          "median": 7.0,
+          "sum": 373
+        }
+      },
+      "own_nodes": {
+        "candidate": 1049741,
+        "baseline": 1039010
+      }
+    },
+    {
+      "unit": 55,
+      "candidate_white": false,
+      "human_game_id": "Kt8TKQOD",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 98,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.139413209020859,
+      "own_depths": {
+        "candidate": {
+          "moves": 41,
+          "median": 6,
+          "sum": 230
+        },
+        "baseline": {
+          "moves": 41,
+          "median": 6,
+          "sum": 233
+        }
+      },
+      "own_nodes": {
+        "candidate": 563394,
+        "baseline": 534075
+      }
+    },
+    {
+      "unit": 30,
+      "candidate_white": true,
+      "human_game_id": "VCBAYByZ",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 159,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.528695208020508,
+      "own_depths": {
+        "candidate": {
+          "moves": 74,
+          "median": 6.0,
+          "sum": 493
+        },
+        "baseline": {
+          "moves": 72,
+          "median": 6.0,
+          "sum": 477
+        }
+      },
+      "own_nodes": {
+        "candidate": 1214906,
+        "baseline": 1147243
+      }
+    },
+    {
+      "unit": 41,
+      "candidate_white": true,
+      "human_game_id": "fopZw52x",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.490831958013587,
+      "own_depths": {
+        "candidate": {
+          "moves": 48,
+          "median": 6.5,
+          "sum": 306
+        },
+        "baseline": {
+          "moves": 48,
+          "median": 7.0,
+          "sum": 313
+        }
+      },
+      "own_nodes": {
+        "candidate": 809566,
+        "baseline": 766626
+      }
+    },
+    {
+      "unit": 36,
+      "candidate_white": false,
+      "human_game_id": "ituqnaCn",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 130,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.363635416986654,
+      "own_depths": {
+        "candidate": {
+          "moves": 59,
+          "median": 6,
+          "sum": 391
+        },
+        "baseline": {
+          "moves": 57,
+          "median": 6,
+          "sum": 366
+        }
+      },
+      "own_nodes": {
+        "candidate": 1119431,
+        "baseline": 1031312
+      }
+    },
+    {
+      "unit": 41,
+      "candidate_white": false,
+      "human_game_id": "fopZw52x",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 156,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.155869915994117,
+      "own_depths": {
+        "candidate": {
+          "moves": 73,
+          "median": 6,
+          "sum": 448
+        },
+        "baseline": {
+          "moves": 71,
+          "median": 6,
+          "sum": 429
+        }
+      },
+      "own_nodes": {
+        "candidate": 1135928,
+        "baseline": 1021983
+      }
+    },
+    {
+      "unit": 36,
+      "candidate_white": true,
+      "human_game_id": "ituqnaCn",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 71,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.6812717499851715,
+      "own_depths": {
+        "candidate": {
+          "moves": 30,
+          "median": 5.0,
+          "sum": 156
+        },
+        "baseline": {
+          "moves": 29,
+          "median": 5,
+          "sum": 147
+        }
+      },
+      "own_nodes": {
+        "candidate": 352583,
+        "baseline": 286033
+      }
+    },
+    {
+      "unit": 1,
+      "candidate_white": true,
+      "human_game_id": "lgCiHhdM",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 94,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.748625500011258,
+      "own_depths": {
+        "candidate": {
+          "moves": 37,
+          "median": 6,
+          "sum": 225
+        },
+        "baseline": {
+          "moves": 38,
+          "median": 6.0,
+          "sum": 219
+        }
+      },
+      "own_nodes": {
+        "candidate": 601824,
+        "baseline": 541719
+      }
+    },
+    {
+      "unit": 1,
+      "candidate_white": false,
+      "human_game_id": "lgCiHhdM",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 158,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.917618375009624,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 6,
+          "sum": 397
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 6.0,
+          "sum": 397
+        }
+      },
+      "own_nodes": {
+        "candidate": 1085273,
+        "baseline": 1123090
+      }
+    }
+  ],
+  "seconds": 475.2677519170102,
+  "note": "Own C++ frozen-game comparison. Fresh human-game prefixes exclude fitting and all prior pass prefixes. Both colours; finite concurrent fixed-move games, not Elo, Lichess accuracy or actual-clock evidence."
+}

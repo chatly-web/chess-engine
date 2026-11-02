@@ -1,0 +1,38 @@
+{
+  "files": {
+    "README.md": "a190e3e599821c6ba71d62b64576580305c8ff39362d563674e2d84c9c76e1bf",
+    "attack-map": "a39581e2e165553c8f71e46314ebdb424951f5bf57db932099246bcf93c39e52",
+    "attack_map.cpp": "79ca39c3a6a538f365a4e34d8fb647b94e23721da15169f2b61762a48be730ef",
+    "attack_map_check.py": "50ec0ace3b4f369df8102b88c82713fbbd5a28884bafdaa3f073d5e9cd995846",
+    "audit_starts.py": "0978077c9c0fb94c5ceaf78a946bf1c93f365417c3211356e0e90e65653d29b9",
+    "baseline": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+    "baseline.cpp": "1f3c84e22711fce0eb650beaa194d479cb5cbad95992a3b26ac1aef7576af9d3",
+    "benchmark.py": "6c095f565c9eca821b5ace9a594097ccabb9ff0dcc73649d5577eefbe5d9b4a3",
+    "build-candidate/clash-native": "852e73cae228cd78f323b5995222d563d89a766b5384f78b31df2b84e28b1b4a",
+    "build-candidate/engine.cpp": "d29e4eff0112970e0ab3e67e6169908f2f7a333ec2871387eb094fdffc4abe3d",
+    "build-candidate/tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+    "build-control/clash-native": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+    "build-control/engine.cpp": "d29e4eff0112970e0ab3e67e6169908f2f7a333ec2871387eb094fdffc4abe3d",
+    "build-control/tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+    "build.py": "5bae697d86f439ac3f9cd9f13e3900c38850ce16a1723c067ff51a95a4c3c794",
+    "engine.cpp": "d29e4eff0112970e0ab3e67e6169908f2f7a333ec2871387eb094fdffc4abe3d",
+    "make_starts.py": "10c027bc7ec2bc681605c0553aa43e0a95bef244f8649e09f710c0ecff8c754d",
+    "old-baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "old-baseline.cpp": "5b5d9928a23ca8ec560980c90755ca3c5c1368129cca7c0c8a86761b6b53802a",
+    "requirements.txt": "65f5c5e0f5f2b731a1d10c62eb735615f34c5d66d2ca5840be02d27fe444d5f2",
+    "starts.json": "55b5b1ca1ec105275fc56452c05bba6f9b27b0274f9316f66c9dd5c6914f5ffb",
+    "tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125"
+  },
+  "tested_work_harnesses": {
+    "attack_map_check.py": "153cc5bf1df0d52a04dbe6e9ab732d42e6bda04c478b130892a95dfd315e8e18",
+    "benchmark.py": "9ba3c299c49940a5159bbb576ce9a0fbcc1275d9bcde349a813ab7a5157086db",
+    "build.py": "5bae697d86f439ac3f9cd9f13e3900c38850ce16a1723c067ff51a95a4c3c794",
+    "make_starts.py": "4a253f57b4fd7c7a070c1b24709a79548dd34b484a43c0fb9944725101a47018",
+    "preflight.py": "d60b6a0ae43f0c1f1de16147f3638869ead107f1ca963f51c9bc06bd656829b9",
+    "selfplay.py": "e09a7a755061ff68cf0ba5316ba72b89949f623df044556fa40f9a286907640a"
+  },
+  "portable_source_changes": "Repository-root discovery and separate reproduction outputs; core frozen C++ source unchanged.",
+  "recommended_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "fast_sha256": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+  "history_sha256": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444"
+}

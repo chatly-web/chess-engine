@@ -1,0 +1,671 @@
+{
+  "binary_sha256": {
+    "candidate": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+    "baseline": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7"
+  },
+  "pairs": 128,
+  "games": 256,
+  "finished": 256,
+  "wins": 91,
+  "draws": 99,
+  "losses": 66,
+  "failures": 0,
+  "mean_point_score": 0.548828125,
+  "corrected_97_5_interval": [
+    0.4968047210519447,
+    0.6008515289480554
+  ],
+  "initial_corrected_97_5_interval": [
+    0.4731742768743581,
+    0.6205757231256419
+  ],
+  "z": 2.2414027276049464,
+  "looks": 2,
+  "source_sha256": {
+    "direct-fast.json": "b8a89353c8022edbd40d73d88a543c954847376b25a1f0c0c3999c8199512a77",
+    "replication-fast.json": "5e2ef27c6f1e77e797a344b1f4727dd5bc15fcd2245abdb92138ccb3071c8382"
+  },
+  "paired_samples": [
+    {
+      "batch": "initial",
+      "unit": 0,
+      "score": 0.0
+    },
+    {
+      "batch": "initial",
+      "unit": 1,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 2,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 3,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 4,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 5,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 6,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 7,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 8,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 9,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 10,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 11,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 12,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 13,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 14,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 15,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 16,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 17,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 18,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 19,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 20,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 21,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 22,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 23,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 24,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 25,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 26,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 27,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 28,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 29,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 30,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 31,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 32,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 33,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 34,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 35,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 36,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 37,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 38,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 39,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 40,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 41,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 42,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 43,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 44,
+      "score": 0.0
+    },
+    {
+      "batch": "initial",
+      "unit": 45,
+      "score": 0.0
+    },
+    {
+      "batch": "initial",
+      "unit": 46,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 47,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 48,
+      "score": 1.0
+    },
+    {
+      "batch": "initial",
+      "unit": 49,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 50,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 51,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 52,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 53,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 54,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 55,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 56,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 57,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 58,
+      "score": 0.5
+    },
+    {
+      "batch": "initial",
+      "unit": 59,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 60,
+      "score": 0.25
+    },
+    {
+      "batch": "initial",
+      "unit": 61,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 62,
+      "score": 0.75
+    },
+    {
+      "batch": "initial",
+      "unit": 63,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 0,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 1,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 2,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 3,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 4,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 5,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 6,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 7,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 8,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 9,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 10,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 11,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 12,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 13,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 14,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 15,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 16,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 17,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 18,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 19,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 20,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 21,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 22,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 23,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 24,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 25,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 26,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 27,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 28,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 29,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 30,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 31,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 32,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 33,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 34,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 35,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 36,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 37,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 38,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 39,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 40,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 41,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 42,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 43,
+      "score": 0.0
+    },
+    {
+      "batch": "replication",
+      "unit": 44,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 45,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 46,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 47,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 48,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 49,
+      "score": 0.0
+    },
+    {
+      "batch": "replication",
+      "unit": 50,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 51,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 52,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 53,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 54,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 55,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 56,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 57,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 58,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 59,
+      "score": 0.5
+    },
+    {
+      "batch": "replication",
+      "unit": 60,
+      "score": 0.75
+    },
+    {
+      "batch": "replication",
+      "unit": 61,
+      "score": 1.0
+    },
+    {
+      "batch": "replication",
+      "unit": 62,
+      "score": 0.25
+    },
+    {
+      "batch": "replication",
+      "unit": 63,
+      "score": 0.5
+    }
+  ],
+  "note": "One fixed independent replication after the initial95interval crossed0.5. Approximate paired normal97.5percent intervals provide Bonferroni adjustment for two looks; common opening patterns and concurrent timing still limit inference. No further repetition or parameter changes."
+}

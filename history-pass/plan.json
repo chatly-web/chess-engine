@@ -1,0 +1,115 @@
+{
+  "objective": "Original search-order improvement on the faster own C++ engine; unchanged evaluation and clocks",
+  "methods": [
+    "Bounded history reward and negative updates for earlier unsuccessful quiet moves",
+    "History aging per search and exclude quiescence from new history/killers",
+    "Losing static-exchange captures after ordinary quiet moves"
+  ],
+  "sources": [
+    "https://webdocs.cs.ualberta.ca/~jonathan/publications/ai_publications/pami.pdf"
+  ],
+  "original_parameters": {
+    "history_bound": 10000,
+    "reward": "min(1000,16*depth*depth)",
+    "prior_quiet_penalty": "half reward",
+    "root_aging": "divide by2",
+    "losing_capture_shift": 1200000
+  },
+  "screen": {
+    "candidates": 3,
+    "pairs_each": 16,
+    "games": 96,
+    "seconds": 0.06,
+    "workers_each": 1,
+    "starts": [
+      0,
+      16
+    ],
+    "selection": "highest complete game-point rate against fast build; ties combined,history,captures; no own technical failures"
+  },
+  "confirmation": {
+    "against_fast": {
+      "pairs": 64,
+      "games": 128,
+      "seconds": 0.08,
+      "workers": 2,
+      "starts": [
+        16,
+        80
+      ]
+    },
+    "against_v08": {
+      "pairs": 32,
+      "games": 64,
+      "seconds": 0.08,
+      "workers": 1,
+      "starts": [
+        80,
+        112
+      ]
+    },
+    "external": {
+      "pairs_per_opponent": 16,
+      "games": 128,
+      "seconds": 0.15,
+      "workers": 2,
+      "starts": [
+        112,
+        144
+      ],
+      "opponents": [
+        "GNUChess6.3",
+        "Stockfish19-Skill5"
+      ],
+      "comparator": "fast"
+    }
+  },
+  "full_clocks": [
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "black"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "white"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    }
+  ],
+  "ply_cap": 600,
+  "promotion_gate": [
+    "positive paired direct-fast lower95 bound above0.5",
+    "direct-v08 mean game points at least0.5",
+    "external aggregate candidate points no less than fast and GNU wins no fewer than fast",
+    "all short collections complete without technical failures",
+    "all4exact-clock games complete without own technical failure",
+    "finite rules/protocol/evaluation/mate/history/sanitizer/source audits"
+  ],
+  "max_concurrent_game_workers": 9,
+  "frozen_before_confirmation": true,
+  "no_foreign_engine_code_weights_or_analysis": true,
+  "no_runtime_book_or_tablebase": true,
+  "no_accuracy_or_prize_guarantee": true,
+  "replication_amendment": {
+    "reason": "Initial fast comparison mean0.546875, approximate95 interval0.4824..0.6113 was inconclusive; no initial promotion. One fixed replication resolves uncertainty without changing the candidate.",
+    "extra_pairs": 64,
+    "extra_games": 128,
+    "seconds": 0.08,
+    "workers": 2,
+    "fresh_game_ids_exclude_all_original_starts": true,
+    "candidate_frozen": true,
+    "maximum_total_fast_pairs": 128,
+    "analysis": "Single pooled paired-unit97.5percent two-sided normal interval, z=NormalDist.inv_cdf(0.9875); also report corrected initial97.5interval. Bonferroni simultaneous coverage for two looks; original95 descriptive interval retained. No further replication or tuning.",
+    "promotion_condition": "Pooled corrected lower bound above0.5, all other original gates unchanged"
+  }
+}

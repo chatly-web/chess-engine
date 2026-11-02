@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "human_games": 160,
+  "fitting_overlap": 0,
+  "prior_pass_game_overlap": 0,
+  "benchmark_direct_external_game_overlap": 0,
+  "corpus_sha256": "d431e9830e3858bcfa5ed06485800f760c7c5b93f17714a45bb63eee88683359",
+  "split_sizes": [
+    16,
+    64,
+    32,
+    32
+  ],
+  "note": "Game-disjoint human prefixes; positions from separate games can share common opening patterns. Prefixes are offline inputs, not runtime books."
+}

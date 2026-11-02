@@ -16,6 +16,14 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Latest search-order candidate
+
+The original history-ordering candidate scored **91 wins, 99 draws and 66 losses** against the faster build across 256 short games: **54.88% game points**, with a corrected approximate 97.5% interval **[49.68%, 60.09%]** after one fixed independent replication. Against v0.8 it scored **31 wins, 19 draws and 14 losses** in another 64 games (63.28% game points). These are game scores under short fixed-move budgets, not Lichess move accuracy.
+
+Run the ready-to-use original C++ alternative with `./engine/clash-history`; rebuild it with `./build-history-candidate.sh`. It learns bounded quiet-move priorities from its own search and ages them between moves. The evaluation coefficients and clock allocation are unchanged. In fresh 0.15-second external games, it recorded two GNU wins versus none for the faster reference, but lost all four full-clock GNU games. Its corrected comparison with the faster build remains inconclusive, so it stays experimental and the existing default is preserved. See [HISTORY-SEARCH.md](HISTORY-SEARCH.md) for full results, limits, original research sources, source and audits. These are candidates to choose before submission; the competition requires one submitted version for both stages.
+
+A separate bit-mask attack prototype passed 640,000 attacked-square checks and preserved fixed-depth search results, but its 8.3% speed gain fell below its predeclared threshold for match collection. It remains a documented prototype: [BIT-ATTACKS.md](BIT-ATTACKS.md).
+
 ## Faster C++ alternative
 
 A new original evaluation implementation completes the same fixed-depth work in about **17% less time** (paired median ratio 1.20). It scored **74 wins, 73 draws and 45 losses** against v0.8 in 192 fresh short games: **57.55% game points**, approximate paired 95% interval [52.26%, 62.84%]. This measures improvement against that checkpoint under the tested budget, not Lichess accuracy.
