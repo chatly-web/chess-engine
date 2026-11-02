@@ -1,0 +1,9 @@
+{
+  "entry_bytes": 48,
+  "engine_object_bytes_excluding_dynamic_buffers": 145512,
+  "baseline_entries": 262144,
+  "candidate_entries": 1048576,
+  "baseline_table_bytes": 12582912,
+  "candidate_table_bytes": 50331648,
+  "scope": "sizeof-derived table allocation on this build, not total process RSS"
+}

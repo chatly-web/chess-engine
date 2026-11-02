@@ -1,0 +1,37 @@
+{
+  "binary_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "games": [
+    {
+      "label": "aggressive-pass/reference-gnu-180-2-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "aggressive-pass/reference-stockfish-full-180-2-black",
+      "result": "1-0",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "aggressive-pass/reference-gnu-600-5-black",
+      "result": "1-0",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "aggressive-pass/reference-stockfish-full-600-5-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    }
+  ],
+  "seconds": 2060.7296880829963,
+  "actual_clocks": true,
+  "clock_game_workers": 2,
+  "scope": "Four actual-clock benchmark games, two opponent implementations and two controls; small concurrent local sample, not universal strength evidence"
+}

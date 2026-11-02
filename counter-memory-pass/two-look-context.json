@@ -1,0 +1,26 @@
+{
+  "scope": "Two algorithmic confirmations in this aggressive-testing cycle only; approximate normal paired-unit intervals, not a global guarantee over all historical project experiments",
+  "earlier_broad_variant": {
+    "mean": 0.4947916666666667,
+    "original_95": [
+      0.41970218719317137,
+      0.569881146140162
+    ],
+    "conservative_97_5": [
+      0.4089213788573156,
+      0.5806619544760178
+    ]
+  },
+  "memory_variant": {
+    "units": 192,
+    "mean": 0.5416666666666666,
+    "two_sided_confidence": 0.975,
+    "interval": [
+      0.49684187198109947,
+      0.5864914613522338
+    ],
+    "screen_excluded": true,
+    "no_repeated_confirmation_or_candidate_tuning": true
+  },
+  "no_pooling_of_screening_or_rejected_candidates": true
+}

@@ -1,0 +1,37 @@
+{
+  "binary_sha256": "d74294ceefaf202a76edac0f9a80b057eb99e461de75b4f0f4be7d590fc5cab1",
+  "games": [
+    {
+      "label": "counter-memory-pass/selected-gnu-180-2-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "counter-memory-pass/selected-stockfish-full-180-2-black",
+      "result": "1-0",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "counter-memory-pass/selected-gnu-600-5-black",
+      "result": "1-0",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "counter-memory-pass/selected-stockfish-full-600-5-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    }
+  ],
+  "seconds": 1955.091149416985,
+  "actual_clocks": true,
+  "clock_game_workers": 2,
+  "scope": "Four actual-clock benchmark games, two opponent implementations and two controls; small concurrent local sample, not universal strength evidence"
+}

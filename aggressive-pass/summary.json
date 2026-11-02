@@ -1,0 +1,103 @@
+{
+  "selected": "endgame-safe",
+  "binary_sha256": "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9",
+  "short_games": 256,
+  "full_clock_games": 8,
+  "confirmation": {
+    "games": 96,
+    "wins": 29,
+    "draws": 37,
+    "losses": 30,
+    "failures": 0,
+    "paired_mean_point_score": 0.4947916666666667,
+    "approximate_95_interval": [
+      0.41970218719317137,
+      0.569881146140162
+    ]
+  },
+  "external": {
+    "reference": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 3,
+        "losses": 13,
+        "points": 1.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 5,
+        "draws": 5,
+        "losses": 6,
+        "points": 7.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 1,
+        "losses": 15,
+        "points": 0.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 2,
+        "losses": 14,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 7,
+        "draws": 4,
+        "losses": 5,
+        "points": 9.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 3,
+        "losses": 13,
+        "points": 1.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "external_candidate_points": 11.5,
+  "external_reference_points": 9.5,
+  "gates": {
+    "finite_rules_protocol_mates_draw_oracles_sanitizers": true,
+    "all_short_games_finished_without_technical_failure": true,
+    "direct_lower95_above_half": false,
+    "external_points_at_least_reference": true,
+    "selected_full_games_finished_without_own_failure": true
+  },
+  "promotion_recommended": false,
+  "running_bot_unchanged": true,
+  "release_zip_unchanged": true,
+  "draw_tests": {
+    "regressions": 64,
+    "random_sparse": 500,
+    "baseline_random_preserved": 491,
+    "selected_random_preserved": 500
+  },
+  "limits": "Finite concurrent local tests. Game points are not move accuracy; sparse draw lower-bound tests do not solve complete endgames; no prize guarantee."
+}

@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "deadline_reached": false,
+  "deadline_utc": "2026-11-02T22:40:52+00:00",
+  "purpose": "Reserve final5min for audit/publication within user90min window",
+  "no_strength_promotion_inference": true
+}

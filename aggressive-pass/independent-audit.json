@@ -1,0 +1,100 @@
+{
+  "short": {
+    "screen-draw-safe": {
+      "games": 32,
+      "completed": 32,
+      "failures": 0,
+      "legal_pgn_replay": true
+    },
+    "screen-endgame-safe": {
+      "games": 32,
+      "completed": 32,
+      "failures": 0,
+      "legal_pgn_replay": true
+    },
+    "confirmation": {
+      "games": 96,
+      "completed": 96,
+      "failures": 0,
+      "legal_pgn_replay": true
+    },
+    "external": {
+      "games": 96,
+      "completed": 96,
+      "failures": 0,
+      "legal_pgn_replay": true
+    }
+  },
+  "actual_clocks": {
+    "reference": [
+      {
+        "game": "aggressive-pass/reference-gnu-180-2-white",
+        "plies": 136,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 136
+      },
+      {
+        "game": "aggressive-pass/reference-stockfish-full-180-2-black",
+        "plies": 65,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 65
+      },
+      {
+        "game": "aggressive-pass/reference-gnu-600-5-black",
+        "plies": 121,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 121
+      },
+      {
+        "game": "aggressive-pass/reference-stockfish-full-600-5-white",
+        "plies": 112,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 112
+      }
+    ],
+    "selected": [
+      {
+        "game": "aggressive-pass/selected-gnu-180-2-white",
+        "plies": 140,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 140
+      },
+      {
+        "game": "aggressive-pass/selected-stockfish-full-180-2-black",
+        "plies": 65,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 65
+      },
+      {
+        "game": "aggressive-pass/selected-gnu-600-5-black",
+        "plies": 143,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 143
+      },
+      {
+        "game": "aggressive-pass/selected-stockfish-full-600-5-white",
+        "plies": 62,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_checked": 62
+      }
+    ]
+  },
+  "candidate_frozen": true,
+  "passed": true
+}

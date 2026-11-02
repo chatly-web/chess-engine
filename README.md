@@ -16,6 +16,12 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Completed aggressive validation
+
+The timed pass completed **550 games**, including six full games at **3+2 and 10+5**, plus rules, mate, king-defence, draw, protocol and sanitizer checks. The larger-memory candidate scored **138 wins, 140 draws and 106 losses** against `clash-pgo` in 384 fresh short games (54.17% game points; conservative 97.5% interval 49.68–58.65%), but lost ground in the external comparison. It was not promoted. The running BOT and previous ZIP remain unchanged. See [COUNTER-MEMORY.md](COUNTER-MEMORY.md) for complete outcomes and limits.
+
+The independently verified immediate-draw correction is available separately as `./engine/clash-draw-safe`; its source, tests, two genuine-clock GNU games and rebuild instructions are described in [DRAW-SAFETY.md](DRAW-SAFETY.md). This corrects a search blind spot; an overall strength gain or guaranteed prize is not established. Earlier broad endgame and work-preserving cache trials are retained in [AGGRESSIVE-TESTS.md](AGGRESSIVE-TESTS.md) and [EXACT-SEARCH.md](EXACT-SEARCH.md).
+
 ## Profiled C++ candidate
 
 The separate `./engine/clash-pgo` candidate compiles the original history-search source using its own search execution profile. A 64-pair depth-8 confirmation measured a **1.087× median speed ratio** with identical moves, scores, nodes and completed depth. A separate 32-game comparison against `clash-history` recorded **12 wins, 12 draws and 8 losses** (56.25% game points; the approximate paired 95% interval crosses 50%). This establishes a measured execution-speed improvement on this Mac, not a reliable win-rate gain or Lichess accuracy. Finite rules, mate, protocol and both competition-control clock probes passed; the four full-clock move probes are not full games. The active BOT, existing builds and release ZIP are unchanged. See [PGO-BUILD.md](PGO-BUILD.md) for source, rebuild instructions, full results and the event version-freeze constraint.

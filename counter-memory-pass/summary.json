@@ -1,0 +1,105 @@
+{
+  "selected": "memory",
+  "sha256": "d74294ceefaf202a76edac0f9a80b057eb99e461de75b4f0f4be7d590fc5cab1",
+  "short_games": 544,
+  "selected_full_clock_games": 4,
+  "extra_minimal_fix_full_clock_games": 2,
+  "confirmation": {
+    "games": 384,
+    "wins": 138,
+    "draws": 140,
+    "losses": 106,
+    "failures": 0,
+    "paired_mean_point_score": 0.5416666666666666
+  },
+  "corrected_interval": [
+    0.49684187198109947,
+    0.5864914613522338
+  ],
+  "external": {
+    "reference": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 2,
+        "losses": 14,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 10,
+        "draws": 5,
+        "losses": 1,
+        "points": 12.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 2,
+        "losses": 14,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 2,
+        "losses": 14,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 3,
+        "draws": 6,
+        "losses": 7,
+        "points": 6.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 1,
+        "losses": 15,
+        "points": 0.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "external_points": {
+    "candidate": 7.5,
+    "reference": 14.5
+  },
+  "gates": {
+    "finite_rules_protocol_mates_draws_king_defence_sanitizer": true,
+    "all_short_games_complete_no_technical_failure": true,
+    "corrected_direct_lower_bound_above_half": false,
+    "external_points_not_below_reference": false,
+    "four_selected_actual_clock_games_complete_no_own_failure": true,
+    "public_rebuild_semantics_match": true
+  },
+  "promotion_recommended": false,
+  "production_engine_unchanged": true,
+  "live_bot_unchanged": true,
+  "original_zip_unchanged": true,
+  "git_only": true,
+  "timebox_deadline_utc": "2026-11-02T22:45:52+00:00",
+  "finished_utc": "2026-11-02T22:38:14.185185+00:00",
+  "no_accuracy_or_prize_guarantee": true
+}

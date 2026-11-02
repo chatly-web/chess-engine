@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "address_sanitizer": true,
+  "undefined_behavior_sanitizer": true,
+  "leak_detection": false,
+  "leak_note": "Unsupported on this macOS platform; address and undefined-behavior checks remain enabled",
+  "draw_cases_preserved": 564,
+  "q_scores_identical_to_narrow_fix": true
+}

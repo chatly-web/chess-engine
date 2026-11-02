@@ -1,0 +1,448 @@
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "6"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bh4 c5 5. Nc3 d5 6. e4 cxd4 7. Nxd4 g5 8. Bb5+ Bd7 9. exd5 Bxb5 10. Ndxb5 exd5 11. Bg3 Na6 12. O-O Be7 13. Nd4 O-O 14. Nf5 Kh8 15. Be5 Qd7 16. Nxe7 Qxe7 17. Qd4 Qc5 18. Bxf6+ Kg8 19. Nxd5 Qxd4 20. Bxd4 Rfd8 21. Ne7+ Kh7 22. c3 Nb4 23. Rfd1 Nc6 24. Nxc6 bxc6 25. Re1 Re8 26. Rxe8 Rxe8 27. Bxa7 Re7 28. Be3 f5 29. g3 Re4 30. b4 f4 31. Bd4 fxg3 32. hxg3 h5 33. a4 h4 34. a5 h3 35. a6 g4 36. a7 Re8 37. Ra6 Ra8 38. Rxc6 Rxa7 39. Bxa7 Kg7 40. b5 Kf7 41. b6 Ke7 42. b7 Kd7 43. Rb6 Ke7 44. b8=Q h2+ 45. Kxh2 Kd7 46. Rd6+ Ke7 47. Qc7+ Ke8 48. Rd8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "0-1"]
+[TestUnit "6"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bh4 c5 5. Nc3 cxd4 6. Nxd4 Nc6 7. Nxc6 bxc6 8. e4 Be7 9. e5 Nd5 10. Bxe7 Qxe7 11. Qd4 O-O 12. Bd3 Nxc3 13. Qxc3 Bb7 14. O-O c5 15. Rad1 Rab8 16. b3 Bc6 17. f3 Rb4 18. Qd2 Qh4 19. c3 Rb6 20. Qe3 Qe7 21. Rfe1 Rd8 22. Qf4 Qg5 23. Qxg5 hxg5 24. c4 a5 25. Bc2 a4 26. bxa4 Ra8 27. a3 Rb2 28. Rd2 Kf8 29. Rf2 Bxa4 30. Be4 Rab8 31. g4 R2b3 32. f4 gxf4 33. Rxf4 g5 34. Rf6 Kg8 35. Rh6 Rxa3 36. Rh5 Rb2 37. Rxg5+ Kf8 38. Rc1 Re3 39. Bh1 Rbe2 40. Bg2 Rxe5 41. Rxe5 Rxe5 42. h4 Re3 43. h5 Rg3 44. h6 Bc6 45. Rc2 Rxg4 46. Rb2 f5 47. Kf1 Bxg2+ 48. Rxg2 Rxg2 49. Kxg2 e5 50. Kg3 f4+ 51. Kg4 Kg8 52. h7+ Kxh7 53. Kf3 Kg6 54. Kg4 Kf6 55. Kf3 Kf5 56. Ke2 e4 57. Kd2 e3+ 58. Kd3 Ke5 59. Ke2 Ke4 60. Kf1 f3 61. Ke1 f2+ 62. Ke2 d6 63. Kf1 d5 64. Kg2 d4 65. Kf1 d3 66. Kg2 d2 67. Kg3 d1=Q 68. Kh3 f1=Q+ 69. Kh4 Qf4+ 70. Kh3 Qh1# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "11"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 O-O 9. O-O cxd5 10. Be3 Bxc3 11. bxc3 Qd6 12. Qf3 Re8 13. Rfe1 Qe5 14. Bd2 Ne4 15. Bf4 Qe7 16. Rab1 c6 17. Qe3 f5 18. Qd4 Qh4 19. g3 Qh5 20. c4 g5 21. Be3 a5 22. Rb6 Ba6 23. cxd5 c5 24. Qb2 f4 25. Bxf4 Nxf2 26. Rxe8+ Rxe8 27. Bxa6 gxf4 28. Qb3 a4 29. Qc3 Ne4 30. Qc4 Qd1+ 31. Qf1 Qd4+ 32. Kg2 fxg3 33. hxg3 Rf8 34. Qg1 Qd2+ 35. Kh1 Qxd5 36. Qg2 Rf2 37. Rb8+ Kf7 38. Qxf2+ Nxf2+ 39. Kg1 Ne4 40. Bd3 c4 41. Bf1 Qd4+ 42. Kh1 Nxg3+ 43. Kg2 Nxf1 44. Rb7+ Kg6 45. Kxf1 Qf4+ 46. Ke2 Qe4+ 47. Kd2 Qxb7 48. Kc3 Qe4 49. Kb2 h5 50. Ka3 Qxc2 51. Kb4 h4 52. Kc5 h3 53. Kd5 h2 54. Kc5 Qxa2 55. Kd4 h1=Q 56. Kc5 Qf2+ 57. Kd6 Qd4+ 58. Kc7 Qh7+ 59. Kc8 Qdh8# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "11"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 O-O 9. O-O cxd5 10. Bd2 Bg4 11. Qe1 Re8 12. Qc1 Bxc3 13. Bxc3 Qd6 14. Re1 d4 15. Ba5 Rxe1+ 16. Bxe1 Be6 17. f3 Qe5 18. Bg3 Qe3+ 19. Qxe3 dxe3 20. Re1 Bxa2 21. Rxe3 Be6 22. c4 Re8 23. c5 Nd5 24. Re1 a5 25. Ra1 Ra8 26. c6 Nb4 27. Bb5 Bd5 28. Rc1 Rb8 29. Rc5 Rc8 30. h4 h5 31. Be5 f6 32. Bf4 f5 33. Rxd5 Nxd5 34. Bc4 Kf7 35. Bxd5+ Ke7 36. b3 Kf6 37. Kf2 g6 38. Bc4 Rb8 39. Bxc7 Rc8 40. Bxa5 Rxc6 41. Ke3 Ke5 42. f4+ Kf6 43. Kd4 Rd6+ 44. Bd5 Ra6 45. Bd8+ Kg7 46. b4 Ra4 47. Kc5 Ra1 48. b5 Rc1+ 49. Kd6 Rf1 50. Ba5 Rxf4 51. b6 Rf1 52. Bc3+ Kh6 53. Bb4 Rb1 54. Kc5 Rc1+ 55. Bc4 Rd1 56. b7 Rd8 57. Bd2+ Kg7 58. Bf4 Re8 59. Bb5 Rd8 60. Bc7 Rf8 61. Be5+ Kh7 62. Bd7 Rd8 63. Bc8 Kh6 64. b8=Q Rg8 65. Qb7 g5 66. Be6 Rg6 67. Bxf5 gxh4 68. Bf4+ Rg5 69. Qh7# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "0"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nf3 a6 4. Bg5 Be7 5. Bxe7 Nxe7 6. Nc3 O-O 7. e3 Nbc6 8. Bd3 dxc4 9. Bxc4 b5 10. Bd3 b4 11. Ne4 Qd5 12. O-O Bd7 13. Nc5 Rfd8 14. Bxa6 Ng6 15. Qd3 h6 16. Bc4 Qh5 17. h3 Ra7 18. Rfc1 Nce7 19. Nxd7 Rxd7 20. a3 bxa3 21. Rxa3 Rxa3 22. bxa3 Rd6 23. Qe4 Rc6 24. Ne5 Nxe5 25. dxe5 Qg6 26. Qd4 Nd5 27. Rd1 Kh8 28. Bxd5 exd5 29. Qxd5 Rc2 30. g4 c5 31. Qa8+ Kh7 32. Rd8 Rc1+ 33. Kg2 Qc2 34. Rh8+ Kg6 35. Qc6+ Kg5 36. Rxh6 Qe4+ 37. Qxe4 Kxh6 38. Qf4+ Kh7 39. Qxf7 Rd1 40. Qh5+ Kg8 41. e6 Rd8 42. e7 Rb8 43. Qd5+ Kh8 44. Qxc5 Kg8 45. Qd5+ Kh8 46. e8=Q+ Rxe8 47. Qh5+ Kg8 48. Qxe8+ Kh7 49. f4 g5 50. Qf7+ Kh8 51. Qf8+ Kh7 52. fxg5 Kg6 53. Qg8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "0"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nf3 a6 4. Bg5 Be7 5. Bf4 Nf6 6. Nc3 Nc6 7. cxd5 Nxd5 8. Nxd5 Qxd5 9. Qd3 O-O 10. Bxc7 Nb4 11. Qc3 Qf5 12. Kd1 Nd5 13. Qc4 Bd7 14. e4 Qxe4 15. Bd3 Qg4 16. Qc2 Qxg2 17. Ke2 Rfc8 18. Rhg1 Qh3 19. Rg3 Qh6 20. Bxh7+ Kf8 21. Bd3 Rxc7 22. Qd2 Nf4+ 23. Kd1 Nxd3 24. Qxd3 Bd6 25. Qd2 Qxd2+ 26. Kxd2 Bxg3 27. fxg3 Rac8 28. Ne1 Rc4 29. Ke3 Bc6 30. Rd1 b5 31. g4 g5 32. Nd3 Rc2 33. Rd2 Bd5 34. Nc5 Rxd2 35. Kxd2 Bxa2 36. Nxa6 Rc4 37. Ke3 Rc2 38. b4 Rxh2 39. Nc5 Rg2 40. Ne4 Rxg4 41. Nd6 Rg3+ 42. Kf2 Rb3 43. Nxb5 g4 44. Nc7 g3+ 45. Kf1 Bb1 46. b5 Be4 47. Ke2 g2 48. Nxe6+ fxe6 49. Kf2 Rb2+ 50. Kg3 g1=Q+ 51. Kf4 Qxd4 52. b6 Rg2 53. b7 Bxb7# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "7"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Bb5 cxd4 8. Nxd4 Nxd4 9. Qxd4 a6 10. Bxd7+ Bxd7 11. f5 Be7 12. Be3 O-O 13. O-O-O Rc8 14. fxe6 Bxe6 15. Rhf1 Rc4 16. Qd3 Bg5 17. Kb1 g6 18. Nxd5 Qxd5 19. Qxd5 Bxd5 20. Bxg5 Bxg2 21. Rf2 Bc6 22. b3 Re4 23. Be7 Rc8 24. Bd6 Re3 25. Rdf1 Bd5 26. h4 Be6 27. Rg1 h5 28. a3 Kh8 29. Rgf1 Rh3 30. Be7 Rhc3 31. Rxf7 Bxf7 32. Rxf7 Rxc2 33. Bf6+ Kg8 34. Rg7+ Kf8 35. a4 Rc1+ 36. Ka2 R8c2+ 37. Ka3 Re1 38. a5 Rc5 39. b4 Re3+ 40. Kb2 Rb5 41. Rxg6 Rxb4+ 42. Kc2 Rg4 43. Kd2 Rf3 44. Rh6 Rg2+ 45. Ke1 Rb3 46. Kf1 Ra2 47. Bg7+ Kxg7 48. Rb6 Rxb6 49. axb6 Kf7 50. Ke1 a5 51. Kd1 a4 52. Kc1 a3 53. Kb1 Rb2+ 54. Ka1 Rxb6 55. Ka2 Ra6 56. e6+ Kxe6 57. Kb3 a2 58. Kb4 a1=Q 59. Kb3 Rc6 60. Kb4 Qb2+ 61. Ka5 Ra6# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "0-1"]
+[TestUnit "7"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Bb5 cxd4 8. Nxd4 Nxd4 9. Qxd4 a6 10. Bxd7+ Bxd7 11. f5 Be7 12. Be3 O-O 13. O-O-O Rc8 14. Qd3 Bg5 15. Kb1 exf5 16. Qxd5 Bxe3 17. Qxd7 Qxd7 18. Rxd7 Rcd8 19. Rhd1 Rxd7 20. Rxd7 Bf4 21. h4 Bxe5 22. Nd5 b5 23. Ne7+ Kh8 24. Nxf5 g6 25. Nd4 Bxd4 26. Rxd4 Re8 27. b4 Re2 28. g3 Kg7 29. Rd6 Re6 30. Rd3 f5 31. Kb2 h5 32. Rd7+ Kh6 33. Kc3 Re2 34. Rd2 Rxd2 35. Kxd2 g5 36. Ke2 Kg6 37. hxg5 Kxg5 38. Kf3 Kg6 39. a3 Kf6 40. Kf4 Kg6 41. Kf3 Kg5 42. c3 Kg6 43. Ke3 Kg5 44. Kf3 Kf6 45. Kf4 Kg6 46. Ke3 Kf6 47. Kf4 Ke6 48. Kg5 Ke5 49. Kxh5 f4 50. Kg4 fxg3 51. Kxg3 Ke4 52. Kg4 Kd3 53. Kf5 Kxc3 54. Ke5 Kb3 55. Kd4 Kxa3 56. Kc5 Ka4 57. Kb6 Kxb4 58. Kxa6 Kc5 59. Kb7 b4 60. Kc7 b3 61. Kd7 Kd5 62. Ke7 b2 63. Kf6 b1=Q 64. Kf7 Qf5+ 65. Ke7 Qg5+ 66. Kf7 Kd6 67. Kf8 Ke6 68. Ke8 Qe7# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "15"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e6 2. d3 c5 3. Nf3 d5 4. Qe2 Be7 5. exd5 Nf6 6. dxe6 Bxe6 7. Ng5 Bd7 8. Nc3 Nc6 9. Be3 Nd4 10. Qd2 O-O 11. O-O-O h6 12. Nf3 Qb6 13. Be2 Nxe2+ 14. Qxe2 Rfe8 15. Qd2 Bf8 16. d4 Bf5 17. dxc5 Bxc5 18. Bxc5 Qxc5 19. Qd4 Rac8 20. Rhe1 Qa5 21. Rxe8+ Rxe8 22. a3 Bg4 23. Kb1 Bxf3 24. gxf3 Qh5 25. Qxa7 Qxf3 26. Rg1 g6 27. Qd4 Qf5 28. h4 Re7 29. Qd2 h5 30. Rg5 Qe6 31. b3 Rd7 32. Qf4 Rd8 33. Rg1 Qc6 34. Rd1 Rxd1+ 35. Nxd1 b6 36. Qd4 Ne4 37. Qd8+ Kg7 38. Qd4+ f6 39. Kc1 Kg8 40. Qd8+ Kf7 41. Qd4 f5 42. f3 Nc5 43. Qc3 Qd6 44. Ne3 Ne6 45. Nc4 Qf4+ 46. Kb2 Qxh4 47. Nxb6 Qf6 48. Qxf6+ Kxf6 49. a4 h4 50. a5 Nc7 51. c4 h3 52. Nd5+ Nxd5 53. cxd5 h2 54. a6 h1=Q 55. a7 Qh2+ 56. Ka3 Qd6+ 57. b4 Qxd5 58. f4 Qd3+ 59. Ka2 Qa6+ 60. Kb3 Qxa7 61. Kc4 Qc7+ 62. Kd5 Qxf4 63. b5 Qe4+ 64. Kd6 f4 65. b6 f3 66. Kc7 f2 67. b7 f1=Q 68. b8=N Qff4+ 69. Kc8 Qe8+ 70. Kb7 Qb5+ 71. Ka8 Qfxb8# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "15"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 e6 2. d3 c5 3. Nf3 d5 4. Qe2 Be7 5. exd5 Nf6 6. dxe6 Bxe6 7. Ng5 Bd7 8. Nc3 O-O 9. Bf4 Nc6 10. O-O-O Bg4 11. Nf3 Nd4 12. Qe3 Bxf3 13. gxf3 Bd6 14. Bxd6 Qxd6 15. Rg1 Rfe8 16. Ne4 Nxe4 17. dxe4 Qxh2 18. Bc4 Rac8 19. Rg3 Rc7 20. c3 Rec8 21. f4 b5 22. Rh3 Qg2 23. Rg3 Qh2 24. Rh3 Qg2 25. Bd3 Qg4 26. Rdh1 h6 27. Rg3 Qe6 28. f5 Qxa2 29. Rxg7+ Kf8 30. Qxh6 Qa1+ 31. Bb1 Ne2+ 32. Kc2 Nd4+ 33. Kd3 c4+ 34. Kxd4 Rd8+ 35. Ke3 Rcd7 36. Rg6+ Ke7 37. Qg5+ f6 38. Qxf6+ Ke8 39. Rh8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "5"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 d6 4. g3 g6 5. Bg2 Bg7 6. Nf3 O-O 7. O-O Qe8 8. b3 c6 9. Qd3 Na6 10. Bf4 Nb4 11. Qd2 c5 12. dxc5 Ne4 13. Nxe4 fxe4 14. Qxb4 a5 15. Qb6 Bxa1 16. Rxa1 e5 17. Bh6 Ra6 18. Qb5 exf3 19. Bxf3 e4 20. Bxf8 Kxf8 21. Qxe8+ Kxe8 22. Bxe4 dxc5 23. Rd1 a4 24. e3 Ke7 25. Rd5 b6 26. Rd2 axb3 27. axb3 Ra3 28. Rb2 Kf6 29. f4 h5 30. Kf2 Bg4 31. Bd5 Bd1 32. b4 cxb4 33. Rxb4 Rb3 34. Rxb3 Bxb3 35. e4 Ke7 36. Ke3 Ba2 37. Kd4 Bb3 38. e5 Bc2 39. Be4 Bxe4 40. Kxe4 Ke6 41. h3 Ke7 42. Kd5 h4 43. gxh4 Kd7 44. e6+ Ke7 45. Ke5 Ke8 46. Kd6 Kf8 47. e7+ Ke8 48. Ke6 b5 49. h5 gxh5 50. f5 bxc4 51. f6 c3 52. f7# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "0-1"]
+[TestUnit "5"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 d6 4. g3 g6 5. Bg2 Bg7 6. Nf3 O-O 7. O-O Qe8 8. b3 c6 9. Qd3 Na6 10. Bf4 Nb4 11. Qd2 c5 12. dxc5 dxc5 13. Ne5 Qd8 14. Qc1 Nh5 15. Rd1 Qb6 16. a3 Nxf4 17. Qxf4 Qe6 18. Bd5 Nxd5 19. Rxd5 b6 20. Nb5 Bb7 21. Nc7 Qf6 22. Rd7 Rab8 23. Nd5 Qxe5 24. Nxe7+ Kh8 25. Qxe5 Bxe5 26. Rad1 Rfe8 27. R1d2 a5 28. e3 Ba8 29. Nd5 Bc6 30. Ra7 Re6 31. f4 Bg7 32. Ne7 Be8 33. Nd5 Rd8 34. Rd1 Red6 35. Rb7 R8d7 36. Rxd7 Bxd7 37. a4 h5 38. h4 Be6 39. Kf2 Bf6 40. Ke1 Bg7 41. Rd2 Bg8 42. Kd1 Bf8 43. Nc7 Rxd2+ 44. Kxd2 Be7 45. Nd5 Bd8 46. Kd3 Be6 47. Kc3 Kg7 48. Kd3 Kf7 49. Nc3 Bd7 50. e4 fxe4+ 51. Nxe4 Ke6 52. Ke3 Bc6 53. Kd3 Kf5 54. Nf2 Bf6 55. Kd2 Bd4 56. Nd3 Kg4 57. Ne5+ Bxe5 58. fxe5 Kxg3 59. Ke3 Kxh4 60. e6 Kg5 61. Kf2 h4 62. Kg1 Kf6 63. Kh2 g5 64. Kh3 Bf3 65. Kh2 g4 66. e7 Kxe7 67. Kg1 g3 68. Kf1 h3 69. Ke1 h2 70. Kd2 g2 71. Kc3 g1=Q 72. Kb2 h1=Q 73. b4 Qb1+ 74. Ka3 axb4# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1/2-1/2"]
+[TestUnit "13"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Qc7 6. Nc3 Nf6 7. Bg5 Be7 8. f4 Qb6 9. Qd2 h6 10. Bxf6 Bxf6 11. e5 Be7 12. O-O-O O-O 13. Na4 Qb4 14. Qxb4 Bxb4 15. Nb6 Ra7 16. g4 Bc5 17. Nxc8 Rxc8 18. g5 Nc6 19. Nxc6 Be3+ 20. Kb1 dxc6 21. gxh6 gxh6 22. Bh3 Bxf4 23. Rhg1+ Kh8 24. Rgf1 Bxe5 25. Rxf7 Rg8 26. Rdd7 Rg1+ 27. Kc2 Rg7 28. Rxg7 Bxg7 29. Bg2 Ra8 30. Rxb7 Rc8 31. Rb6 Rf8 32. Kd3 h5 33. Bxc6 Rf2 34. h4 Rxb2 35. Rxb2 Bxb2 36. c5 Bf6 37. Bf3 Bxh4 38. Bxh5 Kg7 39. c6 Bg3 40. a4 Kf6 41. Ke4 Ke7 42. Kf3 Bc7 43. Ke4 Kd6 44. Be8 Kc5 45. Bd7 e5 46. Be8 a5 47. Bd7 Kb4 48. Kd5 Kxa4 49. Kc4 e4 50. Be8 e3 51. Kd3 Kb4 52. Kxe3 a4 53. Kd3 a3 54. Kc2 Be5 55. Kb1 Kb3 56. Bf7+ Kb4 57. Ka2 Bf4 58. Bc4 Be5 59. Bf7 Bd6 60. Bc4 Bc7 61. Bd3 Be5 62. Bc2 Bd6 63. Be4 Bc7 64. Bg6 Bb8 65. Bd3 Bf4 66. Bc2 Bd6 67. Be4 Bc7 68. Bd5 Bh2 69. Be4 1/2-1/2
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "13"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Qc7 6. Nc3 Nf6 7. Bg5 Be7 8. f4 Qb6 9. Qd2 h6 10. Bxf6 Bxf6 11. e5 Be7 12. O-O-O O-O 13. Na4 Qb4 14. Qxb4 Bxb4 15. Nb6 Ra7 16. g4 Bc5 17. Nxc8 Rxc8 18. g5 Nc6 19. Nxc6 Be3+ 20. Kb1 dxc6 21. gxh6 gxh6 22. Bh3 Bxf4 23. Rhg1+ Kh8 24. Rgf1 Bxe5 25. Rxf7 Rg8 26. Rdd7 Rg6 27. Bxe6 Rg1+ 28. Kc2 Rg2+ 29. Kb3 Bg7 30. Rd8+ Kh7 31. Bf5+ Rg6 32. Rdd7 Kh8 33. Bxg6 Ra8 34. Rxg7 b5 35. Rh7+ Kg8 36. Rxh6 bxc4+ 37. Kxc4 Rc8 38. Bh7+ Kf8 39. Bf5 Kg8 40. Be6+ Kf8 41. Rh8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "9"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. c4 f5 2. Nf3 Nf6 3. b4 e6 4. a3 d5 5. cxd5 Be7 6. dxe6 O-O 7. Ng5 h6 8. Nf7 Qd4 9. Nc3 Bxe6 10. e3 Qb6 11. Ne5 Nbd7 12. Ng6 Rfe8 13. Bd3 a5 14. Nxe7+ Rxe7 15. bxa5 Qd6 16. Qc2 Rxa5 17. O-O Nb6 18. Nb5 Qd7 19. Rb1 Nfd5 20. Nd4 Nf4 21. Qc3 Rd5 22. Bb5 Rxb5 23. Rxb5 Qxb5 24. exf4 Qd5 25. Re1 Na4 26. Qe3 Nc5 27. Qe5 Qxe5 28. Rxe5 Nd3 29. Rxe6 Rxe6 30. Nxe6 c6 31. Nd8 Nxc1 32. Nxb7 Ne2+ 33. Kf1 Nxf4 34. a4 Nd5 35. a5 Nb4 36. Nc5 g5 37. a6 Nxa6 38. Nxa6 Kf7 39. Nb4 Ke6 40. Nxc6 Kd5 41. Ne7+ Ke6 42. Ng8 h5 43. d4 Kd5 44. h4 gxh4 45. Ne7+ Ke6 46. Ng6 Kd5 47. Nxh4 f4 48. Nf3 Ke4 49. Ke2 h4 50. Nxh4 Kxd4 51. Kf3 Ke5 52. Ng6+ Kf6 53. Nxf4 Ke5 54. Nd3+ Kf6 55. Ke4 Kg5 56. f4+ Kh5 57. Ke5 Kh6 58. Ke6 Kh5 59. f5 Kg4 60. f6 Kg3 61. f7 Kxg2 62. f8=Q Kg3 63. Qf2+ Kg4 64. Qg2+ Kh5 65. Kf5 Kh6 66. Qg6# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "9"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. c4 f5 2. Nf3 Nf6 3. b4 e6 4. a3 d5 5. cxd5 Be7 6. dxe6 O-O 7. Ng5 h6 8. Nf7 Qd4 9. Nc3 Bxe6 10. e3 Qb6 11. Ne5 Nbd7 12. Ng6 Rfe8 13. Bd3 Qd6 14. Qc2 a5 15. Nb5 Qd5 16. Nf4 Qc6 17. Qxc6 bxc6 18. Nxe6 cxb5 19. Nxc7 axb4 20. Bxf5 Rec8 21. Nxa8 Rxa8 22. Bd3 Ra5 23. Bxb5 Rxb5 24. axb4 Bxb4 25. O-O Ra5 26. Rxa5 Bxa5 27. d4 Kf7 28. Bb2 Ke6 29. Ra1 Bb6 30. f3 g5 31. h3 h5 32. e4 h4 33. Rc1 Kd6 34. Kf1 Ke7 35. Ba3+ Kf7 36. d5 Nh5 37. d6 Nf4 38. Rc6 Ke6 39. Rc7 Bd4 40. Rc8 Nf6 41. Rc7 Nd7 42. Rc6 Be5 43. Bb4 Nf6 44. Ra6 Ne8 45. Ba5 Kd7 46. Ra7+ Kxd6 47. Bb4+ Kc6 48. Ra5 Bf6 49. e5 Bg7 50. Bd2 Nc7 51. Be3 Nce6 52. Kg1 Ng6 53. Bxg5 Bxe5 54. Bxh4 Nxh4 55. Rxe5 Nf4 56. Kh2 Kd6 57. Re8 Nfxg2 58. Kg3 Kd7 59. Re2 Kc6 60. Rxg2 Nxg2 61. Kxg2 Kd5 62. Kg3 Ke5 63. Kg4 Kf6 64. f4 Ke6 65. f5+ Kd7 66. f6 Ke6 67. Kg5 Kf7 68. h4 Ke6 69. Kg6 Ke5 70. f7 Ke4 71. f8=Q Ke5 72. h5 Ke4 73. Qf5+ Kd4 74. h6 Kc3 75. h7 Kb3 76. Qd5+ Ka3 77. h8=Q Kb4 78. Qb2+ Ka4 79. Qbb3# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1/2-1/2"]
+[TestUnit "4"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. c4 e5 2. e3 d5 3. cxd5 Nf6 4. a3 Nxd5 5. Nf3 Bd6 6. Bc4 Nf6 7. d4 exd4 8. O-O O-O 9. exd4 Bf5 10. Nc3 Nc6 11. Re1 Ng4 12. h3 Nxf2 13. Kxf2 Qd7 14. Kg1 Bg3 15. Re2 Bxh3 16. gxh3 Qxh3 17. Ng5 Qg4 18. Bxf7+ Kh8 19. Rg2 Qxd1+ 20. Nxd1 Nxd4 21. Bd5 c6 22. Nf7+ Kg8 23. Nh6+ Kh8 24. Nf7+ Kg8 25. Ba2 Rxf7 26. Bxf7+ Kxf7 27. Rxg3 Ne2+ 28. Kh2 Nxg3 29. Kxg3 Re8 30. Nc3 h6 31. Kg4 g5 32. Bd2 Kg6 33. Rh1 c5 34. b3 b6 35. a4 a5 36. Rh3 Re6 37. Rh1 Rd6 38. Ne4 Rd4 39. Re1 c4 40. bxc4 Rxc4 41. Kf3 Rxa4 42. Rb1 g4+ 43. Ke3 Ra3+ 44. Kd4 g3 45. Rxb6+ Kf7 46. Rf6+ Ke8 47. Rg6 h5 48. Rxg3 Rxg3 49. Nxg3 h4 50. Nf1 a4 51. Kc3 h3 52. Kb4 Kf7 53. Bf4 Ke6 54. Ne3 a3 55. Kxa3 Kf6 56. Kb4 Kg6 57. Be5 Kg5 58. Bc7 Kf6 59. Nd1 Ke6 60. Nf2 Kd7 61. Bf4 Ke6 62. Kc4 Kf5 63. Bb8 Kg5 64. Nxh3+ Kg4 65. Nf4 Kf5 66. Kd4 Kg5 67. Be5 Kf5 68. Kd5 Kg4 69. Ke4 Kg5 70. Ne6+ Kg6 71. Bd4 Kf7 72. Ng5+ Kg6 73. Kf4 Kh6 74. Kf5 Kh5 75. Be5 Kh6 76. Bd4 Kh5 77. Ne4 Kh6 1/2-1/2
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "4"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. c4 e5 2. e3 d5 3. cxd5 Nf6 4. a3 Nxd5 5. Nf3 Bd6 6. Bc4 Nf6 7. d4 exd4 8. O-O O-O 9. exd4 Bf5 10. Nc3 Nc6 11. Re1 Ng4 12. h3 Nxf2 13. Kxf2 Qd7 14. Kg1 Bg3 15. Re2 Bxh3 16. gxh3 Qxh3 17. Ng5 Qf5 18. Bd3 Qg4 19. Bxh7+ Kh8 20. Rg2 Rae8 21. Be4 Qxd1+ 22. Nxd1 f5 23. Rxg3 fxe4 24. Rh3+ Kg8 25. Nc3 Nxd4 26. Ncxe4 Nf3+ 27. Rxf3 Rxf3 28. Nxf3 Rxe4 29. Kf2 g6 30. Be3 Rc4 31. Ne1 a5 32. Rd1 Kf7 33. Rd7+ Ke6 34. Rh7 b5 35. Kf3 Kf5 36. Nd3 Rc2 37. Nf4 g5 38. Rf7+ Ke5 39. Nd3+ Ke6 40. Rg7 Kf6 41. Rxg5 c6 42. a4 bxa4 43. Rxa5 Rc4 44. Nc5 Rc2 45. Bd4+ Kf5 46. Rxa4 Rh2 47. Ra7 Rd2 48. Rf7+ Kg6 49. Rf6+ Kh7 50. Bc3 Rh2 51. Rxc6 Kg8 52. Rc7 Rc2 53. Ne4 Rxc3+ 54. Nxc3 Kf8 55. b4 Ke8 56. b5 Kd8 57. b6 Ke8 58. b7 Kd8 59. b8=Q# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "3"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. Nf3 Nf6 2. d4 d5 3. Nc3 c5 4. dxc5 Nc6 5. Bg5 d4 6. Bxf6 exf6 7. Na4 Qa5+ 8. c3 dxc3 9. bxc3 Bxc5 10. Qb3 O-O 11. e3 Be6 12. Bc4 Bg4 13. O-O-O Be7 14. Bd5 Rad8 15. Kb1 Bf5+ 16. Ka1 Kh8 17. e4 Bd7 18. Nb2 f5 19. exf5 Bf6 20. Qxb7 Rb8 21. Bxc6 Rxb7 22. Bxb7 Qxc3 23. Rb1 Rb8 24. Ng5 Bxg5 25. Bd5 Bf6 26. Bb3 Rxb3 27. Rhc1 Qxb2+ 28. Rxb2 Rxb2 29. Rc3 Bxc3 30. a3 Bxf5 31. g4 Rxf2# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "0-1"]
+[TestUnit "3"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. Nf3 Nf6 2. d4 d5 3. Nc3 c5 4. dxc5 Nc6 5. Bg5 d4 6. Bxf6 exf6 7. Na4 Qa5+ 8. c3 dxc3 9. bxc3 Bxc5 10. Qb3 O-O 11. e3 Be6 12. Bc4 Bg4 13. O-O-O Be7 14. Bd5 Rad8 15. Kb1 Bf5+ 16. Ka1 Bd7 17. Qc2 f5 18. Qb3 Bf6 19. Bxc6 Bxc6 20. Rxd8 Rxd8 21. Nb2 Bxc3 22. a4 Bxa4 23. Qa3 b5 24. Kb1 Bc2+ 25. Ka2 Qc7 26. Ka1 b4 27. Qa2 Rd6 28. Nd4 Bxb2+ 29. Kxb2 Qc3+ 30. Kc1 Bb3+ 31. Qc2 Bxc2 32. Ne2 Qd2+ 33. Kb2 Bd1+ 34. Ka1 Ra6+ 35. Kb1 Qc2# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1/2-1/2"]
+[TestUnit "14"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Be2 a6 6. Nf3 Nc6 7. O-O Bf5 8. Be3 e6 9. Ne5 Nxe5 10. dxe5 Qxe5 11. Bd4 Qd6 12. Bxf6 gxf6 13. Qc1 Qc5 14. Rd1 Bd6 15. Qh6 Rg8 16. Qxf6 Bxc2 17. Rd2 Qf5 18. Qxf5 Bxf5 19. Bd3 O-O-O 20. Bxf5 Bxh2+ 21. Kxh2 Rxd2 22. Be4 Rxf2 23. b4 f5 24. Bf3 Rc2 25. Nd1 f4 26. Be4 Rc4 27. Nf2 Rxb4 28. Re1 Rg3 29. Rc1 h5 30. Rc2 c6 31. Bf3 Rg5 32. Ne4 Re5 33. Re2 Kc7 34. g3 fxg3+ 35. Kxg3 Rf5 36. Rh2 Rd4 37. Re2 Rd3 38. Nd2 e5 39. Kg2 h4 40. Be4 Rg3+ 41. Kh2 Rf4 42. Bg2 Rd3 43. Ne4 b6 44. Ng5 Kd6 45. Rb2 b5 46. Ne4+ Ke7 47. Nc5 Ra3 48. Re2 Kd6 49. Ne4+ Kc7 50. Nc5 Rc4 51. Ne6+ Kd6 52. Nd8 Rca4 53. Rd2+ Kc7 54. Nxc6 e4 55. Nd8 Rxa2 56. Ne6+ Kb6 57. Rd6+ Ka7 58. Rd7+ Kb6 59. Rd6+ Kb7 60. Nc5+ Kc7 61. Re6 Rc4 62. Nxe4 b4 63. Kh3 b3 64. Re7+ Kd8 65. Rb7 b2 66. Kxh4 a5 67. Kg3 Rb4 68. Rxb4 axb4 69. Nd2 Ra3+ 70. Kf4 Rd3 71. Nb1 b3 72. Be4 Rh3 73. Nd2 Rc3 74. Ke5 Kc7 75. Kd5 Rc2 76. Nxb3 b1=Q 77. Bxc2 Qxc2 78. Nd4 Qg2+ 79. Ke5 Qg5+ 80. Ke6 Qc5 81. Nf5 Kb7 82. Nd6+ Kc6 83. Nf5 Qd5+ 84. Kf6 Kc5 85. Kg6 Qe6+ 86. Kg5 Kd5 87. Ng7 Qe7+ 88. Kg6 Ke5 89. Nh5 Qd6+ 90. Kg5 Qd2+ 91. Kg4 Qd1+ 92. Kg5 Qd8+ 93. Kg4 Qd7+ 94. Kg5 Qd2+ 95. Kg4 Qd4+ 96. Kg5 1/2-1/2
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1/2-1/2"]
+[TestUnit "14"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Be2 a6 6. Nf3 Nc6 7. O-O Bf5 8. Be3 e6 9. Ne5 Nxe5 10. dxe5 Qxe5 11. g3 Qd6 12. Bd3 Bxd3 13. cxd3 O-O-O 14. Qf3 Qb4 15. d4 Bd6 16. Rac1 Qxb2 17. Bg5 Bb4 18. Ne4 Nxe4 19. Bxd8 Rxd8 20. Qxe4 Qxd4 21. Qxh7 Ba3 22. Rb1 Bb4 23. Qh5 c5 24. a3 Bxa3 25. Rfd1 Rd5 26. Qf3 Qa4 27. Rxd5 exd5 28. Qxd5 Bb4 29. Qxf7 Qd7 30. Qf8+ Kc7 31. Qf4+ Kb6 32. Qe4 Ka7 33. Qf3 b5 34. Qe3 Kb8 35. Qf4+ Kb7 36. Qe4+ Kb8 37. Qf4+ Ka7 38. Qe3 Kb8 1/2-1/2
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "8"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8. dxc5 Bxc5 9. Bg5 O-O 10. Bxf6 Qxf6 11. Qxd5 Qxb2 12. Nbd2 Qb5 13. Kh1 Be6 14. Qe4 g6 15. Rab1 Qa6 16. Qf4 Bb6 17. Qh6 Qxe2 18. Rbe1 Qxe1 19. Rxe1 Bd8 20. Nb3 Bf6 21. Ng5 Bxg5 22. Qxg5 Rae8 23. Rc1 Bxb3 24. axb3 Re5 25. Qh4 Rfe8 26. Bxc6 bxc6 27. Rxc6 Re4 28. Qf6 Re1+ 29. Kg2 R1e7 30. Rc8 Rxc8 31. Qxe7 Rb8 32. b4 h5 33. b5 Rb6 34. f4 f6 35. h4 f5 36. Kf3 Rb8 37. Qe6+ Kh7 38. Qd7+ Kh6 39. Qd4 Ra8 40. Qd7 Rb8 41. Ke3 Ra8 42. Qb7 Re8+ 43. Kf2 Rd8 44. Qxa7 Rd2+ 45. Ke3 Rb2 46. b6 Rb3+ 47. Kf2 Rb2+ 48. Ke1 Rb4 49. b7 Rb1+ 50. Kd2 Rb2+ 51. Kc3 Rb5 52. b8=Q Rxb8 53. Qxb8 Kg7 54. Qc7+ Kg8 55. Qe7 Kh8 56. Qf7 g5 57. hxg5 h4 58. g6 hxg3 59. Qf8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "8"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8. dxc5 Bxc5 9. Bg5 O-O 10. Bxf6 Qxf6 11. Qxd5 Qxb2 12. Nbd2 Qb5 13. Kh1 Be6 14. Qe4 g6 15. Rab1 Qa6 16. Qf4 Bb6 17. Qh6 Qxe2 18. Rbe1 Qxe1 19. Rxe1 Bd8 20. Nb3 Be7 21. Nbd4 Nxd4 22. Nxd4 Rae8 23. Nxe6 fxe6 24. Rxe6 Bf6 25. Rxe8 Rxe8 26. Bxb7 Re5 27. Qd2 Kg7 28. a4 h5 29. a5 Re8 30. Bd5 Rd8 31. Kg2 a6 32. Qd3 Rd6 33. f4 Bb2 34. Qc2 Be5 35. Qc5 Bxf4 36. gxf4 Rd7 37. Qd4+ Kh6 38. f5 Rxd5 39. Qxd5 gxf5 40. Qxf5 Kg7 41. Qxh5 Kf6 42. Qh6+ Ke7 43. Qxa6 Kd7 44. Qb5+ Ke7 45. Qc5+ Kd7 46. a6 Kd8 47. a7 Kd7 48. a8=Q Ke6 49. Qg8+ Kf6 50. Qcg5# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "0-1"]
+[TestUnit "12"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Nf3 Bb4 6. Qd3 O-O 7. Bg5 Nc6 8. Ne5 Be6 9. Nxc6 bxc6 10. a3 Bxc3+ 11. Qxc3 h6 12. Bf4 Ne4 13. Qxc6 Qf6 14. e3 g5 15. Qxc7 Rfb8 16. b4 gxf4 17. Qxf4 Qxf4 18. exf4 Bf5 19. Be2 Nc3 20. Rc1 Nxe2 21. Kxe2 a5 22. g4 Bxg4+ 23. f3 axb4 24. fxg4 bxa3 25. Rc2 Rb2 26. Kd3 Rb3+ 27. Kd2 Rf3 28. Ra1 Rxf4 29. Rca2 Rxd4+ 30. Kc3 Rc4+ 31. Kd3 Rca4 32. Kc3 Rc4+ 33. Kd3 Rf4 34. h3 Raa4 35. Re1 Rf3+ 36. Re3 Rxe3+ 37. Kxe3 Kg7 38. Kd3 f5 39. gxf5 Rh4 40. Rh2 Kf6 41. Kc3 Rf4 42. Kb3 Rf3+ 43. Kb4 Kxf5 44. h4 d4 45. Rd2 Ke4 46. Ra2 d3 47. Kc4 Re3 48. h5 Kf4 49. Rd2 Ke5 50. Kc3 Re2 51. Rxd3 a2 52. Rd1 Re3+ 53. Kc2 Rh3 54. Ra1 Rxh5 55. Rxa2 Rh2+ 56. Kb3 Rxa2 57. Kxa2 h5 58. Kb3 h4 59. Ka3 h3 60. Kb4 h2 61. Kc4 h1=Q 62. Kd3 Qe4+ 63. Kc3 Qe3+ 64. Kc2 Kd4 65. Kb2 Kc4 66. Kc2 Qe2+ 67. Kc1 Kc3 68. Kb1 Qb2# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "12"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Nf3 Bb4 6. Qd3 O-O 7. Bg5 Nc6 8. Ne5 h6 9. Nxc6 bxc6 10. Bd2 Be6 11. O-O-O Bxc3 12. Qxc3 Rb8 13. Qxc6 Ne4 14. Be3 Rb6 15. Qa4 Qd6 16. Rd3 Rb4 17. Qc2 Rc4 18. Rc3 Nxc3 19. bxc3 Qa3+ 20. Qb2 Rxc3+ 21. Kb1 Bf5+ 22. Ka1 Qxb2+ 23. Kxb2 Rc2+ 24. Ka1 Rb8 25. a3 Rbb2 26. h4 Ra2+ 27. Kb1 Rxe2+ 28. Kc1 Re1# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "10"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 d6 6. O-O Be7 7. Nc3 O-O 8. Be3 e5 9. h3 Qb6 10. Rb1 Bd7 11. b4 Nd4 12. bxc5 Qxc5 13. Bxd4 exd4 14. Ne2 Rab8 15. Nexd4 Qc8 16. g4 Bxg4 17. hxg4 Qxg4 18. Nf5 Rfe8 19. N3d4 Qxd1 20. Rfxd1 Bf8 21. Nb5 Rec8 22. c4 Rd8 23. Nxa7 g6 24. Nd4 h5 25. Rb6 Nd7 26. Rb2 Bg7 27. Nab5 h4 28. Rc2 Nc5 29. Nf3 Bf6 30. Nc7 Rdc8 31. Nd5 Bd8 32. e5 dxe5 33. Nxe5 Ne6 34. d4 Ra8 35. Rb2 Ra7 36. Ne3 Bf6 37. Rxb7 Rxa2 38. N3g4 Bxe5 39. Nxe5 Nf4 40. Rxf7 Nxg2 41. Kxg2 Rxc4 42. Rb1 h3+ 43. Kxh3 Ra3+ 44. f3 Rac3 45. Rbb7 Rxf3+ 46. Rxf3 Rb4 47. Rxb4 Kg7 48. Rf7+ Kh6 49. Kg4 g5 50. Rb6# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "10"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 d6 6. O-O Be7 7. Nc3 O-O 8. Be3 e5 9. h3 Qb6 10. Rb1 Bd7 11. b4 Nd4 12. bxc5 Qxc5 13. Bxd4 exd4 14. Ne2 Rab8 15. Nexd4 Qc8 16. g4 Bxg4 17. hxg4 Qxg4 18. Nf5 Rfe8 19. N3d4 Qxd1 20. Rfxd1 Bf8 21. Nb5 Rec8 22. c4 Rd8 23. Nxa7 g6 24. Nd4 Bg7 25. a4 Nd7 26. Nab5 Ra8 27. Nb3 Ne5 28. a5 h5 29. c5 dxc5 30. Nxc5 Rab8 31. d4 Nc4 32. e5 Nxa5 33. Nd6 Bf8 34. Rb5 Bxd6 35. exd6 Rxd6 36. Rxa5 b6 37. Ra6 Rbd8 38. Nb3 b5 39. Ra7 h4 40. Rb7 Ra8 41. Rxb5 Ra2 42. d5 Rb2 43. Rb8+ Kg7 44. Rb7 g5 45. Rd2 Rxd2 46. Nxd2 Rd8 47. Nc4 Rc8 48. Ne5 Kf6 49. Nxf7 Rf8 50. Nxg5 Kxg5 51. d6 Rf4 52. d7 Rd4 53. Kf1 Rd2 54. Ke1 Rd4 55. Ke2 Kf4 56. Rb4 Rxb4 57. d8=Q Rb2+ 58. Kd3 Rb1 59. Qxh4+ Kf5 60. Qe4+ Kf6 61. f4 Kf7 62. Qd5+ Kf8 63. Qd6+ Kf7 64. Bd5+ Ke8 65. Qe6+ Kd8 66. f5 Rd1+ 67. Kc2 Rxd5 68. Qxd5+ Ke7 69. Qe6+ Kf8 70. Kd3 Kg7 71. f6+ Kg6 72. f7+ Kg5 73. f8=Q Kh4 74. Qf4+ Kh5 75. Qeg4# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "1"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Re1 a6 6. Bf1 d5 7. exd5 Nxd5 8. Nc3 Be7 9. Bd3 O-O 10. Ne5 Nxe5 11. Rxe5 Nxc3 12. bxc3 Bd6 13. Rh5 g6 14. Qg4 f5 15. Qg5 Qxg5 16. Rxg5 Bf4 17. h4 Bd7 18. Ba3 Rac8 19. Rb1 b5 20. c4 b4 21. Bb2 e5 22. f3 Rce8 23. Rf1 Bxd2 24. Rg3 Be3+ 25. Kh1 Bf4 26. Rh3 e4 27. Be2 e3 28. h5 g5 29. h6 Bc6 30. a3 Be5 31. Bxe5 Rxe5 32. axb4 cxb4 33. f4 gxf4 34. Rxf4 Rf6 35. Kg1 Rg6 36. g3 Be4 37. Bd1 Rd6 38. Rf1 Rd2 39. Rh2 Rxh2 40. Kxh2 Re6 41. g4 Bxc2 42. Bxc2 e2 43. Re1 fxg4 44. Kg3 Re3+ 45. Kxg4 Kf8 46. Kf4 Re6 47. Be4 Rxh6 48. Rxe2 Rh5 49. Ke3 a5 50. Kd4 b3 51. c5 Rg5 52. Bxh7 a4 53. Kc4 Rg4+ 54. Kc3 Rg5 55. Kb4 Rg4+ 56. Kc3 Rg5 57. Rf2+ Ke7 58. Bf5 Kd8 59. c6 Kc7 60. Be4 Kb6 61. Rf7 Rc5+ 62. Kb4 Rxc6 63. Bxc6 Kxc6 64. Rf2 Kd5 65. Kxa4 Kc4 66. Ka3 Kc3 67. Rf7 b2 68. Rc7+ Kd4 69. Kxb2 Kd5 70. Kc3 Kd6 71. Rh7 Ke5 72. Rh5+ Kf6 73. Kd4 Kf7 74. Ke5 Kg6 75. Rf5 Kg7 76. Rg5+ Kf7 77. Rg3 Ke7 78. Rg7+ Kf8 79. Rc7 Ke8 80. Ke6 Kf8 81. Ra7 Kg8 82. Kf6 Kh8 83. Kg6 Kg8 84. Ra8# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "0-1"]
+[TestUnit "1"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. Re1 a6 6. Bf1 d5 7. exd5 Nxd5 8. Nc3 Be7 9. Bd3 O-O 10. Qe2 Nf4 11. Qe4 Nxd3 12. cxd3 Qd6 13. g3 f5 14. Qe3 Nd4 15. b4 Nc2 16. bxc5 Qd8 17. Qe5 Nxa1 18. Bb2 Nc2 19. Nd5 Bf6 20. Nxf6+ gxf6 21. Qd6 Nxe1 22. Nxe1 Qa5 23. Bc3 Qxa2 24. d4 Qd5 25. Ng2 Qe4 26. Ne3 a5 27. d5 exd5 28. Nxd5 Qe1+ 29. Kg2 Ra6 30. Ne7+ Kf7 31. Nxc8 Rxd6 32. Nxd6+ Ke6 33. Bxa5 Qe5 34. Bb6 Qd5+ 35. Kh3 Qxd2 36. f4 Ra8 37. Nc4 Qe1 38. Na5 Qf1+ 39. Kh4 Rg8 40. Nxb7 Rg4+ 41. Kh5 Qh3# 0-1
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "candidate"]
+[Black "baseline"]
+[Result "1-0"]
+[TestUnit "2"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 h6 7. Bf4 O-O 8. Nf3 Bf5 9. Bd3 Ne4 10. O-O Nc6 11. Qb1 Nxc3 12. bxc3 Bxd3 13. Qxd3 g5 14. Bg3 g4 15. Nd2 f5 16. Rab1 Rb8 17. f3 gxf3 18. Nxf3 Qd7 19. c4 Nb4 20. Qe2 a5 21. a3 Na6 22. Rb5 b6 23. Bf4 Bxa3 24. Bxh6 Rf6 25. Rxd5 Qh7 26. Bg5 Rf7 27. Ne5 Bd6 28. Rxd6 cxd6 29. Nxf7 Qxf7 30. g4 a4 31. Rxf5 Qe6 32. Rf6 Qe4 33. h3 Qb1+ 34. Rf1 Qg6 35. Rf5 Rf8 36. Rxf8+ Kxf8 37. Qf3+ Kg7 38. Qb7+ Kg8 39. Qc8+ Kf7 40. Bf4 Qb1+ 41. Kg2 Qb2+ 42. Kf3 a3 43. Qd7+ Kg8 44. Bh6 Qxd4 45. exd4 a2 46. Qg7# 1-0
+
+[Event "Frozen C++ candidate vs own baseline"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baseline"]
+[Black "candidate"]
+[Result "1-0"]
+[TestUnit "2"]
+[CandidateSHA256 "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9"]
+[BaselineSHA256 "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"]
+[TimeControl "0.12s/move"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 h6 7. Bf4 O-O 8. Nf3 Bf5 9. Bd3 Ne4 10. O-O Nc6 11. Qb1 Nxc3 12. bxc3 Bxd3 13. Qxd3 Bd6 14. Ne5 Bxe5 15. Bxe5 Nxe5 16. dxe5 Re8 17. Rab1 Rb8 18. f4 c6 19. h3 Qh4 20. e4 Red8 21. Rbd1 a5 22. Qf3 dxe4 23. Qxe4 Qe7 24. Rd4 c5 25. Rxd8+ Rxd8 26. Rb1 Rd7 27. f5 Rc7 28. e6 a4 29. Qxa4 fxe6 30. Qc4 Qg5 31. Qxe6+ Kh7 32. Re1 Rc6 33. Qd5 Ra6 34. Qxb7 Rf6 35. g4 h5 36. Qf3 Ra6 37. Qg2 hxg4 38. hxg4 Qf4 39. Re7 Qc1+ 40. Qf1 Qxf1+ 41. Kxf1 Ra4 42. Ke1 Kh6 43. Re6+ Kh7 44. g5 Rxa2 45. Re7 Kg8 46. f6 gxf6 47. gxf6 Ra6 48. f7+ Kg7 49. Rc7 Re6+ 50. Kd2 Rf6 51. Rxc5 Rxf7 52. c4 Ra7 53. Rb5 Kf6 54. Kc3 Ke6 55. Rb6+ Ke5 56. c5 Kd5 57. Kb4 Ra2 58. Rd6+ Ke5 59. Kc3 Ra5 60. Kc4 Ra4+ 61. Kb5 Ra2 62. Rh6 Rb2+ 63. Ka6 Rc2 64. c6 Kf4 65. Kb7 Rb2+ 66. Kc8 Ke5 67. c7 Rg2 68. Kb7 Rb2+ 69. Rb6 Rc2 70. c8=Q Rxc8 71. Kxc8 Kd5 72. Kd7 Ke5 73. Rb5+ Ke4 74. Ke6 Kd4 75. Rd5+ Ke4 76. Rd7 Kf4 77. Kd5 Ke3 78. Ke5 Kf3 79. Rd3+ Kf2 80. Ke4 Ke2 81. Rd7 Kf2 82. Rd2+ Kg3 83. Ke3 Kg4 84. Rd5 Kg3 85. Rg5+ Kh4 86. Kf4 Kh3 87. Kf3 Kh2 88. Rh5+ Kg1 89. Rh6 Kf1 90. Rh1# 1-0
+

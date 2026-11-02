@@ -1,0 +1,18 @@
+{
+  "objective": "Remove redundant work while preserving the narrow draw-fixed search at fixed depth",
+  "reference": "work/aggressive-v15/draw-safe/engine",
+  "reference_sha256": "6e2abb852a87fa8c466f1f13c238eaaeb819c80876caf3d817dd29e4263c9bdb",
+  "single_candidate": true,
+  "features": [
+    "Quiescence skips an unused repetition-context hash loop",
+    "Try the existing history-safe transposition return before legal move generation, retaining draw/mate exceptions"
+  ],
+  "unchanged": "Narrow draw protection, search decisions, mate-distance bounds, TT storage/reuse conditions, evaluation, clocks and node counting",
+  "validation": "64 paired depth8 runs over32 human prefixes, plus32 sparse positions at fixed depth6; exact move/score/nodes/depth equality",
+  "speed_gate": "Median and total paired human-prefix timing ratio >=1.10; serial alternating engine order; no candidate retuning",
+  "rules_gate": "Rules, protocol, mates, draw properties, history boundary, sanitizer checks",
+  "strength_status": "Timing equality does not prove a win-rate gain; no claim of field superiority without independent games",
+  "different_from_rejected_v15_broad_variant": true,
+  "live_bot_unchanged": true,
+  "no_foreign_analysis_or_weights": true
+}

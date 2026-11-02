@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "draw_cases": 64,
+  "candidates": [
+    "draw-safe",
+    "endgame-safe"
+  ]
+}

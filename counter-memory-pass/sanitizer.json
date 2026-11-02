@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "selected": "memory",
+  "selected_release_sha256": "d74294ceefaf202a76edac0f9a80b057eb99e461de75b4f0f4be7d590fc5cab1",
+  "sanitized_sha256": "4e0f1420876c0f856fcefb30c51be56b5d20c0dc83fd31a2aff6b314c3ac39ce",
+  "address_and_undefined_behavior_checks": true,
+  "leak_detector_checked": false,
+  "infrastructure_note": "An initial detect_leaks=1 run terminated before testing because LeakSanitizer is unsupported on this macOS platform. Rerun keeps address and undefined-behavior checks active with leak detection disabled; no engine source change."
+}

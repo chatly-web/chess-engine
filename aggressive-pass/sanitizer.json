@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "selected": "endgame-safe",
+  "selected_release_sha256": "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9",
+  "sanitized_sha256": "2b5e4922d3d678b3dddb9016b653be2408bdd141c9c4fb2e0f1664ceb7092385",
+  "address_and_undefined_behavior_checks": true,
+  "leak_detector_checked": false,
+  "infrastructure_note": "An initial detect_leaks=1 run terminated before testing because LeakSanitizer is unsupported on this macOS platform. Rerun keeps address and undefined-behavior checks active with leak detection disabled; no engine source change."
+}

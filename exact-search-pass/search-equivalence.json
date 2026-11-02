@@ -1,0 +1,979 @@
+{
+  "passed": true,
+  "positions": 81,
+  "retained_tt_between_positions": true,
+  "rows": [
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqkb1r/pppn1ppp/4p3/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "g1f3",
+        "score": "PovScore(Cp(+103), WHITE)",
+        "nodes": 23059,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a4b3",
+        "score": "PovScore(Cp(+11), WHITE)",
+        "nodes": 12207,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk2r/ppp1bpp1/2n1pn1p/6B1/3P3Q/2N5/PPP1NPPP/R3KB1R w KQkq - 0 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e1c1",
+        "score": "PovScore(Cp(+74), WHITE)",
+        "nodes": 16434,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqkb1r/pp2pppp/8/2pn4/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d4c5",
+        "score": "PovScore(Cp(+34), WHITE)",
+        "nodes": 46732,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbq1rk1/ppp2ppp/5n2/3p4/1b1P4/2NBP3/PP3PPP/R1BQK1NR w KQ - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "g1e2",
+        "score": "PovScore(Cp(-22), WHITE)",
+        "nodes": 48428,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r2qkb1r/pp1b1ppp/2nPp3/1B1n4/Q7/5N2/PPP2PPP/RNB1K2R w KQkq - 0 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c2c4",
+        "score": "PovScore(Cp(+75), WHITE)",
+        "nodes": 60179,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqkb1r/1p1p1ppp/2p1pn2/pP6/2P5/P7/3PPPPP/RNBQKBNR w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "g1f3",
+        "score": "PovScore(Cp(-111), WHITE)",
+        "nodes": 31938,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rn1qkb1r/pp1b1ppp/4pn2/2pp4/3P4/1PN1PP2/PBP3PP/R2QKBNR w KQkq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d1d3",
+        "score": "PovScore(Cp(-28), WHITE)",
+        "nodes": 42567,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1b1k2r/1pqpbppp/p1n1pn2/8/3NP3/2N1BP2/PPPQ2PP/R3KB1R w KQkq - 1 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e1c1",
+        "score": "PovScore(Cp(+97), WHITE)",
+        "nodes": 42827,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/3PP3/2PB4/PP3PPP/RNBQK1NR w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d4e5",
+        "score": "PovScore(Cp(+23), WHITE)",
+        "nodes": 57269,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk2r/pp1pnpbp/2n1p1p1/2p5/4P3/3P1NP1/PPP1QPBP/RNB1K2R w KQkq - 2 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e1g1",
+        "score": "PovScore(Cp(+47), WHITE)",
+        "nodes": 13922,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bq1rk1/p1pnbppp/1p2p3/3n4/3P4/2NQ1NP1/PP2PPBP/R1B1K2R w KQ - 0 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c3d5",
+        "score": "PovScore(Cp(+65), WHITE)",
+        "nodes": 16936,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk2r/ppppbppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e1g1",
+        "score": "PovScore(Cp(+67), WHITE)",
+        "nodes": 17533,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rn1qk2r/pb1pppbp/1p3np1/2p5/2P5/1P3NP1/P2PPPBP/RNBQ1RK1 w kq - 1 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "b1c3",
+        "score": "PovScore(Cp(+13), WHITE)",
+        "nodes": 25954,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnb1kb1r/pp3ppp/4pn2/8/1qBpN3/8/PPPN1PPP/R1BQK2R w KQkq - 6 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e4f6",
+        "score": "PovScore(Cp(+99), WHITE)",
+        "nodes": 22164,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk1nr/ppp1ppbp/2np2p1/1B6/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 2 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e1g1",
+        "score": "PovScore(Cp(+150), WHITE)",
+        "nodes": 18360,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqkb1r/pp3ppp/2np1n2/1N2p3/2P5/2N5/PP2PPPP/R1BQKB1R w KQkq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c3d5",
+        "score": "PovScore(Cp(-20), WHITE)",
+        "nodes": 21789,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqk2r/ppp1bppp/8/8/5p2/2N2N2/PPPP2PP/R1BQ1RK1 w kq - 2 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d2d4",
+        "score": "PovScore(Cp(+9), WHITE)",
+        "nodes": 16569,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnb1kbnr/1p2pppp/p7/2pq4/8/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "f1e2",
+        "score": "PovScore(Cp(+82), WHITE)",
+        "nodes": 17055,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1b1kbnr/1pp2ppp/p1p2q2/8/3pP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e4e5",
+        "score": "PovScore(Cp(+163), WHITE)",
+        "nodes": 12556,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqk2r/1p1pbppp/p1n1p3/8/3pP3/2N2N2/PPP2PPP/R1BQR1K1 w kq - 0 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "f3d4",
+        "score": "PovScore(Cp(+71), WHITE)",
+        "nodes": 13941,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 2 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c4c5",
+        "score": "PovScore(Cp(-27), WHITE)",
+        "nodes": 28543,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1b1kbnr/1pqp1ppp/p1n1p3/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R w KQkq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c1f4",
+        "score": "PovScore(Cp(+188), WHITE)",
+        "nodes": 37384,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r2qkb1r/pp3ppp/2p2n2/2np1b2/8/1Q1P1NP1/PP2PPBP/RNB2RK1 w kq - 2 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "b3c3",
+        "score": "PovScore(Cp(+34), WHITE)",
+        "nodes": 33997,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/3pP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "f3d4",
+        "score": "PovScore(Cp(+66), WHITE)",
+        "nodes": 15965,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1bq1rk1/pppnppbp/3p1np1/8/1PPP4/2N2N2/PB2PPPP/R2QKB1R w KQ - 1 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "e2e4",
+        "score": "PovScore(Cp(-63), WHITE)",
+        "nodes": 12827,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1b1qrk1/ppp2pbp/n2p1np1/4p3/2PPP3/2N1BN2/PP2BPPP/R2Q1RK1 w - - 2 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d4e5",
+        "score": "PovScore(Cp(+82), WHITE)",
+        "nodes": 25779,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rn1qkb1r/pbpp1ppp/1p3p2/8/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "d1d3",
+        "score": "PovScore(Cp(+40), WHITE)",
+        "nodes": 32464,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r1b1kb1r/pp1p1ppp/1qn1pn2/8/4P3/1NN5/PPP2PPP/R1BQKB1R w KQkq - 0 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c1e3",
+        "score": "PovScore(Cp(+114), WHITE)",
+        "nodes": 38910,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r2qkb1r/pb1p1ppp/2p1p3/3nP3/4N3/8/PPP2PPP/R1BQKB1R w KQkq - 3 9",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "f1d3",
+        "score": "PovScore(Cp(+97), WHITE)",
+        "nodes": 39249,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "rnbqkb1r/pp2p1pp/2p2n2/3p1p2/2PP2P1/7P/PP2PP2/RNBQKBNR w KQkq - 0 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "g4g5",
+        "score": "PovScore(Cp(-26), WHITE)",
+        "nodes": 34003,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "human-prefix",
+      "fen": "r2qkb1r/pp1nnppp/2p1p3/3pPb2/2PP4/2N2N2/PP3PPP/R1BQKB1R w KQkq - 4 7",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "f1e2",
+        "score": "PovScore(Cp(+86), WHITE)",
+        "nodes": 26708,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/3k4/8/8/8/8/1K6/n5B1 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b2c3",
+        "score": "PovScore(Cp(+33), WHITE)",
+        "nodes": 743,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "2n5/8/1N6/3K1k2/8/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b6c4",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 254,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/4K3/1k6/3B1B1b/8/1p6/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d4b2",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 780,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/1n6/2K2k2/5N2/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f4d3",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 599,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "3K4/5kn1/8/8/8/8/8/B7 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d8d7",
+        "score": "PovScore(Cp(+15), WHITE)",
+        "nodes": 916,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "7N/8/8/2k5/8/8/6K1/5n2 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "g2f1",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 127,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "5B2/8/2n5/2K5/7k/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f8d6",
+        "score": "PovScore(Cp(+39), WHITE)",
+        "nodes": 552,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "6B1/8/8/4k3/8/8/3n4/2K5 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "c1d2",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 152,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "3n4/8/5B2/8/4K3/8/5k2/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f6h4",
+        "score": "PovScore(Cp(+42), WHITE)",
+        "nodes": 1771,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "7K/7b/8/8/8/8/N7/1k6 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "h8h7",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 189,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/1N6/8/n1K5/8/8/8/5k2 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b7d6",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 252,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/1N1k4/8/2p5/2K5/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b6c8",
+        "score": "PovScore(Cp(+96), WHITE)",
+        "nodes": 1754,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/4B3/8/6K1/6p1/b7/k2B4/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "e7a3",
+        "score": "PovScore(Cp(+164), WHITE)",
+        "nodes": 793,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "7k/1K1B4/4n3/8/8/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b7c6",
+        "score": "PovScore(Cp(+23), WHITE)",
+        "nodes": 612,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/5K2/7k/8/5N2/8/6p1/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f4g2",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 116,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/8/2K5/2p5/3B4/8/2k2b2 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d3f1",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 323,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/K2n4/2k5/8/8/7B/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "h2d6",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 223,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/8/8/p4B2/K7/8/5k2 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f4e5",
+        "score": "PovScore(Cp(+147), WHITE)",
+        "nodes": 905,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/5k2/8/3N2p1/6K1/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d4c6",
+        "score": "PovScore(Cp(+98), WHITE)",
+        "nodes": 755,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "1Bk5/6K1/7p/8/8/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b8g3",
+        "score": "PovScore(Cp(+206), WHITE)",
+        "nodes": 801,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/1k3N2/3p4/8/8/8/6K1 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f6d7",
+        "score": "PovScore(Cp(+91), WHITE)",
+        "nodes": 1148,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "5K2/3N1n2/8/5k2/8/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f8f7",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 158,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/3k4/N7/8/1Kn5/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b4c4",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 714,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/4K3/k2p4/N7/8/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "a5b3",
+        "score": "PovScore(Cp(+195), WHITE)",
+        "nodes": 476,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/N2K4/2n5/8/5k2/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d7c6",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 81,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/8/1p2Kb2/7k/3B4/2B5/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "d3f5",
+        "score": "PovScore(Cp(+574), WHITE)",
+        "nodes": 270,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/3k4/5K2/8/8/8/n7/1B6 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f6e5",
+        "score": "PovScore(Cp(+45), WHITE)",
+        "nodes": 1244,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/2N5/8/8/3k4/8/bK6/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b2a2",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 225,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/B2n4/2K5/8/8/8/k7 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "c5d5",
+        "score": "PovScore(Cp(+42), WHITE)",
+        "nodes": 1061,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "2b5/4kB2/8/3p4/8/1B2K3/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "f7g6",
+        "score": "PovScore(Cp(+144), WHITE)",
+        "nodes": 1890,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "5n2/8/1k1B4/8/1K6/8/8/8 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "b4c4",
+        "score": "PovScore(Cp(+40), WHITE)",
+        "nodes": 860,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "sparse",
+      "fen": "8/8/8/5k2/5p2/3N4/8/6K1 w - - 0 1",
+      "depth_limit": 4,
+      "identical": true,
+      "values": {
+        "move": "g1f2",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 335,
+        "depth": 4
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 0 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 4131,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 1 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 528,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 68 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 528,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 69 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 528,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 70 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 528,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 71 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 528,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 96 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 526,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 97 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 505,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 98 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 489,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 99 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1a8",
+        "score": "PovScore(Cp(+613), WHITE)",
+        "nodes": 111,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "rule-clock",
+      "fen": "r5k1/8/8/8/8/8/8/R5K1 w - - 100 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "a1b1",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 6,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "repetition",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "b1c3",
+        "score": "PovScore(Cp(+12), WHITE)",
+        "nodes": 8839,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "repetition",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 4 3",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "b1c3",
+        "score": "PovScore(Cp(+12), WHITE)",
+        "nodes": 1668,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "repetition",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 8 5",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "b1a3",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 6,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "terminal-priority",
+      "fen": "6k1/8/7b/8/5p2/8/8/2B3K1 w - - 0 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": "c1f4",
+        "score": "PovScore(Cp(0), WHITE)",
+        "nodes": 331,
+        "depth": 6
+      }
+    },
+    {
+      "kind": "terminal-priority",
+      "fen": "7k/6Q1/6K1/8/8/8/8/8 b - - 100 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": null,
+        "score": "None",
+        "nodes": null,
+        "depth": null
+      }
+    },
+    {
+      "kind": "terminal-priority",
+      "fen": "7k/5Q2/6K1/8/8/8/8/8 b - - 100 1",
+      "depth_limit": 6,
+      "identical": true,
+      "values": {
+        "move": null,
+        "score": "None",
+        "nodes": null,
+        "depth": null
+      }
+    }
+  ]
+}

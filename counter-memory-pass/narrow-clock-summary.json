@@ -1,0 +1,20 @@
+{
+  "binary_sha256": "6e2abb852a87fa8c466f1f13c238eaaeb819c80876caf3d817dd29e4263c9bdb",
+  "games": [
+    {
+      "label": "counter-memory-pass/narrow-gnu-180-2-white",
+      "result": "0-1",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    },
+    {
+      "label": "counter-memory-pass/narrow-gnu-600-5-black",
+      "result": "1-0",
+      "failure": null,
+      "failure_side": null,
+      "finished": true
+    }
+  ],
+  "scope": "Technical full-clock validation of the minimal draw fix already frozen before earlier screening. Two games are not a strength confirmation. No broad phase pruning change, larger table or new countermove is enabled."
+}

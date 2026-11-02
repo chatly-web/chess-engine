@@ -1,0 +1,57 @@
+--- draw_safe/engine.cpp
++++ counter_memory/engine.cpp
+@@ -1,3 +1,9 @@
++#ifndef CLASH_COUNTER
++#define CLASH_COUNTER 0
++#endif
++#ifndef CLASH_HASH_BITS
++#define CLASH_HASH_BITS 18
++#endif
+ #ifndef CLASH_ENDGAME_Q
+ #define CLASH_ENDGAME_Q 0
+ #endif
+@@ -298,8 +304,8 @@
+ struct SearchBuffers {vector<Move>pseudo,legal;vector<ScoredMove>scored;};
+ struct Engine{
+  array<SearchBuffers,128>buffers;
+- vector<Entry>tt;atomic<bool>stop{false};Clock::time_point deadline;uint64_t nodes=0,nodeLimit=~0ULL;Move killers[128][2];int history[2][64][64]={};vector<uint64_t> path;Move rootbest;int completed=0;int quietSpan[128]={};uint64_t safeCutoffs=0;
+- Engine():tt(1<<18){for(auto&buffer:buffers){buffer.pseudo.reserve(256);buffer.legal.reserve(256);buffer.scored.reserve(256);}}
++ vector<Entry>tt;atomic<bool>stop{false};Clock::time_point deadline;uint64_t nodes=0,nodeLimit=~0ULL;Move killers[128][2];int history[2][64][64]={};Move counterMoves[2][64][64];Move searchedMoves[128];vector<uint64_t> path;Move rootbest;int completed=0;int quietSpan[128]={};uint64_t safeCutoffs=0;
++ Engine():tt(size_t(1)<<CLASH_HASH_BITS){for(auto&buffer:buffers){buffer.pseudo.reserve(256);buffer.legal.reserve(256);buffer.scored.reserve(256);}}
+  void tick(){nodes++;if(stop||(nodes&127)==0){if(stop||Clock::now()>=deadline||nodes>=nodeLimit)throw Halt{};}if(nodes>=nodeLimit)throw Halt{};}
+  bool draw(const Board& b,uint64_t h)const{if(b.half>=100||b.insufficient())return true;int count=0;int start=max(0,int(path.size())-b.half-1);for(int i=start;i<int(path.size());i++)if(path[i]==h)count++;return count>=3;}
+  int exchange(const Board& b,Move m)const{
+@@ -319,8 +325,9 @@
+   while(depth>0){gains[depth-1]=-max(-gains[depth-1],gains[depth]);depth--;}
+   return gains[0];
+  }
++ Move counterReply(const Board&b,int ply)const{if(!CLASH_COUNTER||ply<=0)return {};Move previous=searchedMoves[ply-1];if(previous.from<0||previous.to<0)return {};return counterMoves[b.side>0][previous.from][previous.to];}
+  void updateHistory(int&score,int bonus){bonus=max(-1000,min(1000,bonus));score+=bonus-score*abs(bonus)/10000;score=max(-10000,min(10000,score));}
+- int ordering(const Board&b,Move m,Move preferred,int ply){if(m==preferred)return 2000000;int victim=abs(b.b[m.to]);if(abs(b.b[m.from])==1&&m.to==b.ep)victim=1;if(victim){int base=1000000+10*PIECE_VALUES_MG[victim]-PIECE_VALUES_MG[abs(b.b[m.from])];if(CLASH_SEARCH_V2>=2&&PIECE_VALUES_MG[victim]<PIECE_VALUES_MG[abs(b.b[m.from])]&&exchange(b,m)<0)base-=CLASH_CAPTURE_LAST?1200000:950000;return base;}if(m.promo)return 900000+PIECE_VALUES_MG[m.promo];if(abs(b.b[m.from])==6&&abs(m.to-m.from)==2)return 880000;if(m==killers[ply][0])return 850000;if(m==killers[ply][1])return 800000;return history[b.side>0][m.from][m.to];}
++ int ordering(const Board&b,Move m,Move preferred,int ply){if(m==preferred)return 2000000;int victim=abs(b.b[m.to]);if(abs(b.b[m.from])==1&&m.to==b.ep)victim=1;if(victim){int base=1000000+10*PIECE_VALUES_MG[victim]-PIECE_VALUES_MG[abs(b.b[m.from])];if(CLASH_SEARCH_V2>=2&&PIECE_VALUES_MG[victim]<PIECE_VALUES_MG[abs(b.b[m.from])]&&exchange(b,m)<0)base-=CLASH_CAPTURE_LAST?1200000:950000;return base;}if(m.promo)return 900000+PIECE_VALUES_MG[m.promo];if(abs(b.b[m.from])==6&&abs(m.to-m.from)==2)return 880000;if(m==killers[ply][0])return 850000;if(m==killers[ply][1])return 800000;if(CLASH_COUNTER&&m==counterReply(b,ply))return 780000;return history[b.side>0][m.from][m.to];}
+  int search(const Board&b,int depth,int alpha,int beta,int ply=0,int qdepth=0,bool allowNull=true,bool priorUnique=true){
+   tick();quietSpan[ply]=0;bool check=b.check(b.side);bool tactical=CLASH_TACTICAL_GEN&&depth<=0&&!check;auto&buf=buffers[ply];int cachedStand=0;bool haveStand=false;
+   if(depth<=0&&!check){cachedStand=evaluate(b);haveStand=true;int boundedAlpha=alpha,boundedBeta=beta;if(CLASH_SEARCH_V3&&ply){boundedAlpha=max(alpha,-30000+ply);boundedBeta=min(beta,30000-ply-1);}if(cachedStand>=boundedBeta&&boundedAlpha<boundedBeta){b.legalInto(buf.pseudo,buf.legal,false,true);if(buf.legal.empty()||draw(b,path.back()))return 0;return cachedStand;}}
+@@ -339,7 +346,7 @@
+    staticValue=evaluate(b);if(staticValue-depth*125>=beta)return staticValue;
+   }
+   if(q&&!check){int stand=haveStand?cachedStand:evaluate(b);staticValue=stand;if(stand>=beta)return stand;alpha=max(alpha,stand);if(qdepth>=16)return alpha;moves.erase(remove_if(moves.begin(),moves.end(),[&](Move m){return !b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);}),moves.end());}
+-  if(!q&&depth>=3&&ply&&!check&&allowNull&&beta-alpha==1){bool pieces=false;for(int p:b.b)if(sign(p)==b.side&&abs(p)>1&&abs(p)<6)pieces=true;if(pieces){Board n=b;n.side=-n.side;n.ep=-1;path.push_back(n.hash());int v;try{v=-search(n,depth-3,-beta,-beta+1,ply+1,0,false,false);}catch(...){path.pop_back();throw;}path.pop_back();if(v>=beta&&abs(v)<28000){quietSpan[ply]=120;return v;}}}
++  if(!q&&depth>=3&&ply&&!check&&allowNull&&beta-alpha==1){bool pieces=false;for(int p:b.b)if(sign(p)==b.side&&abs(p)>1&&abs(p)<6)pieces=true;if(pieces){Board n=b;n.side=-n.side;n.ep=-1;if(CLASH_COUNTER)searchedMoves[ply]=Move{};path.push_back(n.hash());int v;try{v=-search(n,depth-3,-beta,-beta+1,ply+1,0,false,false);}catch(...){path.pop_back();throw;}path.pop_back();if(v>=beta&&abs(v)<28000){quietSpan[ply]=120;return v;}}}
+   auto&scored=buf.scored;scored.clear();scored.reserve(moves.size());for(auto move:moves)scored.push_back({ordering(b,move,preferred,ply),int(scored.size()),move});sort(scored.begin(),scored.end(),[](const auto&a,const auto&z){return a.score>z.score||(a.score==z.score&&a.ordinal<z.ordinal);});for(size_t i=0;i<moves.size();i++)moves[i]=scored[i].move;int best=-32000;Move bm;
+   for(int i=0;i<int(moves.size());i++){Move m=moves[i];Board n=b.moved(m);bool quiet=!b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);bool protectsDraw=CLASH_ENDGAME_Q&&q&&!check&&!m.promo&&!(n.pawnBits[0]|n.pawnBits[1])&&n.insufficient();
+    bool pruningEndgame=CLASH_ENDGAME_Q>=2&&b.rawPhase<=6;
+@@ -349,10 +356,10 @@
+     if(staticValue+PIECE_VALUES_MG[victim]+220<alpha)continue;
+     if(exchange(b,m)<-80)continue;
+    }
+-   int nd=depth-1+(CLASH_SEARCH_V2>=1&&!q&&check&&ply<24?1:0);int reduction=!q&&depth>=3&&i>=4&&quiet&&!check&&!n.check(n.side)?1:0;if((CLASH_SEARCH_V3&4)&&reduction&&depth>=6&&i>=10&&!(m==killers[ply][0])&&!(m==killers[ply][1])&&history[b.side>0][m.from][m.to]<depth*depth*8)reduction=2;
+-   path.push_back(n.hash());int v;
++   int nd=depth-1+(CLASH_SEARCH_V2>=1&&!q&&check&&ply<24?1:0);int reduction=!q&&depth>=3&&i>=4&&quiet&&!check&&!n.check(n.side)?1:0;if(CLASH_COUNTER&&reduction&&(m==killers[ply][0]||m==killers[ply][1]||m==counterReply(b,ply)))reduction=0;if((CLASH_SEARCH_V3&4)&&reduction&&depth>=6&&i>=10&&!(m==killers[ply][0])&&!(m==killers[ply][1])&&history[b.side>0][m.from][m.to]<depth*depth*8)reduction=2;
++   if(CLASH_COUNTER)searchedMoves[ply]=m;path.push_back(n.hash());int v;
+    auto descend=[&](int d,int lo,int hi,int qd=0){int score=-search(n,d,lo,hi,ply+1,qd,true,nodeUnique);if(n.half)quietSpan[ply]=max(quietSpan[ply],min(120,quietSpan[ply+1]+1));return score;};
+-   try{if(i==0||q)v=descend(nd,-beta,-alpha,q?qdepth+1:0);else{v=descend(nd-reduction,-alpha-1,-alpha);if(reduction&&v>alpha)v=descend(nd,-alpha-1,-alpha);if(v>alpha&&v<beta)v=descend(nd,-beta,-alpha);}}catch(...){path.pop_back();throw;}path.pop_back();if(v>best){best=v;bm=m;}alpha=max(alpha,v);if(alpha>=beta){if(quiet&&(!CLASH_HISTORY||!q)){killers[ply][1]=killers[ply][0];killers[ply][0]=m;auto&h=history[b.side>0][m.from][m.to];if(CLASH_HISTORY){int bonus=min(1000,16*max(1,depth)*max(1,depth));updateHistory(h,bonus);for(int j=0;j<i;j++){Move failed=moves[j];if(!b.b[failed.to]&&!failed.promo&&!(abs(b.b[failed.from])==1&&failed.to==b.ep))updateHistory(history[b.side>0][failed.from][failed.to],-bonus/2);}}else h=min(70000,h+max(1,depth)*max(1,depth));}break;}
++   try{if(i==0||q)v=descend(nd,-beta,-alpha,q?qdepth+1:0);else{v=descend(nd-reduction,-alpha-1,-alpha);if(reduction&&v>alpha)v=descend(nd,-alpha-1,-alpha);if(v>alpha&&v<beta)v=descend(nd,-beta,-alpha);}}catch(...){path.pop_back();throw;}path.pop_back();if(v>best){best=v;bm=m;}alpha=max(alpha,v);if(alpha>=beta){if(quiet&&(!CLASH_HISTORY||!q)){killers[ply][1]=killers[ply][0];killers[ply][0]=m;if(CLASH_COUNTER&&ply>0){Move previous=searchedMoves[ply-1];if(previous.from>=0&&previous.to>=0)counterMoves[b.side>0][previous.from][previous.to]=m;}auto&h=history[b.side>0][m.from][m.to];if(CLASH_HISTORY){int bonus=min(1000,16*max(1,depth)*max(1,depth));updateHistory(h,bonus);for(int j=0;j<i;j++){Move failed=moves[j];if(!b.b[failed.to]&&!failed.promo&&!(abs(b.b[failed.from])==1&&failed.to==b.ep))updateHistory(history[b.side>0][failed.from][failed.to],-bonus/2);}}else h=min(70000,h+max(1,depth)*max(1,depth));}break;}
+   }
+   if(!q){int v=best;if(v>28000)v+=ply;if(v< -28000)v-=ply;tt[key&(tt.size()-1)]={key,ctx,bm,depth,v,best<=original?-1:best>=beta?1:0,b.half,nodeUnique?quietSpan[ply]:-1};if(!ply)rootbest=bm;return best;}return alpha;
+  }

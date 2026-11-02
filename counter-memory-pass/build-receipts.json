@@ -1,0 +1,50 @@
+{
+  "memory": {
+    "mode": 0,
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=1",
+      "-DCLASH_HISTORY=1",
+      "-DCLASH_CAPTURE_LAST=0",
+      "-DCLASH_ENDGAME_Q=1",
+      "-DCLASH_HASH_BITS=20",
+      "-DCLASH_COUNTER=0"
+    ],
+    "source_sha256": "3050c5e8f7d1c8fdb475f13f3522785dc330ce1d7302c34a94425a295b46a6a9",
+    "header_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+    "binary_sha256": "d74294ceefaf202a76edac0f9a80b057eb99e461de75b4f0f4be7d590fc5cab1",
+    "profile_sha256": "14f4812998f17d3490a0eed77195dcd72da46c24afd5d9224f5dc3d14d25689e"
+  },
+  "counter": {
+    "mode": 1,
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=1",
+      "-DCLASH_HISTORY=1",
+      "-DCLASH_CAPTURE_LAST=0",
+      "-DCLASH_ENDGAME_Q=1",
+      "-DCLASH_HASH_BITS=20",
+      "-DCLASH_COUNTER=1"
+    ],
+    "source_sha256": "3050c5e8f7d1c8fdb475f13f3522785dc330ce1d7302c34a94425a295b46a6a9",
+    "header_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+    "binary_sha256": "f57a683ffd31cdeaba1945204df83f6aa69eb9d5af3f4ff22caf1b3aa3536fde",
+    "profile_sha256": "6b270c08d97b2194e8da092eef6c5a0bcf72aea97314b1f28199f525f84cfd9a"
+  }
+}

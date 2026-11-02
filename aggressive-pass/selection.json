@@ -1,0 +1,7 @@
+{
+  "selected": "endgame-safe",
+  "binary_sha256": "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9",
+  "frozen_before_confirmation": true,
+  "screen_excluded_from_confirmation": true,
+  "source_sha256": "3a74f3be7e2c07097bc14f820afa2517d0e17e77914e2d7531e79bcbcd44a507"
+}

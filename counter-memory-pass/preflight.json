@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "evaluation_body_byte_identical": true,
+  "clock_and_go_parser_byte_identical": true,
+  "candidates": {
+    "memory": {
+      "draw_properties": 564,
+      "rules_positions": 2000,
+      "shortest_mates": 84,
+      "protocol": true
+    },
+    "counter": {
+      "draw_properties": 564,
+      "rules_positions": 2000,
+      "shortest_mates": 84,
+      "protocol": true
+    }
+  }
+}

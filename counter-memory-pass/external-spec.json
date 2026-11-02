@@ -1,0 +1,492 @@
+{
+  "baseline": "reference",
+  "engines": {
+    "reference": "/Users/ayush/Documents/Codex/2026-11-01/x20-chess-engine-clash-off-teach/outputs/clash-engine/engine/clash-pgo",
+    "candidate": "/Users/ayush/Documents/Codex/2026-11-01/x20-chess-engine-clash-off-teach/work/counter-memory-v17/memory/engine"
+  },
+  "opponents": [
+    {
+      "label": "GNUChess6.3",
+      "command": [
+        "/opt/homebrew/bin/gnuchess",
+        "--uci"
+      ]
+    },
+    {
+      "label": "Stockfish19-Skill5",
+      "command": [
+        "/opt/homebrew/bin/stockfish"
+      ],
+      "options": {
+        "Skill Level": 5
+      }
+    },
+    {
+      "label": "Stockfish19-full",
+      "command": [
+        "/opt/homebrew/bin/stockfish"
+      ],
+      "options": {
+        "Skill Level": 20
+      }
+    }
+  ],
+  "starts": [
+    {
+      "game_id": "DvQcu9Mm",
+      "moves": [
+        "b2b3",
+        "a7a5",
+        "c1b2",
+        "a5a4",
+        "g1f3",
+        "b8c6",
+        "e2e3",
+        "d7d6",
+        "d2d4",
+        "c8g4",
+        "f1b5",
+        "d6d5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 64
+    },
+    {
+      "game_id": "bw0et5pD",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "g8f6",
+        "e4e5",
+        "f6d7",
+        "f2f4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "c1e3",
+        "d8b6",
+        "d1d2",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 72
+    },
+    {
+      "game_id": "XSs8g1aB",
+      "moves": [
+        "c2c4",
+        "e7e6",
+        "g2g3",
+        "d7d5",
+        "f1g2",
+        "d5d4",
+        "g1f3",
+        "b8c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -47
+    },
+    {
+      "game_id": "uSwcu4zr",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "g2g3",
+        "d7d5",
+        "f1g2",
+        "f8b4",
+        "c1d2",
+        "b4e7",
+        "g1f3",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -106
+    },
+    {
+      "game_id": "Yi25KdqQ",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g7g6",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "d7d6",
+        "f2f3",
+        "f8g7",
+        "c1e3",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -84
+    },
+    {
+      "game_id": "Jfbekd4n",
+      "moves": [
+        "e2e4",
+        "d7d5",
+        "e4d5",
+        "g8f6",
+        "b1c3",
+        "c7c6",
+        "d5c6",
+        "b8c6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -31
+    },
+    {
+      "game_id": "TzCvlIrE",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c1f4",
+        "g8f6",
+        "e2e3",
+        "e7e6",
+        "g1f3",
+        "c7c5",
+        "c2c3",
+        "b8c6",
+        "b1d2",
+        "c5d4"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -104
+    },
+    {
+      "game_id": "vdynAwmQ",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "c6a5",
+        "e1g1",
+        "a7a6",
+        "b5e2",
+        "b7b5",
+        "f1e1",
+        "c8b7",
+        "e2f1",
+        "e7e6",
+        "c2c3",
+        "g8f6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 62
+    },
+    {
+      "game_id": "ywsI2tgA",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "g1f3",
+        "g8f6",
+        "b1c3",
+        "f8e7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 25
+    },
+    {
+      "game_id": "K2z5dMlO",
+      "moves": [
+        "g1f3",
+        "b7b6",
+        "g2g3",
+        "c8b7",
+        "f1g2",
+        "g7g6",
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "f8g7",
+        "e1g1",
+        "e8g8"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 18
+    },
+    {
+      "game_id": "1c6BKTen",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "c2c3",
+        "e7e6",
+        "g1f3",
+        "g8f6",
+        "e4e5",
+        "f6d5",
+        "d2d4",
+        "b8c6",
+        "c3c4",
+        "d5b6",
+        "d4d5",
+        "c6d4",
+        "f3d4",
+        "c5d4"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -20
+    },
+    {
+      "game_id": "wt6gOIDB",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "c2c3",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -89
+    },
+    {
+      "game_id": "jifoz6VJ",
+      "moves": [
+        "e2e4",
+        "d7d6",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "c7c5",
+        "d2d3",
+        "b8c6",
+        "c1e3",
+        "g7g6",
+        "g1f3",
+        "f8g7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 85
+    },
+    {
+      "game_id": "LewuLG7Z",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "d2d4",
+        "e5d4",
+        "f3d4",
+        "f8b4",
+        "d4c6",
+        "b7c6",
+        "f1d3",
+        "d7d5",
+        "e4d5",
+        "c6d5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 0
+    },
+    {
+      "game_id": "cUc9xasu",
+      "moves": [
+        "b2b4",
+        "e7e6",
+        "c1b2",
+        "g8f6",
+        "a2a3",
+        "a7a5",
+        "b4b5",
+        "b7b6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -39
+    },
+    {
+      "game_id": "eRvbP20q",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b1c3",
+        "d7d5",
+        "c4d5",
+        "f6d5",
+        "e2e4",
+        "d5c3",
+        "b2c3",
+        "f8g7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 42
+    },
+    {
+      "game_id": "pJP6cpnx",
+      "moves": [
+        "g1f3",
+        "b7b5",
+        "g2g3",
+        "c8b7",
+        "f1g2",
+        "g8f6",
+        "e1g1",
+        "g7g6",
+        "d2d3",
+        "d7d6",
+        "a2a4",
+        "b5b4",
+        "e2e4",
+        "e7e5",
+        "b1d2",
+        "b8d7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 130
+    },
+    {
+      "game_id": "JxcOj0fS",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "c2c4",
+        "d7d5",
+        "c4d5",
+        "c6d5",
+        "e4d5",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 27
+    },
+    {
+      "game_id": "jlyImQRq",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "g8f6",
+        "c4d5",
+        "f6d5",
+        "e2e4",
+        "d5f6",
+        "b1c3",
+        "e7e6",
+        "g1f3",
+        "b8c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 83
+    },
+    {
+      "game_id": "g8trFEfr",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "e6d5",
+        "g1f3",
+        "g8f6",
+        "f1d3",
+        "c7c5",
+        "e1g1",
+        "c5c4",
+        "f1e1",
+        "f8e7",
+        "d3f1",
+        "e8g8"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 0
+    },
+    {
+      "game_id": "Wub6BTj0",
+      "moves": [
+        "d2d4",
+        "d7d6",
+        "e2e4",
+        "g8f6",
+        "b1d2",
+        "e7e5",
+        "c2c3",
+        "f8e7"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -36
+    },
+    {
+      "game_id": "MEy2rvSb",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8b4",
+        "e2e3",
+        "e8g8",
+        "f1d3",
+        "c7c5",
+        "g1f3",
+        "b8c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -27
+    },
+    {
+      "game_id": "laKx6sh2",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "g1f3",
+        "e7e6",
+        "c1g5",
+        "h7h6",
+        "g5h4",
+        "c7c5",
+        "e2e3",
+        "c5d4",
+        "e3d4",
+        "b7b6",
+        "b1d2",
+        "c8b7",
+        "c2c3",
+        "f8e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 37
+    },
+    {
+      "game_id": "SNqon9oB",
+      "moves": [
+        "c2c4",
+        "g8f6",
+        "g2g3",
+        "g7g6",
+        "f1g2",
+        "f8g7",
+        "b1c3",
+        "e8g8"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -114
+    }
+  ]
+}

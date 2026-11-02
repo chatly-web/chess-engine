@@ -1,0 +1,91 @@
+{
+  "deadline_utc": "2026-11-02T22:45:52+00:00",
+  "timebox_from_user": "1\u20131.5 hours; maximum90 minutes from reply",
+  "reference": "clash-pgo",
+  "reference_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "candidates": {
+    "memory": {
+      "hash_bits": 20,
+      "counter": 0
+    },
+    "counter": {
+      "hash_bits": 20,
+      "counter": 1
+    }
+  },
+  "always_on": "Only the verified immediate-material-draw protection; broad endgame pruning change is disabled",
+  "counter_method": "Own quiet beta-cutoff refutation keyed by side and previous move from/to; rank below killers; protect killers/counter from one-ply late-move reduction; null moves use no counter context",
+  "sources": [
+    "https://journals.sagepub.com/doi/10.3233/ICG-1992-15103"
+  ],
+  "unchanged": "Evaluation weights, clock allocator, TT history safety/repetition/mate rules, normal pruning apart from specified late-move protection",
+  "screen": {
+    "pairs_each": 16,
+    "games_total": 64,
+    "starts": [
+      0,
+      16
+    ],
+    "seconds": 0.12,
+    "workers_each": 1,
+    "selection": "Highest completed game-point score; ties memory-only; zero technical failures"
+  },
+  "confirmation": {
+    "pairs": 128,
+    "games": 256,
+    "starts": [
+      16,
+      144
+    ],
+    "seconds": 0.14,
+    "workers": 2,
+    "fixed_binary": true,
+    "interval": "97.5percent paired normal interval; conservative allowance for two algorithmic confirmation looks in this session"
+  },
+  "external": {
+    "pairs_per_opponent": 8,
+    "games_total": 96,
+    "starts": [
+      144,
+      168
+    ],
+    "seconds": 0.14,
+    "workers": 2,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5",
+      "Stockfish19-full"
+    ]
+  },
+  "full_clock_selected": {
+    "games": 4,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-full"
+    ],
+    "controls": [
+      [
+        180,
+        2
+      ],
+      [
+        600,
+        5
+      ]
+    ],
+    "no_movetime_override": true,
+    "clock_workers": 2
+  },
+  "gate": [
+    "All finite rules, protocol, shortest-mates, draw and sanitizer checks pass",
+    "All confirmation/external games finish without technical failures",
+    "Corrected direct lower bound >0.5",
+    "External points no lower than reference",
+    "All four actual-clock games finish with no own failure"
+  ],
+  "deadline_policy": "Stop owned offline tests at deadline if necessary; preserve every completed and unfinished record; incomplete collections cannot pass promotion",
+  "no_foreign_code_weights_analysis_or_move_targets": true,
+  "no_runtime_book_or_tablebase": true,
+  "live_bot_unchanged": true,
+  "git_only_publication": true
+}

@@ -1,0 +1,20 @@
+--- history_order/engine.cpp
++++ endgame_safe/engine.cpp
+@@ -1,3 +1,6 @@
++#ifndef CLASH_ENDGAME_Q
++#define CLASH_ENDGAME_Q 0
++#endif
+ #ifndef CLASH_HISTORY
+ #define CLASH_HISTORY 0
+ #endif
+@@ -338,7 +341,9 @@
+   if(q&&!check){int stand=haveStand?cachedStand:evaluate(b);staticValue=stand;if(stand>=beta)return stand;alpha=max(alpha,stand);if(qdepth>=16)return alpha;moves.erase(remove_if(moves.begin(),moves.end(),[&](Move m){return !b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);}),moves.end());}
+   if(!q&&depth>=3&&ply&&!check&&allowNull&&beta-alpha==1){bool pieces=false;for(int p:b.b)if(sign(p)==b.side&&abs(p)>1&&abs(p)<6)pieces=true;if(pieces){Board n=b;n.side=-n.side;n.ep=-1;path.push_back(n.hash());int v;try{v=-search(n,depth-3,-beta,-beta+1,ply+1,0,false,false);}catch(...){path.pop_back();throw;}path.pop_back();if(v>=beta&&abs(v)<28000){quietSpan[ply]=120;return v;}}}
+   auto&scored=buf.scored;scored.clear();scored.reserve(moves.size());for(auto move:moves)scored.push_back({ordering(b,move,preferred,ply),int(scored.size()),move});sort(scored.begin(),scored.end(),[](const auto&a,const auto&z){return a.score>z.score||(a.score==z.score&&a.ordinal<z.ordinal);});for(size_t i=0;i<moves.size();i++)moves[i]=scored[i].move;int best=-32000;Move bm;
+-  for(int i=0;i<int(moves.size());i++){Move m=moves[i];Board n=b.moved(m);bool quiet=!b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);if((CLASH_SEARCH_V3&2)&&q&&!check&&!m.promo&&!n.check(n.side)&&b.half<80){
++  for(int i=0;i<int(moves.size());i++){Move m=moves[i];Board n=b.moved(m);bool quiet=!b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);bool protectsDraw=CLASH_ENDGAME_Q&&q&&!check&&!m.promo&&!(n.pawnBits[0]|n.pawnBits[1])&&n.insufficient();
++   bool pruningEndgame=CLASH_ENDGAME_Q>=2&&b.rawPhase<=6;
++   if((CLASH_SEARCH_V3&2)&&q&&!check&&!m.promo&&!n.check(n.side)&&b.half<80&&!protectsDraw&&!pruningEndgame){
+     int victim=abs(b.b[m.to]);if(!victim&&abs(b.b[m.from])==1&&m.to==b.ep)victim=1;
+     // Conservative delta bound, and exchange ordering reused for non-checking captures.
+     if(staticValue+PIECE_VALUES_MG[victim]+220<alpha)continue;

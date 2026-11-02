@@ -1,0 +1,11 @@
+{
+  "units": 192,
+  "mean": 0.5416666666666666,
+  "two_sided_confidence": 0.975,
+  "interval": [
+    0.49684187198109947,
+    0.5864914613522338
+  ],
+  "screen_excluded": true,
+  "no_repeated_confirmation_or_candidate_tuning": true
+}

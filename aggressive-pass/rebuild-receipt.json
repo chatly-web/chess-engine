@@ -1,0 +1,8 @@
+{
+  "public_rebuild_helper_passed": true,
+  "fixed_depth_searches_identical": 32,
+  "selected_sha256": "f9a1c66a423e2296bfff8fb28982fcdb243e50aa2ee122146e61e6de8b6a35a9",
+  "rebuilt_sha256": "6ec31407c1a8f272dfa2d5d60a0e09e53293b2b301bff8c3c0777bf34e3b9b65",
+  "byte_identical": false,
+  "note": "Own-search compiler profiles regenerated using the published helper, original variant source and explicit feature macro; fixed-depth behavior compared, not a strength selection or new tuning."
+}

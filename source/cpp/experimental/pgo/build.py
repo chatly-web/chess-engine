@@ -21,18 +21,30 @@ def main():
     parser.add_argument('--work-dir', type=Path, required=True)
     parser.add_argument('--compiler', default='clang++')
     parser.add_argument('--profdata', default=None)
+    parser.add_argument('--source', type=Path, default=None,
+                        help='Optional original C++ variant, checked against plan source SHA256')
+    parser.add_argument('--define', action='append', default=[],
+                        help='Additional documented feature macro, e.g. CLASH_ENDGAME_Q=1')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[4]
     plan = json.loads(args.plan.read_text())
-    source = root/'source/cpp/experimental/history_order/build-history/engine.cpp'
+    source = args.source.resolve() if args.source else root/'source/cpp/experimental/history_order/build-history/engine.cpp'
     digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
     assert digest(source) == plan['source_sha256'], 'Source differs from profiled plan'
+    if plan.get('header_sha256'):
+        assert digest(source.with_name('tables.h')) == plan['header_sha256'], 'Evaluation header differs from profiled plan'
+    declared = plan.get('feature_defines')
+    if declared is None and plan.get('feature_define'):
+        declared = [plan['feature_define']]
+    if declared is not None:
+        assert sorted(args.define) == sorted(declared), 'Feature macros must match the profiled plan exactly'
     assert not args.output.exists(), 'Choose a new output; existing engines are never overwritten'
     args.work_dir.mkdir(parents=True, exist_ok=False)
     work = args.work_dir.resolve()
     flags = ['-std=c++17', '-O3', '-DNDEBUG', '-pthread', '-DCLASH_SEARCH_V2=2',
              '-DCLASH_TACTICAL_GEN=1', '-DCLASH_SEARCH_V3=3', '-DCLASH_EVAL_STYLE=3',
              '-DCLASH_EVAL_FAST=1', '-DCLASH_ACTIVITY=1', '-DCLASH_HISTORY=1', '-DCLASH_CAPTURE_LAST=0']
+    flags += ['-D' + define for define in args.define]
     instrumented = work/'instrumented'
     subprocess.run([args.compiler, *flags, '-fprofile-instr-generate', str(source), '-o', str(instrumented)], check=True)
     env = dict(os.environ, LLVM_PROFILE_FILE=str(work/'training-%p.profraw'))

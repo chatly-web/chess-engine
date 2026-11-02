@@ -1,0 +1,920 @@
+{
+  "binary_sha256": {
+    "candidate": "f57a683ffd31cdeaba1945204df83f6aa69eb9d5af3f4ff22caf1b3aa3536fde",
+    "baseline": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350"
+  },
+  "requested_seconds": 0.12,
+  "workers": 1,
+  "games": 32,
+  "finished": 32,
+  "wins": 7,
+  "draws": 15,
+  "losses": 10,
+  "failures": 0,
+  "paired_units": 16,
+  "paired_mean_point_score": 0.453125,
+  "approximate_95_interval": [
+    0.32488947856255534,
+    0.5813605214374447
+  ],
+  "matches": [
+    {
+      "unit": 3,
+      "candidate_white": true,
+      "human_game_id": "HHWyhtc9",
+      "initial_plies": 8,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 160,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.89330195801449,
+      "own_depths": {
+        "candidate": {
+          "moves": 73,
+          "median": 8,
+          "sum": 589
+        },
+        "baseline": {
+          "moves": 76,
+          "median": 8.0,
+          "sum": 587
+        }
+      },
+      "own_nodes": {
+        "candidate": 3246144,
+        "baseline": 3384508
+      }
+    },
+    {
+      "unit": 3,
+      "candidate_white": false,
+      "human_game_id": "HHWyhtc9",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 119,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.838740500010317,
+      "own_depths": {
+        "candidate": {
+          "moves": 55,
+          "median": 7,
+          "sum": 395
+        },
+        "baseline": {
+          "moves": 56,
+          "median": 7.0,
+          "sum": 410
+        }
+      },
+      "own_nodes": {
+        "candidate": 2083204,
+        "baseline": 2265910
+      }
+    },
+    {
+      "unit": 0,
+      "candidate_white": false,
+      "human_game_id": "Uzl3IZSb",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.738832500006538,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 8.0,
+          "sum": 411
+        },
+        "baseline": {
+          "moves": 50,
+          "median": 8.0,
+          "sum": 411
+        }
+      },
+      "own_nodes": {
+        "candidate": 2395235,
+        "baseline": 2283465
+      }
+    },
+    {
+      "unit": 0,
+      "candidate_white": true,
+      "human_game_id": "Uzl3IZSb",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 97,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.48081199999433,
+      "own_depths": {
+        "candidate": {
+          "moves": 45,
+          "median": 8,
+          "sum": 358
+        },
+        "baseline": {
+          "moves": 42,
+          "median": 8.0,
+          "sum": 337
+        }
+      },
+      "own_nodes": {
+        "candidate": 1984282,
+        "baseline": 1825565
+      }
+    },
+    {
+      "unit": 15,
+      "candidate_white": true,
+      "human_game_id": "YLUiRiAD",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 142,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.042462874989724,
+      "own_depths": {
+        "candidate": {
+          "moves": 67,
+          "median": 8,
+          "sum": 545
+        },
+        "baseline": {
+          "moves": 67,
+          "median": 8,
+          "sum": 548
+        }
+      },
+      "own_nodes": {
+        "candidate": 2989427,
+        "baseline": 2985388
+      }
+    },
+    {
+      "unit": 15,
+      "candidate_white": false,
+      "human_game_id": "YLUiRiAD",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 245,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.03210404101992,
+      "own_depths": {
+        "candidate": {
+          "moves": 118,
+          "median": 7.0,
+          "sum": 869
+        },
+        "baseline": {
+          "moves": 118,
+          "median": 7.0,
+          "sum": 881
+        }
+      },
+      "own_nodes": {
+        "candidate": 5315129,
+        "baseline": 5312138
+      }
+    },
+    {
+      "unit": 13,
+      "candidate_white": true,
+      "human_game_id": "nb8JA6c1",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 119,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.428560041997116,
+      "own_depths": {
+        "candidate": {
+          "moves": 54,
+          "median": 7.0,
+          "sum": 357
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 7,
+          "sum": 349
+        }
+      },
+      "own_nodes": {
+        "candidate": 1966326,
+        "baseline": 2041561
+      }
+    },
+    {
+      "unit": 13,
+      "candidate_white": false,
+      "human_game_id": "nb8JA6c1",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 118,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.554731874988647,
+      "own_depths": {
+        "candidate": {
+          "moves": 53,
+          "median": 8,
+          "sum": 424
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 8,
+          "sum": 406
+        }
+      },
+      "own_nodes": {
+        "candidate": 2145158,
+        "baseline": 2113613
+      }
+    },
+    {
+      "unit": 4,
+      "candidate_white": false,
+      "human_game_id": "80FFxKDY",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 156,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.02088420902146,
+      "own_depths": {
+        "candidate": {
+          "moves": 72,
+          "median": 7.0,
+          "sum": 544
+        },
+        "baseline": {
+          "moves": 72,
+          "median": 7.0,
+          "sum": 537
+        }
+      },
+      "own_nodes": {
+        "candidate": 3477508,
+        "baseline": 3341966
+      }
+    },
+    {
+      "unit": 4,
+      "candidate_white": true,
+      "human_game_id": "80FFxKDY",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.251350540987914,
+      "own_depths": {
+        "candidate": {
+          "moves": 48,
+          "median": 8.0,
+          "sum": 367
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 8,
+          "sum": 357
+        }
+      },
+      "own_nodes": {
+        "candidate": 2099331,
+        "baseline": 1908039
+      }
+    },
+    {
+      "unit": 12,
+      "candidate_white": false,
+      "human_game_id": "PHzgET8f",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.107286708982429,
+      "own_depths": {
+        "candidate": {
+          "moves": 44,
+          "median": 7.0,
+          "sum": 291
+        },
+        "baseline": {
+          "moves": 48,
+          "median": 7.0,
+          "sum": 313
+        }
+      },
+      "own_nodes": {
+        "candidate": 1271747,
+        "baseline": 1626929
+      }
+    },
+    {
+      "unit": 12,
+      "candidate_white": true,
+      "human_game_id": "PHzgET8f",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 81,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.013073875015834,
+      "own_depths": {
+        "candidate": {
+          "moves": 36,
+          "median": 7.0,
+          "sum": 253
+        },
+        "baseline": {
+          "moves": 36,
+          "median": 7.0,
+          "sum": 252
+        }
+      },
+      "own_nodes": {
+        "candidate": 990403,
+        "baseline": 1000907
+      }
+    },
+    {
+      "unit": 5,
+      "candidate_white": false,
+      "human_game_id": "HcgPIxJA",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 88,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.264032125007361,
+      "own_depths": {
+        "candidate": {
+          "moves": 36,
+          "median": 7.0,
+          "sum": 217
+        },
+        "baseline": {
+          "moves": 35,
+          "median": 6,
+          "sum": 219
+        }
+      },
+      "own_nodes": {
+        "candidate": 996443,
+        "baseline": 955832
+      }
+    },
+    {
+      "unit": 5,
+      "candidate_white": true,
+      "human_game_id": "HcgPIxJA",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 110,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.402463208010886,
+      "own_depths": {
+        "candidate": {
+          "moves": 45,
+          "median": 7,
+          "sum": 291
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 7,
+          "sum": 299
+        }
+      },
+      "own_nodes": {
+        "candidate": 1510917,
+        "baseline": 1551735
+      }
+    },
+    {
+      "unit": 9,
+      "candidate_white": false,
+      "human_game_id": "HgM1RSql",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 114,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.320868833019631,
+      "own_depths": {
+        "candidate": {
+          "moves": 53,
+          "median": 7,
+          "sum": 394
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 6,
+          "sum": 378
+        }
+      },
+      "own_nodes": {
+        "candidate": 2177404,
+        "baseline": 1923226
+      }
+    },
+    {
+      "unit": 9,
+      "candidate_white": true,
+      "human_game_id": "HgM1RSql",
+      "initial_plies": 8,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 71,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.138481875008438,
+      "own_depths": {
+        "candidate": {
+          "moves": 32,
+          "median": 6.5,
+          "sum": 211
+        },
+        "baseline": {
+          "moves": 31,
+          "median": 7,
+          "sum": 205
+        }
+      },
+      "own_nodes": {
+        "candidate": 1101618,
+        "baseline": 1033584
+      }
+    },
+    {
+      "unit": 8,
+      "candidate_white": false,
+      "human_game_id": "DrurS9Mc",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 46,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 2.9375322080159094,
+      "own_depths": {
+        "candidate": {
+          "moves": 15,
+          "median": 7,
+          "sum": 99
+        },
+        "baseline": {
+          "moves": 15,
+          "median": 6,
+          "sum": 95
+        }
+      },
+      "own_nodes": {
+        "candidate": 420864,
+        "baseline": 371836
+      }
+    },
+    {
+      "unit": 8,
+      "candidate_white": true,
+      "human_game_id": "DrurS9Mc",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 48,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 3.133421749982517,
+      "own_depths": {
+        "candidate": {
+          "moves": 16,
+          "median": 6.0,
+          "sum": 102
+        },
+        "baseline": {
+          "moves": 16,
+          "median": 6.5,
+          "sum": 104
+        }
+      },
+      "own_nodes": {
+        "candidate": 458622,
+        "baseline": 374599
+      }
+    },
+    {
+      "unit": 2,
+      "candidate_white": false,
+      "human_game_id": "fwrcLDd3",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 163,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.39121779098059,
+      "own_depths": {
+        "candidate": {
+          "moves": 70,
+          "median": 9.0,
+          "sum": 595
+        },
+        "baseline": {
+          "moves": 74,
+          "median": 9.0,
+          "sum": 595
+        }
+      },
+      "own_nodes": {
+        "candidate": 3542954,
+        "baseline": 3172602
+      }
+    },
+    {
+      "unit": 2,
+      "candidate_white": true,
+      "human_game_id": "fwrcLDd3",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 152,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.551376416988205,
+      "own_depths": {
+        "candidate": {
+          "moves": 67,
+          "median": 8,
+          "sum": 557
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 9.0,
+          "sum": 578
+        }
+      },
+      "own_nodes": {
+        "candidate": 2913550,
+        "baseline": 3206968
+      }
+    },
+    {
+      "unit": 10,
+      "candidate_white": false,
+      "human_game_id": "P2gLs0IK",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 138,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.315062375011621,
+      "own_depths": {
+        "candidate": {
+          "moves": 63,
+          "median": 7,
+          "sum": 448
+        },
+        "baseline": {
+          "moves": 60,
+          "median": 7.0,
+          "sum": 444
+        }
+      },
+      "own_nodes": {
+        "candidate": 2600056,
+        "baseline": 2416730
+      }
+    },
+    {
+      "unit": 10,
+      "candidate_white": true,
+      "human_game_id": "P2gLs0IK",
+      "initial_plies": 12,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 149,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.34270700000343,
+      "own_depths": {
+        "candidate": {
+          "moves": 69,
+          "median": 8,
+          "sum": 547
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 8.5,
+          "sum": 544
+        }
+      },
+      "own_nodes": {
+        "candidate": 2900254,
+        "baseline": 3129639
+      }
+    },
+    {
+      "unit": 1,
+      "candidate_white": true,
+      "human_game_id": "FzRRfQXp",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 118,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.48320466701989,
+      "own_depths": {
+        "candidate": {
+          "moves": 52,
+          "median": 6.0,
+          "sum": 322
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 7,
+          "sum": 339
+        }
+      },
+      "own_nodes": {
+        "candidate": 1537120,
+        "baseline": 1584895
+      }
+    },
+    {
+      "unit": 1,
+      "candidate_white": false,
+      "human_game_id": "FzRRfQXp",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 112,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.946686042007059,
+      "own_depths": {
+        "candidate": {
+          "moves": 50,
+          "median": 7.0,
+          "sum": 325
+        },
+        "baseline": {
+          "moves": 47,
+          "median": 7,
+          "sum": 310
+        }
+      },
+      "own_nodes": {
+        "candidate": 2023043,
+        "baseline": 1583586
+      }
+    },
+    {
+      "unit": 6,
+      "candidate_white": false,
+      "human_game_id": "iJTlJrSI",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 93,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.41597566701239,
+      "own_depths": {
+        "candidate": {
+          "moves": 38,
+          "median": 6.0,
+          "sum": 223
+        },
+        "baseline": {
+          "moves": 42,
+          "median": 6.0,
+          "sum": 248
+        }
+      },
+      "own_nodes": {
+        "candidate": 1084278,
+        "baseline": 1044331
+      }
+    },
+    {
+      "unit": 6,
+      "candidate_white": true,
+      "human_game_id": "iJTlJrSI",
+      "initial_plies": 8,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 143,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.287603083008435,
+      "own_depths": {
+        "candidate": {
+          "moves": 68,
+          "median": 7.0,
+          "sum": 510
+        },
+        "baseline": {
+          "moves": 66,
+          "median": 7.0,
+          "sum": 502
+        }
+      },
+      "own_nodes": {
+        "candidate": 2624710,
+        "baseline": 2737068
+      }
+    },
+    {
+      "unit": 14,
+      "candidate_white": false,
+      "human_game_id": "0fnkh5Wg",
+      "initial_plies": 16,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 152,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.398554499988677,
+      "own_depths": {
+        "candidate": {
+          "moves": 68,
+          "median": 8.0,
+          "sum": 502
+        },
+        "baseline": {
+          "moves": 68,
+          "median": 8.0,
+          "sum": 503
+        }
+      },
+      "own_nodes": {
+        "candidate": 2609373,
+        "baseline": 3251473
+      }
+    },
+    {
+      "unit": 14,
+      "candidate_white": true,
+      "human_game_id": "0fnkh5Wg",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 125,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.936016708990792,
+      "own_depths": {
+        "candidate": {
+          "moves": 55,
+          "median": 10,
+          "sum": 548
+        },
+        "baseline": {
+          "moves": 53,
+          "median": 10,
+          "sum": 548
+        }
+      },
+      "own_nodes": {
+        "candidate": 2803891,
+        "baseline": 2899135
+      }
+    },
+    {
+      "unit": 11,
+      "candidate_white": false,
+      "human_game_id": "N85vIa45",
+      "initial_plies": 16,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 107,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.298193500027992,
+      "own_depths": {
+        "candidate": {
+          "moves": 43,
+          "median": 8,
+          "sum": 346
+        },
+        "baseline": {
+          "moves": 46,
+          "median": 8.0,
+          "sum": 364
+        }
+      },
+      "own_nodes": {
+        "candidate": 2041254,
+        "baseline": 2127029
+      }
+    },
+    {
+      "unit": 11,
+      "candidate_white": true,
+      "human_game_id": "N85vIa45",
+      "initial_plies": 16,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 94,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.59335408397601,
+      "own_depths": {
+        "candidate": {
+          "moves": 39,
+          "median": 8,
+          "sum": 301
+        },
+        "baseline": {
+          "moves": 39,
+          "median": 8,
+          "sum": 311
+        }
+      },
+      "own_nodes": {
+        "candidate": 1694741,
+        "baseline": 1969455
+      }
+    },
+    {
+      "unit": 7,
+      "candidate_white": false,
+      "human_game_id": "xYIXAthZ",
+      "initial_plies": 12,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 109,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.85925475001568,
+      "own_depths": {
+        "candidate": {
+          "moves": 48,
+          "median": 7.0,
+          "sum": 347
+        },
+        "baseline": {
+          "moves": 49,
+          "median": 8,
+          "sum": 352
+        }
+      },
+      "own_nodes": {
+        "candidate": 2048434,
+        "baseline": 2080448
+      }
+    },
+    {
+      "unit": 7,
+      "candidate_white": true,
+      "human_game_id": "xYIXAthZ",
+      "initial_plies": 12,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 142,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.2391599160037,
+      "own_depths": {
+        "candidate": {
+          "moves": 65,
+          "median": 7,
+          "sum": 443
+        },
+        "baseline": {
+          "moves": 65,
+          "median": 7,
+          "sum": 444
+        }
+      },
+      "own_nodes": {
+        "candidate": 2190628,
+        "baseline": 2267273
+      }
+    }
+  ],
+  "seconds": 322.7752616670041,
+  "note": "Own C++ frozen-game comparison. Fresh human-game prefixes exclude fitting and all prior pass prefixes. Both colours; finite concurrent fixed-move games, not Elo, Lichess accuracy or actual-clock evidence."
+}

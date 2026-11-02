@@ -1,0 +1,9 @@
+{
+  "public_rebuild_helper_passed": true,
+  "fixed_depth_searches_identical": 32,
+  "tested_sha256": "d74294ceefaf202a76edac0f9a80b057eb99e461de75b4f0f4be7d590fc5cab1",
+  "rebuilt_sha256": "c19ba84272c37193066579e09e1e34683739420b67d96f4b0f58124b18b9617b",
+  "byte_identical": false,
+  "header_and_macros_checked_before_compile": true,
+  "note": "The published helper regenerated an own-search compiler profile and rebuilt the exact selected source/header/macros. Comparison is fixed-depth behavior, not another strength selection."
+}

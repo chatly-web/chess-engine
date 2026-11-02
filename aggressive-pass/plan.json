@@ -1,0 +1,82 @@
+{
+  "hypothesis": "Own rules oracle proves current quiescence SEE pruning skips an immediate insufficient-material draw",
+  "baseline_qscore": -197,
+  "baseline_see": -230,
+  "reproducer_fen": "6k1/8/7b/8/5p2/8/8/2B3K1 w - - 0 1",
+  "draw_capture": "c1f4",
+  "candidates": {
+    "draw-safe": 1,
+    "endgame-safe": 2
+  },
+  "mode1": "Do not apply delta/SEE pruning to a capture whose child is immediately insufficient material",
+  "mode2": "Also disable delta/SEE pruning with raw material phase <=6",
+  "unchanged": "Own evaluation, search history, time allocator; original C++ source elsewhere; both candidates receive own-search PGO",
+  "screen": {
+    "pairs_each": 16,
+    "games_total": 64,
+    "starts": [
+      0,
+      16
+    ],
+    "seconds_per_move": 0.12,
+    "workers": 2,
+    "select": "Highest complete game-point score, ties draw-safe; no technical failures"
+  },
+  "direct_confirmation": {
+    "pairs": 48,
+    "games": 96,
+    "starts": [
+      16,
+      64
+    ],
+    "seconds_per_move": 0.16,
+    "workers": 2
+  },
+  "external_confirmation": {
+    "pairs_each_opponent": 8,
+    "games_total": 96,
+    "starts": [
+      64,
+      88
+    ],
+    "seconds_per_move": 0.16,
+    "workers": 2,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5",
+      "Stockfish19-full"
+    ],
+    "reference": "clash-pgo"
+  },
+  "full_clock_reference_and_selected": {
+    "games_each": 4,
+    "controls": [
+      [
+        180,
+        2
+      ],
+      [
+        600,
+        5
+      ]
+    ],
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-full"
+    ],
+    "no_movetime_override": true
+  },
+  "selection_freezes_before_confirmation": true,
+  "promotion_gate": [
+    "Rules/protocol/mate/oracle checks pass",
+    "No own technical failures or unfinished short games",
+    "Direct paired lower 95 bound above 0.5",
+    "External aggregate points no fewer than PGO reference",
+    "All selected full-clock games finish without own technical failure"
+  ],
+  "failure_policy": "Keep fix as documented experimental candidate if superiority gate fails; retain losses and unfinished games; no repeated tuning or extra testing until favourable",
+  "all_96_game_ids_disjoint_from_fitting_and_prior_prefixes": true,
+  "no_foreign_engine_code_weights_or_analysis_used": true,
+  "no_runtime_books_or_tablebases": true,
+  "live_bot_unchanged": true
+}

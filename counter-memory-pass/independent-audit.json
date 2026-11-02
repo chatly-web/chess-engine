@@ -1,0 +1,108 @@
+{
+  "short": {
+    "screen-memory": {
+      "games": 32,
+      "completed": 32,
+      "failures": 0,
+      "legal_pgn_replays": true
+    },
+    "screen-counter": {
+      "games": 32,
+      "completed": 32,
+      "failures": 0,
+      "legal_pgn_replays": true
+    },
+    "confirmation": {
+      "games": 384,
+      "completed": 384,
+      "failures": 0,
+      "legal_pgn_replays": true
+    },
+    "external": {
+      "games": 96,
+      "completed": 96,
+      "failures": 0,
+      "legal_pgn_replays": true
+    }
+  },
+  "full_clocks": {
+    "selected": [
+      {
+        "game": "counter-memory-pass/selected-gnu-180-2-white",
+        "plies": 102,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 102
+      },
+      {
+        "game": "counter-memory-pass/selected-stockfish-full-180-2-black",
+        "plies": 111,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 111
+      },
+      {
+        "game": "counter-memory-pass/selected-gnu-600-5-black",
+        "plies": 105,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 105
+      },
+      {
+        "game": "counter-memory-pass/selected-stockfish-full-600-5-white",
+        "plies": 102,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 102
+      }
+    ],
+    "narrow": [
+      {
+        "game": "counter-memory-pass/narrow-gnu-180-2-white",
+        "plies": 104,
+        "result": "0-1",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 104
+      },
+      {
+        "game": "counter-memory-pass/narrow-gnu-600-5-black",
+        "plies": 115,
+        "result": "1-0",
+        "failure": null,
+        "failure_side": null,
+        "clock_updates_verified": 115
+      }
+    ]
+  },
+  "all_legal_replays": true,
+  "corrected_interval_recomputed": true,
+  "memory-protocol.json": {
+    "clock_samples": 30,
+    "measured_over_clock": 0,
+    "over_clock_ms": []
+  },
+  "sanitizer-protocol.json": {
+    "clock_samples": 30,
+    "measured_over_clock": 11,
+    "over_clock_ms": [
+      5,
+      5,
+      10,
+      10,
+      10,
+      5,
+      5,
+      5,
+      10,
+      10,
+      10
+    ]
+  },
+  "own_engine_error_logs": [],
+  "passed": true
+}

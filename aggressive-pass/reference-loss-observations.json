@@ -1,0 +1,21 @@
+{
+  "scope": "Rules-only observations of finished benchmark games; not opponent evaluation or fitting data",
+  "games": [
+    {
+      "game": "reference-gnu-180-2-white.pgn",
+      "result": "0-1",
+      "plies": 136,
+      "minimum_own_root_material_phase": 4,
+      "immediate_draw_capture_opportunities_at_own_roots": 0,
+      "ended_in_checkmate": true
+    },
+    {
+      "game": "reference-stockfish-full-180-2-black.pgn",
+      "result": "1-0",
+      "plies": 65,
+      "minimum_own_root_material_phase": 5,
+      "immediate_draw_capture_opportunities_at_own_roots": 0,
+      "ended_in_checkmate": true
+    }
+  ]
+}
