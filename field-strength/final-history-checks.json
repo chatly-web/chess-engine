@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "engines": [
+    {
+      "engine": "blendclock-fast",
+      "sha256": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    }
+  ],
+  "note": "Targeted finite regressions, not a proof of all path-dependent transposition cases."
+}

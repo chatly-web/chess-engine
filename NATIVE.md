@@ -1,18 +1,18 @@
 # Native C++ engine
 
-The current promoted release and its full-clock results are documented in [STRONG-SEARCH.md](STRONG-SEARCH.md); [LONG-PASS.md](LONG-PASS.md) documents the preceding release. Sections below also preserve earlier release measurements, identified by version and report.
+The current selected release, external-field validation, full-clock results and source hashes are documented in [FIELD-STRENGTH.md](FIELD-STRENGTH.md). The following port/performance sections preserve historical measurements and are not current-release accuracy or strength estimates.
 
 The recommended UCI launch is `./engine/clash-native` on the tested Apple Silicon macOS machine. The previous Python engine remains available as `python engine/main.py`. Both are original AI-assisted implementations; organiser acceptance of AI assistance still needs confirmation.
 
 Build on the hosting machine with `./build-native.sh` (C++17 compiler and threads required). A ready-to-run Apple Silicon executable and the complete source are included. A macOS executable does not run on Linux or Windows: rebuild there before the event. No chess engine library or external engine source is linked. Runtime Python is not required by the native executable.
 
-## What changed
+## Initial native port
 
 C++ now handles board state, legal move generation, checks, castling, en passant, all promotions, draw state, evaluation and search. Search uses iterative deepening, alpha-beta/PVS, capture/killer/history ordering, transposition storage, guarded null-move pruning, late-move reductions and quiescence. The search is independently implemented and is not a node-for-node replica of the Python search. Increasing search depth remains subject to the supplied clock; it never forces a fixed depth at the expense of the clock.
 
-The native evaluation reproduces the Python default evaluation on 2,000 deterministic positions. `source/cpp/tables.h` contains this project's own material and piece-square tables. Regenerate it using `python source/cpp/generate_tables.py`, then rebuild. An optional `--weights PATH` supports validated table overrides at build time. Scalar overrides are supported at build time; see TRAINING-CYCLE.md and build-trained.sh. Runtime `CLASH_WEIGHTS` applies to Python only; native weights are compiled into the executable. Do not assume the native engine consumes that environment variable.
+The initial native port reproduced the Python default evaluation on 2,000 deterministic positions. The selected release intentionally changes original C++ safety/mobility terms; current validation checks rules, perft and native colour symmetry. `source/cpp/tables.h` contains this project's own material and piece-square tables. Regenerate it using `python source/cpp/generate_tables.py`, then rebuild. An optional `--weights PATH` supports validated table overrides at build time. Scalar overrides are supported at build time; see TRAINING-CYCLE.md and build-trained.sh. Runtime `CLASH_WEIGHTS` applies to Python only; native weights are compiled into the executable. Do not assume the native engine consumes that environment variable.
 
-## Measured validation
+## Historical native-port validation
 
 - Starting-position perft depth 4: 197281 legal leaf positions.
 - Kiwipete perft depth 3: 97862.
@@ -44,7 +44,7 @@ A separate full-strength Stockfish 19 game at a 0.25-second requested move limit
 
 ## Native v0.6 performance candidate
 
-The current build adds target-based attack detection, pawn-square lists/cached king positions within evaluation, direct king-ring enumeration, and precomputed move ordering scores. Evaluation weights and search decisions at a fixed completed depth were preserved. Across six depth-4 comparisons against commit `26817ac`, chosen moves, scores and searched node counts matched exactly; median elapsed-time speedup was 1.62x (range 1.53x–1.67x).
+The v0.6 build added target-based attack detection, pawn-square lists/cached king positions within evaluation, direct king-ring enumeration, and precomputed move ordering scores. Evaluation weights and search decisions at a fixed completed depth were preserved. Across six depth-4 comparisons against commit `26817ac`, chosen moves, scores and searched node counts matched exactly; median elapsed-time speedup was 1.62x (range 1.53x–1.67x).
 
 Twelve new colour-reversed matches against the previous C++ binary at a 0.1-second requested move limit yielded 5 wins, 3 draws and 4 losses (6.5/12). This is insufficient to establish a statistically reliable strength gain. Baseline binary hashes and a baseline rebuild script are provided; rebuilding the baseline requires a Git clone with the historical commit, not only the ZIP.
 

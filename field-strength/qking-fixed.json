@@ -1,0 +1,188 @@
+[
+  {
+    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "blendclock-fast": {
+      "move": "b1c3",
+      "depth": 6,
+      "score": 12,
+      "nodes": 11345,
+      "seconds": 0.04099829100000002
+    },
+    "qking": {
+      "move": "b1c3",
+      "depth": 6,
+      "score": 12,
+      "nodes": 11345,
+      "seconds": 0.03280204200000014
+    },
+    "passer": {
+      "move": "b1c3",
+      "depth": 6,
+      "score": 12,
+      "nodes": 11345,
+      "seconds": 0.03796645899999995
+    },
+    "passer-qking": {
+      "move": "b1c3",
+      "depth": 6,
+      "score": 12,
+      "nodes": 11345,
+      "seconds": 0.03343237500000007
+    }
+  },
+  {
+    "fen": "rnbqkbr1/pppp1ppp/4p3/8/P3PPn1/8/1PPP2PP/RNBQKBNR w KQq - 1 5",
+    "blendclock-fast": {
+      "move": "d1g4",
+      "depth": 6,
+      "score": 205,
+      "nodes": 15449,
+      "seconds": 0.05954912499999998
+    },
+    "qking": {
+      "move": "d1g4",
+      "depth": 6,
+      "score": 205,
+      "nodes": 15449,
+      "seconds": 0.04939066600000008
+    },
+    "passer": {
+      "move": "d1g4",
+      "depth": 6,
+      "score": 205,
+      "nodes": 15452,
+      "seconds": 0.05923308400000016
+    },
+    "passer-qking": {
+      "move": "d1g4",
+      "depth": 6,
+      "score": 205,
+      "nodes": 15452,
+      "seconds": 0.048986125000000325
+    }
+  },
+  {
+    "fen": "r1bqkbr1/ppp3pp/2n1pp1n/3p4/P3PP2/NQP5/1P1P2PP/1RB1KBNR w Kq - 0 9",
+    "blendclock-fast": {
+      "move": "e4d5",
+      "depth": 6,
+      "score": -94,
+      "nodes": 23063,
+      "seconds": 0.08560591700000009
+    },
+    "qking": {
+      "move": "e4d5",
+      "depth": 6,
+      "score": -94,
+      "nodes": 23063,
+      "seconds": 0.07804179099999997
+    },
+    "passer": {
+      "move": "e4d5",
+      "depth": 6,
+      "score": -94,
+      "nodes": 22775,
+      "seconds": 0.0863345419999999
+    },
+    "passer-qking": {
+      "move": "e4d5",
+      "depth": 6,
+      "score": -94,
+      "nodes": 22775,
+      "seconds": 0.07251729200000012
+    }
+  },
+  {
+    "fen": "r1b1kbr1/ppp1q1pp/5p1n/3pp3/P3PP1P/N1PB4/QP4P1/1RB1K1NR w Kq - 0 13",
+    "blendclock-fast": {
+      "move": "a2d5",
+      "depth": 6,
+      "score": 268,
+      "nodes": 56298,
+      "seconds": 0.3557581669999994
+    },
+    "qking": {
+      "move": "a2d5",
+      "depth": 6,
+      "score": 268,
+      "nodes": 56298,
+      "seconds": 0.24298691599999955
+    },
+    "passer": {
+      "move": "a2d5",
+      "depth": 6,
+      "score": 268,
+      "nodes": 55837,
+      "seconds": 0.29658254100000025
+    },
+    "passer-qking": {
+      "move": "a2d5",
+      "depth": 6,
+      "score": 268,
+      "nodes": 55837,
+      "seconds": 0.21867812500000028
+    }
+  },
+  {
+    "fen": "r3k1r1/Bpp1bbpp/5p1n/3pp3/Pq2PP1P/N1P5/1P4P1/QR2KBNR w Kq - 1 17",
+    "blendclock-fast": {
+      "move": "c3b4",
+      "depth": 6,
+      "score": 702,
+      "nodes": 28306,
+      "seconds": 0.15380337499999985
+    },
+    "qking": {
+      "move": "c3b4",
+      "depth": 6,
+      "score": 702,
+      "nodes": 28306,
+      "seconds": 0.09824262500000103
+    },
+    "passer": {
+      "move": "c3b4",
+      "depth": 6,
+      "score": 734,
+      "nodes": 18033,
+      "seconds": 0.08034304199999909
+    },
+    "passer-qking": {
+      "move": "c3b4",
+      "depth": 6,
+      "score": 734,
+      "nodes": 18033,
+      "seconds": 0.06099933299999982
+    }
+  },
+  {
+    "fen": "r3k1r1/Bpp1b1pp/4b2n/3ppp2/P3PPPP/N2q4/1P3K2/QR3BNR w q - 1 21",
+    "blendclock-fast": {
+      "move": "f1d3",
+      "depth": 6,
+      "score": 515,
+      "nodes": 27023,
+      "seconds": 0.12212233300000008
+    },
+    "qking": {
+      "move": "f1d3",
+      "depth": 6,
+      "score": 515,
+      "nodes": 27023,
+      "seconds": 0.11355187500000063
+    },
+    "passer": {
+      "move": "f1d3",
+      "depth": 6,
+      "score": 540,
+      "nodes": 26260,
+      "seconds": 0.11053295900000037
+    },
+    "passer-qking": {
+      "move": "f1d3",
+      "depth": 6,
+      "score": 540,
+      "nodes": 26260,
+      "seconds": 0.08885516700000018
+    }
+  }
+]

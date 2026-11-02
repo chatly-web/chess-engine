@@ -1,0 +1,6 @@
+{
+  "choice": "v08",
+  "binary_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "source_sha256": "5b5d9928a23ca8ec560980c90755ca3c5c1368129cca7c0c8a86761b6b53802a",
+  "gate": "field-strength/qualification.json"
+}

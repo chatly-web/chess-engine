@@ -1,0 +1,81 @@
+{
+  "phase1": {
+    "state": "not_qualified",
+    "checks": {
+      "frozen_hash": true,
+      "positive_matched_lower_bound": true,
+      "skill5_positive": true,
+      "gnu_nonnegative": false,
+      "no_recorded_game_failures": true,
+      "rules_and_symmetry": true,
+      "protocol": true,
+      "mate_subset": true,
+      "history_subset": true,
+      "exact_clock_hashes": true,
+      "completed_clock_evidence": true,
+      "no_own_clock_or_protocol_failure": true,
+      "both_competition_controls": true,
+      "sanitizer_checks": true
+    },
+    "comparison": {
+      "matched_units": 189,
+      "mean_point_score_difference": 0.047619047619047616,
+      "approximate_95_interval": [
+        0.010025979498906379,
+        0.08521211573918885
+      ],
+      "per_opponent_difference": {
+        "Stockfish19-Skill5": 0.08152173913043478,
+        "GNUChess6.3": -0.015625,
+        "Stockfish19-full": -0.005208333333333333,
+        "Stockfish19-Skill3": 0.13297872340425532
+      }
+    },
+    "candidate_completed_games": 383,
+    "candidate_unfinished_games": 1,
+    "candidate_field_failures": 0,
+    "clock_games": 6,
+    "unfinished_clock_games_excluded": 1
+  },
+  "final": {
+    "state": "qualified",
+    "checks": {
+      "frozen_hash": true,
+      "positive_matched_lower_bound": true,
+      "skill5_positive": true,
+      "gnu_nonnegative": true,
+      "no_recorded_game_failures": true,
+      "rules_and_symmetry": true,
+      "protocol": true,
+      "mate_subset": true,
+      "history_subset": true,
+      "exact_clock_hashes": true,
+      "completed_clock_evidence": true,
+      "no_own_clock_or_protocol_failure": true,
+      "both_competition_controls": true,
+      "sanitizer_checks": true
+    },
+    "comparison": {
+      "matched_units": 127,
+      "mean_point_score_difference": 0.06496062992125984,
+      "approximate_95_interval": [
+        0.013219365292068158,
+        0.11670189455045152
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.0546875,
+        "Stockfish19-Skill3": 0.0859375,
+        "Stockfish19-Skill5": 0.08870967741935484,
+        "Stockfish19-full": 0.03125
+      }
+    },
+    "candidate_completed_games": 255,
+    "candidate_unfinished_games": 1,
+    "candidate_field_failures": 0,
+    "clock_games": 4,
+    "unfinished_clock_games_excluded": 0
+  },
+  "final_minus_phase1_matched_point_score": -0.007936507936507936,
+  "recommended": "v08",
+  "note": "Predeclared finite field gate; unfinished clock games are excluded, and both controls require completed exact-binary evidence. Approximate descriptive intervals apply to sampled-opening short games, not Elo, accuracy or a first-prize guarantee. The phase1-control comparison is secondary descriptive evidence."
+}

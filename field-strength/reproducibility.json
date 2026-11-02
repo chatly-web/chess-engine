@@ -1,0 +1,19 @@
+{
+  "tested_sha256": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d",
+  "public_source_rebuilt_sha256": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d",
+  "public_source_sha256": "ba4546f4322e6abb2df023dbb56378cf07de907a818eab61acb9eb9622758642",
+  "matches": true,
+  "compiler_flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3"
+  ],
+  "note": "Same output basename preserves macOS linker ad-hoc signing identifier. Shipped experimental binary is the exact tested file.",
+  "sanitizer_binary_sha256": "4dfacc89be44551e758e8b512b3bbddd4a74ced5a3ece7fc3785701b8478bd4d",
+  "sanitizer_same_source": true
+}

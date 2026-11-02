@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-11-02T03:00:59Z",
+  "baseline_commit": "fd64fec74a4ae749811e2375025b38207080b9a1",
+  "baseline_binary_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+  "objective": "Improve performance against fixed external opponents, with independent matched validation and both competition clocks.",
+  "screens": [
+    "screen-a.json",
+    "screen-b.json",
+    "screen-c.json",
+    "forcing-screen.json"
+  ],
+  "current_release_unchanged": false,
+  "status": "v08 qualified and promoted; field and clock artifacts audited",
+  "data_policy": "No opponent evaluations/PVs, foreign engine code, pretrained networks, opening books or tablebases used by the candidate. Opponent moves and outcomes only.",
+  "caveats": [
+    "Sampled random legal openings can give either colour a large advantage; paired versions and colour reversals control comparisons. These are not standard-position tournament win rates.",
+    "Stockfish Skill 3/5 are reduced UCI settings, not Lichess levels.",
+    "The practical TT mode has repetition/clock/mate guards but is a heuristic, not a general GHI correctness proof.",
+    "Evaluation variants intentionally differ from the Python reference; rules and colour-symmetry checks are separate."
+  ],
+  "ended_utc": "2026-11-02T05:37:09.643910+00:00",
+  "elapsed_seconds": 9370.64391,
+  "selected_binary_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "recorded_field_games": 2624,
+  "completed_field_games": 2616,
+  "unfinished_field_games_excluded": 8,
+  "completed_clock_games": 14,
+  "unfinished_clock_games_excluded": 1
+}

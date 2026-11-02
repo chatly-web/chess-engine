@@ -1,0 +1,1048 @@
+{
+  "our_revision": "field-final-671eb096",
+  "opponent": {
+    "name": "GNU Chess 6.3.0",
+    "author": "GNU Chess team"
+  },
+  "skill_level": null,
+  "opponent_options": {
+    "Hash": 64,
+    "OwnBook": false
+  },
+  "our_colour": "white",
+  "base": 600.0,
+  "increment": 5.0,
+  "movetime": null,
+  "result": "0-1",
+  "failure": null,
+  "finished": true,
+  "plies": 146,
+  "seconds": 1708.073175166,
+  "moves": [
+    {
+      "ply": 1,
+      "side": "ours",
+      "move": "g1f3",
+      "seconds": 23.253961625000002,
+      "clock": 581.746038375
+    },
+    {
+      "ply": 2,
+      "side": "opponent",
+      "move": "g8f6",
+      "seconds": 15.040054875000003,
+      "clock": 589.959945125
+    },
+    {
+      "ply": 3,
+      "side": "ours",
+      "move": "b1c3",
+      "seconds": 22.643097083,
+      "clock": 564.102941292
+    },
+    {
+      "ply": 4,
+      "side": "opponent",
+      "move": "d7d5",
+      "seconds": 15.022417749999995,
+      "clock": 579.937527375
+    },
+    {
+      "ply": 5,
+      "side": "ours",
+      "move": "d2d4",
+      "seconds": 22.054929165999994,
+      "clock": 547.048012126
+    },
+    {
+      "ply": 6,
+      "side": "opponent",
+      "move": "c8f5",
+      "seconds": 31.59113112499999,
+      "clock": 553.34639625
+    },
+    {
+      "ply": 7,
+      "side": "ours",
+      "move": "e2e3",
+      "seconds": 21.49679574999999,
+      "clock": 530.551216376
+    },
+    {
+      "ply": 8,
+      "side": "opponent",
+      "move": "e7e6",
+      "seconds": 18.070369083999992,
+      "clock": 540.276027166
+    },
+    {
+      "ply": 9,
+      "side": "ours",
+      "move": "f1d3",
+      "seconds": 20.93964516700001,
+      "clock": 514.611571209
+    },
+    {
+      "ply": 10,
+      "side": "opponent",
+      "move": "f5d3",
+      "seconds": 26.391854249999994,
+      "clock": 518.8841729159999
+    },
+    {
+      "ply": 11,
+      "side": "ours",
+      "move": "d1d3",
+      "seconds": 20.40796416699999,
+      "clock": 499.203607042
+    },
+    {
+      "ply": 12,
+      "side": "opponent",
+      "move": "b8c6",
+      "seconds": 35.784534750000006,
+      "clock": 488.09963816599986
+    },
+    {
+      "ply": 13,
+      "side": "ours",
+      "move": "f3e5",
+      "seconds": 19.911756542000035,
+      "clock": 484.29185049999995
+    },
+    {
+      "ply": 14,
+      "side": "opponent",
+      "move": "c6e5",
+      "seconds": 20.329908459000023,
+      "clock": 472.76972970699984
+    },
+    {
+      "ply": 15,
+      "side": "ours",
+      "move": "d4e5",
+      "seconds": 19.394601874999978,
+      "clock": 469.897248625
+    },
+    {
+      "ply": 16,
+      "side": "opponent",
+      "move": "f6d7",
+      "seconds": 12.73953241700002,
+      "clock": 465.0301972899998
+    },
+    {
+      "ply": 17,
+      "side": "ours",
+      "move": "e1g1",
+      "seconds": 18.923872667000012,
+      "clock": 455.97337595799996
+    },
+    {
+      "ply": 18,
+      "side": "opponent",
+      "move": "d7e5",
+      "seconds": 25.662697709000042,
+      "clock": 444.3674995809998
+    },
+    {
+      "ply": 19,
+      "side": "ours",
+      "move": "d3b5",
+      "seconds": 18.450498374999995,
+      "clock": 442.52287758299997
+    },
+    {
+      "ply": 20,
+      "side": "opponent",
+      "move": "c7c6",
+      "seconds": 17.426660416000004,
+      "clock": 431.9408391649998
+    },
+    {
+      "ply": 21,
+      "side": "ours",
+      "move": "b5b7",
+      "seconds": 18.00880749999999,
+      "clock": 429.514070083
+    },
+    {
+      "ply": 22,
+      "side": "opponent",
+      "move": "d8b8",
+      "seconds": 11.998225875000003,
+      "clock": 424.94261328999977
+    },
+    {
+      "ply": 23,
+      "side": "ours",
+      "move": "b7a6",
+      "seconds": 17.568972540999994,
+      "clock": 416.945097542
+    },
+    {
+      "ply": 24,
+      "side": "opponent",
+      "move": "b8b6",
+      "seconds": 20.255373541999973,
+      "clock": 409.6872397479998
+    },
+    {
+      "ply": 25,
+      "side": "ours",
+      "move": "a6e2",
+      "seconds": 17.150050499999963,
+      "clock": 404.795047042
+    },
+    {
+      "ply": 26,
+      "side": "opponent",
+      "move": "f8b4",
+      "seconds": 35.51048279099996,
+      "clock": 379.17675695699984
+    },
+    {
+      "ply": 27,
+      "side": "ours",
+      "move": "e3e4",
+      "seconds": 16.745061041999975,
+      "clock": 393.04998600000005
+    },
+    {
+      "ply": 28,
+      "side": "opponent",
+      "move": "d5d4",
+      "seconds": 16.574606708000033,
+      "clock": 367.6021502489998
+    },
+    {
+      "ply": 29,
+      "side": "ours",
+      "move": "e2h5",
+      "seconds": 16.370871959000056,
+      "clock": 381.679114041
+    },
+    {
+      "ply": 30,
+      "side": "opponent",
+      "move": "b4d6",
+      "seconds": 14.964054540999996,
+      "clock": 357.6380957079998
+    },
+    {
+      "ply": 31,
+      "side": "ours",
+      "move": "c3e2",
+      "seconds": 15.985520707999967,
+      "clock": 370.693593333
+    },
+    {
+      "ply": 32,
+      "side": "opponent",
+      "move": "e8g8",
+      "seconds": 16.127701540999965,
+      "clock": 346.51039416699984
+    },
+    {
+      "ply": 33,
+      "side": "ours",
+      "move": "b2b3",
+      "seconds": 15.607978416000037,
+      "clock": 360.085614917
+    },
+    {
+      "ply": 34,
+      "side": "opponent",
+      "move": "c6c5",
+      "seconds": 12.86887445800005,
+      "clock": 338.6415197089998
+    },
+    {
+      "ply": 35,
+      "side": "ours",
+      "move": "c1f4",
+      "seconds": 15.254717624999898,
+      "clock": 349.8308972920001
+    },
+    {
+      "ply": 36,
+      "side": "opponent",
+      "move": "e5g6",
+      "seconds": 14.897745375,
+      "clock": 328.7437743339998
+    },
+    {
+      "ply": 37,
+      "side": "ours",
+      "move": "f4d6",
+      "seconds": 14.912720041000057,
+      "clock": 339.91817725100003
+    },
+    {
+      "ply": 38,
+      "side": "opponent",
+      "move": "b6d6",
+      "seconds": 8.04643262500008,
+      "clock": 325.6973417089997
+    },
+    {
+      "ply": 39,
+      "side": "ours",
+      "move": "a1d1",
+      "seconds": 14.582358666000005,
+      "clock": 330.335818585
+    },
+    {
+      "ply": 40,
+      "side": "opponent",
+      "move": "d6c6",
+      "seconds": 15.11880825000003,
+      "clock": 315.5785334589997
+    },
+    {
+      "ply": 41,
+      "side": "ours",
+      "move": "e2g3",
+      "seconds": 14.26800941600004,
+      "clock": 321.067809169
+    },
+    {
+      "ply": 42,
+      "side": "opponent",
+      "move": "f8e8",
+      "seconds": 10.706202957999949,
+      "clock": 309.87233050099974
+    },
+    {
+      "ply": 43,
+      "side": "ours",
+      "move": "f1e1",
+      "seconds": 13.954780041999925,
+      "clock": 312.11302912700006
+    },
+    {
+      "ply": 44,
+      "side": "opponent",
+      "move": "e8d8",
+      "seconds": 14.614358041999935,
+      "clock": 300.2579724589998
+    },
+    {
+      "ply": 45,
+      "side": "ours",
+      "move": "h5f3",
+      "seconds": 13.664324249999936,
+      "clock": 303.4487048770001
+    },
+    {
+      "ply": 46,
+      "side": "opponent",
+      "move": "a7a5",
+      "seconds": 13.317756458000076,
+      "clock": 291.9402160009997
+    },
+    {
+      "ply": 47,
+      "side": "ours",
+      "move": "g3e2",
+      "seconds": 13.379415375000008,
+      "clock": 295.0692895020001
+    },
+    {
+      "ply": 48,
+      "side": "opponent",
+      "move": "a5a4",
+      "seconds": 9.680266083999982,
+      "clock": 287.25994991699974
+    },
+    {
+      "ply": 49,
+      "side": "ours",
+      "move": "e2c1",
+      "seconds": 13.10144845800005,
+      "clock": 286.96784104400007
+    },
+    {
+      "ply": 50,
+      "side": "opponent",
+      "move": "a4b3",
+      "seconds": 13.907316917000003,
+      "clock": 278.35263299999974
+    },
+    {
+      "ply": 51,
+      "side": "ours",
+      "move": "a2b3",
+      "seconds": 12.824171832999923,
+      "clock": 279.14366921100014
+    },
+    {
+      "ply": 52,
+      "side": "opponent",
+      "move": "c5c4",
+      "seconds": 26.92144575000009,
+      "clock": 256.43118724999965
+    },
+    {
+      "ply": 53,
+      "side": "ours",
+      "move": "b3c4",
+      "seconds": 12.579385583999965,
+      "clock": 271.5642836270002
+    },
+    {
+      "ply": 54,
+      "side": "opponent",
+      "move": "c6c4",
+      "seconds": 12.936638916999982,
+      "clock": 248.49454833299967
+    },
+    {
+      "ply": 55,
+      "side": "ours",
+      "move": "d1d2",
+      "seconds": 12.321014791999914,
+      "clock": 264.24326883500026
+    },
+    {
+      "ply": 56,
+      "side": "opponent",
+      "move": "e6e5",
+      "seconds": 7.779318707999892,
+      "clock": 245.71522962499978
+    },
+    {
+      "ply": 57,
+      "side": "ours",
+      "move": "f3h5",
+      "seconds": 12.066206167000018,
+      "clock": 257.17706266800025
+    },
+    {
+      "ply": 58,
+      "side": "opponent",
+      "move": "a8a1",
+      "seconds": 12.883079749999979,
+      "clock": 237.8321498749998
+    },
+    {
+      "ply": 59,
+      "side": "ours",
+      "move": "h5e2",
+      "seconds": 11.834560500000066,
+      "clock": 250.34250216800018
+    },
+    {
+      "ply": 60,
+      "side": "opponent",
+      "move": "c4e2",
+      "seconds": 21.792152916999953,
+      "clock": 221.03999695799985
+    },
+    {
+      "ply": 61,
+      "side": "ours",
+      "move": "d2e2",
+      "seconds": 11.596344000000045,
+      "clock": 243.74615816800014
+    },
+    {
+      "ply": 62,
+      "side": "opponent",
+      "move": "g6f4",
+      "seconds": 9.000459082999896,
+      "clock": 217.03953787499995
+    },
+    {
+      "ply": 63,
+      "side": "ours",
+      "move": "e2d2",
+      "seconds": 11.378432332999864,
+      "clock": 237.36772583500027
+    },
+    {
+      "ply": 64,
+      "side": "opponent",
+      "move": "d8a8",
+      "seconds": 14.387185167000098,
+      "clock": 207.65235270799985
+    },
+    {
+      "ply": 65,
+      "side": "ours",
+      "move": "d2d1",
+      "seconds": 11.164758625000104,
+      "clock": 231.20296721000017
+    },
+    {
+      "ply": 66,
+      "side": "opponent",
+      "move": "f7f6",
+      "seconds": 10.048886249999896,
+      "clock": 202.60346645799996
+    },
+    {
+      "ply": 67,
+      "side": "ours",
+      "move": "g2g3",
+      "seconds": 10.964428999999882,
+      "clock": 225.23853821000029
+    },
+    {
+      "ply": 68,
+      "side": "opponent",
+      "move": "f4e6",
+      "seconds": 8.94105083400018,
+      "clock": 198.66241562399978
+    },
+    {
+      "ply": 69,
+      "side": "ours",
+      "move": "c1d3",
+      "seconds": 10.759566250000034,
+      "clock": 219.47897196000025
+    },
+    {
+      "ply": 70,
+      "side": "opponent",
+      "move": "a1a2",
+      "seconds": 11.205225958000028,
+      "clock": 192.45718966599975
+    },
+    {
+      "ply": 71,
+      "side": "ours",
+      "move": "e1e2",
+      "seconds": 10.56897558300011,
+      "clock": 213.90999637700014
+    },
+    {
+      "ply": 72,
+      "side": "opponent",
+      "move": "a8c8",
+      "seconds": 12.036702833999925,
+      "clock": 185.42048683199982
+    },
+    {
+      "ply": 73,
+      "side": "ours",
+      "move": "d1d2",
+      "seconds": 10.39338766700007,
+      "clock": 208.51660871000007
+    },
+    {
+      "ply": 74,
+      "side": "opponent",
+      "move": "g7g5",
+      "seconds": 7.460633040999937,
+      "clock": 182.9598537909999
+    },
+    {
+      "ply": 75,
+      "side": "ours",
+      "move": "d3b4",
+      "seconds": 10.207792500000096,
+      "clock": 203.30881620999997
+    },
+    {
+      "ply": 76,
+      "side": "opponent",
+      "move": "a2a1",
+      "seconds": 10.60143379200008,
+      "clock": 177.3584199989998
+    },
+    {
+      "ply": 77,
+      "side": "ours",
+      "move": "g1g2",
+      "seconds": 10.035670458999903,
+      "clock": 198.27314575100007
+    },
+    {
+      "ply": 78,
+      "side": "opponent",
+      "move": "g8f7",
+      "seconds": 11.125642375000098,
+      "clock": 171.2327776239997
+    },
+    {
+      "ply": 79,
+      "side": "ours",
+      "move": "b4d5",
+      "seconds": 9.873876750000136,
+      "clock": 193.39926900099994
+    },
+    {
+      "ply": 80,
+      "side": "opponent",
+      "move": "g5g4",
+      "seconds": 8.41505108299998,
+      "clock": 167.81772654099973
+    },
+    {
+      "ply": 81,
+      "side": "ours",
+      "move": "h2h3",
+      "seconds": 9.698686917000032,
+      "clock": 188.7005820839999
+    },
+    {
+      "ply": 82,
+      "side": "opponent",
+      "move": "h7h5",
+      "seconds": 10.473289083000054,
+      "clock": 162.34443745799967
+    },
+    {
+      "ply": 83,
+      "side": "ours",
+      "move": "f2f4",
+      "seconds": 9.566116416000114,
+      "clock": 184.1344656679998
+    },
+    {
+      "ply": 84,
+      "side": "opponent",
+      "move": "g4f3",
+      "seconds": 9.22641591599995,
+      "clock": 158.11802154199972
+    },
+    {
+      "ply": 85,
+      "side": "ours",
+      "move": "g2f3",
+      "seconds": 9.40091587500001,
+      "clock": 179.73354979299978
+    },
+    {
+      "ply": 86,
+      "side": "opponent",
+      "move": "e6g5",
+      "seconds": 6.400251457999957,
+      "clock": 156.71777008399977
+    },
+    {
+      "ply": 87,
+      "side": "ours",
+      "move": "f3g2",
+      "seconds": 9.246310042000005,
+      "clock": 175.48723975099978
+    },
+    {
+      "ply": 88,
+      "side": "opponent",
+      "move": "c8c5",
+      "seconds": 11.333332208000002,
+      "clock": 150.38443787599977
+    },
+    {
+      "ply": 89,
+      "side": "ours",
+      "move": "d5b4",
+      "seconds": 9.102286584000012,
+      "clock": 171.38495316699976
+    },
+    {
+      "ply": 90,
+      "side": "opponent",
+      "move": "c5b5",
+      "seconds": 7.261849957999857,
+      "clock": 148.1225879179999
+    },
+    {
+      "ply": 91,
+      "side": "ours",
+      "move": "h3h4",
+      "seconds": 8.964983209000138,
+      "clock": 167.41996995799963
+    },
+    {
+      "ply": 92,
+      "side": "opponent",
+      "move": "g5e4",
+      "seconds": 8.73573479200013,
+      "clock": 144.38685312599978
+    },
+    {
+      "ply": 93,
+      "side": "ours",
+      "move": "e2e4",
+      "seconds": 8.832895000000008,
+      "clock": 163.58707495799962
+    },
+    {
+      "ply": 94,
+      "side": "opponent",
+      "move": "b5b4",
+      "seconds": 8.06388862499989,
+      "clock": 141.3229645009999
+    },
+    {
+      "ply": 95,
+      "side": "ours",
+      "move": "g3g4",
+      "seconds": 8.705273374999933,
+      "clock": 159.88180158299969
+    },
+    {
+      "ply": 96,
+      "side": "opponent",
+      "move": "h5g4",
+      "seconds": 9.278689375000113,
+      "clock": 137.04427512599977
+    },
+    {
+      "ply": 97,
+      "side": "ours",
+      "move": "e4g4",
+      "seconds": 8.58153574999983,
+      "clock": 156.30026583299986
+    },
+    {
+      "ply": 98,
+      "side": "opponent",
+      "move": "b4b1",
+      "seconds": 9.142078874999925,
+      "clock": 132.90219625099985
+    },
+    {
+      "ply": 99,
+      "side": "ours",
+      "move": "g4e4",
+      "seconds": 8.46231058300009,
+      "clock": 152.83795524999977
+    },
+    {
+      "ply": 100,
+      "side": "opponent",
+      "move": "b1g1",
+      "seconds": 7.898580041000059,
+      "clock": 130.0036162099998
+    },
+    {
+      "ply": 101,
+      "side": "ours",
+      "move": "g2h2",
+      "seconds": 8.346718583999973,
+      "clock": 149.4912366659998
+    },
+    {
+      "ply": 102,
+      "side": "opponent",
+      "move": "g1h1",
+      "seconds": 6.931579667000051,
+      "clock": 128.07203654299974
+    },
+    {
+      "ply": 103,
+      "side": "ours",
+      "move": "h2g3",
+      "seconds": 8.234977667000067,
+      "clock": 146.25625899899973
+    },
+    {
+      "ply": 104,
+      "side": "opponent",
+      "move": "f7g6",
+      "seconds": 6.980135959000108,
+      "clock": 126.09190058399963
+    },
+    {
+      "ply": 105,
+      "side": "ours",
+      "move": "d2d3",
+      "seconds": 8.12813195900003,
+      "clock": 143.1281270399997
+    },
+    {
+      "ply": 106,
+      "side": "opponent",
+      "move": "a1g1",
+      "seconds": 11.075542541000004,
+      "clock": 120.01635804299963
+    },
+    {
+      "ply": 107,
+      "side": "ours",
+      "move": "g3f2",
+      "seconds": 8.0242945829998,
+      "clock": 140.1038324569999
+    },
+    {
+      "ply": 108,
+      "side": "opponent",
+      "move": "g1f1",
+      "seconds": 10.749895833999972,
+      "clock": 114.26646220899966
+    },
+    {
+      "ply": 109,
+      "side": "ours",
+      "move": "f2g2",
+      "seconds": 7.922441082999967,
+      "clock": 137.18139137399993
+    },
+    {
+      "ply": 110,
+      "side": "opponent",
+      "move": "h1g1",
+      "seconds": 6.565128041999969,
+      "clock": 112.70133416699969
+    },
+    {
+      "ply": 111,
+      "side": "ours",
+      "move": "g2h2",
+      "seconds": 7.824839041999894,
+      "clock": 134.35655233200004
+    },
+    {
+      "ply": 112,
+      "side": "opponent",
+      "move": "g6f5",
+      "seconds": 8.387523165999937,
+      "clock": 109.31381100099975
+    },
+    {
+      "ply": 113,
+      "side": "ours",
+      "move": "e4e2",
+      "seconds": 7.76000129199997,
+      "clock": 131.59655104000007
+    },
+    {
+      "ply": 114,
+      "side": "opponent",
+      "move": "f5f4",
+      "seconds": 8.84946816699994,
+      "clock": 105.46434283399981
+    },
+    {
+      "ply": 115,
+      "side": "ours",
+      "move": "e2d2",
+      "seconds": 7.646596708000061,
+      "clock": 128.949954332
+    },
+    {
+      "ply": 116,
+      "side": "opponent",
+      "move": "e5e4",
+      "seconds": 8.151096415999973,
+      "clock": 102.31324641799984
+    },
+    {
+      "ply": 117,
+      "side": "ours",
+      "move": "d3d4",
+      "seconds": 7.550659791999806,
+      "clock": 126.3992945400002
+    },
+    {
+      "ply": 118,
+      "side": "opponent",
+      "move": "g1h1",
+      "seconds": 7.632949916999905,
+      "clock": 99.68029650099993
+    },
+    {
+      "ply": 119,
+      "side": "ours",
+      "move": "h2g2",
+      "seconds": 0.0017703749999782303,
+      "clock": 131.39752416500022
+    },
+    {
+      "ply": 120,
+      "side": "opponent",
+      "move": "f4e3",
+      "seconds": 8.450931083999876,
+      "clock": 96.22936541700005
+    },
+    {
+      "ply": 121,
+      "side": "ours",
+      "move": "d4e4",
+      "seconds": 7.637398166000139,
+      "clock": 128.76012599900008
+    },
+    {
+      "ply": 122,
+      "side": "opponent",
+      "move": "e3e4",
+      "seconds": 7.849706083000001,
+      "clock": 93.37965933400005
+    },
+    {
+      "ply": 123,
+      "side": "ours",
+      "move": "d2e2",
+      "seconds": 7.543994624999868,
+      "clock": 126.21613137400021
+    },
+    {
+      "ply": 124,
+      "side": "opponent",
+      "move": "e4f4",
+      "seconds": 7.684811291999949,
+      "clock": 90.6948480420001
+    },
+    {
+      "ply": 125,
+      "side": "ours",
+      "move": "e2e6",
+      "seconds": 7.460284415999922,
+      "clock": 123.75584695800029
+    },
+    {
+      "ply": 126,
+      "side": "opponent",
+      "move": "f6f5",
+      "seconds": 7.684024124999951,
+      "clock": 88.01082391700015
+    },
+    {
+      "ply": 127,
+      "side": "ours",
+      "move": "e6d6",
+      "seconds": 7.379384542000025,
+      "clock": 121.37646241600027
+    },
+    {
+      "ply": 128,
+      "side": "opponent",
+      "move": "h1g1",
+      "seconds": 7.592145332999962,
+      "clock": 85.41867858400019
+    },
+    {
+      "ply": 129,
+      "side": "ours",
+      "move": "g2h2",
+      "seconds": 7.297870582999849,
+      "clock": 119.07859183300042
+    },
+    {
+      "ply": 130,
+      "side": "opponent",
+      "move": "f4e4",
+      "seconds": 7.508085749999964,
+      "clock": 82.91059283400023
+    },
+    {
+      "ply": 131,
+      "side": "ours",
+      "move": "h2h3",
+      "seconds": 7.221473165999896,
+      "clock": 116.85711866700052
+    },
+    {
+      "ply": 132,
+      "side": "opponent",
+      "move": "g1g7",
+      "seconds": 12.153637500000059,
+      "clock": 75.75695533400017
+    },
+    {
+      "ply": 133,
+      "side": "ours",
+      "move": "h3h2",
+      "seconds": 7.156182124999987,
+      "clock": 114.70093654200053
+    },
+    {
+      "ply": 134,
+      "side": "opponent",
+      "move": "f1f2",
+      "seconds": 5.302941749999945,
+      "clock": 75.45401358400022
+    },
+    {
+      "ply": 135,
+      "side": "ours",
+      "move": "h2h1",
+      "seconds": 7.080394167000122,
+      "clock": 112.62054237500041
+    },
+    {
+      "ply": 136,
+      "side": "opponent",
+      "move": "f2f4",
+      "seconds": 4.541713707999861,
+      "clock": 75.91229987600036
+    },
+    {
+      "ply": 137,
+      "side": "ours",
+      "move": "d6e6",
+      "seconds": 0.008889958000054321,
+      "clock": 117.61165241700036
+    },
+    {
+      "ply": 138,
+      "side": "opponent",
+      "move": "e4f3",
+      "seconds": 4.561601375000009,
+      "clock": 76.35069850100035
+    },
+    {
+      "ply": 139,
+      "side": "ours",
+      "move": "e6h6",
+      "seconds": 0.002627832999905877,
+      "clock": 122.60902458400045
+    },
+    {
+      "ply": 140,
+      "side": "opponent",
+      "move": "f3g3",
+      "seconds": 4.520610666999801,
+      "clock": 76.83008783400055
+    },
+    {
+      "ply": 141,
+      "side": "ours",
+      "move": "h1g1",
+      "seconds": 0.0021396669999376172,
+      "clock": 127.60688491700051
+    },
+    {
+      "ply": 142,
+      "side": "opponent",
+      "move": "g3h3",
+      "seconds": 1.7751822079999329,
+      "clock": 80.05490562600062
+    },
+    {
+      "ply": 143,
+      "side": "ours",
+      "move": "h6g6",
+      "seconds": 0.0018537910000304691,
+      "clock": 132.60503112600048
+    },
+    {
+      "ply": 144,
+      "side": "opponent",
+      "move": "g7g6",
+      "seconds": 1.6732739579999816,
+      "clock": 83.38163166800064
+    },
+    {
+      "ply": 145,
+      "side": "ours",
+      "move": "g1h1",
+      "seconds": 0.0016314590000092721,
+      "clock": 137.60339966700047
+    },
+    {
+      "ply": 146,
+      "side": "opponent",
+      "move": "f4f1",
+      "seconds": 1.747587625000051,
+      "clock": 86.63404404300059
+    }
+  ],
+  "source_hashes": {
+    "blendclock-fast": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d"
+  }
+}

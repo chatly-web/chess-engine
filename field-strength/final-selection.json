@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-11-02T04:39:03.282802+00:00",
+  "chosen_source_variant": "qking",
+  "passer_minus_candidate_matched_score": -0.015625,
+  "passer_minus_candidate_gnu": -0.0625,
+  "reason": "Passed-pawn variant did not meet the declared selection criterion; keep blended evaluation and add search-preserving king-cache/quiescence optimisations. No further architecture changes in this pass.",
+  "source": "source/cpp/experimental/field/release/engine.cpp",
+  "validation_plan": "field-strength/final-pass-plan.json",
+  "state": "frozen pending validation",
+  "binary_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "source_sha256": "5b5d9928a23ca8ec560980c90755ca3c5c1368129cca7c0c8a86761b6b53802a"
+}

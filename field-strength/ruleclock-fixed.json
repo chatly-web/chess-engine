@@ -1,0 +1,38 @@
+[
+  {
+    "engine": "baseline",
+    "move": "b1c3",
+    "depth": 8,
+    "nodes": 54580,
+    "score": "PovScore(Cp(+12), WHITE)",
+    "seconds": 0.21157137499999998,
+    "diagnostic": null
+  },
+  {
+    "engine": "fast2",
+    "move": "b1c3",
+    "depth": 8,
+    "nodes": 54580,
+    "score": "PovScore(Cp(+12), WHITE)",
+    "seconds": 0.16196900000000003,
+    "diagnostic": null
+  },
+  {
+    "engine": "guarded",
+    "move": "b1c3",
+    "depth": 8,
+    "nodes": 53085,
+    "score": "PovScore(Cp(+12), WHITE)",
+    "seconds": 0.15614700000000004,
+    "diagnostic": "history_guarded_tt_cutoffs 427"
+  },
+  {
+    "engine": "ruleclock",
+    "move": "b1c3",
+    "depth": 8,
+    "nodes": 40987,
+    "score": "PovScore(Cp(+12), WHITE)",
+    "seconds": 0.11955345799999995,
+    "diagnostic": "history_guarded_tt_cutoffs 887"
+  }
+]

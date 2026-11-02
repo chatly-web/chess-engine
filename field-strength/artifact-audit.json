@@ -1,0 +1,204 @@
+{
+  "field_reports": [
+    {
+      "report": "field-strength/confirmation.json",
+      "games_replayed": 768,
+      "unfinished": 3,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/final-confirmation.json",
+      "games_replayed": 768,
+      "unfinished": 2,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/forcing-screen.json",
+      "games_replayed": 96,
+      "unfinished": 0,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/passer-screen.json",
+      "games_replayed": 96,
+      "unfinished": 1,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/screen-a.json",
+      "games_replayed": 256,
+      "unfinished": 0,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/screen-b.json",
+      "games_replayed": 384,
+      "unfinished": 1,
+      "failures": 0
+    },
+    {
+      "report": "field-strength/screen-c.json",
+      "games_replayed": 256,
+      "unfinished": 1,
+      "failures": 0
+    }
+  ],
+  "field_games_replayed": 2624,
+  "clock_games": [
+    {
+      "report": "field-blendclock-gnu-blitz-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 103,
+      "completed": true
+    },
+    {
+      "report": "field-blendclock-gnu-blitz-white.json",
+      "result": "0-1",
+      "failure": null,
+      "colour": "white",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 114,
+      "completed": true
+    },
+    {
+      "report": "field-blendclock-gnu-rapid-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 93,
+      "completed": true
+    },
+    {
+      "report": "field-blendclock-gnu-rapid-white.json",
+      "result": "0-1",
+      "failure": null,
+      "colour": "white",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 96,
+      "completed": true
+    },
+    {
+      "report": "field-final-gnu-blitz-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 115,
+      "completed": true
+    },
+    {
+      "report": "field-final-gnu-blitz-white.json",
+      "result": "0-1",
+      "failure": null,
+      "colour": "white",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 116,
+      "completed": true
+    },
+    {
+      "report": "field-final-gnu-rapid-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 43,
+      "completed": true
+    },
+    {
+      "report": "field-final-gnu-rapid-white.json",
+      "result": "0-1",
+      "failure": null,
+      "colour": "white",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 146,
+      "completed": true
+    },
+    {
+      "report": "field-final-sf5-blitz-white.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "white",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 89,
+      "completed": true
+    },
+    {
+      "report": "field-final-sf5-rapid-black.json",
+      "result": "*",
+      "failure": null,
+      "colour": "black",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 300,
+      "completed": false
+    },
+    {
+      "report": "field-final-sf5-rapid-white.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "white",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 71,
+      "completed": true
+    },
+    {
+      "report": "field-v08-gnu-blitz-white.json",
+      "result": "0-1",
+      "failure": null,
+      "colour": "white",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 112,
+      "completed": true
+    },
+    {
+      "report": "field-v08-gnu-rapid-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 117,
+      "completed": true
+    },
+    {
+      "report": "field-v08-sf5-blitz-black.json",
+      "result": "1-0",
+      "failure": null,
+      "colour": "black",
+      "base": 180.0,
+      "increment": 2.0,
+      "plies": 207,
+      "completed": true
+    },
+    {
+      "report": "field-v08-sf5-rapid-white.json",
+      "result": "1/2-1/2",
+      "failure": null,
+      "colour": "white",
+      "base": 600.0,
+      "increment": 5.0,
+      "plies": 81,
+      "completed": true
+    }
+  ],
+  "clock_games_replayed": 15,
+  "completed_clock_games": 14,
+  "unfinished_clock_games_excluded": 1,
+  "unfinished_field_games_excluded": 8,
+  "note": "Independent rules replay of retained artifacts, hash associations and clock arithmetic. Completed and capped-game counts are separate; running progress files excluded. No strength or universal reliability claim."
+}

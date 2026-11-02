@@ -1,0 +1,16 @@
+{
+  "native_binary_sha256": "fd8ad1f302564fa5b0706768c80e563722569601a0915d33e2ac17942e723e7a",
+  "weights_config_sha256": null,
+  "perft_nodes": [
+    197281,
+    97862,
+    43238
+  ],
+  "evaluation_reference_compared": false,
+  "colour_symmetry_positions": 2000,
+  "tactical_move_sets_checked": true,
+  "legal_positions": 2000,
+  "evaluation_mismatches": null,
+  "examples": [],
+  "seconds": 2.444858833
+}

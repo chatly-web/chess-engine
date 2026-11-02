@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "engines": [
+    {
+      "engine": "release/clash-native",
+      "sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    }
+  ],
+  "note": "Targeted finite regressions, not a proof of all path-dependent transposition cases."
+}

@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-02T05:40:03.232191+00:00",
+  "bot_username": "ayushgohil",
+  "bridge_online": true,
+  "active_games_at_check": 0,
+  "configured_native_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "completed_live_games_verified": 0,
+  "friend_only_incoming_challenges": true,
+  "automatic_matchmaking": false,
+  "online_moves_books_tablebases": false,
+  "note": "Authenticated account identity and zero active games verified before installation; public online status verified after restoring the private bridge. Live friend games, account auto-draw preference and organiser access/submission still need verification. Credentials and populated configuration are excluded."
+}

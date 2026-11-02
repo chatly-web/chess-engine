@@ -1,0 +1,50 @@
+{
+  "declared_at_utc": "2026-11-02T04:37:29.640204+00:00",
+  "purpose": "One final candidate for this pass; freeze before fresh validation. No more architecture changes after selection.",
+  "selection_rule": "Use passer-qking only if the completed 96-game passer screen beats the current candidate by at least 0.04 matched point score and has nonnegative matched GNU difference; otherwise use qking. King caching and early quiescence stand-pat preserve fixed-depth search in 204+6 positions.",
+  "independent_validation": {
+    "baseline": "published fd64fec binary",
+    "phase1_control": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d",
+    "final_candidate": "selected before validation starts",
+    "pairs_per_opponent": 32,
+    "opponent_configurations": 4,
+    "seconds_per_move": 0.12,
+    "workers": 6,
+    "total_games": 768,
+    "seed_base": 16100000
+  },
+  "primary_gate": [
+    "Candidate vs published baseline matched mean point-score difference has approximate 95 percent lower bound above zero",
+    "Skill5 improvement positive and GNU matched difference nonnegative",
+    "No candidate technical failures, finite correctness, protocol, history, mate and sanitizer checks pass",
+    "Exact final binary completes 180+2 and 600+5 simulations without own clock/protocol failure"
+  ],
+  "phase1_comparison": "Secondary descriptive control comparison; do not call superiority over phase1 established from a tiny/noisy difference. Prefer the already-qualified phase1 build if final candidate has lower matched point score than phase1 control.",
+  "clock_matrix": [
+    {
+      "opponent": "GNU Chess 6.3",
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "opponent": "GNU Chess 6.3",
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    },
+    {
+      "opponent": "Stockfish19-Skill5",
+      "base": 180,
+      "increment": 2,
+      "colour": "black"
+    },
+    {
+      "opponent": "Stockfish19-Skill5",
+      "base": 600,
+      "increment": 5,
+      "colour": "white"
+    }
+  ],
+  "fallback": "If neither candidate clears its declared external-field gate, retain current production; publish experiments and report that no strength improvement was established rather than invent a successful release."
+}

@@ -1,0 +1,489 @@
+{"games": 1, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 2, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 3, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 4, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 5, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 6, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 7, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 8, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 9, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 10, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 11, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 12, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 13, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 14, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 15, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 16, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 17, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 18, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 19, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 20, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 21, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1/2-1/2", "failure": null}
+{"games": 22, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 23, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 24, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 25, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 26, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 27, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 28, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 29, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 30, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 31, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 32, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 33, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 34, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 35, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 36, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 37, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 38, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 39, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 40, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 41, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 42, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 43, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 44, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 45, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1/2-1/2", "failure": null}
+{"games": 46, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 47, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 48, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 49, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 50, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 51, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 52, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 53, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 54, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 55, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 56, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 57, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 58, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 59, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1/2-1/2", "failure": null}
+{"games": 60, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 61, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 62, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 63, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 64, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 65, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 66, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 67, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 68, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 69, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 70, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 71, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 72, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 73, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 74, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 75, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 76, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 77, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 78, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 79, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 80, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 81, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 82, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 83, "engine": "baseline", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 84, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 85, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 86, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 87, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 88, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 89, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 90, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 91, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 92, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 93, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 94, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 95, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 96, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 97, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 98, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 99, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 100, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 101, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 102, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 103, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 104, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 105, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 106, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 107, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 108, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 109, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 110, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 111, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 112, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 113, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 114, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 115, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 116, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 117, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 118, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 119, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 120, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 121, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 122, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 123, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 124, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 125, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 126, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1/2-1/2", "failure": null}
+{"games": 127, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 128, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 129, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 130, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 131, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 132, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 133, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 134, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 135, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 136, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 137, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 138, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 139, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 140, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 141, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 142, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 143, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 144, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 145, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 146, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 147, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 148, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 149, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 150, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 151, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 152, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 153, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 154, "engine": "baseline", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 155, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 156, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 157, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 158, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 159, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 160, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 161, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 162, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 163, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 164, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 165, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 166, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 167, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 168, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 169, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 170, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 171, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 172, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 173, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 174, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 175, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 176, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 177, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 178, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 179, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 180, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 181, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 182, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 183, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 184, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 185, "engine": "balanced", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 186, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 187, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 188, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 189, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 190, "engine": "mobile", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 191, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 192, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 193, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 194, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 195, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 196, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 197, "engine": "fast", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 198, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 199, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 200, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 201, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 202, "engine": "baseline", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 203, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 204, "engine": "balanced", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 205, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 206, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 207, "engine": "baseline", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 208, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 209, "engine": "baseline", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 210, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 211, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 212, "engine": "fast", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 213, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 214, "engine": "mobile", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 215, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 216, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "1-0", "failure": null}
+{"games": 217, "engine": "baseline", "opponent": "GNUChess6.3", "result": "0-1", "failure": null}
+{"games": 218, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 219, "engine": "balanced", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 220, "engine": "fast", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 221, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 222, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 223, "engine": "mobile", "opponent": "GNUChess6.3", "result": "1-0", "failure": null}
+{"games": 224, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 225, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 226, "engine": "mobile", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 227, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 228, "engine": "baseline", "opponent": "Stockfish19-Skill3", "result": "0-1", "failure": null}
+{"games": 229, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 230, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 231, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 232, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 233, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 234, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 235, "engine": "balanced", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 236, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 237, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 238, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 239, "engine": "fast", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 240, "engine": "fast", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 241, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 242, "engine": "mobile", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 243, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 244, "engine": "fast", "opponent": "Stockfish19-full", "result": "1/2-1/2", "failure": null}
+{"games": 245, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 246, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 247, "engine": "balanced", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 248, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 249, "engine": "baseline", "opponent": "Stockfish19-full", "result": "1-0", "failure": null}
+{"games": 250, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 251, "engine": "baseline", "opponent": "Stockfish19-full", "result": "0-1", "failure": null}
+{"games": 252, "engine": "fast", "opponent": "Stockfish19-Skill5", "result": "1/2-1/2", "failure": null}
+{"games": 253, "engine": "baseline", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 254, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{"games": 255, "engine": "balanced", "opponent": "Stockfish19-Skill5", "result": "0-1", "failure": null}
+{"games": 256, "engine": "mobile", "opponent": "Stockfish19-Skill5", "result": "1-0", "failure": null}
+{
+  "baseline": "baseline",
+  "binary_sha256": {
+    "baseline": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+    "fast": "d09f0b34658d2c01f491c291ee253c6484f9fcc809fd73f3858d9769be1418d5",
+    "balanced": "7c9bdace797db58a7e3377310e28f79b4e9e15cdfd1756e9bd758bb255be3c88",
+    "mobile": "a15805abea2213b01357819dc0fb31f0dc93b559207bbe7ed5d8e4ca20c6bed0"
+  },
+  "opponent_labels": [
+    "Stockfish19-Skill3",
+    "Stockfish19-Skill5",
+    "GNUChess6.3",
+    "Stockfish19-full"
+  ],
+  "pairs_per_opponent": 8,
+  "seed_base": 4100000,
+  "seconds_per_move": 0.08,
+  "summary": {
+    "baseline": {
+      "Stockfish19-Skill3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 12,
+        "draws": 1,
+        "losses": 3,
+        "points": 12.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 4,
+        "draws": 4,
+        "losses": 8,
+        "points": 6.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 2,
+        "losses": 14,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 3,
+        "losses": 12,
+        "points": 2.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "fast": {
+      "Stockfish19-Skill3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 9,
+        "draws": 4,
+        "losses": 3,
+        "points": 11.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 4,
+        "draws": 4,
+        "losses": 8,
+        "points": 6.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 0,
+        "losses": 16,
+        "points": 0.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 1,
+        "losses": 15,
+        "points": 0.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "balanced": {
+      "Stockfish19-Skill3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 10,
+        "draws": 2,
+        "losses": 4,
+        "points": 11.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 4,
+        "draws": 8,
+        "losses": 4,
+        "points": 8.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "mobile": {
+      "Stockfish19-Skill3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 8,
+        "draws": 4,
+        "losses": 4,
+        "points": 10.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 4,
+        "draws": 5,
+        "losses": 7,
+        "points": 6.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 1,
+        "losses": 14,
+        "points": 1.5,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-full": {
+        "games": 16,
+        "completed": 16,
+        "wins": 0,
+        "draws": 3,
+        "losses": 13,
+        "points": 1.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "comparisons": {
+    "fast": {
+      "matched_units": 32,
+      "mean_point_score_difference": -0.0703125,
+      "approximate_95_interval": [
+        -0.19715038736958304,
+        0.05652538736958304
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": -0.0625,
+        "Stockfish19-Skill5": 0.0,
+        "Stockfish19-Skill3": -0.09375,
+        "Stockfish19-full": -0.125
+      }
+    },
+    "balanced": {
+      "matched_units": 32,
+      "mean_point_score_difference": -0.015625,
+      "approximate_95_interval": [
+        -0.15291511657388512,
+        0.12166511657388512
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.0,
+        "Stockfish19-Skill5": 0.125,
+        "Stockfish19-Skill3": -0.09375,
+        "Stockfish19-full": -0.09375
+      }
+    },
+    "mobile": {
+      "matched_units": 32,
+      "mean_point_score_difference": -0.0390625,
+      "approximate_95_interval": [
+        -0.15978997350070284,
+        0.08166497350070283
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.03125,
+        "Stockfish19-Skill5": 0.03125,
+        "Stockfish19-Skill3": -0.15625,
+        "Stockfish19-full": -0.0625
+      }
+    }
+  },
+  "duration_seconds": 604.650460875
+}

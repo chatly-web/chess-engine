@@ -1,0 +1,31 @@
+{
+  "candidate_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "public_source_rebuilt_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "public_source_sha256": "75c453bf63d63956b6477901e5b7b434219b0795dd74a4b88a6a16ae465a2951",
+  "sanitizer_binary_sha256": "ebb0408ee631cf37f9877736d8fe571502b7890ff0a42844c44ec185172eb77a",
+  "normal_flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3"
+  ],
+  "sanitizer_flags": [
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-pthread",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-DCLASH_VERIFY_HASH=1",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3"
+  ],
+  "same_source": true,
+  "reproduces_exact_tested_hash": true
+}

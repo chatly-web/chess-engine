@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "engines": [
+    {
+      "engine": "fast2",
+      "sha256": "928afbe77e0c09921d240195b936dc7dfa110b71fc3943261da1fb6d69414b60",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    },
+    {
+      "engine": "guarded",
+      "sha256": "cd8b08a8ae247fbf9c9d6f6be5ecf102835c5c0b17efafc4783554e48e5cbaa4",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    },
+    {
+      "engine": "blend",
+      "sha256": "04c273f8a133c072a9ce60eac3e2226c02e19cf57024c3bc1d1e42469da31662",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    },
+    {
+      "engine": "mobility",
+      "sha256": "fd8ad1f302564fa5b0706768c80e563722569601a0915d33e2ac17942e723e7a",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    },
+    {
+      "engine": "cautious",
+      "sha256": "c0267736b3c8e219361046551e9d89c5d3501ac105a4e18096d2dc4c362b9aa8",
+      "mate_across_fifty_move_threshold": true,
+      "cross_halfmove_cache_draw": true,
+      "threefold_with_retained_table": true,
+      "draw_root_legal_reply": true
+    }
+  ],
+  "note": "Targeted finite regressions, not a proof of all path-dependent transposition cases."
+}

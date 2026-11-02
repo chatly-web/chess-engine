@@ -2,49 +2,76 @@
 
 An original AI-assisted C++17 UCI engine for the DAU Chess Engine Clash-Off. The same frozen executable is used for **3+2 (180+2)** and **10+5 (600+5)**.
 
-## Run the recommended engine
+## Run
 
 ```sh
 ./engine/clash-native
 ```
 
-The included executable targets Apple Silicon macOS. Rebuild on another hosting platform with a C++17 compiler:
+The executable targets Apple Silicon macOS. Rebuild on another hosting platform with a C++17 compiler:
 
 ```sh
 ./build-native.sh
 ```
 
-Use the build script's validated flags. C++ handles every chess move, including rules, evaluation and search. Python is used only for offline tests/training and the separate Lichess bridge.
+C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
-## Latest measured improvement
+## Latest external-opponent validation
 
-The current release adds mate-distance bounds, guarded shallow reverse-futility pruning and selective quiescence pruning to our existing PVS, iterative deepening, transposition table, null-move pruning, late-move reductions and check extensions. Evaluation weights are unchanged.
+The selected build gained **+6.50 percentage points** in matched game-point score against the published baseline. Its approximate paired-unit 95% interval is **[+1.32, +11.67] pp**, over 127 completed matched colour pairs. The independent batch recorded 768 games across all tested versions.
 
-- **256 fresh validation games against the previous release:** 124 wins, 71 draws, 61 losses; **159.5/256 points (62.30%)**. Approximate pair-aware 95% interval: **57.99%–66.62%**.
-- **Actual event-clock head-to-head:** **4–0** against the previous release, both colours at both 3+2 and 10+5. Four games alone are not a universal win-rate estimate.
-- **11 completed clock games**, including stronger opponents: no recorded illegal move, crash or time forfeit. Stronger-opponent losses and the draw are retained in the report.
-- Selected binary SHA256: `2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045`.
+These tests use matched random eight-ply starts and a 0.12-second requested move budget. They are separate from full competition-clock simulations. A draw is half a point; this is **not Lichess move accuracy or a universal win rate**.
 
-See [STRONG-SEARCH.md](STRONG-SEARCH.md) for all algorithms tried, independent batches, clock results, hashes, failures and limitations. This point score is against our previous engine; it is not Lichess move accuracy. No near-100% accuracy, full-strength Stockfish dominance or first-prize guarantee is supported.
+| Opponent configuration | Selected W–D–L | Selected points / completed | Published baseline points / completed |
+|---|---|---|---|
+| Stockfish19-Skill3 | 35–12–17 | 41/64 | 35.5/64 |
+| Stockfish19-Skill5 | 21–16–26 | 29/63 | 24/64 |
+| GNUChess6.3 | 4–2–58 | 5/64 | 1.5/64 |
+| Stockfish19-full | 3–3–58 | 4.5/64 | 2.5/64 |
 
-## Validate or reproduce
+## Competition-clock evidence
 
-Install the rules-only Python test dependency in a separate environment:
+| Opponent | Control | Colour | Result | Technical failure |
+|---|---|---|---|---|
+| GNU Chess 6.3.0 | 180+2 | white | loss | none |
+| GNU Chess 6.3.0 | 600+5 | black | loss | none |
+| Stockfish 19 (Skill 5) | 180+2 | black | loss | none |
+| Stockfish 19 (Skill 5) | 600+5 | white | draw | none |
+
+Losses and draws are retained. These small concurrent local samples do not establish performance against every opponent. Live Lichess end-to-end games still need verification.
+
+## Implementation and checks
+
+The selected original search combines iterative deepening, PVS/alpha-beta, transpositions, capture/killer/history ordering, null-move pruning, late-move reductions, check extensions and selective quiescence. This pass adds reusable search storage, incremental hashing, guarded transposition reuse and blended king/queen safety with mobility.
+Cached king locations and an earlier quiescence stand-pat exit reduce search overhead; a six-position fixed-depth comparison measured about 1.23x speed over the preceding candidate with identical moves, scores and nodes. This limited benchmark is not an Elo estimate.
+
+- Three perft positions, 2,000 legal/capture move-set checks and 2,000 colour-mirror evaluation checks passed.
+- UCI recovery, clock budgets, interrupted searches, terminal roots and node limits passed.
+- Address/undefined-behaviour sanitizer checks passed; incremental hashes are verified in diagnostic builds.
+- Synthetic mate and targeted repetition/50-move/mate-priority checks passed. Finite checks do not prove universal tactical or timing reliability.
+- Selected binary SHA256: `b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9`.
+
+Full variants, independent batches, clock records, rejected changes, hashes, limits and the release gate are in [FIELD-STRENGTH.md](FIELD-STRENGTH.md). Wider history-compatible transposition reuse remains a practical heuristic, not a general graph-history proof.
+
+## Reproduce validation
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python source/cpp/verify.py
 .venv/bin/python source/cpp/protocol_test.py
-.venv/bin/python source/cpp/mate_tactics.py --binary engine/clash-native --label my-mate-check
+.venv/bin/python source/verify_field_results.py
+.venv/bin/python source/qualify_field_candidate.py
 ```
 
-The release passed perft, 2,000-position rules/evaluation differential tests, protocol/clock/stop tests and an address/undefined-behaviour sanitizer build. All 576 screen/validation PGNs and 11 complete clock reports were independently replayed. Finite passing checks do not prove universal tactical or hard real-time reliability. Use unique labels for new validation batches; existing evidence is protected from accidental overwrites.
+The C++ evaluation intentionally changed from the historical Python reference. The default verifier always checks rules, perft and colour symmetry; `CLASH_COMPARE_EVAL=1` additionally compares the old Python evaluator and is suitable only for legacy evaluation variants. Rules and symmetry checks are not skipped.
 
-## Competition hosting and provenance
+## Hosting and provenance
 
-BOT account: [ayushgohil](https://lichess.org/@/ayushgohil). BOT conversion and an authenticated bridge connection are verified. Completed live Lichess games remain to be tested. See [BOT-SETUP.md](BOT-SETUP.md) for the private allowlist, live tests, draw-claim setting and final submission requirements.
+BOT account: [ayushgohil](https://lichess.org/@/ayushgohil). See [BOT-SETUP.md](BOT-SETUP.md) for the private bridge, approved incoming challenges, live tests and submission requirements. Keep the Mac powered, awake and online while hosting.
 
-Search and evaluation are original AI-assisted implementations. No existing engine source, pretrained networks, opening books, tablebases, online move sources or external-engine analysis labels are used. Other engines are separately installed offline opponents only. Organiser acceptance of AI-assisted code should be confirmed. Credentials and populated bridge configuration stay outside the public repository and ZIP.
+Search and evaluation are original AI-assisted implementations. No existing engine source, pretrained evaluation networks, opening books, tablebases, online moves or opponent analysis labels are used. Other engines are separate offline opponents. Organiser acceptance of AI-assisted code still needs confirmation. Credentials stay outside the public repository and ZIP.
 
-Implementation: [NATIVE.md](NATIVE.md). Previous C++ release: [LONG-PASS.md](LONG-PASS.md). Earlier own-game weight-fitting experiment: [TRAINING-CYCLE.md](TRAINING-CYCLE.md); its fitted weights were not promoted. Historical Python implementation: [PYTHON-REFERENCE.md](PYTHON-REFERENCE.md). Earlier plan log: [PLAN-STATUS.md](PLAN-STATUS.md).
+Near-100% accuracy, full-strength Stockfish dominance and first prize are not supported claims. Historical accuracy percentages and earlier own-engine point scores use different metrics and opponents.
+
+Earlier release reports: [STRONG-SEARCH.md](STRONG-SEARCH.md), [LONG-PASS.md](LONG-PASS.md). Port details: [NATIVE.md](NATIVE.md). Historical Python implementation: [PYTHON-REFERENCE.md](PYTHON-REFERENCE.md).

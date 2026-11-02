@@ -1,0 +1,29 @@
+{
+  "selected_at_utc": "2026-11-02T04:15:08.470617+00:00",
+  "candidate": "blendclock-fast",
+  "candidate_binary_sha256": "671eb09672b629bc08c58259949e9c1082554ad920477acd17b1041a0ef7e44d",
+  "candidate_source_sha256": "0b6560edacd993d474fed28aba831b5728fbc9488792bda7746cb0541f6a6484",
+  "reason": "Clock-aware TT and blended evaluation showed the most consistent preliminary external-field gain; forcing checks add cost without a better aggregate result. Sort/hash changes preserve six depth-6 search results exactly.",
+  "fresh_validation": {
+    "seed_base": 12100000,
+    "pairs_per_opponent": 48,
+    "seconds_per_move": 0.15,
+    "workers": 4,
+    "total_games_planned": 768,
+    "baseline": "published fd64fec native snapshot"
+  },
+  "promotion_gate": [
+    "No candidate technical failures",
+    "All required finite rules, protocol, history and sanitizer checks pass",
+    "Positive independent matched point-score difference with approximate 95 percent interval above zero",
+    "Skill5 positive and GNU nonnegative matched score differences",
+    "Exact candidate completes both 180+2 and 600+5 without clock or protocol failures"
+  ],
+  "limitations": [
+    "No guarantee of winning competition or defeating strong open-source engines.",
+    "History-compatible TT reuse is a practical heuristic, not a universal proof against graph-history interaction.",
+    "Short-clock sampled-opening validation is separate from standard-start official-clock games."
+  ],
+  "public_source": "source/cpp/experimental/field/hash.cpp",
+  "public_binary": "engine/field-candidate"
+}
