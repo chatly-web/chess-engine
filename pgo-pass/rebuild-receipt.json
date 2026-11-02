@@ -1,0 +1,10 @@
+{
+  "rebuild_helper_passed": true,
+  "rebuilt_fixed_depth_searches_identical": 32,
+  "byte_identical": false,
+  "rebuilt_sha256": "8c0bbd3eee261f2cc3451cae0801329653ad86a4638250d4d34df94264f68895",
+  "tested_candidate_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "source_header_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+  "scope": "Public helper regenerated a profile and built without missing-profile warnings; 32 fixed-depth searches matched. Independently generated profiles need not produce byte-identical binaries."
+}

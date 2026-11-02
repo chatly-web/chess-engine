@@ -1,0 +1,30 @@
+{
+  "candidate_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "speed_depth6": {
+    "median_speed_ratio": 1.0890962827393607,
+    "total_speed_ratio": 1.0827652803128534
+  },
+  "speed_depth8": {
+    "median_speed_ratio": 1.0866042487915069,
+    "total_speed_ratio": 1.0851753135136344
+  },
+  "matches": {
+    "games": 32,
+    "wins": 12,
+    "draws": 12,
+    "losses": 8,
+    "failures": 0,
+    "paired_mean_point_score": 0.5625,
+    "approximate_95_interval": [
+      0.4043531800298638,
+      0.7206468199701361
+    ]
+  },
+  "mate_cases_passed": 84,
+  "legal_positions": 2000,
+  "clock_probe_count": 4,
+  "clock_probes_are_full_games": false,
+  "production_engine_unchanged": true,
+  "deployed": false,
+  "prize_or_accuracy_guarantee": false
+}

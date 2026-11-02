@@ -1,0 +1,9 @@
+{
+  "depth": 8,
+  "repeats": 2,
+  "positions": 32,
+  "seed": 3112603,
+  "fixed_candidate_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "gate": "identical fixed-depth search; median and total speed ratio at least 1.05",
+  "purpose": "longer-workload timing confirmation, not another candidate selection"
+}

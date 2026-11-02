@@ -1,0 +1,47 @@
+{
+  "sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "passed": true,
+  "probes": [
+    {
+      "base": 180,
+      "increment": 2,
+      "our_colour": "white",
+      "seconds": 7.301695292000659,
+      "depth": 11,
+      "nodes": 1197520,
+      "legal_move": true,
+      "within_clock": true
+    },
+    {
+      "base": 180,
+      "increment": 2,
+      "our_colour": "black",
+      "seconds": 7.301579207996838,
+      "depth": 11,
+      "nodes": 2847205,
+      "legal_move": true,
+      "within_clock": true
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "our_colour": "white",
+      "seconds": 23.25156170799164,
+      "depth": 13,
+      "nodes": 11693356,
+      "legal_move": true,
+      "within_clock": true
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "our_colour": "black",
+      "seconds": 23.2513512079895,
+      "depth": 12,
+      "nodes": 7060119,
+      "legal_move": true,
+      "within_clock": true
+    }
+  ],
+  "scope": "Four initial-clock move probes, not four full games or a win-rate measurement"
+}

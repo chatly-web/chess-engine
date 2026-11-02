@@ -1,0 +1,1421 @@
+{
+  "pairs": 64,
+  "identical_fixed_depth_searches": true,
+  "median_speed_ratio": 1.0890962827393607,
+  "total_speed_ratio": 1.0827652803128534,
+  "speed_gate_passed": true,
+  "candidate_path": "work/pgo-improvement/build/clash-pgo",
+  "candidate_sha256": "d34dbc226ca49159fd632480a3bf94e89db2f4e17a12bd276d1ec65844861350",
+  "baseline_unchanged": true,
+  "deployed": false,
+  "rows": [
+    {
+      "repeat": 0,
+      "position": 0,
+      "game_id": "8sBeSVoi",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.05346870800713077,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+103), WHITE)",
+          "nodes": 23059,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.0515624999825377,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+103), WHITE)",
+          "nodes": 23059,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 1,
+      "game_id": "5IqO482L",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.024888583982829005,
+          "move": "a4b3",
+          "score": "PovScore(Cp(+11), WHITE)",
+          "nodes": 12207,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.02291062500444241,
+          "move": "a4b3",
+          "score": "PovScore(Cp(+11), WHITE)",
+          "nodes": 12207,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 2,
+      "game_id": "u4w83HC6",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.029158249992178753,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+74), WHITE)",
+          "nodes": 16434,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.03240266698412597,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+74), WHITE)",
+          "nodes": 16434,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 3,
+      "game_id": "kiFmOvZf",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.08024062498589046,
+          "move": "d4c5",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 46732,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.08735120898927562,
+          "move": "d4c5",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 46732,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 4,
+      "game_id": "PiNxG3QM",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.09746916699805297,
+          "move": "g1e2",
+          "score": "PovScore(Cp(-22), WHITE)",
+          "nodes": 48428,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.09196737501770258,
+          "move": "g1e2",
+          "score": "PovScore(Cp(-22), WHITE)",
+          "nodes": 48428,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 5,
+      "game_id": "5BfHi2yX",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.11112066701753065,
+          "move": "c2c4",
+          "score": "PovScore(Cp(+75), WHITE)",
+          "nodes": 60179,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.12503675001789816,
+          "move": "c2c4",
+          "score": "PovScore(Cp(+75), WHITE)",
+          "nodes": 60179,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 6,
+      "game_id": "6xlpBHE8",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.05655462501454167,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-111), WHITE)",
+          "nodes": 31938,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.0543878749886062,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-111), WHITE)",
+          "nodes": 31938,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 7,
+      "game_id": "YDC4oHdA",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.07969316598610021,
+          "move": "d1d3",
+          "score": "PovScore(Cp(-28), WHITE)",
+          "nodes": 42567,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.07332504200167023,
+          "move": "d1d3",
+          "score": "PovScore(Cp(-28), WHITE)",
+          "nodes": 42567,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 8,
+      "game_id": "V7uSusJj",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.08956512500299141,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+97), WHITE)",
+          "nodes": 42827,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.08274354197783396,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+97), WHITE)",
+          "nodes": 42827,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 9,
+      "game_id": "G2NXD6Zl",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.11139491701032966,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+23), WHITE)",
+          "nodes": 57269,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.10087208298500627,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+23), WHITE)",
+          "nodes": 57269,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 10,
+      "game_id": "5NjqrPpt",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.021210917009739205,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)",
+          "nodes": 13922,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.023762249998981133,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)",
+          "nodes": 13922,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 11,
+      "game_id": "9Z3tha0k",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.029139332997146994,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+65), WHITE)",
+          "nodes": 16936,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.02680933300871402,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+65), WHITE)",
+          "nodes": 16936,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 12,
+      "game_id": "b874auJw",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.028430625010514632,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)",
+          "nodes": 17533,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.03143120801541954,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)",
+          "nodes": 17533,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 13,
+      "game_id": "eIuOsMqg",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.0451046249945648,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+13), WHITE)",
+          "nodes": 25954,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.05050316598499194,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+13), WHITE)",
+          "nodes": 25954,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 14,
+      "game_id": "bAQisWXg",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.044399417005479336,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 22164,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.048414082993986085,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 22164,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 15,
+      "game_id": "wUwZd3JQ",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.03561666698078625,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+150), WHITE)",
+          "nodes": 18360,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.03255687499768101,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+150), WHITE)",
+          "nodes": 18360,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 16,
+      "game_id": "HSPn209U",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04603691698866896,
+          "move": "c3d5",
+          "score": "PovScore(Cp(-20), WHITE)",
+          "nodes": 21789,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.041880917007802054,
+          "move": "c3d5",
+          "score": "PovScore(Cp(-20), WHITE)",
+          "nodes": 21789,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 17,
+      "game_id": "jdybpsFY",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.03116245797718875,
+          "move": "d2d4",
+          "score": "PovScore(Cp(+9), WHITE)",
+          "nodes": 16569,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.034233833983307704,
+          "move": "d2d4",
+          "score": "PovScore(Cp(+9), WHITE)",
+          "nodes": 16569,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 18,
+      "game_id": "ck2OxK6Y",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.033671208017040044,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 17055,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.036876333004329354,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 17055,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 19,
+      "game_id": "4hGVLDf5",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.02393091598059982,
+          "move": "e4e5",
+          "score": "PovScore(Cp(+163), WHITE)",
+          "nodes": 12556,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.02631958300480619,
+          "move": "e4e5",
+          "score": "PovScore(Cp(+163), WHITE)",
+          "nodes": 12556,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 20,
+      "game_id": "5CHaH8rq",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.02714979200391099,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+71), WHITE)",
+          "nodes": 13941,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.024774541991064325,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+71), WHITE)",
+          "nodes": 13941,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 21,
+      "game_id": "Duam6awF",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.05706074999761768,
+          "move": "c4c5",
+          "score": "PovScore(Cp(-27), WHITE)",
+          "nodes": 28543,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.05236704199342057,
+          "move": "c4c5",
+          "score": "PovScore(Cp(-27), WHITE)",
+          "nodes": 28543,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 22,
+      "game_id": "Jpxj6VDI",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.07257254200521857,
+          "move": "c1f4",
+          "score": "PovScore(Cp(+188), WHITE)",
+          "nodes": 37384,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.06404970900621265,
+          "move": "c1f4",
+          "score": "PovScore(Cp(+188), WHITE)",
+          "nodes": 37384,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 23,
+      "game_id": "1FzoUy70",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0868374579877127,
+          "move": "b3c3",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 33997,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.07871337502729148,
+          "move": "b3c3",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 33997,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 24,
+      "game_id": "jabFJ6Qu",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.03120395800215192,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+66), WHITE)",
+          "nodes": 15965,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.028635541995754465,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+66), WHITE)",
+          "nodes": 15965,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 25,
+      "game_id": "fw0Ec4tv",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.021903332992224023,
+          "move": "e2e4",
+          "score": "PovScore(Cp(-63), WHITE)",
+          "nodes": 12827,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.023744459002045915,
+          "move": "e2e4",
+          "score": "PovScore(Cp(-63), WHITE)",
+          "nodes": 12827,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 26,
+      "game_id": "1ErAesaT",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.05503641700488515,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 25779,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.05280195898376405,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 25779,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 27,
+      "game_id": "fHNm7Ocp",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.058174625009996817,
+          "move": "d1d3",
+          "score": "PovScore(Cp(+40), WHITE)",
+          "nodes": 32464,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.06322916600038297,
+          "move": "d1d3",
+          "score": "PovScore(Cp(+40), WHITE)",
+          "nodes": 32464,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 28,
+      "game_id": "uf1we5G3",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0855823329766281,
+          "move": "c1e3",
+          "score": "PovScore(Cp(+114), WHITE)",
+          "nodes": 38910,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.08216958297998644,
+          "move": "c1e3",
+          "score": "PovScore(Cp(+114), WHITE)",
+          "nodes": 38910,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 29,
+      "game_id": "2I3eQ0N7",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.07147066699690185,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+97), WHITE)",
+          "nodes": 39249,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.0800444999767933,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+97), WHITE)",
+          "nodes": 39249,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 30,
+      "game_id": "3FVhhaHP",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.06607800000347197,
+          "move": "g4g5",
+          "score": "PovScore(Cp(-26), WHITE)",
+          "nodes": 34003,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.06745737500023097,
+          "move": "g4g5",
+          "score": "PovScore(Cp(-26), WHITE)",
+          "nodes": 34003,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 0,
+      "position": 31,
+      "game_id": "fmm3xrI3",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.056077082990668714,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+86), WHITE)",
+          "nodes": 26708,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.052787499997066334,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+86), WHITE)",
+          "nodes": 26708,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 0,
+      "game_id": "8sBeSVoi",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.03736916699563153,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+92), WHITE)",
+          "nodes": 18910,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.041339582996442914,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+92), WHITE)",
+          "nodes": 18910,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 1,
+      "game_id": "5IqO482L",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.023435000010067597,
+          "move": "a4b3",
+          "score": "PovScore(Cp(+17), WHITE)",
+          "nodes": 12186,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.02513770799851045,
+          "move": "a4b3",
+          "score": "PovScore(Cp(+17), WHITE)",
+          "nodes": 12186,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 2,
+      "game_id": "u4w83HC6",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.032890375005081296,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+74), WHITE)",
+          "nodes": 16034,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.03154349999385886,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+74), WHITE)",
+          "nodes": 16034,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 3,
+      "game_id": "kiFmOvZf",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.09133262498653494,
+          "move": "d4c5",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 50196,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.10048304201336578,
+          "move": "d4c5",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 50196,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 4,
+      "game_id": "PiNxG3QM",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.10159108301741071,
+          "move": "g1e2",
+          "score": "PovScore(Cp(-22), WHITE)",
+          "nodes": 53745,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.10973554101656191,
+          "move": "g1e2",
+          "score": "PovScore(Cp(-22), WHITE)",
+          "nodes": 53745,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 5,
+      "game_id": "5BfHi2yX",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.11983050001435913,
+          "move": "c2c4",
+          "score": "PovScore(Cp(+75), WHITE)",
+          "nodes": 62939,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.12897866699495353,
+          "move": "c2c4",
+          "score": "PovScore(Cp(+75), WHITE)",
+          "nodes": 62939,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 6,
+      "game_id": "6xlpBHE8",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.029988541005877778,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-82), WHITE)",
+          "nodes": 19149,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.03270879201591015,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-82), WHITE)",
+          "nodes": 19149,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 7,
+      "game_id": "YDC4oHdA",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.08049787499476224,
+          "move": "d1d3",
+          "score": "PovScore(Cp(-52), WHITE)",
+          "nodes": 47834,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.08522370798164047,
+          "move": "d1d3",
+          "score": "PovScore(Cp(-52), WHITE)",
+          "nodes": 47834,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 8,
+      "game_id": "V7uSusJj",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.07772525001200847,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+84), WHITE)",
+          "nodes": 42395,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.08456158300396055,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+84), WHITE)",
+          "nodes": 42395,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 9,
+      "game_id": "G2NXD6Zl",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.10779408301459625,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+23), WHITE)",
+          "nodes": 56705,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.10268433400779031,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+23), WHITE)",
+          "nodes": 56705,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 10,
+      "game_id": "5NjqrPpt",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.022949708014493808,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)",
+          "nodes": 14255,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.021030417003203183,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)",
+          "nodes": 14255,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 11,
+      "game_id": "9Z3tha0k",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.02465470798779279,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+65), WHITE)",
+          "nodes": 14525,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.027194916998269036,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+65), WHITE)",
+          "nodes": 14525,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 12,
+      "game_id": "b874auJw",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0338671249919571,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)",
+          "nodes": 18037,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.030752499995287508,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)",
+          "nodes": 18037,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 13,
+      "game_id": "eIuOsMqg",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.0473901660006959,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+13), WHITE)",
+          "nodes": 25630,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.052158833015710115,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+13), WHITE)",
+          "nodes": 25630,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 14,
+      "game_id": "bAQisWXg",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.047425083990674466,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 21553,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.043909583997447044,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 21553,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 15,
+      "game_id": "wUwZd3JQ",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.03342137500294484,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+150), WHITE)",
+          "nodes": 18302,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.03356700000585988,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+150), WHITE)",
+          "nodes": 18302,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 16,
+      "game_id": "HSPn209U",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.043199915991863236,
+          "move": "c3d5",
+          "score": "PovScore(Cp(-20), WHITE)",
+          "nodes": 23330,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.04751545898034237,
+          "move": "c3d5",
+          "score": "PovScore(Cp(-20), WHITE)",
+          "nodes": 23330,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 17,
+      "game_id": "jdybpsFY",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0279159169876948,
+          "move": "d2d4",
+          "score": "PovScore(Cp(+9), WHITE)",
+          "nodes": 15020,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.026039040996693075,
+          "move": "d2d4",
+          "score": "PovScore(Cp(+9), WHITE)",
+          "nodes": 15020,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 18,
+      "game_id": "ck2OxK6Y",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.03515633300412446,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 16815,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.03272654098691419,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 16815,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 19,
+      "game_id": "4hGVLDf5",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.025571375008439645,
+          "move": "e4e5",
+          "score": "PovScore(Cp(+163), WHITE)",
+          "nodes": 13747,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.02813295798841864,
+          "move": "e4e5",
+          "score": "PovScore(Cp(+163), WHITE)",
+          "nodes": 13747,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 20,
+      "game_id": "5CHaH8rq",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.027245917008258402,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+71), WHITE)",
+          "nodes": 14046,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.025054958008695394,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+71), WHITE)",
+          "nodes": 14046,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 21,
+      "game_id": "Duam6awF",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.05493350001052022,
+          "move": "c4c5",
+          "score": "PovScore(Cp(-27), WHITE)",
+          "nodes": 28366,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.048887957993429154,
+          "move": "c4c5",
+          "score": "PovScore(Cp(-27), WHITE)",
+          "nodes": 28366,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 22,
+      "game_id": "Jpxj6VDI",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.06885041599161923,
+          "move": "c1f4",
+          "score": "PovScore(Cp(+188), WHITE)",
+          "nodes": 36353,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.06425387499621138,
+          "move": "c1f4",
+          "score": "PovScore(Cp(+188), WHITE)",
+          "nodes": 36353,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 23,
+      "game_id": "1FzoUy70",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.07561758402152918,
+          "move": "b3c3",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 32596,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.08141512499423698,
+          "move": "b3c3",
+          "score": "PovScore(Cp(+34), WHITE)",
+          "nodes": 32596,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 24,
+      "game_id": "jabFJ6Qu",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.027603666007053107,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+66), WHITE)",
+          "nodes": 15066,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.029585457989014685,
+          "move": "f3d4",
+          "score": "PovScore(Cp(+66), WHITE)",
+          "nodes": 15066,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 25,
+      "game_id": "fw0Ec4tv",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.03264716698322445,
+          "move": "e2e4",
+          "score": "PovScore(Cp(-63), WHITE)",
+          "nodes": 20697,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.03559037501690909,
+          "move": "e2e4",
+          "score": "PovScore(Cp(-63), WHITE)",
+          "nodes": 20697,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 26,
+      "game_id": "1ErAesaT",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.054800790996523574,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 26771,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.05221741698915139,
+          "move": "d4e5",
+          "score": "PovScore(Cp(+82), WHITE)",
+          "nodes": 26771,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 27,
+      "game_id": "fHNm7Ocp",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.06699816702166572,
+          "move": "d1d3",
+          "score": "PovScore(Cp(+40), WHITE)",
+          "nodes": 39534,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.07578620899585076,
+          "move": "d1d3",
+          "score": "PovScore(Cp(+40), WHITE)",
+          "nodes": 39534,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 28,
+      "game_id": "uf1we5G3",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.07017166598234326,
+          "move": "c1e3",
+          "score": "PovScore(Cp(+114), WHITE)",
+          "nodes": 35773,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.07940554097876884,
+          "move": "c1e3",
+          "score": "PovScore(Cp(+114), WHITE)",
+          "nodes": 35773,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 29,
+      "game_id": "2I3eQ0N7",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.0855083329952322,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 43017,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.09163466599420644,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+99), WHITE)",
+          "nodes": 43017,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 30,
+      "game_id": "3FVhhaHP",
+      "measurements": {
+        "candidate": {
+          "seconds": 0.06754816698958166,
+          "move": "g4g5",
+          "score": "PovScore(Cp(-26), WHITE)",
+          "nodes": 34782,
+          "depth": 6
+        },
+        "baseline": {
+          "seconds": 0.07359891597297974,
+          "move": "g4g5",
+          "score": "PovScore(Cp(-26), WHITE)",
+          "nodes": 34782,
+          "depth": 6
+        }
+      },
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "position": 31,
+      "game_id": "fmm3xrI3",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.058638415997847915,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+86), WHITE)",
+          "nodes": 26962,
+          "depth": 6
+        },
+        "candidate": {
+          "seconds": 0.056187332986155525,
+          "move": "f1e2",
+          "score": "PovScore(Cp(+86), WHITE)",
+          "nodes": 26962,
+          "depth": 6
+        }
+      },
+      "identical": true
+    }
+  ]
+}

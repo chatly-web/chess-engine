@@ -16,6 +16,10 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Profiled C++ candidate
+
+The separate `./engine/clash-pgo` candidate compiles the original history-search source using its own search execution profile. A 64-pair depth-8 confirmation measured a **1.087× median speed ratio** with identical moves, scores, nodes and completed depth. A separate 32-game comparison against `clash-history` recorded **12 wins, 12 draws and 8 losses** (56.25% game points; the approximate paired 95% interval crosses 50%). This establishes a measured execution-speed improvement on this Mac, not a reliable win-rate gain or Lichess accuracy. Finite rules, mate, protocol and both competition-control clock probes passed; the four full-clock move probes are not full games. The active BOT, existing builds and release ZIP are unchanged. See [PGO-BUILD.md](PGO-BUILD.md) for source, rebuild instructions, full results and the event version-freeze constraint.
+
 ## Latest search-order candidate
 
 The original history-ordering candidate scored **91 wins, 99 draws and 66 losses** against the faster build across 256 short games: **54.88% game points**, with a corrected approximate 97.5% interval **[49.68%, 60.09%]** after one fixed independent replication. Against v0.8 it scored **31 wins, 19 draws and 14 losses** in another 64 games (63.28% game points). These are game scores under short fixed-move budgets, not Lichess move accuracy.
