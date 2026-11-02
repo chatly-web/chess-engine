@@ -1,0 +1,85 @@
+{
+  "selected": {
+    "chosen": "threats",
+    "sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=1",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ],
+    "criterion": "GNU wins, GNU game points, then Skill5 points per planned game; exact ties checks,threats,guarded. No own technical failure.",
+    "screen_sha256": "3ae1cb220ba59e154c781c960ac2db1589702461138d981ce76c91a53b420a94",
+    "confirmation_not_started_at_selection": true
+  },
+  "screen_games": 128,
+  "confirmation_games": 288,
+  "short_game_finished": 416,
+  "short_game_caps_or_failures": 0,
+  "short_game_recorded_technical_failures": 0,
+  "full_clock_games": [
+    {
+      "control": "180+2",
+      "colour": "white",
+      "result": "loss",
+      "plies": 64,
+      "failure": null,
+      "finished": true
+    },
+    {
+      "control": "180+2",
+      "colour": "black",
+      "result": "loss",
+      "plies": 79,
+      "failure": null,
+      "finished": true
+    },
+    {
+      "control": "600+5",
+      "colour": "white",
+      "result": "loss",
+      "plies": 116,
+      "failure": null,
+      "finished": true
+    },
+    {
+      "control": "600+5",
+      "colour": "black",
+      "result": "loss",
+      "plies": 101,
+      "failure": null,
+      "finished": true
+    }
+  ],
+  "confirmation_comparison": {
+    "matched_units": 72,
+    "mean_point_score_difference": -0.07291666666666667,
+    "approximate_95_interval": [
+      -0.1353062992659098,
+      -0.010527034067423523
+    ],
+    "per_opponent_difference": {
+      "Stockfish19-full": 0.0,
+      "GNUChess6.3": 0.020833333333333332,
+      "Stockfish19-Skill5": -0.23958333333333334
+    }
+  },
+  "promotion_gate_passed": false,
+  "recommendation": "Retain v0.8. Tactical candidate remains experimental.",
+  "production_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "king_defence": {
+    "baseline": 16,
+    "candidate": 24,
+    "cases": 24,
+    "nominal_main_depth": 1
+  },
+  "accuracy_measured": false,
+  "competition_win_guaranteed": false
+}

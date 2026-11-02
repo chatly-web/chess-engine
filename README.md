@@ -16,6 +16,10 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Tactical-strength experiment
+
+Original C++ candidates add safe quiet checking moves and protect forcing pawn moves from search reductions. A focused king-defence check improved from 16/24 to 24/24 at requested main depth 1, but the selected candidate failed the fresh strength gate and lost all four standard-start GNU games at 3+2 and 10+5. It remains experimental; v0.8 stays recommended. The pass preserves 416 short games and four full-clock games. See [STRENGTH-FIRST.md](STRENGTH-FIRST.md) for complete results, finite-check limits, original sources and permitted competitive advantages.
+
 ## Search architecture validation
 
 Original C++ variants add four-slot depth/age-based search-memory replacement and low-material null-move verification. The pass recorded416 short games and two full-clock GNU games. The selected table variant did not pass the independent strength gate, so v0.8 remains recommended. See [ARCHITECTURE.md](ARCHITECTURE.md) for source, results and limitations.

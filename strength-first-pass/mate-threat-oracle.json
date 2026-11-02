@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "rules_only": true,
+  "source": "Observed own game position, no external engine analysis",
+  "cases": [
+    {
+      "black_move": "d7e8",
+      "white_check": "e2a6",
+      "all_black_replies_mated": [
+        {
+          "reply": "c8b8",
+          "white_mates": [
+            "a6b7"
+          ]
+        }
+      ]
+    },
+    {
+      "black_move": "d7e7",
+      "white_check": "e2a6",
+      "all_black_replies_mated": [
+        {
+          "reply": "c8b8",
+          "white_mates": [
+            "a6b7"
+          ]
+        }
+      ]
+    },
+    {
+      "black_move": "d7d6",
+      "white_check": "e2a6",
+      "all_black_replies_mated": [
+        {
+          "reply": "c8b8",
+          "white_mates": [
+            "a6b7"
+          ]
+        }
+      ]
+    },
+    {
+      "black_move": "d7d5",
+      "white_check": "e2a6",
+      "all_black_replies_mated": [
+        {
+          "reply": "c8b8",
+          "white_mates": [
+            "a6b7"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "selected": "threats",
+  "sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+  "games": 288,
+  "pairs_per_opponent": 24,
+  "seconds": 0.25,
+  "workers": 3,
+  "seed_base": 42100000,
+  "starts": "Fresh collection[32:104], game-disjoint from fitting and all earlier tests",
+  "gate": [
+    "positive independent matched point-score lower95 bound",
+    "GNU nonnegative points difference and no fewer wins than baseline",
+    "at least one standard-start GNU win at180+2; both colours and both time controls still tested",
+    "all4exact-clock games finished without own technical failures",
+    "finite rules,protocol,king defence,mates,source and sanitizer checks"
+  ]
+}

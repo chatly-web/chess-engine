@@ -1,0 +1,70 @@
+{
+  "objective": "Improve actual wins and game points against strong opponents, not NPS or reported depth",
+  "changes": [
+    "Safe quiet checking moves in first3 quiescence plies",
+    "Do not late-reduce quiet pawn attacks on pieces or advances to6th/7thrank",
+    "Guarded alternative uses exact-history score reuse and disables static reverse-futility"
+  ],
+  "evaluation_weights_unchanged": true,
+  "screen": {
+    "games": 128,
+    "pairs_per_opponent": 8,
+    "seconds": 0.2,
+    "workers": 2,
+    "seed_base": 40100000,
+    "prefix_slice": [
+      0,
+      16
+    ],
+    "selection": "GNU wins first, then GNU points, then Skill5 points. Ties prefer checks,threats,guarded. No own technical failure."
+  },
+  "confirmation": {
+    "games": 288,
+    "pairs_per_opponent": 24,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5",
+      "Stockfish19-full"
+    ],
+    "seconds": 0.25,
+    "workers": 3,
+    "seed_base": 42100000,
+    "prefix_slice": [
+      32,
+      104
+    ]
+  },
+  "full_clocks": [
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "black"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "white"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    }
+  ],
+  "clock_scheduling": "Four independent single-thread matches concurrently; with3confirmation games at most7active search cores on10core host",
+  "promotion_gate": [
+    "positive independent matched point-score lower95 bound",
+    "GNU nonnegative points difference and no fewer wins than baseline",
+    "at least one standard-start GNU win at180+2; both colours and both time controls still tested",
+    "all4exact-clock games finished without own technical failures",
+    "finite rules,protocol,king defence,mates,source and sanitizer checks"
+  ],
+  "no_foreign_analysis_or_weights": true,
+  "no_repeated_tuning_to_confirmation": true,
+  "objective_detail": "Prize qualification is decided by3+2 knockout. Rapid10+5 is a same-version showcase and does not change prize winners, under sections7/8 rechecked live2November2026."
+}

@@ -1,0 +1,345 @@
+{
+  "baseline": "baseline",
+  "engines": {
+    "baseline": "source/cpp/experimental/strength_first/baseline",
+    "checks": "source/cpp/experimental/strength_first/build-checks/clash-native",
+    "threats": "source/cpp/experimental/strength_first/build-threats/clash-native",
+    "guarded": "source/cpp/experimental/strength_first/build-guarded/clash-native"
+  },
+  "opponents": [
+    {
+      "label": "GNUChess6.3",
+      "command": [
+        "/opt/homebrew/bin/gnuchess",
+        "--uci"
+      ]
+    },
+    {
+      "label": "Stockfish19-Skill5",
+      "command": [
+        "/opt/homebrew/bin/stockfish"
+      ],
+      "options": {
+        "Skill Level": 5
+      }
+    }
+  ],
+  "starts": [
+    {
+      "game_id": "asClwjLu",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "c2c3",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -89,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "WeEy4vLS",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6",
+        "d1e2",
+        "b7b5",
+        "a4b3",
+        "f8c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -69,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "KzmUrBV2",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "e7e6",
+        "b5c6",
+        "b7c6",
+        "b2b3",
+        "g8e7",
+        "c1b2",
+        "e7g6",
+        "h2h4",
+        "h7h6",
+        "h4h5",
+        "g6e7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 82,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "Mu929LRR",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "g1f3",
+        "g8f6",
+        "g2g3",
+        "c8f5",
+        "f1g2",
+        "e7e6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -43,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "15b6fBI8",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "g1f3",
+        "d7d5",
+        "d2d3",
+        "c8g4",
+        "h2h3",
+        "g4f3",
+        "d1f3",
+        "e7e6",
+        "b1d2",
+        "b8d7"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 148,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "NeqbfkhA",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b1c3",
+        "d7d5",
+        "g1f3",
+        "f8g7",
+        "h2h3",
+        "e8g8",
+        "c1g5",
+        "f6e4",
+        "g5f4",
+        "c7c5",
+        "e2e3",
+        "d8a5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -10,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "ddWevrkg",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1d2",
+        "c7c5",
+        "g1f3",
+        "c5d4"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 11,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "2lJx9e5d",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "e6d5",
+        "g1f3",
+        "c8f5",
+        "f1d3",
+        "f5d3",
+        "d1d3",
+        "c7c6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 132,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "XvHuZMdY",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "b1c3",
+        "e7e6",
+        "f2f4",
+        "d7d5",
+        "g1f3",
+        "d5d4",
+        "f1b5",
+        "b8d7",
+        "c3e2",
+        "a7a6",
+        "b5d7",
+        "c8d7",
+        "d2d3",
+        "f8d6"
+      ],
+      "plies": 16,
+      "own_baseline_cp": -34,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "bvIdDszL",
+      "moves": [
+        "g1f3",
+        "e7e6",
+        "c2c4",
+        "g7g5",
+        "d2d4",
+        "g5g4",
+        "f3e5",
+        "h7h5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 150,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "79ltuH9l",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "d5e4",
+        "c3e4",
+        "b8d7",
+        "g1f3",
+        "g8f6",
+        "e4g3",
+        "g7g6"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 62,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "7mhofBCT",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "b1c3",
+        "d7d6",
+        "e2e4",
+        "g7g6",
+        "h2h4",
+        "h7h6",
+        "f1e2",
+        "f8g7",
+        "c1e3",
+        "b8d7",
+        "d1d2",
+        "e7e5",
+        "d4e5",
+        "d7e5"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 25,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "O9V1JRYz",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "e1g1",
+        "g8f6"
+      ],
+      "plies": 8,
+      "own_baseline_cp": 55,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "QyLbt1WG",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "g1f3",
+        "d7d5",
+        "d2d3",
+        "g7g6",
+        "e4e5",
+        "f8g7",
+        "d3d4",
+        "e7e6",
+        "c2c3",
+        "c6c5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": 78,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "JJPEuEbt",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "d7d5",
+        "c4d5",
+        "e6d5",
+        "c1g5",
+        "c7c6",
+        "e2e3",
+        "f8e7",
+        "f1d3",
+        "e8g8",
+        "g1e2",
+        "b8d7"
+      ],
+      "plies": 16,
+      "own_baseline_cp": 7,
+      "excluded_previous_pass_and_training": true
+    },
+    {
+      "game_id": "GcRGvKNS",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e5",
+        "d4e5",
+        "g8e7",
+        "c4d5",
+        "d8d5"
+      ],
+      "plies": 8,
+      "own_baseline_cp": -43,
+      "excluded_previous_pass_and_training": true
+    }
+  ]
+}

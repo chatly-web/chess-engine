@@ -1,0 +1,20 @@
+{
+  "chosen": "threats",
+  "sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_EVAL_STYLE=3",
+    "-DCLASH_QCHECKS=1",
+    "-DCLASH_PAWN_THREATS=1",
+    "-DCLASH_TT_REUSE=2",
+    "-DCLASH_SEARCH_V3=3"
+  ],
+  "criterion": "GNU wins, GNU game points, then Skill5 points per planned game; exact ties checks,threats,guarded. No own technical failure.",
+  "screen_sha256": "3ae1cb220ba59e154c781c960ac2db1589702461138d981ce76c91a53b420a94",
+  "confirmation_not_started_at_selection": true
+}

@@ -1,0 +1,1147 @@
+{
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "checks": "7cd8b6c91d7d3faeef037fb79b7e896a881c797a48298750848d0ea251f8064b",
+    "threats": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+    "guarded": "4a365eefa1e7a65782d2979f27b012178154072d9614d12ae8cf255842874a18"
+  },
+  "oracle": "Only legal moves and exhaustive opponent mate-in-one replies; no foreign-engine scores",
+  "requested_nominal_depth": 1,
+  "cases": [
+    {
+      "fen": "7k/8/6K1/3Q4/8/8/8/r7 b - - 0 1",
+      "safe": [
+        "a1a6",
+        "a1g1",
+        "a1f1",
+        "a1e1",
+        "a1d1"
+      ],
+      "unsafe": [
+        "a1a8",
+        "a1a7",
+        "a1a5",
+        "a1a4",
+        "a1a3",
+        "a1a2",
+        "a1h1",
+        "a1c1",
+        "a1b1"
+      ]
+    },
+    {
+      "fen": "8/4r3/8/8/6Q1/8/8/5K1k b - - 0 1",
+      "safe": [
+        "e7f7",
+        "e7e1"
+      ],
+      "unsafe": [
+        "e7e8",
+        "e7h7",
+        "e7g7",
+        "e7d7",
+        "e7c7",
+        "e7b7",
+        "e7a7",
+        "e7e6",
+        "e7e5",
+        "e7e4",
+        "e7e3",
+        "e7e2",
+        "h1h2"
+      ]
+    },
+    {
+      "fen": "8/8/r7/3Q4/8/1K6/8/k7 b - - 0 1",
+      "safe": [
+        "a6d6",
+        "a6c6",
+        "a6b6",
+        "a6a3"
+      ],
+      "unsafe": [
+        "a6a8",
+        "a6a7",
+        "a6h6",
+        "a6g6",
+        "a6f6",
+        "a6e6",
+        "a6a5",
+        "a6a4",
+        "a6a2",
+        "a1b1"
+      ]
+    },
+    {
+      "fen": "7k/4Q3/5K2/8/8/3r4/8/8 b - - 0 1",
+      "safe": [
+        "d3d7",
+        "d3d6",
+        "d3g3",
+        "d3f3"
+      ],
+      "unsafe": [
+        "h8g8",
+        "d3d8",
+        "d3d5",
+        "d3d4",
+        "d3h3",
+        "d3e3",
+        "d3c3",
+        "d3b3",
+        "d3a3",
+        "d3d2",
+        "d3d1"
+      ]
+    },
+    {
+      "fen": "5r1k/8/7K/8/6Q1/8/8/8 b - - 0 1",
+      "safe": [
+        "f8g8",
+        "f8f7",
+        "f8f6"
+      ],
+      "unsafe": [
+        "f8e8",
+        "f8d8",
+        "f8c8",
+        "f8b8",
+        "f8a8",
+        "f8f5",
+        "f8f4",
+        "f8f3",
+        "f8f2",
+        "f8f1"
+      ]
+    },
+    {
+      "fen": "8/8/8/8/1Q6/2K5/8/k5r1 b - - 0 1",
+      "safe": [
+        "g1g3",
+        "g1g2",
+        "g1c1"
+      ],
+      "unsafe": [
+        "g1g8",
+        "g1g7",
+        "g1g6",
+        "g1g5",
+        "g1g4",
+        "g1h1",
+        "g1f1",
+        "g1e1",
+        "g1d1",
+        "g1b1",
+        "a1a2"
+      ]
+    },
+    {
+      "fen": "8/8/8/8/8/6K1/4Q2r/7k b - - 0 1",
+      "safe": [
+        "h2h3",
+        "h2f2",
+        "h2e2"
+      ],
+      "unsafe": [
+        "h2h8",
+        "h2h7",
+        "h2h6",
+        "h2h5",
+        "h2h4",
+        "h2g2",
+        "h1g1"
+      ]
+    },
+    {
+      "fen": "7k/3Q4/5K2/8/8/8/7r/8 b - - 0 1",
+      "safe": [
+        "h2h6",
+        "h2g2",
+        "h2f2"
+      ],
+      "unsafe": [
+        "h8g8",
+        "h2h7",
+        "h2h5",
+        "h2h4",
+        "h2h3",
+        "h2e2",
+        "h2d2",
+        "h2c2",
+        "h2b2",
+        "h2a2",
+        "h2h1"
+      ]
+    },
+    {
+      "fen": "k7/2K5/8/8/2Q5/4r3/8/8 b - - 0 1",
+      "safe": [
+        "e3e7",
+        "e3e6",
+        "e3c3",
+        "e3a3"
+      ],
+      "unsafe": [
+        "a8a7",
+        "e3e8",
+        "e3e5",
+        "e3e4",
+        "e3h3",
+        "e3g3",
+        "e3f3",
+        "e3d3",
+        "e3b3",
+        "e3e2",
+        "e3e1"
+      ]
+    },
+    {
+      "fen": "7k/8/6QK/8/8/2r5/8/8 b - - 0 1",
+      "safe": [
+        "c3c6",
+        "c3h3"
+      ],
+      "unsafe": [
+        "c3c8",
+        "c3c7",
+        "c3c5",
+        "c3c4",
+        "c3g3",
+        "c3f3",
+        "c3e3",
+        "c3d3",
+        "c3b3",
+        "c3a3",
+        "c3c2",
+        "c3c1"
+      ]
+    },
+    {
+      "fen": "6rk/8/5K2/4Q3/8/8/8/8 b - - 0 1",
+      "safe": [
+        "g8f8",
+        "g8e8",
+        "g8d8",
+        "g8c8",
+        "g8b8",
+        "g8a8",
+        "g8g7",
+        "g8g6",
+        "g8g5",
+        "g8g4",
+        "g8g3",
+        "g8g2",
+        "g8g1"
+      ],
+      "unsafe": [
+        "h8h7"
+      ]
+    },
+    {
+      "fen": "8/8/8/8/2r5/1K6/2Q5/k7 b - - 0 1",
+      "safe": [
+        "c4b4",
+        "c4c3",
+        "c4c2"
+      ],
+      "unsafe": [
+        "c4c8",
+        "c4c7",
+        "c4c6",
+        "c4c5",
+        "c4h4",
+        "c4g4",
+        "c4f4",
+        "c4e4",
+        "c4d4",
+        "c4a4"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "engine": "baseline",
+      "case": 0,
+      "mirror": false,
+      "move": "a1a2",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-557), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 0,
+      "mirror": true,
+      "move": "a8a7",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-557), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 1,
+      "mirror": false,
+      "move": "e7f7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 1,
+      "mirror": true,
+      "move": "e2f2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 2,
+      "mirror": false,
+      "move": "a1b1",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-505), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 2,
+      "mirror": true,
+      "move": "a8b8",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-505), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 3,
+      "mirror": false,
+      "move": "d3d2",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-545), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 3,
+      "mirror": true,
+      "move": "d6d7",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-545), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 4,
+      "mirror": false,
+      "move": "f8f2",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-413), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 4,
+      "mirror": true,
+      "move": "f1f7",
+      "avoids_mate_in_one": false,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-413), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 5,
+      "mirror": false,
+      "move": "g1g2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-563), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 5,
+      "mirror": true,
+      "move": "g8g7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-563), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 6,
+      "mirror": false,
+      "move": "h2e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 6,
+      "mirror": true,
+      "move": "h7e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 7,
+      "mirror": false,
+      "move": "h2f2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-514), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 7,
+      "mirror": true,
+      "move": "h7f7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-514), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 8,
+      "mirror": false,
+      "move": "e3e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 8,
+      "mirror": true,
+      "move": "e6e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 9,
+      "mirror": false,
+      "move": "c3h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-451), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 9,
+      "mirror": true,
+      "move": "c6h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-451), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 10,
+      "mirror": false,
+      "move": "g8g2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-564), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 10,
+      "mirror": true,
+      "move": "g1g7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-564), WHITE)"
+    },
+    {
+      "engine": "baseline",
+      "case": 11,
+      "mirror": false,
+      "move": "c4c2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "baseline",
+      "case": 11,
+      "mirror": true,
+      "move": "c5c7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 0,
+      "mirror": false,
+      "move": "a1g1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 0,
+      "mirror": true,
+      "move": "a8g8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 1,
+      "mirror": false,
+      "move": "e7f7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 1,
+      "mirror": true,
+      "move": "e2f2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 2,
+      "mirror": false,
+      "move": "a6b6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 2,
+      "mirror": true,
+      "move": "a3b3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 3,
+      "mirror": false,
+      "move": "d3f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 3,
+      "mirror": true,
+      "move": "d6f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 4,
+      "mirror": false,
+      "move": "f8f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 4,
+      "mirror": true,
+      "move": "f1f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 5,
+      "mirror": false,
+      "move": "g1c1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 5,
+      "mirror": true,
+      "move": "g8c8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 6,
+      "mirror": false,
+      "move": "h2e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 6,
+      "mirror": true,
+      "move": "h7e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 7,
+      "mirror": false,
+      "move": "h2h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 7,
+      "mirror": true,
+      "move": "h7h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 8,
+      "mirror": false,
+      "move": "e3e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 8,
+      "mirror": true,
+      "move": "e6e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 9,
+      "mirror": false,
+      "move": "c3h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 9,
+      "mirror": true,
+      "move": "c6h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 10,
+      "mirror": false,
+      "move": "g8g7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 10,
+      "mirror": true,
+      "move": "g1g2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), WHITE)"
+    },
+    {
+      "engine": "checks",
+      "case": 11,
+      "mirror": false,
+      "move": "c4c2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "checks",
+      "case": 11,
+      "mirror": true,
+      "move": "c5c7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 0,
+      "mirror": false,
+      "move": "a1g1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 0,
+      "mirror": true,
+      "move": "a8g8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 1,
+      "mirror": false,
+      "move": "e7f7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 1,
+      "mirror": true,
+      "move": "e2f2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 2,
+      "mirror": false,
+      "move": "a6b6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 2,
+      "mirror": true,
+      "move": "a3b3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 3,
+      "mirror": false,
+      "move": "d3f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 3,
+      "mirror": true,
+      "move": "d6f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 4,
+      "mirror": false,
+      "move": "f8f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 4,
+      "mirror": true,
+      "move": "f1f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 5,
+      "mirror": false,
+      "move": "g1c1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 5,
+      "mirror": true,
+      "move": "g8c8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 6,
+      "mirror": false,
+      "move": "h2e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 6,
+      "mirror": true,
+      "move": "h7e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 7,
+      "mirror": false,
+      "move": "h2h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 7,
+      "mirror": true,
+      "move": "h7h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 8,
+      "mirror": false,
+      "move": "e3e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 8,
+      "mirror": true,
+      "move": "e6e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 9,
+      "mirror": false,
+      "move": "c3h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 9,
+      "mirror": true,
+      "move": "c6h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 10,
+      "mirror": false,
+      "move": "g8g7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 10,
+      "mirror": true,
+      "move": "g1g2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), WHITE)"
+    },
+    {
+      "engine": "threats",
+      "case": 11,
+      "mirror": false,
+      "move": "c4c2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "threats",
+      "case": 11,
+      "mirror": true,
+      "move": "c5c7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 0,
+      "mirror": false,
+      "move": "a1g1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 0,
+      "mirror": true,
+      "move": "a8g8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 1,
+      "mirror": false,
+      "move": "e7f7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 1,
+      "mirror": true,
+      "move": "e2f2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-465), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 2,
+      "mirror": false,
+      "move": "a6b6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 2,
+      "mirror": true,
+      "move": "a3b3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-619), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 3,
+      "mirror": false,
+      "move": "d3f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 3,
+      "mirror": true,
+      "move": "d6f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-568), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 4,
+      "mirror": false,
+      "move": "f8f6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 4,
+      "mirror": true,
+      "move": "f1f3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-446), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 5,
+      "mirror": false,
+      "move": "g1c1",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 5,
+      "mirror": true,
+      "move": "g8c8",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-481), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 6,
+      "mirror": false,
+      "move": "h2e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 6,
+      "mirror": true,
+      "move": "h7e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(+568), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 7,
+      "mirror": false,
+      "move": "h2h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 7,
+      "mirror": true,
+      "move": "h7h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-474), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 8,
+      "mirror": false,
+      "move": "e3e7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 8,
+      "mirror": true,
+      "move": "e6e2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-586), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 9,
+      "mirror": false,
+      "move": "c3h3",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 9,
+      "mirror": true,
+      "move": "c6h6",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 10,
+      "mirror": false,
+      "move": "g8g7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 10,
+      "mirror": true,
+      "move": "g1g2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(-622), WHITE)"
+    },
+    {
+      "engine": "guarded",
+      "case": 11,
+      "mirror": false,
+      "move": "c4c2",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), BLACK)"
+    },
+    {
+      "engine": "guarded",
+      "case": 11,
+      "mirror": true,
+      "move": "c5c7",
+      "avoids_mate_in_one": true,
+      "depth": 1,
+      "own_score": "PovScore(Cp(0), WHITE)"
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "passes": 16,
+      "tests": 24
+    },
+    "checks": {
+      "passes": 24,
+      "tests": 24
+    },
+    "threats": {
+      "passes": 24,
+      "tests": 24
+    },
+    "guarded": {
+      "passes": 24,
+      "tests": 24
+    }
+  },
+  "seconds": 0.15205424997839145,
+  "note": "Purpose-built finite king-defence/horizon cases, both colours. Not overall accuracy or match strength. Added quiescence checks search beyond nominal main depth."
+}

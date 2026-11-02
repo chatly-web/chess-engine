@@ -1,0 +1,2 @@
+Opponent cleanup: TimeoutError
+{"our_revision": "strength-first-threats-55673fbf", "opponent": {"name": "GNU Chess 6.3.0", "author": "GNU Chess team"}, "skill_level": null, "opponent_options": {"Hash": 64, "OwnBook": false}, "our_colour": "black", "base": 600.0, "increment": 5.0, "movetime": null, "result": "1-0", "failure": null, "failure_side": null, "failed_move_seconds": null, "remaining_before_failed_move": null, "finished": true, "plies": 101, "seconds": 1364.9458328330074, "max_plies": 600}

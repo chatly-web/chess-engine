@@ -1,0 +1,66 @@
+{
+  "control": {
+    "sha256": "bdec05439257e7b32bff59bbebe7fbfbd971a3f54f30faa02b1ebe4a4ef3e65a",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=0",
+      "-DCLASH_PAWN_THREATS=0",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ]
+  },
+  "checks": {
+    "sha256": "7cd8b6c91d7d3faeef037fb79b7e896a881c797a48298750848d0ea251f8064b",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=0",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ]
+  },
+  "threats": {
+    "sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=1",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ]
+  },
+  "guarded": {
+    "sha256": "4a365eefa1e7a65782d2979f27b012178154072d9614d12ae8cf255842874a18",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=1",
+      "-DCLASH_TT_REUSE=0",
+      "-DCLASH_SEARCH_V3=2"
+    ]
+  }
+}

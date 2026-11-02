@@ -1,0 +1,45 @@
+{
+  "games": [
+    {
+      "label": "candidate-gnu-180-2-white",
+      "finished": true,
+      "result": "0-1",
+      "our_colour": "white",
+      "own_technical_failure": false,
+      "recorded_game_failure": null,
+      "opponent_cleanup_timeout_after_game": true,
+      "log_sha256": "ce81ba2e2fff11ee6143548ca952b1182e35c53255ff8e325b68e282f2c29e3e"
+    },
+    {
+      "label": "candidate-gnu-180-2-black",
+      "finished": true,
+      "result": "1-0",
+      "our_colour": "black",
+      "own_technical_failure": false,
+      "recorded_game_failure": null,
+      "opponent_cleanup_timeout_after_game": true,
+      "log_sha256": "3883d5bfd432213fe0446ad5cde4442c2d0d599684c7747501609414390e10f3"
+    },
+    {
+      "label": "candidate-gnu-600-5-white",
+      "finished": true,
+      "result": "0-1",
+      "our_colour": "white",
+      "own_technical_failure": false,
+      "recorded_game_failure": null,
+      "opponent_cleanup_timeout_after_game": true,
+      "log_sha256": "df2fe284dcfdfd53e65ff82d5e18e05aa17586f52e7b3fbdd8958867c2ee792e"
+    },
+    {
+      "label": "candidate-gnu-600-5-black",
+      "finished": true,
+      "result": "1-0",
+      "our_colour": "black",
+      "own_technical_failure": false,
+      "recorded_game_failure": null,
+      "opponent_cleanup_timeout_after_game": true,
+      "log_sha256": "f646c11084c8289337438ee9d99dc909dd4069d04e1e370ebccf42605802cad5"
+    }
+  ],
+  "note": "An opponent process may not answer quit within the two-second cleanup timeout. The harness then closes it after the already-recorded game. This is separate from a move or clock failure."
+}

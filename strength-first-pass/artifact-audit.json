@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "matches": [
+    {
+      "file": "confirmation.json",
+      "games": 288,
+      "finished": 288,
+      "failures": 0,
+      "json_sha256": "72d29aeec4de2f2e5b4170ccf39382e289a503d10adefb9c6b78423d810a4611",
+      "pgn_sha256": "981bb767d09639ed3621d2e1cccc61fd7a4709a1821bea5546c5c375bdd9f72b"
+    },
+    {
+      "file": "screen.json",
+      "games": 128,
+      "finished": 128,
+      "failures": 0,
+      "json_sha256": "3ae1cb220ba59e154c781c960ac2db1589702461138d981ce76c91a53b420a94",
+      "pgn_sha256": "e471c87b62df49c99dee510d0dc62ae99780408398a7de5af812354314bac934"
+    }
+  ],
+  "clock_tests": [
+    {
+      "file": "candidate-gnu-180-2-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 79,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "d3ff893ea139e6a2dfde3e2d543b88c9136c75a842e68f961b0922c82e822168"
+    },
+    {
+      "file": "candidate-gnu-180-2-white.json",
+      "result": "0-1",
+      "finished": true,
+      "failure": null,
+      "plies": 64,
+      "base": 180.0,
+      "increment": 2.0,
+      "json_sha256": "033bb435218049111e16d2393cb4324bf400f6bafefcf874163d3619e94d3ad5"
+    },
+    {
+      "file": "candidate-gnu-600-5-black.json",
+      "result": "1-0",
+      "finished": true,
+      "failure": null,
+      "plies": 101,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "1869407340c4825f4d3cbfd2a415461fc09bafac7655002678951a90e8c25314"
+    },
+    {
+      "file": "candidate-gnu-600-5-white.json",
+      "result": "0-1",
+      "finished": true,
+      "failure": null,
+      "plies": 116,
+      "base": 600.0,
+      "increment": 5.0,
+      "json_sha256": "d83dea5cc7fbe2debec44b7389ac8d1f532092171e4ec27fcc4060e3b6ffa833"
+    }
+  ],
+  "note": "Independent rules-only replay of saved moves/results and clock accounting; no foreign-engine analysis."
+}

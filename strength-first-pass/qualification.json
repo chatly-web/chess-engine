@@ -1,0 +1,62 @@
+{
+  "candidate": {
+    "chosen": "threats",
+    "sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=1",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ],
+    "criterion": "GNU wins, GNU game points, then Skill5 points per planned game; exact ties checks,threats,guarded. No own technical failure.",
+    "screen_sha256": "3ae1cb220ba59e154c781c960ac2db1589702461138d981ce76c91a53b420a94",
+    "confirmation_not_started_at_selection": true
+  },
+  "production_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "recommended_action": "retain-v08",
+  "new_accuracy_measured": false,
+  "guaranteed_winner": false,
+  "status": "complete",
+  "comparison": {
+    "matched_units": 72,
+    "mean_point_score_difference": -0.07291666666666667,
+    "approximate_95_interval": [
+      -0.1353062992659098,
+      -0.010527034067423523
+    ],
+    "per_opponent_difference": {
+      "Stockfish19-full": 0.0,
+      "GNUChess6.3": 0.020833333333333332,
+      "Stockfish19-Skill5": -0.23958333333333334
+    }
+  },
+  "checks": {
+    "positive_fresh_matched_lower95": false,
+    "gnu_point_difference_nonnegative": true,
+    "gnu_wins_not_less_than_baseline": true,
+    "standard_start_gnu_blitz_win": false,
+    "four_exact_clocks_finished_without_own_failure": true,
+    "no_confirmation_technical_failures": true,
+    "complete_confirmation": true,
+    "rules_checks": true,
+    "finite_rule_coverage": true,
+    "protocol_checks": true,
+    "bounded_mates": true,
+    "finite_king_defence": true,
+    "source_and_sanitizer_review": true,
+    "independent_artifact_audit": true,
+    "human_prefix_split_audit": true
+  },
+  "gate_passed": false,
+  "rejected_checks": [
+    "positive_fresh_matched_lower95",
+    "standard_start_gnu_blitz_win"
+  ]
+}

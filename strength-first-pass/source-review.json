@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "selected_sha256": "55673fbf54418d9cb11c974a44494f9fb7661688e3365a6ed0be12da3ba54952",
+  "byte_exact_public_source_rebuild": true,
+  "source_sha256": "2a7cd767d0f4984259727323c4c15aaf85227fd34b13727a6073f9705218827c",
+  "tables_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+  "baseline_source_unchanged": true,
+  "evaluation_weights_unchanged": true,
+  "sanitizer_binary_sha256": "8ec2e95eebc6cd58ac1687952994010cc95246ce75c30c1d8c713fd8b63170b5",
+  "sanitizer_rules_passed": true,
+  "sanitizer_protocol_passed": true,
+  "sanitizer_configuration": {
+    "optimization": "-O1",
+    "debug": "-g",
+    "sanitizers": "address,undefined",
+    "CLASH_VERIFY_HASH": 1,
+    "candidate_macros": [
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_QCHECKS=1",
+      "-DCLASH_PAWN_THREATS=1",
+      "-DCLASH_TT_REUSE=2",
+      "-DCLASH_SEARCH_V3=3"
+    ],
+    "ASAN_OPTIONS": "detect_leaks=0"
+  },
+  "sanitizer_limit": "Leak detection unavailable on this macOS runtime; finite rules/protocol checks do not prove absence of all bugs.",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
+}

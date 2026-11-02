@@ -1,0 +1,54 @@
+{
+  "fen": "2kr3r/p1pq1pp1/1pP1p3/P2P3p/5b2/2P4P/4QPP1/1R2R1K1 b - - 0 24",
+  "moves": [
+    {
+      "move": "c8b8",
+      "own_black_score": "-638",
+      "white_reply": "c6d7",
+      "depth": 6
+    },
+    {
+      "move": "d7e8",
+      "own_black_score": "#-2",
+      "white_reply": "e2a6",
+      "depth": 2
+    },
+    {
+      "move": "d7e7",
+      "own_black_score": "#-2",
+      "white_reply": "e2a6",
+      "depth": 2
+    },
+    {
+      "move": "d7d6",
+      "own_black_score": "#-2",
+      "white_reply": "e2a6",
+      "depth": 2
+    },
+    {
+      "move": "d7c6",
+      "own_black_score": "-820",
+      "white_reply": "d5c6",
+      "depth": 6
+    },
+    {
+      "move": "d7d5",
+      "own_black_score": "#-2",
+      "white_reply": "e2a6",
+      "depth": 2
+    },
+    {
+      "move": "e6d5",
+      "own_black_score": "#-2",
+      "white_reply": "e2a6",
+      "depth": 2
+    },
+    {
+      "move": "b6a5",
+      "own_black_score": "#-1",
+      "white_reply": "e2a6",
+      "depth": 1
+    }
+  ],
+  "note": "Only own engine scores, not GNU analysis"
+}
