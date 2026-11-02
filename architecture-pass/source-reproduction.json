@@ -1,0 +1,19 @@
+{
+  "binary_exact": true,
+  "frozen_native_sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+  "compiler": "Apple clang21.0.0 arm64-apple-darwin27",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-pthread",
+    "-DCLASH_SEARCH_V2=2",
+    "-DCLASH_TACTICAL_GEN=1",
+    "-DCLASH_SEARCH_V3=3",
+    "-DCLASH_EVAL_STYLE=3",
+    "-DCLASH_CLUSTER_TT=1",
+    "-DCLASH_SAFE_NULL=0"
+  ],
+  "source_sha256": "df44714b5eff5895e624fb7d3946917984e92b7dee35e65758ff09e610f9c46a",
+  "rebuilt_from_public_source_binary_sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa"
+}

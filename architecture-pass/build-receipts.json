@@ -1,0 +1,62 @@
+{
+  "control": {
+    "sha256": "359a18ef370dbaec758c06d496950e3f99715b7d31f4747aaf4e5760962ac97b",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_CLUSTER_TT=0",
+      "-DCLASH_SAFE_NULL=0"
+    ]
+  },
+  "cluster": {
+    "sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_CLUSTER_TT=1",
+      "-DCLASH_SAFE_NULL=0"
+    ]
+  },
+  "safe-null": {
+    "sha256": "48b0b274cd3d3d09876c0cebde125aa696b5a1da7cc2850f57a6f533ba701b6a",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_CLUSTER_TT=0",
+      "-DCLASH_SAFE_NULL=1"
+    ]
+  },
+  "combined": {
+    "sha256": "fbb272860054ef807aa3e1b0c5587925757ea372cc1b6d0910506bf6256cb9e7",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_CLUSTER_TT=1",
+      "-DCLASH_SAFE_NULL=1"
+    ]
+  }
+}

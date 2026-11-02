@@ -1,0 +1,39 @@
+{
+  "reviewed": true,
+  "selected_native_sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+  "selected_sanitizer_sha256": "fa948cc493606b7ffbacf6a67fdd7f57ed5e08ab214493191fd07d3edd33433b",
+  "table_test_passed": true,
+  "null_mechanism": {
+    "passed": true,
+    "cases": 18,
+    "verification_searches": 116,
+    "rejected_shortcuts": 6,
+    "null_cutoffs": 105,
+    "node_interruptions": 9,
+    "verification_scope_and_history_restored": true,
+    "note": "Mechanism and cancellation checks, not an independent endgame-solving oracle"
+  },
+  "history_checks_passed": true,
+  "sanitizer_protocol_passed": true,
+  "sanitizer_rules": {
+    "native_binary_sha256": "fa948cc493606b7ffbacf6a67fdd7f57ed5e08ab214493191fd07d3edd33433b",
+    "weights_config_sha256": null,
+    "perft_nodes": [
+      197281,
+      97862,
+      43238
+    ],
+    "evaluation_reference_compared": false,
+    "colour_symmetry_positions": 2000,
+    "tactical_move_sets_checked": true,
+    "legal_positions": 2000,
+    "evaluation_mismatches": null,
+    "examples": [],
+    "seconds": 2.7851345839735586
+  },
+  "source_files": {
+    "engine.cpp": "df44714b5eff5895e624fb7d3946917984e92b7dee35e65758ff09e610f9c46a",
+    "test_table.cpp": "ed3e4e8cfbce9f6179bf7b0f4f0c3bca41b8cfb2d8bcc0d01d4bff3d699ce89f",
+    "test_null.cpp": "0a31af068690fb7feba58418fcb76b766b7b10f537b27b7e452c674c092426c7"
+  }
+}

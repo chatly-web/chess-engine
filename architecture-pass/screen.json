@@ -1,0 +1,3418 @@
+{
+  "workers": 2,
+  "harness_sha256": "4dd7df9e12ffcd44fc8cea4fe37f47197a6600464ebe4f461621c465b28ade0c",
+  "opponent_binary_sha256": {
+    "GNUChess6.3": "59f2c80abf3ea8bb01c6eff31434250782f6cdd6a46a7c23ecebe887b7b0c36c",
+    "Stockfish19-Skill5": "524bb2fe474ed6c5bbc49b4edd05f76d8df09e189bded31c74f52e417ba6aa27"
+  },
+  "baseline": "baseline",
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "cluster": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+    "safe-null": "48b0b274cd3d3d09876c0cebde125aa696b5a1da7cc2850f57a6f533ba701b6a",
+    "combined": "fbb272860054ef807aa3e1b0c5587925757ea372cc1b6d0910506bf6256cb9e7"
+  },
+  "opponent_labels": [
+    "GNUChess6.3",
+    "Stockfish19-Skill5"
+  ],
+  "pairs_per_opponent": 8,
+  "seed_base": 32100000,
+  "seconds_per_move": 0.15,
+  "summary": {
+    "baseline": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 6,
+        "draws": 7,
+        "losses": 3,
+        "points": 9.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "cluster": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 6,
+        "draws": 6,
+        "losses": 4,
+        "points": 9.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "safe-null": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 16,
+        "wins": 7,
+        "draws": 4,
+        "losses": 5,
+        "points": 9.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "combined": {
+      "GNUChess6.3": {
+        "games": 16,
+        "completed": 16,
+        "wins": 1,
+        "draws": 0,
+        "losses": 15,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 16,
+        "completed": 15,
+        "wins": 2,
+        "draws": 7,
+        "losses": 6,
+        "points": 5.5,
+        "unfinished": 1,
+        "failures": 0
+      }
+    }
+  },
+  "comparisons": {
+    "cluster": {
+      "matched_units": 16,
+      "mean_point_score_difference": -0.015625,
+      "approximate_95_interval": [
+        -0.12939182567866608,
+        0.0981418256786661
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.0,
+        "Stockfish19-Skill5": -0.03125
+      }
+    },
+    "safe-null": {
+      "matched_units": 16,
+      "mean_point_score_difference": -0.015625,
+      "approximate_95_interval": [
+        -0.18577069430833876,
+        0.15452069430833876
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.0,
+        "Stockfish19-Skill5": -0.03125
+      }
+    },
+    "combined": {
+      "matched_units": 15,
+      "mean_point_score_difference": -0.11666666666666667,
+      "approximate_95_interval": [
+        -0.2590573654889954,
+        0.02572403215566202
+      ],
+      "per_opponent_difference": {
+        "GNUChess6.3": 0.0,
+        "Stockfish19-Skill5": -0.25
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 100,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.148405791987898,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 125,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.805245958006708,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 127,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.972839624999324,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 122,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.745616291998886,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 81,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.331271792005282,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 90,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 20.225317041011294,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 113,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.83121287499671,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 153,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 28.617867332999595,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 98,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.73540658398997,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 128,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.611776207981165,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 96,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.66487462501391,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 83,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.080697541998234,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 94,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.121511208999436,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 26.31924012498348,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100003,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 79,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.152836792025482,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "b9F5Fu5a",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 53,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.671229250001488,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 93,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.84033974999329,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100007,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 118,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.07322849999764,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "tAgjOcp1",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 109,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.899373958003707,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 112,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.792237749992637,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 193,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.06850716599729,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 136,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.926701999997022,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 171,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 30.38998962502228,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 220,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 28.126822374993935,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 144,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 26.933702542009996,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 55,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.976729916001204,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200000,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 81,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.480539291980676,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "w3fuRIoa",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 113,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.900721874990268,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 152,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 18.28495587501675,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 78,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 17.91909854102414,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 133,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.6778083750105,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 112,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.836472583003342,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 110,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.48341779099428,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 126,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.788490834005643,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 123,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.264888625009917,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 99,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 20.93082737500663,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 108,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.07369658301468,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100005,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 72,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 17.45980124999187,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "UADQF7Oh",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 113,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.762280665978324,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 67,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.995599000016227,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200006,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 95,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.636574000003748,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "so6ivy7S",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 135,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 16.6806329159881,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 94,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 20.389693290984724,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 126,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 15.510926874994766,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 88,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.40272687500692,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 109,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.396324375004042,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.111221416009357,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 44,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 4.542847250006162,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 102,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.091907791997073,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 123,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.760681957995985,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200001,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 74,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.919355999998515,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "Dl8s8SzT",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 64,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.131862500013085,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 100,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 20.847389583999757,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 117,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.23005862502032,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 114,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 14.752554000006057,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 110,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.28395987499971,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 130,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 16.25721804201021,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 114,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.099395500001265,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 223,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 26.066743125003995,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 107,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.728046707983594,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 207,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 35.26498808298493,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 154,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.479638541000895,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100002,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 129,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.67988987499848,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "ngMmvzBB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200004,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 206,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.835348916996736,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "9qsoHBT5",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 183,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.627860334003344,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.097791415988468,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 102,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.707291750004515,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 151,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 18.737505750003038,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 100,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.74995412499993,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 122,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.950984583003446,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 70,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 6.895450999989407,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 60,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.460412540996913,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 120,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.32059408299392,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 139,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 17.072281375003513,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.85302304200013,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200003,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 132,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 15.98671425000066,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 16,
+      "human_opening_game_id": "bxj8kU6e",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 126,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.781834292021813,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 140,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 27.198809583991533,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 127,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.53443908400368,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.14633762498852,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 85,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.395256957999663,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 103,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.408019916998455,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100004,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 121,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.41951008400065,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "eudIl6Ih",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 115,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.4416360000032,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 151,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.257774375000736,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 131,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.42194999998901,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 89,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.311954791977769,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 143,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 27.49023433297407,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 278,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 36.574577249994036,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 128,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 15.857507417007582,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 143,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 27.37341616701451,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100001,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.258332708006492,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "L4NyLbMa",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 191,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 24.20879466700717,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 104,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 11.882537291996414,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 96,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.838982582994504,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.779875709005864,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200002,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 136,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 16.885593250015518,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "pqmKIqQF",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 101,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.171571791986935,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 62,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 16.809588458010694,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 95,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.727292249997845,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 79,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.37172191697755,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 92,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.061942583008204,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.773978082987014,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 86,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 20.270288833999075,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 77,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.005311167013133,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 98,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.97880049998639,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 107,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.400242333998904,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 125,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.485788334015524,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 104,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.58989629201824,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100006,
+      "opponent": "GNUChess6.3",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 78,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 19.376637792011024,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "lceSZKbB",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 122,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 15.273284458002308,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1-0",
+      "score": 0.0,
+      "plies": 105,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 22.963924167008372,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 78,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.688508374994854,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32100000,
+      "opponent": "GNUChess6.3",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 94,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 21.232372874976136,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "ry5u5Z3n",
+      "opponent_id": {
+        "name": "GNU Chess 6.3.0",
+        "author": "GNU Chess team"
+      },
+      "opponent_options": {
+        "Hash": 64,
+        "OwnBook": false
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 47,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 5.600602874998003,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 252,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 31.681975875020726,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 206,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 27.126630958984606,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 236,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 30.859380084002623,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 64,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.261581958999159,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 193,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 25.46705608299817,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 87,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.133282249997137,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 140,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 16.06758049997734,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "combined",
+      "candidate_white": false,
+      "result": "*",
+      "score": null,
+      "plies": 328,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 43.7252654999902,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200005,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 196,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 23.903697625006316,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "uo1NrxF3",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "safe-null",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 82,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 9.828925125009846,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 104,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 12.737551500002155,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "cluster",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 244,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 30.042101832979824,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 32200007,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 143,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 18.573383582988754,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 8,
+      "human_opening_game_id": "wbLLP0UE",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    }
+  ],
+  "duration_seconds": 1274.2541528749862,
+  "limitations": "Short fixed move limits, balanced human opening prefixes excluded from all fitting/hyperparameter validation, both colours. No agent opening book is used. Opponent random skill choices are not seeded. Concurrent local tests; approximate descriptive paired-unit intervals, not Elo, move accuracy or official-clock evidence. Failures/unfinished games are not credited as wins/draws."
+}

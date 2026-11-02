@@ -1,0 +1,59 @@
+{
+  "task": "Original clustered TT plus verified endgame null pruning",
+  "production_preserved": true,
+  "baseline_commit": "113b71044f9cdb5c37e3872e41543b2d284efc25",
+  "baseline_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "variants": [
+    "cluster",
+    "safe-null",
+    "combined"
+  ],
+  "screen": {
+    "pairs_per_opponent": 8,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5"
+    ],
+    "seconds_per_move": 0.15,
+    "workers": 2,
+    "games": 128,
+    "selection": "GNU score first, SF5 second; no own technical failure. Selection is exploratory.",
+    "seed_base": 32100000,
+    "prefix_slice": [
+      0,
+      16
+    ],
+    "exact_tie_order": [
+      "cluster",
+      "safe-null",
+      "combined"
+    ]
+  },
+  "confirmation": {
+    "pairs_per_opponent": 24,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5",
+      "Stockfish19-full"
+    ],
+    "seconds_per_move": 0.2,
+    "workers": 3,
+    "games": 288,
+    "different_human_games": true,
+    "seed_base": 34100000,
+    "prefix_slice": [
+      32,
+      104
+    ]
+  },
+  "promotion_gate": [
+    "positive fresh matched point-score lower approximate95 bound",
+    "GNU nonnegative score difference",
+    "no own technical failures or unfinished exact-clock games",
+    "rules,protocol,bounded-tactics,table replacement and sanitizer checks",
+    "same frozen candidate180+2 and600+5 completed without technical failure",
+    "at least one actual standard-start GNU non-loss"
+  ],
+  "safety": "Do not raise depth cap or spend past the clock. No foreign-engine code, weights or analysis imported. No book/tablebase/online move lookup.",
+  "scope": "One exploratory batch and one independent confirmation; no repeated tuning to those games."
+}

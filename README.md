@@ -16,6 +16,10 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Search architecture validation
+
+Original C++ variants add four-slot depth/age-based search-memory replacement and low-material null-move verification. The pass recorded416 short games and two full-clock GNU games. The selected table variant did not pass the independent strength gate, so v0.8 remains recommended. See [ARCHITECTURE.md](ARCHITECTURE.md) for source, results and limitations.
+
 ## Human learning and multicore experiments
 
 A further pass fits original C++ evaluation weights from 23,803 quiet positions in permitted human games and tests four-worker root search at both competition controls. The fitted four-worker candidate had a +9.375 percentage-point estimate in matched game score in its final 64-game comparison, but its approximate interval [−10.06, +28.81] pp did not establish improvement, so it remains experimental. A fitted parallel prototype drew one standard-start 180+2 game against GNU Chess; this does not establish superiority. See [HUMAN-LEARNING.md](HUMAN-LEARNING.md) for complete results and limitations.

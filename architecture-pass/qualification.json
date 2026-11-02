@@ -1,0 +1,60 @@
+{
+  "recommended_action": "retain-v08",
+  "production_sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+  "candidate": {
+    "chosen": "cluster",
+    "binary_sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_CLUSTER_TT=1",
+      "-DCLASH_SAFE_NULL=0"
+    ],
+    "criterion": "GNU point score per planned game, then Skill5; exact ties prefer cluster,safe-null,combined in that order. No own failures. Selection remains exploratory.",
+    "screen_sha256": "6ebe999906d1477f61fe537f15a91ae7522914efff89413c36f4afa35a67bc06",
+    "scores": {
+      "cluster": {
+        "GNUChess6.3": 0.0625,
+        "Stockfish19-Skill5": 0.5625
+      },
+      "safe-null": {
+        "GNUChess6.3": 0.0625,
+        "Stockfish19-Skill5": 0.5625
+      },
+      "combined": {
+        "GNUChess6.3": 0.0625,
+        "Stockfish19-Skill5": 0.34375
+      }
+    },
+    "confirmation_not_started_at_selection": true
+  },
+  "new_accuracy_measured": false,
+  "guaranteed_winner": false,
+  "comparison": {
+    "matched_units": 72,
+    "mean_point_score_difference": 0.013888888888888888,
+    "approximate_95_interval": [
+      -0.03145591350516504,
+      0.05923369128294281
+    ],
+    "per_opponent_difference": {
+      "GNUChess6.3": -0.020833333333333332,
+      "Stockfish19-Skill5": 0.041666666666666664,
+      "Stockfish19-full": 0.020833333333333332
+    }
+  },
+  "positive_lower95": false,
+  "gnu_nonnegative": false,
+  "recorded_failures": 0,
+  "both_exact_clocks_completed": true,
+  "standard_gnu_nonloss": false,
+  "preflight_hashes_and_checks_match": true,
+  "match_clock_gate_passed": false,
+  "sanitizer_and_mechanism_review_required": false
+}

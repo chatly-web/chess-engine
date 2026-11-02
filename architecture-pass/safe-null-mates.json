@@ -1,0 +1,1017 @@
+{
+  "binary_sha256": "48b0b274cd3d3d09876c0cebde125aa696b5a1da7cc2850f57a6f533ba701b6a",
+  "tests": 84,
+  "shortest_mate_passed": 82,
+  "passed": 84,
+  "failed": 0,
+  "seconds": 0.2683042499993462,
+  "cases": [
+    {
+      "fen": "k7/2K5/8/8/1Q6/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b4a4",
+      "expected": [
+        "b4b8",
+        "b4b7",
+        "b4a5",
+        "b4a4",
+        "b4a3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/1q6/8/8/2k5/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "b5a5",
+      "expected": [
+        "b5b1",
+        "b5b2",
+        "b5a4",
+        "b5a5",
+        "b5a6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/8/1Q3K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "b1h7",
+      "expected": [
+        "b1h7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "1q3k1K/8/8/8/8/8/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "b8h2",
+      "expected": [
+        "b8h2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "2Q5/8/8/8/8/1K6/8/k7 w - - 0 1",
+      "mate_distance": 1,
+      "move": "c8c1",
+      "expected": [
+        "c8c1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/1k6/8/8/8/8/2q5 b - - 0 1",
+      "mate_distance": 1,
+      "move": "c1c8",
+      "expected": [
+        "c1c8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k7/2K5/8/2Q5/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "c5a5",
+      "expected": [
+        "c5a5",
+        "c5a3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/2q5/8/2k5/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "c4a4",
+      "expected": [
+        "c4a4",
+        "c4a6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/6Q1/8/8/5K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "g4h4",
+      "expected": [
+        "g4h5",
+        "g4h4",
+        "g4h3",
+        "g4g2",
+        "g4g1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5k1K/8/8/6q1/8/8/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "g5h5",
+      "expected": [
+        "g5h4",
+        "g5h5",
+        "g5h6",
+        "g5g7",
+        "g5g8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/5Q2/8/8/8/8/5K2/7k w - - 0 1",
+      "mate_distance": 1,
+      "move": "f7h7",
+      "expected": [
+        "f7h7",
+        "f7h5"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7K/5k2/8/8/8/8/5q2/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "f2h2",
+      "expected": [
+        "f2h2",
+        "f2h4"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/4Q3/8/8/1K6/8/k7 w - - 0 1",
+      "mate_distance": 1,
+      "move": "e6e1",
+      "expected": [
+        "e6e1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/1k6/8/8/4q3/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "e3e8",
+      "expected": [
+        "e3e8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k7/8/1K6/8/8/8/8/4Q3 w - - 0 1",
+      "mate_distance": 1,
+      "move": "e1e8",
+      "expected": [
+        "e1e8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "4q3/8/8/8/8/1k6/8/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "e8e1",
+      "expected": [
+        "e8e1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/1Q6/8/8/2K5/8/k7 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b6b2",
+      "expected": [
+        "b6b2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/2k5/8/8/1q6/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "b3b7",
+      "expected": [
+        "b3b7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "1Q6/8/8/8/8/K7/8/k7 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b8b2",
+      "expected": [
+        "b8b2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/k7/8/8/8/8/1q6 b - - 0 1",
+      "mate_distance": 1,
+      "move": "b1b7",
+      "expected": [
+        "b1b7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/7K/8/8/8/7Q/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "h2b8",
+      "expected": [
+        "h2b8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/7q/8/8/8/7k/8/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "h7b1",
+      "expected": [
+        "h7b1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k7/2K5/3Q4/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "d6a6",
+      "expected": [
+        "d6a6",
+        "d6a3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/3q4/2k5/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "d3a3",
+      "expected": [
+        "d3a3",
+        "d3a6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/6K1/1Q6/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b5b8",
+      "expected": [
+        "b5e8",
+        "b5b8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/1q6/6k1/8/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "b4b1",
+      "expected": [
+        "b4e1",
+        "b4b1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/Q5K1/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "a6a8",
+      "expected": [
+        "a6c8",
+        "a6a8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/q5k1/8/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "a3a1",
+      "expected": [
+        "a3c1",
+        "a3a1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/Q7/8/8/8/7K/8/7k w - - 0 1",
+      "mate_distance": 1,
+      "move": "a7a1",
+      "expected": [
+        "a7a1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7K/8/7k/8/8/8/q7/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "a2a8",
+      "expected": [
+        "a2a8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/6Q1/8/8/8/8/8/5K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "g7h7",
+      "expected": [
+        "g7h8",
+        "g7h7",
+        "g7h6",
+        "g7g2",
+        "g7g1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5k1K/8/8/8/8/8/6q1/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "g2h2",
+      "expected": [
+        "g2h1",
+        "g2h2",
+        "g2h3",
+        "g2g7",
+        "g2g8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/1Q4K1/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b6b8",
+      "expected": [
+        "b6d8",
+        "b6b8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/1q4k1/8/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "b3b1",
+      "expected": [
+        "b3d1",
+        "b3b1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/5K2/8/8/8/6Q1/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "g3h3",
+      "expected": [
+        "g3g8",
+        "g3g7",
+        "g3h4",
+        "g3h3",
+        "g3h2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/6q1/8/8/8/5k2/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "g6h6",
+      "expected": [
+        "g6g1",
+        "g6g2",
+        "g6h5",
+        "g6h6",
+        "g6h7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k7/8/1K4Q1/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "g6g8",
+      "expected": [
+        "g6g8",
+        "g6e8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/1k4q1/8/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "g3g1",
+      "expected": [
+        "g3g1",
+        "g3e1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/6Q1/8/8/8/8/8/5K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "g7h7",
+      "expected": [
+        "g7h8",
+        "g7h7",
+        "g7h6",
+        "g7g2",
+        "g7g1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5k1K/8/8/8/8/8/6q1/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "g2h2",
+      "expected": [
+        "g2h1",
+        "g2h2",
+        "g2h3",
+        "g2g7",
+        "g2g8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5Q2/8/8/8/8/8/8/k1K5 w - - 0 1",
+      "mate_distance": 1,
+      "move": "f8a8",
+      "expected": [
+        "f8a8",
+        "f8a3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K1k5/8/8/8/8/8/8/5q2 b - - 0 1",
+      "mate_distance": 1,
+      "move": "f1a1",
+      "expected": [
+        "f1a1",
+        "f1a6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k1K4Q/8/8/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "h8a1",
+      "expected": [
+        "h8a1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/8/K1k4q b - - 0 1",
+      "mate_distance": 1,
+      "move": "h1a8",
+      "expected": [
+        "h1a8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/6K1/8/8/Q7/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "a3a8",
+      "expected": [
+        "a3f8",
+        "a3a8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/q7/8/8/6k1/8/7K b - - 0 1",
+      "mate_distance": 1,
+      "move": "a6a1",
+      "expected": [
+        "a6f1",
+        "a6a1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "k7/8/K7/8/8/1Q6/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "b3b7",
+      "expected": [
+        "b3g8",
+        "b3b7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/1q6/8/8/k7/8/K7 b - - 0 1",
+      "mate_distance": 1,
+      "move": "b6b2",
+      "expected": [
+        "b6g1",
+        "b6b2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/7Q/7K/8/7k w - - 0 1",
+      "mate_distance": 1,
+      "move": "h4e1",
+      "expected": [
+        "h4e1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7K/8/7k/7q/8/8/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "h5e8",
+      "expected": [
+        "h5e8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/8/2Q2K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "c1h6",
+      "expected": [
+        "c1h6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "2q2k1K/8/8/8/8/8/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "c8h3",
+      "expected": [
+        "c8h3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/Q7/5K2/7k w - - 0 1",
+      "mate_distance": 1,
+      "move": "a3h3",
+      "expected": [
+        "a3h3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7K/5k2/q7/8/8/8/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "a6h6",
+      "expected": [
+        "a6h6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/6Q1/8/8/8/8/5K1k w - - 0 1",
+      "mate_distance": 1,
+      "move": "g6h6",
+      "expected": [
+        "g6h7",
+        "g6h6",
+        "g6h5",
+        "g6g2",
+        "g6g1"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5k1K/8/8/8/8/6q1/8/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "g3h3",
+      "expected": [
+        "g3h2",
+        "g3h3",
+        "g3h4",
+        "g3g7",
+        "g3g8"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/5Q2/8/8/8/8/2K5/k7 w - - 0 1",
+      "mate_distance": 1,
+      "move": "f7a7",
+      "expected": [
+        "f7a7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "K7/2k5/8/8/8/8/5q2/8 b - - 0 1",
+      "mate_distance": 1,
+      "move": "f2a2",
+      "expected": [
+        "f2a2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "5K1k/4Q3/8/8/8/8/8/8 w - - 0 1",
+      "mate_distance": 1,
+      "move": "e7g7",
+      "expected": [
+        "e7g7",
+        "e7h4"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/4q3/5k1K b - - 0 1",
+      "mate_distance": 1,
+      "move": "e2g2",
+      "expected": [
+        "e2g2",
+        "e2h5"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 1,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/3Q4/6K1/8/8/8/8 w - - 0 1",
+      "mate_distance": 2,
+      "move": "g5g6",
+      "expected": [
+        "g5g6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/6k1/3q4/8/7K b - - 0 1",
+      "mate_distance": 2,
+      "move": "g4g3",
+      "expected": [
+        "g4g3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/3Q4/8/8/8/8/4K3/7k w - - 0 1",
+      "mate_distance": 2,
+      "move": "e2f2",
+      "expected": [
+        "e2f2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "7K/4k3/8/8/8/8/3q4/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "e7f7",
+      "expected": [
+        "e7f7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "k7/8/4Q3/K7/8/8/8/8 w - - 0 1",
+      "mate_distance": 2,
+      "move": "a5b6",
+      "expected": [
+        "a5b6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/k7/4q3/8/K7 b - - 0 1",
+      "mate_distance": 2,
+      "move": "a4b3",
+      "expected": [
+        "a4b3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/6Q1/8/3K4/8/k7 w - - 0 1",
+      "mate_distance": 2,
+      "move": "d3c2",
+      "expected": [
+        "d3c2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/3k4/8/6q1/8/8/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "d6c7",
+      "expected": [
+        "d6c7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/8/4K3/6Q1/8/8/8 w - - 0 1",
+      "mate_distance": 2,
+      "move": "e5f6",
+      "expected": [
+        "e5f6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/6q1/4k3/8/8/7K b - - 0 1",
+      "mate_distance": 2,
+      "move": "e4f3",
+      "expected": [
+        "e4f3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/2Q1K3/7k w - - 0 1",
+      "mate_distance": 2,
+      "move": "e2f2",
+      "expected": [
+        "e2f3",
+        "e2f2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "7K/2q1k3/8/8/8/8/8/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "e7f7",
+      "expected": [
+        "e7f6",
+        "e7f7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/1Q6/8/8/5K2/8/7k w - - 0 1",
+      "mate_distance": 2,
+      "move": "b6g6",
+      "expected": [
+        "b6g6",
+        "b6b2",
+        "f3f2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "7K/8/5k2/8/8/1q6/8/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "b3g3",
+      "expected": [
+        "b3g3",
+        "b3b7",
+        "f6f7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/7Q/8/1K6/8/8/k7 w - - 0 1",
+      "mate_distance": 2,
+      "move": "b4b3",
+      "expected": [
+        "b4b3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "K7/8/8/1k6/8/7q/8/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "b5b6",
+      "expected": [
+        "b5b6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/8/8/8/2Q1K2k w - - 0 1",
+      "mate_distance": 2,
+      "move": "e1f2",
+      "expected": [
+        "e1f2"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "2q1k2K/8/8/8/8/8/8/8 b - - 0 1",
+      "mate_distance": 2,
+      "move": "e8f7",
+      "expected": [
+        "e8f7"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "k7/8/2K5/8/8/8/8/2Q5 w - - 0 1",
+      "mate_distance": 2,
+      "move": "c1a1",
+      "expected": [
+        "c6c7",
+        "c1b2",
+        "c1b1"
+      ],
+      "shortest_mate": false,
+      "verified_mate_within_moves": 3,
+      "passed": true
+    },
+    {
+      "fen": "2q5/8/8/8/8/2k5/8/K7 b - - 0 1",
+      "mate_distance": 2,
+      "move": "c8a8",
+      "expected": [
+        "c3c2",
+        "c8b7",
+        "c8b8"
+      ],
+      "shortest_mate": false,
+      "verified_mate_within_moves": 3,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/8/2Q4K/8/8/8/8 w - - 0 1",
+      "mate_distance": 2,
+      "move": "h5g6",
+      "expected": [
+        "h5g6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/8/2q4k/8/8/7K b - - 0 1",
+      "mate_distance": 2,
+      "move": "h4g3",
+      "expected": [
+        "h4g3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "7k/8/8/6K1/Q7/8/8/8 w - - 0 1",
+      "mate_distance": 2,
+      "move": "g5g6",
+      "expected": [
+        "g5h6",
+        "g5g6"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    },
+    {
+      "fen": "8/8/8/q7/6k1/8/8/7K b - - 0 1",
+      "mate_distance": 2,
+      "move": "g4g3",
+      "expected": [
+        "g4h3",
+        "g4g3"
+      ],
+      "shortest_mate": true,
+      "verified_mate_within_moves": 2,
+      "passed": true
+    }
+  ],
+  "note": "Finite synthetic mate-in-one and mate-in-two positions, both colours; shortest-mate results reported separately. Unexpected choices exhaustively checked for forced mate within three moves by a rules-only oracle. No tablebase used by the engine. This does not establish general accuracy."
+}

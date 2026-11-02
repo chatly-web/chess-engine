@@ -1,0 +1,13 @@
+{
+  "arena_games": 416,
+  "arena_finished": 415,
+  "arena_unfinished": 1,
+  "arena_failures": 0,
+  "exact_clock_games": 2,
+  "exact_clock_completed": 2,
+  "exact_clock_failures": 0,
+  "recommended_action": "retain-v08",
+  "promoted": false,
+  "candidate_sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+  "new_accuracy_measured": false
+}

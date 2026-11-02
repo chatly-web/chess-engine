@@ -1,0 +1,26 @@
+{
+  "control": {
+    "entry_bytes": 48,
+    "capacity": 262144,
+    "bytes": 12582912,
+    "sha256": "359a18ef370dbaec758c06d496950e3f99715b7d31f4747aaf4e5760962ac97b"
+  },
+  "cluster": {
+    "entry_bytes": 48,
+    "capacity": 262144,
+    "bytes": 12582912,
+    "sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa"
+  },
+  "safe-null": {
+    "entry_bytes": 48,
+    "capacity": 262144,
+    "bytes": 12582912,
+    "sha256": "48b0b274cd3d3d09876c0cebde125aa696b5a1da7cc2850f57a6f533ba701b6a"
+  },
+  "combined": {
+    "entry_bytes": 48,
+    "capacity": 262144,
+    "bytes": 12582912,
+    "sha256": "fbb272860054ef807aa3e1b0c5587925757ea372cc1b6d0910506bf6256cb9e7"
+  }
+}

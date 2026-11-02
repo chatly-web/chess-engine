@@ -1,0 +1,462 @@
+{
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "cluster": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+    "safe-null": "48b0b274cd3d3d09876c0cebde125aa696b5a1da7cc2850f57a6f533ba701b6a",
+    "combined": "fbb272860054ef807aa3e1b0c5587925757ea372cc1b6d0910506bf6256cb9e7"
+  },
+  "requested_seconds": 0.6,
+  "summary": {
+    "baseline": {
+      "median_depth": 8.0,
+      "median_completed_nodes": 149284.5
+    },
+    "cluster": {
+      "median_depth": 8.0,
+      "median_completed_nodes": 149352.5
+    },
+    "safe-null": {
+      "median_depth": 8.0,
+      "median_completed_nodes": 155337.0
+    },
+    "combined": {
+      "median_depth": 8.0,
+      "median_completed_nodes": 147870.5
+    }
+  },
+  "rows": [
+    {
+      "position": 0,
+      "engine": "baseline",
+      "depth": 7,
+      "nodes": 150870,
+      "seconds": 0.551480583002558,
+      "move": "e4d5",
+      "own_debug": "history_guarded_tt_cutoffs 1744"
+    },
+    {
+      "position": 0,
+      "engine": "cluster",
+      "depth": 7,
+      "nodes": 150878,
+      "seconds": 0.5517064169980586,
+      "move": "e4d5",
+      "own_debug": "architecture tt_probes 113521 hits 12187 replacements 22 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1608"
+    },
+    {
+      "position": 0,
+      "engine": "safe-null",
+      "depth": 7,
+      "nodes": 148335,
+      "seconds": 0.5513670409854967,
+      "move": "e4d5",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1410 cutoffs 945 verified 0 rejected 0 history_guarded_tt_cutoffs 1788"
+    },
+    {
+      "position": 0,
+      "engine": "combined",
+      "depth": 7,
+      "nodes": 148459,
+      "seconds": 0.551793374994304,
+      "move": "e4d5",
+      "own_debug": "architecture tt_probes 113302 hits 12095 replacements 22 null_attempts 1328 cutoffs 895 verified 0 rejected 0 history_guarded_tt_cutoffs 1608"
+    },
+    {
+      "position": 1,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 207968,
+      "seconds": 0.5515662499819882,
+      "move": "b2a3",
+      "own_debug": "architecture tt_probes 116703 hits 8683 replacements 12 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 798"
+    },
+    {
+      "position": 1,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 204282,
+      "seconds": 0.5511235420126468,
+      "move": "b2a3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1305 cutoffs 676 verified 0 rejected 0 history_guarded_tt_cutoffs 789"
+    },
+    {
+      "position": 1,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 203940,
+      "seconds": 0.5517014159995597,
+      "move": "b2a3",
+      "own_debug": "architecture tt_probes 115859 hits 8495 replacements 12 null_attempts 1305 cutoffs 676 verified 0 rejected 0 history_guarded_tt_cutoffs 785"
+    },
+    {
+      "position": 1,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 208316,
+      "seconds": 0.5513794579892419,
+      "move": "b2a3",
+      "own_debug": "history_guarded_tt_cutoffs 802"
+    },
+    {
+      "position": 2,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 124175,
+      "seconds": 0.5511474999948405,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2615 cutoffs 2124 verified 0 rejected 0 history_guarded_tt_cutoffs 1199"
+    },
+    {
+      "position": 2,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 124056,
+      "seconds": 0.5517045419837814,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 128807 hits 12482 replacements 60 null_attempts 2615 cutoffs 2122 verified 0 rejected 0 history_guarded_tt_cutoffs 1194"
+    },
+    {
+      "position": 2,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 130049,
+      "seconds": 0.5514485409948975,
+      "move": "e1g1",
+      "own_debug": "history_guarded_tt_cutoffs 845"
+    },
+    {
+      "position": 2,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 130175,
+      "seconds": 0.5516870829742402,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 129652 hits 12625 replacements 61 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1194"
+    },
+    {
+      "position": 3,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 147282,
+      "seconds": 0.5514367920113727,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 108703 hits 11740 replacements 53 null_attempts 2645 cutoffs 1999 verified 0 rejected 0 history_guarded_tt_cutoffs 1522"
+    },
+    {
+      "position": 3,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 147393,
+      "seconds": 0.5511979160073679,
+      "move": "f1d3",
+      "own_debug": "history_guarded_tt_cutoffs 1616"
+    },
+    {
+      "position": 3,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 151593,
+      "seconds": 0.5514959589927457,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 109384 hits 11976 replacements 58 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1559"
+    },
+    {
+      "position": 3,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 142902,
+      "seconds": 0.5510959159873892,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2631 cutoffs 2010 verified 0 rejected 0 history_guarded_tt_cutoffs 1597"
+    },
+    {
+      "position": 4,
+      "engine": "baseline",
+      "depth": 7,
+      "nodes": 105576,
+      "seconds": 0.551343958999496,
+      "move": "d1b3",
+      "own_debug": "history_guarded_tt_cutoffs 705"
+    },
+    {
+      "position": 4,
+      "engine": "cluster",
+      "depth": 7,
+      "nodes": 106240,
+      "seconds": 0.5519483329844661,
+      "move": "d1b3",
+      "own_debug": "architecture tt_probes 96537 hits 6288 replacements 19 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 618"
+    },
+    {
+      "position": 4,
+      "engine": "safe-null",
+      "depth": 7,
+      "nodes": 104718,
+      "seconds": 0.5516529159795027,
+      "move": "d1b3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1293 cutoffs 847 verified 0 rejected 0 history_guarded_tt_cutoffs 634"
+    },
+    {
+      "position": 4,
+      "engine": "combined",
+      "depth": 7,
+      "nodes": 105414,
+      "seconds": 0.5516207499895245,
+      "move": "d1b3",
+      "own_debug": "architecture tt_probes 96158 hits 6342 replacements 19 null_attempts 1349 cutoffs 897 verified 0 rejected 0 history_guarded_tt_cutoffs 634"
+    },
+    {
+      "position": 5,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 147827,
+      "seconds": 0.5518063330091536,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 111682 hits 12629 replacements 53 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1629"
+    },
+    {
+      "position": 5,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 141192,
+      "seconds": 0.5514980000152718,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2675 cutoffs 1760 verified 0 rejected 0 history_guarded_tt_cutoffs 1709"
+    },
+    {
+      "position": 5,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 145365,
+      "seconds": 0.5518647090066224,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 112251 hits 12448 replacements 58 null_attempts 2639 cutoffs 1739 verified 0 rejected 0 history_guarded_tt_cutoffs 1692"
+    },
+    {
+      "position": 5,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 147699,
+      "seconds": 0.5513245839974843,
+      "move": "f1d3",
+      "own_debug": "history_guarded_tt_cutoffs 1779"
+    },
+    {
+      "position": 6,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 193028,
+      "seconds": 0.5512769999913871,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2996 cutoffs 2412 verified 0 rejected 0 history_guarded_tt_cutoffs 2461"
+    },
+    {
+      "position": 6,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 192036,
+      "seconds": 0.5514417499944102,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 111170 hits 14707 replacements 101 null_attempts 2998 cutoffs 2412 verified 0 rejected 0 history_guarded_tt_cutoffs 2442"
+    },
+    {
+      "position": 6,
+      "engine": "baseline",
+      "depth": 7,
+      "nodes": 95796,
+      "seconds": 0.5513821250060573,
+      "move": "c1e3",
+      "own_debug": "history_guarded_tt_cutoffs 2938"
+    },
+    {
+      "position": 6,
+      "engine": "cluster",
+      "depth": 7,
+      "nodes": 89119,
+      "seconds": 0.551730499981204,
+      "move": "c1e3",
+      "own_debug": "architecture tt_probes 114024 hits 17227 replacements 138 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 2834"
+    },
+    {
+      "position": 7,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 159772,
+      "seconds": 0.551645457977429,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 101612 hits 10179 replacements 59 null_attempts 2803 cutoffs 2163 verified 0 rejected 0 history_guarded_tt_cutoffs 1229"
+    },
+    {
+      "position": 7,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 165600,
+      "seconds": 0.5516292919928674,
+      "move": "f1d3",
+      "own_debug": "history_guarded_tt_cutoffs 1312"
+    },
+    {
+      "position": 7,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 163050,
+      "seconds": 0.551550167001551,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 103360 hits 10478 replacements 77 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1274"
+    },
+    {
+      "position": 7,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 162339,
+      "seconds": 0.5512202910031192,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2768 cutoffs 2125 verified 0 rejected 0 history_guarded_tt_cutoffs 1273"
+    },
+    {
+      "position": 8,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 164955,
+      "seconds": 0.5515519579930697,
+      "move": "d4c6",
+      "own_debug": "history_guarded_tt_cutoffs 784"
+    },
+    {
+      "position": 8,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 141581,
+      "seconds": 0.5521660840022378,
+      "move": "d4c6",
+      "own_debug": "architecture tt_probes 122360 hits 11151 replacements 76 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 926"
+    },
+    {
+      "position": 8,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 166417,
+      "seconds": 0.551800125016598,
+      "move": "d4c6",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1967 cutoffs 1284 verified 0 rejected 0 history_guarded_tt_cutoffs 742"
+    },
+    {
+      "position": 8,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 142424,
+      "seconds": 0.552143334003631,
+      "move": "d4c6",
+      "own_debug": "architecture tt_probes 121591 hits 10715 replacements 56 null_attempts 2191 cutoffs 1505 verified 0 rejected 0 history_guarded_tt_cutoffs 816"
+    },
+    {
+      "position": 9,
+      "engine": "cluster",
+      "depth": 7,
+      "nodes": 101805,
+      "seconds": 0.5517985830083489,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 106556 hits 7225 replacements 22 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 966"
+    },
+    {
+      "position": 9,
+      "engine": "safe-null",
+      "depth": 7,
+      "nodes": 102135,
+      "seconds": 0.5519565830181818,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1037 cutoffs 698 verified 0 rejected 0 history_guarded_tt_cutoffs 992"
+    },
+    {
+      "position": 9,
+      "engine": "combined",
+      "depth": 7,
+      "nodes": 100942,
+      "seconds": 0.551920790981967,
+      "move": "e1g1",
+      "own_debug": "architecture tt_probes 106448 hits 7276 replacements 21 null_attempts 1044 cutoffs 699 verified 0 rejected 0 history_guarded_tt_cutoffs 959"
+    },
+    {
+      "position": 9,
+      "engine": "baseline",
+      "depth": 7,
+      "nodes": 103000,
+      "seconds": 0.5513182500144467,
+      "move": "e1g1",
+      "own_debug": "history_guarded_tt_cutoffs 1001"
+    },
+    {
+      "position": 10,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 166078,
+      "seconds": 0.5512480829784181,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 2781 cutoffs 2245 verified 0 rejected 0 history_guarded_tt_cutoffs 1592"
+    },
+    {
+      "position": 10,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 166379,
+      "seconds": 0.5515426660131197,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 95703 hits 12060 replacements 98 null_attempts 2767 cutoffs 2233 verified 0 rejected 0 history_guarded_tt_cutoffs 1602"
+    },
+    {
+      "position": 10,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 168475,
+      "seconds": 0.5515752079954837,
+      "move": "f1d3",
+      "own_debug": "history_guarded_tt_cutoffs 1553"
+    },
+    {
+      "position": 10,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 168847,
+      "seconds": 0.5517297089972999,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 96498 hits 12050 replacements 100 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 1578"
+    },
+    {
+      "position": 11,
+      "engine": "combined",
+      "depth": 8,
+      "nodes": 210304,
+      "seconds": 0.5514313750027213,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 114364 hits 17880 replacements 55 null_attempts 1763 cutoffs 1110 verified 0 rejected 0 history_guarded_tt_cutoffs 2683"
+    },
+    {
+      "position": 11,
+      "engine": "baseline",
+      "depth": 8,
+      "nodes": 209392,
+      "seconds": 0.5511482919973787,
+      "move": "f1d3",
+      "own_debug": "history_guarded_tt_cutoffs 2727"
+    },
+    {
+      "position": 11,
+      "engine": "cluster",
+      "depth": 8,
+      "nodes": 212907,
+      "seconds": 0.551612125011161,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 115791 hits 18281 replacements 60 null_attempts 0 cutoffs 0 verified 0 rejected 0 history_guarded_tt_cutoffs 2733"
+    },
+    {
+      "position": 11,
+      "engine": "safe-null",
+      "depth": 8,
+      "nodes": 206612,
+      "seconds": 0.5513663750025444,
+      "move": "f1d3",
+      "own_debug": "architecture tt_probes 0 hits 0 replacements 0 null_attempts 1772 cutoffs 1118 verified 0 rejected 0 history_guarded_tt_cutoffs 2689"
+    }
+  ],
+  "limitations": "Different selective trees. Timed depth and node counts are diagnostic, not Elo or a win guarantee. Local concurrent screen uses two single-thread games; all own candidates use one search worker and same table byte capacity."
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "human_games": 160,
+  "training_validation_overlap": 0,
+  "previous_prefix_overlap": 0,
+  "screen_games": 16,
+  "reserved_confirmation_games": 72,
+  "screen_confirmation_overlap": 0,
+  "note": "Game-disjoint prefixes are offline harness inputs only; normal chess positions can recur between different games."
+}

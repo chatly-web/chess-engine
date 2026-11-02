@@ -1,0 +1,30 @@
+{
+  "selected": "cluster",
+  "sha256": "6be2a67a08898ce6262f069bc1344a84ec6777fe251700da6effd7c9d73035aa",
+  "games": 288,
+  "pairs_per_opponent": 24,
+  "seconds_per_move": 0.2,
+  "workers": 3,
+  "seed_base": 34100000,
+  "starts": "Fresh160-prefix collection[32:104], no overlap with selection or previous pass/fitting",
+  "clock_tests": [
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    }
+  ],
+  "promotion_gate": [
+    "positive fresh matched point-score lower approximate95 bound",
+    "GNU nonnegative score difference",
+    "no own technical failures or unfinished exact-clock games",
+    "rules,protocol,bounded-tactics,table replacement and sanitizer checks",
+    "same frozen candidate180+2 and600+5 completed without technical failure",
+    "at least one actual standard-start GNU non-loss"
+  ]
+}
