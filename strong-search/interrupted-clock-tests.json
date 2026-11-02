@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-11-02T00:01:11.092414+00:00",
+  "reason": "Old execution session IDs no longer exist and corresponding processes are absent; exact cause not determined. No completed result was produced.",
+  "partial_tests": [
+    {
+      "label": "strong-sf5-rapid-white",
+      "plies": 27,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "strong-sf5-rapid-white-interrupted.pgn"
+    },
+    {
+      "label": "strong-sf5-rapid-black",
+      "plies": 33,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "strong-sf5-rapid-black-interrupted.pgn"
+    },
+    {
+      "label": "strong-gnu-rapid-white",
+      "plies": 34,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "strong-gnu-rapid-white-interrupted.pgn"
+    },
+    {
+      "label": "strong-gnu-rapid-black",
+      "plies": 19,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "strong-gnu-rapid-black-interrupted.pgn"
+    },
+    {
+      "label": "strong-full-blitz-white",
+      "plies": 72,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "strong-full-blitz-white-interrupted.pgn"
+    },
+    {
+      "label": "candidate-baseline-10plus5-white-interrupted",
+      "plies": 8,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "candidate-baseline-10plus5-white-interrupted.pgn"
+    },
+    {
+      "label": "candidate-baseline-10plus5-black-interrupted",
+      "plies": 8,
+      "result": "*",
+      "finished": false,
+      "excluded_from_completed_results": true,
+      "pgn": "candidate-baseline-10plus5-black-interrupted.pgn"
+    }
+  ]
+}

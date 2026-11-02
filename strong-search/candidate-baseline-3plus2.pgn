@@ -1,0 +1,29 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Clash"]
+[Result "1-0"]
+[TimeControl "180+2"]
+[TrainingGroup "strong-search/candidate-baseline-3plus2"]
+[EngineSHA256 "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045:fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2"]
+[WhiteVariant "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045"]
+[BlackVariant "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2"]
+
+1. e4 Nc6 2. Nf3 Nf6 3. e5 Ng4 4. d4 d6 5. Nc3 dxe5 6. d5 Nd4 7. Nxe5 Nxc2+ 8. Qxc2 Nxe5 9. Bf4 f6 10. Nb5 c6 11. dxc6 bxc6 12. Bxe5 cxb5 13. Bxb5+ Bd7 14. O-O-O Bxb5 15. Rxd8+ Rxd8 16. Bc3 g6 17. Qb3 Bd3 18. f4 Bh6 19. g3 g5 20. Qa4+ Kf7 21. Rd1 Bf5 22. Rxd8 Rxd8 23. Qa5 gxf4 24. Qxf5 fxg3+ 25. Kc2 gxh2 26. Qxh7+ Bg7 27. Qxh2 Rd6 28. Qh5+ Kf8 29. Qc5 a6 30. Qc4 Rb6 31. Bb4 Rb5 32. a4 Rg5 33. Qe6 Re5 34. Qxa6 Kf7 35. Qc4+ e6 36. a5 Bh6 37. a6 Be3 38. Qc6 Rd5 39. Qc7+ Kg6 40. Qg3+ Bg5 41. a7 Rd8 42. Qg2 e5 43. Qe4+ Kg7 44. Bd6 Rxd6 45. a8=Q Rd7 46. Qe8 Rf7 47. Qd5 Rf8 48. Qdd7+ Kh6 49. Qxf8+ Kh5 50. Qh8+ Bh6 51. Qdg7 e4 52. Qhxh6# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "Clash"]
+[Result "0-1"]
+[TimeControl "180+2"]
+[TrainingGroup "strong-search/candidate-baseline-3plus2"]
+[EngineSHA256 "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045:fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2"]
+[WhiteVariant "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2"]
+[BlackVariant "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045"]
+
+1. Nf3 Nc6 2. d4 d5 3. Nc3 Nf6 4. Bf4 Bg4 5. Qd3 Bxf3 6. exf3 e6 7. Nb5 Bb4+ 8. c3 Ba5 9. O-O-O O-O 10. Be2 g6 11. Rhe1 Qe7 12. Kb1 Rfe8 13. Qd2 a6 14. Na3 b5 15. Nc2 b4 16. cxb4 Nxb4 17. Rf1 Reb8 18. Bg5 e5 19. Ne3 Nc6 20. Qd3 Rxb2+ 21. Kxb2 Rb8+ 22. Kc1 Nxd4 23. Nc2 Nxc2 24. Bxf6 Qxf6 25. Qxc2 e4 26. Qb3 Rxb3 27. axb3 Qa1+ 28. Kc2 Qa2+ 29. Kc1 Bc3 30. Rxd5 Qb2+ 31. Kd1 Qb1# 0-1

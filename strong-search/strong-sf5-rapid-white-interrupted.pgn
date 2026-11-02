@@ -1,0 +1,10 @@
+[Event "Interrupted offline test"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Termination "Execution session lost; unfinished"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 d6 4. Bb5+ Nd7 5. d4 cxd4 6. Qxd4 e5 7. Qc4 Nf6 8. Ng5 Qe7 9. O-O a6 10. Qa4 h6 11. Nf3 Rb8 12. Bd3 Qd8 13. Be3 b5 14. Qb3 *

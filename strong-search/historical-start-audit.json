@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "file": "long-pass/sustained.pgn",
+      "games_checked": 1574,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/tactical-heldout.pgn",
+      "games_checked": 128,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "training-selfplay.pgn",
+      "games_checked": 400,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/cache-screen.pgn",
+      "games_checked": 64,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/deep-screen.pgn",
+      "games_checked": 64,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/positional-screen.pgn",
+      "games_checked": 64,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/rfp-screen.pgn",
+      "games_checked": 64,
+      "terminal_random_starts": 0
+    },
+    {
+      "file": "strong-search/tactical-screen.pgn",
+      "games_checked": 64,
+      "terminal_random_starts": 0
+    }
+  ],
+  "total_checked": 2422,
+  "terminal_random_starts": 0,
+  "examples": []
+}

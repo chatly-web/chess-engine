@@ -1,0 +1,338 @@
+{
+  "cases": [
+    {
+      "repeat": 0,
+      "position": 0,
+      "cache": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.010952916999999979
+      },
+      "baseline": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.011877458000000007
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 1,
+      "baseline": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.05177712499999998
+      },
+      "cache": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.044585916999999975
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 2,
+      "cache": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.11061175000000001
+      },
+      "baseline": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.06190720900000002
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 3,
+      "baseline": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.14785187499999997
+      },
+      "cache": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.159238459
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 4,
+      "cache": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.12832783299999995
+      },
+      "baseline": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.16616495799999997
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 5,
+      "baseline": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.46419466600000003
+      },
+      "cache": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.3020838750000001
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 0,
+      "baseline": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.011972332999999669
+      },
+      "cache": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.01073691599999993
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 1,
+      "cache": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.044009374999999906
+      },
+      "baseline": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.054396416999999975
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 2,
+      "baseline": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.06952550000000013
+      },
+      "cache": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.06616620799999984
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 3,
+      "cache": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.13066233400000016
+      },
+      "baseline": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.16907104200000012
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 4,
+      "baseline": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.12089524999999979
+      },
+      "cache": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.12636333300000002
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 5,
+      "cache": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.31584612499999976
+      },
+      "baseline": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.600753417
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 0,
+      "cache": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.011090832999999911
+      },
+      "baseline": {
+        "move": "b1c3",
+        "depth": 5,
+        "score": 28,
+        "nodes": 3022,
+        "seconds": 0.01186612500000006
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 1,
+      "baseline": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.0530750409999996
+      },
+      "cache": {
+        "move": "d1g4",
+        "depth": 5,
+        "score": 231,
+        "nodes": 12719,
+        "seconds": 0.04545916600000055
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 2,
+      "cache": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.05411670899999965
+      },
+      "baseline": {
+        "move": "e4d5",
+        "depth": 5,
+        "score": -114,
+        "nodes": 14680,
+        "seconds": 0.07733533299999973
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 3,
+      "baseline": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.21567295800000075
+      },
+      "cache": {
+        "move": "a2d5",
+        "depth": 5,
+        "score": 269,
+        "nodes": 30453,
+        "seconds": 0.1986620419999996
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 4,
+      "cache": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.28751854199999993
+      },
+      "baseline": {
+        "move": "c3b4",
+        "depth": 5,
+        "score": 774,
+        "nodes": 25281,
+        "seconds": 0.22028504199999954
+      }
+    },
+    {
+      "repeat": 2,
+      "position": 5,
+      "baseline": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.4261551249999993
+      },
+      "cache": {
+        "move": "f1d3",
+        "depth": 5,
+        "score": 489,
+        "nodes": 69849,
+        "seconds": 0.38608795899999926
+      }
+    }
+  ],
+  "median_speedup": 1.1094199281369854,
+  "range": [
+    0.5596802238460201,
+    1.9020446016236559
+  ],
+  "binaries": {
+    "baseline": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+    "cache": "ae0c1b51a1a3d9ccf1313866ba3add679aaaccefded00602721b803bd8d548cd"
+  },
+  "note": "Three interleaved depth-5 repetitions, six positions, concurrent local load. Same fixed-search moves/scores/nodes required."
+}

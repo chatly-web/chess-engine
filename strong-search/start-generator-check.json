@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "seeds_checked": 1001,
+  "determinism_verified": true,
+  "resampled": [
+    {
+      "seed": 2800000,
+      "attempts": 2
+    }
+  ],
+  "reproduced_failure_seed": 2800000
+}

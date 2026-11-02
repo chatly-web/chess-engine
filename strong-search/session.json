@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-11-01T20:40:57.981294+00:00",
+  "baseline_commit": "09f17cf98779ec982e8ae782b05acafd2a788702",
+  "baseline_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "candidates": {
+    "rfp": {
+      "search_v3_flags": 1,
+      "binary_sha256": "1058d6e1db99f00a0c489891a73dc81e629130040697bf42994f107d9d599ffb"
+    },
+    "tactical-prune": {
+      "search_v3_flags": 3,
+      "binary_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045"
+    },
+    "deep-prune": {
+      "search_v3_flags": 7,
+      "binary_sha256": "0eaa8142f2cad85a888ef631ffade96b1f0fad4c9e7796ce743912c65f00e9e0"
+    },
+    "positional-order": {
+      "search_v3_flags": 8,
+      "binary_sha256": "821cb7357da6c6fd3a341b325e203c1a813426e6cdb72de0b1469b126dd3259b"
+    },
+    "eval-cache": {
+      "search_v3_flags": 16,
+      "binary_sha256": "ae0c1b51a1a3d9ccf1313866ba3add679aaaccefded00602721b803bd8d548cd",
+      "source": "source/cpp/experimental/alternative_search.cpp"
+    }
+  },
+  "status": "complete",
+  "data_policy": "External opponents only; INFO_NONE. No external engine source, network weights, analysis labels, opening books or tablebases used.",
+  "sources": [
+    "https://lichess.org/faq",
+    "https://official-stockfish.github.io/docs/nnue-pytorch-wiki/docs/nnue.html",
+    "https://stockfishchess.org/blog/2020/introducing-nnue-evaluation/"
+  ],
+  "not_adopted": [
+    "compact piece storage: median measured fixed-search speed ratio about 1.00",
+    "whole-position hash memoization: median measured ratio about 0.95"
+  ],
+  "promotion": "Requires held-out evidence; no promotion from the exploratory screen alone.",
+  "rejected_candidates": [
+    "deeper late-move reduction: 32.5/64 screen",
+    "positional quiet ordering: 30/64 screen",
+    "static-evaluation cache: 31/64 screen despite noisy timing gain",
+    "compact piece storage: no timing gain",
+    "whole-position hash memoization: no timing gain",
+    "target-based king-ring pressure: 0.96 median speed ratio; exact evaluations preserved but no gain",
+    "overlay-based legality test: 1.01 median timing ratio, no demonstrated useful gain"
+  ],
+  "candidate_source_sha256": "32e9f12b658f485d74aa493b4f87c7552195c2922cc327e417e95f97009a9c70",
+  "source_rebuild_text_matches_tested_candidate": true,
+  "validation_design": {
+    "screens_seed_base": 2100000,
+    "first_heldout_seed_base": 2600000,
+    "second_heldout_seed_base": 2800000,
+    "first_pairs": 64,
+    "second_pairs": 64,
+    "fixed_candidate": "tactical-prune",
+    "promotion_gate": "Both fresh 128-game batteries complete; combined pair-aware 95% point-score interval above 0.5; no recorded candidate technical failures; opponent failures reported separately; rules/protocol/sanitizer and bounded-mate checks pass; actual 3+2 and 10+5 games complete. Separate conditional decisive-pair SPRT reported as additional evidence.",
+    "limitation": "Approximate statistical evidence for sampled starts and requested short limits, not Elo, move accuracy or tournament guarantee.",
+    "second_report": "tactical-confirmation-rerun.json"
+  },
+  "interruption_record": "interrupted-clock-tests.json",
+  "generator_failure_record": "confirmation-start-failure.json",
+  "generator_fix_verified": "start-generator-check.json",
+  "historical_start_audit": "historical-start-audit.json",
+  "heldout_final_analysis": "final-analysis.json",
+  "heldout_point_score": 0.623046875,
+  "promoted": true,
+  "finished_utc": "2026-11-02T00:38:12.026648+00:00",
+  "recommended_executable": "engine/clash-native",
+  "released_binary_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+  "completed_clock_games": 11,
+  "head_to_head_event_clock_score": "4 wins, 0 draws, 0 losses",
+  "screen_games": 320,
+  "independent_validation_games": 256,
+  "candidate_clock_failures": 0,
+  "interrupted_clock_games_excluded": 7,
+  "source_and_build_manifest": "build-manifest.json"
+}

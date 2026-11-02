@@ -1,0 +1,28 @@
+{
+  "input_reports": [
+    "outputs/clash-engine/strong-search/tactical-heldout.json"
+  ],
+  "candidate_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+  "baseline_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "games": 128,
+  "completed": 128,
+  "unfinished": 0,
+  "complete_pairs": 64,
+  "wins": 60,
+  "draws": 36,
+  "losses": 32,
+  "points": 78.0,
+  "paired_mean_score": 0.609375,
+  "paired_normal_95_interval": [
+    0.5468024726373023,
+    0.6719475273626977
+  ],
+  "point_score_above_half": true,
+  "conditional_decisive_pair_sprt": {
+    "first_crossing": null,
+    "final_llr": 2.650424525774422,
+    "p0": 0.5,
+    "p1": 0.6
+  },
+  "limitations": "Approximate descriptive interval over independently sampled colour pairs. Conditional pair-win SPRT is separate from point score. Concurrent local short-control games; not Elo, Lichess accuracy or tournament-field win probability."
+}

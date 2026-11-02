@@ -1,0 +1,1 @@
+{"our_revision": "strong-search-v3-3", "opponent": {"name": "Stockfish 19", "author": "the Stockfish developers (see AUTHORS file)"}, "skill_level": null, "opponent_options": {"Threads": 1, "Hash": 64}, "our_colour": "white", "base": 180.0, "increment": 2.0, "movetime": null, "result": "0-1", "failure": null, "finished": true, "plies": 82, "seconds": 417.795777042}

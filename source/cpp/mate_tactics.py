@@ -1,7 +1,7 @@
 """Synthetic forced-mate oracle using rules only, with no external engine analysis."""
 import chess,chess.engine,json,pathlib,random,time,hashlib,argparse
 ROOT=pathlib.Path(__file__).resolve().parents[2]
-p=argparse.ArgumentParser();p.add_argument('--binary',required=True);a=p.parse_args();rng=random.Random(9690)
+p=argparse.ArgumentParser();p.add_argument('--binary',required=True);p.add_argument('--label',default='long-pass/mate-tactics');a=p.parse_args();rng=random.Random(9690)
 def mates(b):
  answer=[]
  for m in list(b.legal_moves):
@@ -55,5 +55,5 @@ with chess.engine.SimpleEngine.popen_uci(str(pathlib.Path(a.binary).resolve())) 
     if forced:verified_distance=3
    rows.append(dict(fen=position.fen(),mate_distance=distance,move=result.move.uci(),expected=[m.uci() for m in expected],shortest_mate=shortest,verified_mate_within_moves=verified_distance,passed=forced))
 report=dict(binary_sha256=hashlib.sha256(pathlib.Path(a.binary).read_bytes()).hexdigest(),tests=len(rows),shortest_mate_passed=sum(r['shortest_mate'] for r in rows),passed=sum(r['passed'] for r in rows),failed=sum(not r['passed'] for r in rows),seconds=time.monotonic()-start,cases=rows,note='Finite synthetic mate-in-one and mate-in-two positions, both colours; shortest-mate results reported separately. Unexpected choices exhaustively checked for forced mate within three moves by a rules-only oracle. No tablebase used by the engine. This does not establish general accuracy.')
-(ROOT/'long-pass/mate-tactics.json').write_text(json.dumps(report,indent=2));print({k:v for k,v in report.items() if k!='cases'})
+(ROOT/(a.label+'.json')).write_text(json.dumps(report,indent=2));print({k:v for k,v in report.items() if k!='cases'})
 if report['failed']:raise SystemExit(1)

@@ -1,0 +1,33 @@
+{
+  "input_reports": [
+    "strong-search/tactical-heldout.json",
+    "strong-search/tactical-confirmation-rerun.json"
+  ],
+  "candidate_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+  "baseline_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "games": 256,
+  "completed": 256,
+  "unfinished": 0,
+  "complete_pairs": 128,
+  "wins": 124,
+  "draws": 71,
+  "losses": 61,
+  "points": 159.5,
+  "paired_mean_score": 0.623046875,
+  "paired_normal_95_interval": [
+    0.5799087720188663,
+    0.6661849779811337
+  ],
+  "point_score_above_half": true,
+  "conditional_decisive_pair_sprt": {
+    "first_crossing": {
+      "pair": 67,
+      "llr": 3.015067639362331,
+      "decision": "accept_h1"
+    },
+    "final_llr": 6.963531478501762,
+    "p0": 0.5,
+    "p1": 0.6
+  },
+  "limitations": "Approximate descriptive interval over independently sampled colour pairs. Conditional pair-win SPRT is separate from point score. Concurrent local short-control games; not Elo, Lichess accuracy or tournament-field win probability."
+}

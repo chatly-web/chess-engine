@@ -1,11 +1,14 @@
 """Held-out paired matches for a trained native candidate; no external analysis."""
-import argparse,pathlib,random,json,time,hashlib,concurrent.futures,math
+import argparse,pathlib,random,json,time,hashlib,concurrent.futures,math,threading
 import chess,chess.engine,chess.pgn
+from test_starts import sample_start
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 p=argparse.ArgumentParser();p.add_argument('--candidate',required=True);p.add_argument('--baseline',required=True);p.add_argument('--pairs',type=int,default=32);p.add_argument('--seed-base',type=int,default=91000);p.add_argument('--workers',type=int,default=4);p.add_argument('--fast-seconds',type=float,default=.05);p.add_argument('--slow-seconds',type=float,default=.1);p.add_argument('--label',default='training-validation');a=p.parse_args();commands=[str(pathlib.Path(v).resolve()) for v in (a.candidate,a.baseline)]
+prefix=ROOT/a.label;prefix.parent.mkdir(parents=True,exist_ok=True)
+if any(pathlib.Path(str(prefix)+suffix).exists() for suffix in ('.json','.jsonl','.pgn')):p.error('Use a new label; existing validation evidence must not be overwritten')
+lock=threading.Lock()
 def play_pair(seed):
- rng=random.Random(a.seed_base+seed);initial=chess.Board()
- for _ in range(8):initial.push(rng.choice(list(initial.legal_moves)))
+ rng=random.Random(a.seed_base+seed);initial,attempts=sample_start(rng)
  seconds=a.fast_seconds if seed%2 else a.slow_seconds;rows=[];pgn=[]
  for white in (True,False):
   b=initial.copy()
@@ -15,8 +18,12 @@ def play_pair(seed):
     if r.move not in b.legal_moves:raise RuntimeError('Illegal candidate validation move')
     b.push(r.move)
   result=b.result(claim_draw=True);score=None if result=='*' else .5 if result=='1/2-1/2' else float((result=='1-0')==white)
-  rows.append(dict(seed=seed,candidate_white=white,result=result,score=score,plies=b.ply(),seconds_per_move=seconds))
-  g=chess.pgn.Game.from_board(b);g.headers.update(White='Trained' if white else 'Default',Black='Default' if white else 'Trained',Result=result,Event='Held-out validation');pgn.append(str(g))
+  rows.append(dict(seed=seed,opening_attempts=attempts,candidate_white=white,result=result,score=score,plies=b.ply(),seconds_per_move=seconds))
+  g=chess.pgn.Game.from_board(b);g.headers.update(White='Trained' if white else 'Default',Black='Default' if white else 'Trained',Result=result,Event='Held-out validation',ValidationSeed=str(seed),CandidateWhite=str(white));pgn.append(str(g))
+ with lock:
+  with open(str(prefix)+'.jsonl','a') as f:
+   for row in rows:f.write(json.dumps(row)+'\n')
+  with open(str(prefix)+'.pgn','a') as f:f.write('\n\n'.join(pgn)+'\n\n')
  return rows,pgn
 rows=[];games=[];pair_scores=[];start=time.monotonic()
 with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:

@@ -1,0 +1,138 @@
+{
+  "validation_reports": [
+    {
+      "report": "strong-search/cache-screen.json",
+      "games_verified": 64
+    },
+    {
+      "report": "strong-search/deep-screen.json",
+      "games_verified": 64
+    },
+    {
+      "report": "strong-search/positional-screen.json",
+      "games_verified": 64
+    },
+    {
+      "report": "strong-search/rfp-screen.json",
+      "games_verified": 64
+    },
+    {
+      "report": "strong-search/tactical-screen.json",
+      "games_verified": 64
+    },
+    {
+      "report": "strong-search/tactical-heldout.json",
+      "games_verified": 128
+    },
+    {
+      "report": "strong-search/tactical-confirmation-rerun.json",
+      "games_verified": 128
+    }
+  ],
+  "completed_games_replayed": 576,
+  "clock_games_replayed": 11,
+  "clock_games": [
+    {
+      "report": "strong-r2-full-blitz-white.json",
+      "result": "0-1",
+      "failure": null,
+      "candidate_colour": "white",
+      "plies": 82,
+      "base": 180.0,
+      "increment": 2.0
+    },
+    {
+      "report": "strong-r2-gnu-rapid-black.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_colour": "black",
+      "plies": 101,
+      "base": 600.0,
+      "increment": 5.0
+    },
+    {
+      "report": "strong-r2-gnu-rapid-white.json",
+      "result": "0-1",
+      "failure": null,
+      "candidate_colour": "white",
+      "plies": 122,
+      "base": 600.0,
+      "increment": 5.0
+    },
+    {
+      "report": "strong-r2-sf5-rapid-black.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_colour": "black",
+      "plies": 107,
+      "base": 600.0,
+      "increment": 5.0
+    },
+    {
+      "report": "strong-r2-sf5-rapid-white.json",
+      "result": "1/2-1/2",
+      "failure": null,
+      "candidate_colour": "white",
+      "plies": 171,
+      "base": 600.0,
+      "increment": 5.0
+    },
+    {
+      "report": "strong-sf5-blitz-black.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_colour": "black",
+      "plies": 177,
+      "base": 180.0,
+      "increment": 2.0
+    },
+    {
+      "report": "strong-sf5-blitz-white.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_colour": "white",
+      "plies": 83,
+      "base": 180.0,
+      "increment": 2.0
+    },
+    {
+      "report": "strong-search/candidate-baseline-3plus2.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_white": true,
+      "plies": 103,
+      "base": 180.0,
+      "increment": 2.0
+    },
+    {
+      "report": "strong-search/candidate-baseline-3plus2.json",
+      "result": "0-1",
+      "failure": null,
+      "candidate_white": false,
+      "plies": 62,
+      "base": 180.0,
+      "increment": 2.0
+    },
+    {
+      "report": "strong-search/r2-candidate-baseline-10plus5.json",
+      "result": "1-0",
+      "failure": null,
+      "candidate_white": true,
+      "plies": 111,
+      "base": 600.0,
+      "increment": 5.0
+    },
+    {
+      "report": "strong-search/r2-candidate-baseline-10plus5.json",
+      "result": "0-1",
+      "failure": null,
+      "candidate_white": false,
+      "plies": 168,
+      "base": 600.0,
+      "increment": 5.0
+    }
+  ],
+  "clock_failures": 0,
+  "interrupted_clock_games_excluded": 7,
+  "note": "All completed PGNs independently replayed with rules-only library; outcomes and per-move clock arithmetic verified. Interrupted games excluded."
+}

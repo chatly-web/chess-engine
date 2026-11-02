@@ -1,6 +1,7 @@
 """Time-bounded, frozen-binary native validation with durable per-pair records."""
 import argparse,concurrent.futures,datetime,hashlib,json,pathlib,random,time,threading
 import chess,chess.engine,chess.pgn
+from test_starts import sample_start
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 p=argparse.ArgumentParser();p.add_argument('--candidate',required=True);p.add_argument('--baseline',required=True);period=p.add_mutually_exclusive_group(required=True);period.add_argument('--until-utc');period.add_argument('--minutes',type=float);p.add_argument('--workers',type=int,default=4);p.add_argument('--label',default='long-pass/sustained');a=p.parse_args()
 commands=[str(pathlib.Path(v).resolve()) for v in (a.candidate,a.baseline)];hashes=[hashlib.sha256(pathlib.Path(v).read_bytes()).hexdigest() for v in commands]
@@ -15,8 +16,7 @@ def worker(worker_id):
  global next_seed
  while time.time()<end:
   with lock:seed=next_seed;next_seed+=1
-  rng=random.Random(1500000+seed);initial=chess.Board()
-  for _ in range(8):initial.push(rng.choice(list(initial.legal_moves)))
+  rng=random.Random(1500000+seed);initial,attempts=sample_start(rng)
   seconds=.1 if rng.random()<.5 else .2;result_rows=[];pgn=[]
   for white in (True,False):
    b=initial.copy();failure=None
@@ -27,7 +27,7 @@ def worker(worker_id):
      if r.move not in b.legal_moves:failure='illegal move';break
      b.push(r.move)
    outcome=b.result(claim_draw=True) if failure is None else '*';score=None if outcome=='*' else .5 if outcome=='1/2-1/2' else float((outcome=='1-0')==white)
-   result_rows.append(dict(seed=seed,candidate_white=white,result=outcome,score=score,plies=b.ply(),movetime=seconds,failure=failure))
+   result_rows.append(dict(seed=seed,opening_attempts=attempts,candidate_white=white,result=outcome,score=score,plies=b.ply(),movetime=seconds,failure=failure))
    g=chess.pgn.Game.from_board(b);g.headers.update(White='Candidate' if white else 'Baseline',Black='Baseline' if white else 'Candidate',Result=outcome);pgn.append(str(g))
   with lock:
    rows.extend(result_rows)

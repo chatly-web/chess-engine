@@ -1,5 +1,7 @@
 # Implementation status against the supplied plan
 
+This is a historical implementation log. Current C++ source, validated release, BOT connection and public GitHub publication supersede the earlier pending statuses below. See [STRONG-SEARCH.md](STRONG-SEARCH.md), [NATIVE.md](NATIVE.md) and [BOT-SETUP.md](BOT-SETUP.md) for current status.
+
 The current v0.4.1 work was preserved. This pass adds configuration, permitted-data tuning, experimental self-play validation, and correctness fixes. It does not establish tournament-winning strength.
 
 ## Implemented

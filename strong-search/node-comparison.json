@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "position": 0,
+      "old_nodes": 1747,
+      "new_nodes": 1685,
+      "old_move": "b1c3",
+      "new_move": "b1c3",
+      "old_score": 12,
+      "new_score": 12,
+      "depth": 4
+    },
+    {
+      "position": 1,
+      "old_nodes": 5100,
+      "new_nodes": 3564,
+      "old_move": "d1g4",
+      "new_move": "d1g4",
+      "old_score": 156,
+      "new_score": 156,
+      "depth": 4
+    },
+    {
+      "position": 2,
+      "old_nodes": 6338,
+      "new_nodes": 4166,
+      "old_move": "e4d5",
+      "new_move": "e4d5",
+      "old_score": -155,
+      "new_score": -155,
+      "depth": 4
+    },
+    {
+      "position": 3,
+      "old_nodes": 12181,
+      "new_nodes": 7536,
+      "old_move": "a2d5",
+      "new_move": "a2d5",
+      "old_score": 273,
+      "new_score": 273,
+      "depth": 4
+    },
+    {
+      "position": 4,
+      "old_nodes": 10212,
+      "new_nodes": 1618,
+      "old_move": "c3b4",
+      "new_move": "c3b4",
+      "old_score": 691,
+      "new_score": 718,
+      "depth": 4
+    },
+    {
+      "position": 5,
+      "old_nodes": 11162,
+      "new_nodes": 2299,
+      "old_move": "f1d3",
+      "new_move": "f1d3",
+      "old_score": 545,
+      "new_score": 545,
+      "depth": 4
+    }
+  ],
+  "old_total_nodes": 46740,
+  "new_total_nodes": 20868,
+  "node_reduction_fraction": 0.5535301668806162,
+  "same_best_moves": 6,
+  "changed_search_scores": 1,
+  "source_reports": [
+    "long-pass/rebuild-fixed.json",
+    "strong-search/fast-eval-fixed.json"
+  ],
+  "note": "Identical six fixed positions and depth four; compares prior native search with frozen pruning candidate. Wall times from different runs are not compared. Selective pruning changes the tree and one score; lower nodes/deeper nominal depth is not an Elo or accuracy measure."
+}

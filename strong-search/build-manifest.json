@@ -1,0 +1,16 @@
+{
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "flags": "-std=c++17 -O3 -DNDEBUG -pthread -DCLASH_SEARCH_V2=2 -DCLASH_TACTICAL_GEN=1 -DCLASH_SEARCH_V3=3",
+  "source_sha256": {
+    "source/cpp/engine.cpp": "32e9f12b658f485d74aa493b4f87c7552195c2922cc327e417e95f97009a9c70",
+    "source/cpp/tables.h": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125"
+  },
+  "release_binary_sha256": "2dd66add6e79fce8082283f0f70368a8a17db9f147933ac8b61dd9c457c0b045",
+  "rebuild_binary_sha256": "d5c988abf4662f6033825492af529d5f3d982b305823dedcf57fd1bd78613d73",
+  "rebuild_text_section_identical": true,
+  "frozen_candidate_source_identical_to_delivered_source": true,
+  "baseline_commit": "09f17cf98779ec982e8ae782b05acafd2a788702",
+  "baseline_binary_sha256": "fd9318156a13b933a10301620943876782d3cd87eb53b87ce486c8839fa1ddd2",
+  "note": "The exact originally tested executable is delivered. Rebuilds can differ in Mach-O UUID/signature metadata; machine-code text was compared directly.",
+  "frozen_table_source_identical_to_delivered_header": true
+}

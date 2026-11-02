@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-01T20:55:16.643900+00:00",
+  "classification": "harness starting-position generation failure",
+  "seed_base": 2800000,
+  "exception": "IndexError: choice from empty legal-move list",
+  "reason": "A randomly generated opening can checkmate before eight plies. No result should be credited to an engine for an already-terminal start.",
+  "candidate_changed": false,
+  "results_retained": 0,
+  "resolution": "Reject terminal sampled openings and resample deterministically; rerun the unchanged binary. Preserve this failure record."
+}

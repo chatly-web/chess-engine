@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "native_binary_sha256": "ae0c1b51a1a3d9ccf1313866ba3add679aaaccefded00602721b803bd8d548cd",
+  "clock_samples": [
+    {
+      "test": "mate",
+      "move": "f7g7"
+    },
+    {
+      "test": "underpromotion",
+      "move": "c7c8r"
+    },
+    {
+      "test": "ep",
+      "move": "e5d6"
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 10.577167,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 25.162958000000014,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 31.960249999999967,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 27.483707999999996,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 6.604041000000005,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 11.088624999999963,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.833416999999958,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.782708000000031,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.741833000000092,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 51.357125,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 55.766166999999925,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 66.55983300000001,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 252.012083,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 269.4924999999999,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 258.6211660000002,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 22.05579199999996,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 31.946291999999985,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 14.40416599999983,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 7.054834000000065,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 25.279625000000028,
+      "within_clock": false
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 3.286582999999954,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.469833000000042,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.89054199999995,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.782750000000066,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 51.00237499999993,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 65.07462500000005,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 74.17012499999997,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 264.6772919999998,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 252.26883399999966,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 257.73291699999976,
+      "within_clock": true
+    }
+  ],
+  "interrupted_searches": 20
+}

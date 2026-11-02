@@ -1,6 +1,6 @@
 # Native C++ engine
 
-The current promoted release and its full-clock results are documented in [LONG-PASS.md](LONG-PASS.md). Sections below also preserve earlier release measurements, identified by version and report.
+The current promoted release and its full-clock results are documented in [STRONG-SEARCH.md](STRONG-SEARCH.md); [LONG-PASS.md](LONG-PASS.md) documents the preceding release. Sections below also preserve earlier release measurements, identified by version and report.
 
 The recommended UCI launch is `./engine/clash-native` on the tested Apple Silicon macOS machine. The previous Python engine remains available as `python engine/main.py`. Both are original AI-assisted implementations; organiser acceptance of AI assistance still needs confirmation.
 

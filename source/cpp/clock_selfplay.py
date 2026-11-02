@@ -2,7 +2,7 @@
 import argparse,pathlib,json,hashlib,time,concurrent.futures
 import chess,chess.engine,chess.pgn
 ROOT=pathlib.Path(__file__).resolve().parents[2]
-p=argparse.ArgumentParser();p.add_argument('--a',required=True);p.add_argument('--b',required=True);p.add_argument('--label',default='clock-training');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--a',required=True);p.add_argument('--b',required=True);p.add_argument('--label',default='clock-training');p.add_argument('--base',type=float,default=180);p.add_argument('--increment',type=float,default=2);p.add_argument('--workers',type=int,choices=[1,2],default=2);a=p.parse_args()
 commands=[str(pathlib.Path(a.a).resolve()),str(pathlib.Path(a.b).resolve())];hashes=[hashlib.sha256(pathlib.Path(c).read_bytes()).hexdigest() for c in commands]
 def play(a_white):
  b=chess.Board();clocks={True:a.base,False:a.base};moves=[];failure=None;result='*';start=time.monotonic()
@@ -19,6 +19,6 @@ def play(a_white):
  g=chess.pgn.Game.from_board(b);g.headers.update(White='Clash',Black='Clash',Result=result,TimeControl=f'{a.base:g}+{a.increment:g}',TrainingGroup=a.label,EngineSHA256=':'.join(sorted(hashes)),WhiteVariant=hashes[0] if a_white else hashes[1],BlackVariant=hashes[1] if a_white else hashes[0])
  return dict(a_white=a_white,result=result,failure=failure,plies=b.ply(),base=a.base,increment=a.increment,engine_sha256=hashes,duration=time.monotonic()-start,moves=moves),str(g)
 rows=[];pgn=[]
-with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
  for row,g in pool.map(play,[True,False]):rows.append(row);pgn.append(g);print({k:v for k,v in row.items() if k!='moves'},flush=True)
 (ROOT/(a.label+'.json')).write_text(json.dumps(rows,indent=2));(ROOT/(a.label+'.pgn')).write_text('\n\n'.join(pgn)+'\n')

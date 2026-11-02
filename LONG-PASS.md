@@ -1,5 +1,7 @@
 # C++ search improvement and tournament-clock validation
 
+Historical release `09f17cf`: the current recommended engine and newer results are in [STRONG-SEARCH.md](STRONG-SEARCH.md).
+
 The promoted native release uses the same executable for **3+2** and **10+5**. It improves on our previous C++ baseline in a large independent short-control comparison. It does not approach a demonstrated 100% win rate against strong engines.
 
 This improvement and validation session ran from **2026-11-01T18:46:57+00:00** to **2026-11-01T20:29:40.731439+00:00**, approximately **102.7 minutes**. The sustained frozen-binary league ran for 81.7 minutes within this session; full-clock matches overlapped with it. Timing and release metadata are in [session.json](long-pass/session.json).

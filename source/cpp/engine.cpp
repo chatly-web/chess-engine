@@ -13,6 +13,9 @@
 #include <thread>
 #include <vector>
 #include "tables.h"
+#ifndef CLASH_SEARCH_V3
+#define CLASH_SEARCH_V3 0
+#endif
 #ifndef CLASH_SEARCH_V2
 #define CLASH_SEARCH_V2 0
 #endif
@@ -140,13 +143,26 @@ struct Engine{
  int ordering(const Board&b,Move m,Move preferred,int ply){if(m==preferred)return 2000000;int victim=abs(b.b[m.to]);if(abs(b.b[m.from])==1&&m.to==b.ep)victim=1;if(victim){int base=1000000+10*PIECE_VALUES_MG[victim]-PIECE_VALUES_MG[abs(b.b[m.from])];if(CLASH_SEARCH_V2>=2&&exchange(b,m)<0)base-=950000;return base;}if(m.promo)return 900000+PIECE_VALUES_MG[m.promo];if(abs(b.b[m.from])==6&&abs(m.to-m.from)==2)return 880000;if(m==killers[ply][0])return 850000;if(m==killers[ply][1])return 800000;return history[b.side>0][m.from][m.to];}
  int search(const Board&b,int depth,int alpha,int beta,int ply=0,int qdepth=0,bool allowNull=true){
   tick();bool check=b.check(b.side);bool tactical=CLASH_TACTICAL_GEN&&depth<=0&&!check;auto moves=b.legal(tactical);if(moves.empty()){if(check)return -30000+ply;if(!tactical||b.legal(false,true).empty())return 0;}if(draw(b))return 0;if(ply>=120)return evaluate(b);
-  bool q=depth<=0;int original=alpha;uint64_t key=b.hash(),ctx=uint64_t(b.half);for(int i=max(0,int(path.size())-b.half-1);i<int(path.size());i++)ctx^=path[i]+0x9e3779b97f4a7c15ULL+(ctx<<6)+(ctx>>2);
+  bool q=depth<=0;
+  if(CLASH_SEARCH_V3&&ply){alpha=max(alpha,-30000+ply);beta=min(beta,30000-ply-1);if(alpha>=beta)return alpha;}
+  int original=alpha;uint64_t key=b.hash(),ctx=uint64_t(b.half);for(int i=max(0,int(path.size())-b.half-1);i<int(path.size());i++)ctx^=path[i]+0x9e3779b97f4a7c15ULL+(ctx<<6)+(ctx>>2);
   Entry entry=tt[key&(tt.size()-1)];Move preferred=entry.key==key?entry.move:Move{};
   if(!q&&ply&&entry.key==key&&entry.context==ctx&&entry.depth>=depth){int v=entry.score;if(v>28000)v-=ply;if(v< -28000)v+=ply;if(entry.flag==0||(entry.flag==1&&v>=beta)||(entry.flag==-1&&v<=alpha))return v;}
-  if(q&&!check){int stand=evaluate(b);if(stand>=beta)return stand;alpha=max(alpha,stand);if(qdepth>=16)return alpha;moves.erase(remove_if(moves.begin(),moves.end(),[&](Move m){return !b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);}),moves.end());}
+  int staticValue=0;
+  if((CLASH_SEARCH_V3&1)&&!q&&ply&&!check&&depth<=3&&beta-alpha==1&&abs(beta)<20000){
+   staticValue=evaluate(b);if(staticValue-depth*125>=beta)return staticValue;
+  }
+  if(q&&!check){int stand=evaluate(b);staticValue=stand;if(stand>=beta)return stand;alpha=max(alpha,stand);if(qdepth>=16)return alpha;moves.erase(remove_if(moves.begin(),moves.end(),[&](Move m){return !b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);}),moves.end());}
   if(!q&&depth>=3&&ply&&!check&&allowNull&&beta-alpha==1){bool pieces=false;for(int p:b.b)if(sign(p)==b.side&&abs(p)>1&&abs(p)<6)pieces=true;if(pieces){Board n=b;n.side=-n.side;n.ep=-1;path.push_back(n.hash());int v;try{v=-search(n,depth-3,-beta,-beta+1,ply+1,0,false);}catch(...){path.pop_back();throw;}path.pop_back();if(v>=beta&&abs(v)<28000)return v;}}
   vector<pair<int,Move>> scored;scored.reserve(moves.size());for(auto move:moves)scored.push_back({ordering(b,move,preferred,ply),move});stable_sort(scored.begin(),scored.end(),[](const auto&a,const auto&z){return a.first>z.first;});for(size_t i=0;i<moves.size();i++)moves[i]=scored[i].second;int best=-32000;Move bm;
-  for(int i=0;i<int(moves.size());i++){Move m=moves[i];Board n=b.moved(m);bool quiet=!b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);int nd=depth-1+(CLASH_SEARCH_V2>=1&&!q&&check&&ply<24?1:0);int reduction=!q&&depth>=3&&i>=4&&quiet&&!check&&!n.check(n.side)?1:0;path.push_back(n.hash());int v;
+  for(int i=0;i<int(moves.size());i++){Move m=moves[i];Board n=b.moved(m);bool quiet=!b.b[m.to]&&!m.promo&&!(abs(b.b[m.from])==1&&m.to==b.ep);if((CLASH_SEARCH_V3&2)&&q&&!check&&!m.promo&&!n.check(n.side)&&b.half<80){
+    int victim=abs(b.b[m.to]);if(!victim&&abs(b.b[m.from])==1&&m.to==b.ep)victim=1;
+    // Conservative delta bound, and exchange ordering reused for non-checking captures.
+    if(staticValue+PIECE_VALUES_MG[victim]+220<alpha)continue;
+    if(exchange(b,m)<-80)continue;
+   }
+   int nd=depth-1+(CLASH_SEARCH_V2>=1&&!q&&check&&ply<24?1:0);int reduction=!q&&depth>=3&&i>=4&&quiet&&!check&&!n.check(n.side)?1:0;if((CLASH_SEARCH_V3&4)&&reduction&&depth>=6&&i>=10&&!(m==killers[ply][0])&&!(m==killers[ply][1])&&history[b.side>0][m.from][m.to]<depth*depth*8)reduction=2;
+   path.push_back(n.hash());int v;
    try{if(i==0||q)v=-search(n,nd,-beta,-alpha,ply+1,q?qdepth+1:0);else{v=-search(n,nd-reduction,-alpha-1,-alpha,ply+1);if(reduction&&v>alpha)v=-search(n,nd,-alpha-1,-alpha,ply+1);if(v>alpha&&v<beta)v=-search(n,nd,-beta,-alpha,ply+1);}}catch(...){path.pop_back();throw;}path.pop_back();if(v>best){best=v;bm=m;}alpha=max(alpha,v);if(alpha>=beta){if(quiet){killers[ply][1]=killers[ply][0];killers[ply][0]=m;auto&h=history[b.side>0][m.from][m.to];h=min(70000,h+max(1,depth)*max(1,depth));}break;}
   }
   if(!q){int v=best;if(v>28000)v+=ply;if(v< -28000)v-=ply;tt[key&(tt.size()-1)]={key,ctx,bm,depth,v,best<=original?-1:best>=beta?1:0};if(!ply)rootbest=bm;return best;}return alpha;
@@ -161,7 +177,7 @@ int main(){uint64_t seed=191827;for(auto&row:zob)for(auto&v:row)v=random64(seed)
  Board board=fen(START);vector<uint64_t>path{board.hash()};Engine engine;thread worker;
  auto halt=[&](){if(worker.joinable()){engine.stop=true;worker.join();}};
  string line;while(getline(cin,line)){istringstream in(line);string cmd;in>>cmd;try{
-  if(cmd=="uci")emit(string("id name Clash Native long-pass weights ")+WEIGHTS_ID+"\nid author AI-assisted original development\nuciok");
+  if(cmd=="uci")emit(string("id name Clash Native strong-search candidate weights ")+WEIGHTS_ID+"\nid author AI-assisted original development\nuciok");
   else if(cmd=="isready")emit("readyok");
   else if(cmd=="quit"){halt();break;}
   else if(cmd=="stop")halt();
