@@ -13,3 +13,23 @@ python /path/to/chess-engine/source/bot_bridge/test_retry_redaction.py --bridge-
 ```
 
 No populated config or token is provided. The patch is a declared adaptation of the separate bridge utility; no upstream chess search/evaluation code is copied into our engine. Account details and engine trial selection are described in the root `BOT-SETUP.md`. Running tests sends no challenge, move or message.
+
+## Live challenge allowlist
+
+`lichess-bot-live-allowlist.patch` adds an optional `challenge.allow_list_file` setting to the separate bridge. Copy `live_allowlist.py` into that bridge's `lib/` directory and apply the patch to the pinned upstream revision. Set the configuration key to an absolute path to a private JSON array of approved usernames. The list is read on every new incoming challenge; the chess engine and ongoing games are unaffected. An empty list denies all incoming challengers. Missing or malformed files fail closed. Username matching is case insensitive. Other challenge filters remain in force. Removing a name does not revoke an invitation already queued by the bridge.
+
+Run the local access page with:
+
+```sh
+python access_manager.py --file /absolute/private/path/allowlist.json
+```
+
+It opens a loopback-only page with Add and Remove controls. The page has no Lichess credentials, never calls Lichess, and never sends challenges. It uses a per-launch private URL, validates Host and POST Origin, and atomically saves owner-only files. Only use it on a trusted local computer. Applying the bridge patch requires a one-time hosting restart **while idle, before event games**; later access edits require no restart. This hosting utility does not change the submitted C++ engine or the release ZIP. Existing mode, variant, clock and concurrency restrictions continue to apply. Previously rejected requests must be sent again.
+
+Offline tests (using the bridge Python environment, no real Lichess requests):
+
+```sh
+python test_live_access.py --bridge-root /path/to/lichess-bot
+```
+
+These exercise the actual incoming challenge decision with one unchanged configuration instance, add/remove/case handling, human 10+5 and BOT 3+2 eligibility, retained rated/variant filters, empty/corrupt/missing-list rejection, file permissions and HTTP cross-origin protection.

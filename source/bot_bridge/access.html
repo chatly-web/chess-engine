@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bot access</title>
+<style>
+:root{color-scheme:light;--ink:#202f27;--muted:#526359;--green:#1d603d;--line:#c9d3ca;--paper:#fafbf7}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:720px;margin:72px auto;padding:0 28px}h1{font-size:36px;line-height:1.2;letter-spacing:-.02em;margin:0 0 16px}h2{font-size:20px;margin:40px 0 12px}
+p{max-width:65ch;margin:12px 0;color:var(--muted)}label{display:block;font-weight:600;margin:28px 0 8px}.input-row{display:flex;gap:10px}input{flex:1;min-width:0;background:white;border:1px solid var(--muted);border-radius:5px;padding:12px;font:inherit;caret-color:var(--green)}
+button{font:inherit;font-weight:600;border:1px solid var(--green);border-radius:5px;padding:10px 20px;background:var(--green);color:white;cursor:pointer;min-height:46px}button:hover{background:#14482d}button:disabled{cursor:wait;opacity:.65}button:focus-visible,input:focus-visible{outline:3px solid #b37021;outline-offset:3px}
+.hint{font-size:14px}.users{padding:0;list-style:none;border-top:1px solid var(--line)}.users li{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.remove{background:transparent;color:var(--green);padding:6px 12px;flex-shrink:0}.remove:hover{background:#e5eee5}
+#message{min-height:28px;margin:14px 0;color:var(--green);font-weight:600}#message.error{color:#9b2e23}.note{margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}::selection{background:#c9dfcb;color:var(--ink)}
+@media(max-width:480px){main{margin:32px auto;padding:0 20px}h1{font-size:30px}.input-row{flex-wrap:wrap}.input-row input{flex-basis:100%}.input-row button{width:100%}}
+</style>
+<main>
+<h1>Who can challenge your bot?</h1>
+<p>Add a Lichess username to allow their next challenge. Changes apply to new requests without restarting the bot.</p>
+<form id="add-form">
+<label for="username">Lichess username</label>
+<div class="input-row"><input id="username" name="username" autocomplete="off" autocapitalize="none" spellcheck="false" minlength="2" maxlength="30" pattern="[A-Za-z0-9_-]{2,30}" placeholder="Enter a username" required aria-describedby="username-hint"><button type="submit">Add username</button></div>
+<p class="hint" id="username-hint">Enter the username only. Human players and BOT accounts are supported.</p>
+</form>
+<div id="message" role="status" aria-live="polite"></div>
+<h2>Allowed usernames</h2>
+<ul id="users" class="users" aria-label="Allowed usernames"><li>Loading usernames…</li></ul>
+<div class="note"><p>Ask the player to send a <strong>Casual · Standard · 3+2 or 10+5</strong> challenge after you add them. A previously rejected invitation must be sent again.</p>
+<p class="hint">The bot must be online. Removing a username affects future requests; it does not stop an ongoing game. Keep this page on your Mac. This page edits access only and does not send invitations.</p></div>
+</main>
+<script>
+const list=document.querySelector('#users'),message=document.querySelector('#message'),form=document.querySelector('#add-form'),input=document.querySelector('#username');
+let busy=false;
+function status(text,error=false){message.textContent=text;message.className=error?'error':''}
+function render(users){list.replaceChildren();if(!users.length){const row=document.createElement('li');row.textContent='No one is allowed yet. Add a username above.';list.append(row)}for(const user of users){const row=document.createElement('li'),name=document.createElement('span'),button=document.createElement('button');name.textContent=user;button.type='button';button.className='remove';button.textContent='Remove';button.setAttribute('aria-label','Remove '+user);button.onclick=()=>change('remove',user);row.append(name,button);list.append(row)}}
+async function request(route,options){const response=await fetch(new URL(route,location.href),options);const data=await response.json();if(!response.ok)throw Error(data.error||'Could not save. Try again.');return data}
+async function change(action,user){if(busy)return;busy=true;document.querySelectorAll('button').forEach(b=>b.disabled=true);status('Saving…');try{const data=await request(action,{method:'POST',headers:{'Content-Type':'application/json','X-Access-Manager':'1'},body:JSON.stringify({username:user})});render(data.users);status(action==='add'?user+' is allowed for new challenges.':user+' was removed from future challenges.');if(action==='add'){input.value='';input.focus()}}catch(error){status(error.message,true)}finally{busy=false;document.querySelectorAll('button').forEach(b=>b.disabled=false)}}
+form.onsubmit=event=>{event.preventDefault();change('add',input.value.trim())};
+request('users').then(data=>render(data.users)).catch(error=>{list.replaceChildren();status(error.message,true)});
+</script>
+</html>

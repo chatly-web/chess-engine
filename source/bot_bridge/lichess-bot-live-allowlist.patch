@@ -1,0 +1,32 @@
+diff --git a/lib/model.py b/lib/model.py
+index bf379e8..5532807 100644
+--- a/lib/model.py
++++ b/lib/model.py
+@@ -9,6 +9,7 @@ from typing import ClassVar
+ from lib.blocklist import OnlineBlocklist
+ from lib.timer import Timer, msec, seconds, sec_str, to_msec, to_seconds, years
+ from lib.config import Configuration
++from lib.live_allowlist import read_usernames
+ from collections import defaultdict, Counter
+ from lib.lichess_types import UserProfileType, ChallengeType, GameEventType, PlayerType
+ 
+@@ -137,6 +138,10 @@ class Challenge:
+             from extra_game_handlers import is_supported_extra
+ 
+             allowed_opponents: list[str] = list(filter(None, config.allow_list)) or [self.challenger.name]
++            if config.allow_list_file:
++                # Reload access only for each new invitation. An empty file denies everyone.
++                allowed_opponents = read_usernames(config.allow_list_file)
++            allowed_names = {name.casefold() for name in allowed_opponents}
+             decline_reason = (self.decline_due_to(config.accept_bot or not self.challenger.is_bot, "noBot")
+                               or self.decline_due_to(not config.only_bot or self.challenger.is_bot, "onlyBot")
+                               or self.decline_due_to(self.is_supported_time_control(config), "timeControl")
+@@ -145,7 +150,7 @@ class Challenge:
+                               or self.decline_due_to(self.is_supported_rating(config, user_profile), "generic")
+                               or self.decline_due_to(self.challenger.name not in config.block_list, "generic")
+                               or self.decline_due_to(self.challenger.name not in online_block_list, "generic")
+-                              or self.decline_due_to(self.challenger.name in allowed_opponents, "generic")
++                              or self.decline_due_to(self.challenger.name.casefold() in allowed_names, "generic")
+                               or self.decline_due_to(self.is_supported_recent(config, recent_bot_challenges), "later")
+                               or self.decline_due_to(opponent_engagements[self.challenger.name]
+                                                      < config.max_simultaneous_games_per_user, "later")
