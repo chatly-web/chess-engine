@@ -1,0 +1,184 @@
+{
+  "selected": {
+    "chosen": "combined",
+    "sha256": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=1"
+    ],
+    "selection_basis": "Highest paired median fixed-depth speed ratio; no strength outcomes available",
+    "benchmark_sha256": "9490159d25c48391162ef198e56ff73512a627fd5116916ae7d2841c3238bfb2",
+    "frozen_before_strength": true
+  },
+  "performance_median_ratio": 1.2022643877095176,
+  "direct": {
+    "binary_sha256": {
+      "candidate": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+      "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9"
+    },
+    "requested_seconds": 0.08,
+    "workers": 3,
+    "games": 192,
+    "finished": 192,
+    "wins": 74,
+    "draws": 73,
+    "losses": 45,
+    "failures": 0,
+    "paired_units": 96,
+    "paired_mean_point_score": 0.5755208333333334,
+    "approximate_95_interval": [
+      0.522634696997958,
+      0.6284069696687088
+    ],
+    "seconds": 442.08845691700117
+  },
+  "external_original": {
+    "baseline": {
+      "GNUChess6.3": {
+        "games": 24,
+        "completed": 24,
+        "wins": 1,
+        "draws": 0,
+        "losses": 23,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 24,
+        "completed": 24,
+        "wins": 8,
+        "draws": 5,
+        "losses": 11,
+        "points": 10.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "GNUChess6.3": {
+        "games": 24,
+        "completed": 24,
+        "wins": 0,
+        "draws": 0,
+        "losses": 24,
+        "points": 0.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 24,
+        "completed": 23,
+        "wins": 9,
+        "draws": 5,
+        "losses": 9,
+        "points": 11.5,
+        "unfinished": 1,
+        "failures": 0
+      }
+    }
+  },
+  "external_resolved": {
+    "baseline": {
+      "GNUChess6.3": {
+        "games": 24,
+        "completed": 24,
+        "wins": 1,
+        "draws": 0,
+        "losses": 23,
+        "points": 1.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 24,
+        "completed": 24,
+        "wins": 7,
+        "draws": 6,
+        "losses": 11,
+        "points": 10.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "GNUChess6.3": {
+        "games": 24,
+        "completed": 24,
+        "wins": 0,
+        "draws": 0,
+        "losses": 24,
+        "points": 0.0,
+        "unfinished": 0,
+        "failures": 0
+      },
+      "Stockfish19-Skill5": {
+        "games": 24,
+        "completed": 24,
+        "wins": 11,
+        "draws": 4,
+        "losses": 9,
+        "points": 13.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "external_original_caps": 1,
+  "external_additional_replay_games": 4,
+  "short_games_played": 292,
+  "full_clock_games": [
+    {
+      "control": "180+2",
+      "colour": "white",
+      "outcome": "loss",
+      "plies": 90,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "180+2",
+      "colour": "black",
+      "outcome": "loss",
+      "plies": 131,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "600+5",
+      "colour": "white",
+      "outcome": "loss",
+      "plies": 166,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    },
+    {
+      "control": "600+5",
+      "colour": "black",
+      "outcome": "loss",
+      "plies": 123,
+      "failure": null,
+      "failure_side": null,
+      "finished": true,
+      "opponent_cleanup_timeout": true
+    }
+  ],
+  "gate_passed": false,
+  "default_installation": "retain-v08",
+  "accuracy_measured": false,
+  "guaranteed_winner": false
+}

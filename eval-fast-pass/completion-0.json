@@ -1,0 +1,162 @@
+{
+  "workers": 1,
+  "harness_sha256": "aedf879e373553af71c4185638f7d815096a99568a86020ce2ee057c4360d8df",
+  "opponent_binary_sha256": {
+    "Stockfish19-Skill5": "524bb2fe474ed6c5bbc49b4edd05f76d8df09e189bded31c74f52e417ba6aa27"
+  },
+  "baseline": "baseline",
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "candidate": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7"
+  },
+  "opponent_labels": [
+    "Stockfish19-Skill5"
+  ],
+  "pairs_per_opponent": 1,
+  "seed_base": 62200011,
+  "seconds_per_move": 0.15,
+  "summary": {
+    "baseline": {
+      "Stockfish19-Skill5": {
+        "games": 2,
+        "completed": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "points": 0.5,
+        "unfinished": 0,
+        "failures": 0
+      }
+    },
+    "candidate": {
+      "Stockfish19-Skill5": {
+        "games": 2,
+        "completed": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "points": 2.0,
+        "unfinished": 0,
+        "failures": 0
+      }
+    }
+  },
+  "comparisons": {
+    "candidate": {
+      "matched_units": 1,
+      "mean_point_score_difference": 0.75,
+      "approximate_95_interval": null,
+      "per_opponent_difference": {
+        "Stockfish19-Skill5": 0.75
+      }
+    }
+  },
+  "matches": [
+    {
+      "seed": 62200011,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": true,
+      "result": "0-1",
+      "score": 0.0,
+      "plies": 68,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 7.303386250016047,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "YcmfAFwQ",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 62200011,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "candidate",
+      "candidate_white": false,
+      "result": "0-1",
+      "score": 1.0,
+      "plies": 112,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 13.078821708011674,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "YcmfAFwQ",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 62200011,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "baseline",
+      "candidate_white": false,
+      "result": "1/2-1/2",
+      "score": 0.5,
+      "plies": 88,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 10.299343791994033,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "YcmfAFwQ",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    },
+    {
+      "seed": 62200011,
+      "opponent": "Stockfish19-Skill5",
+      "engine": "candidate",
+      "candidate_white": true,
+      "result": "1-0",
+      "score": 1.0,
+      "plies": 75,
+      "failure": null,
+      "failure_side": null,
+      "seconds": 8.526038499985589,
+      "requested_seconds_per_move": 0.15,
+      "opening_attempts": 1,
+      "initial_plies": 12,
+      "human_opening_game_id": "YcmfAFwQ",
+      "opponent_id": {
+        "name": "Stockfish 19",
+        "author": "the Stockfish developers (see AUTHORS file)"
+      },
+      "opponent_options": {
+        "Threads": 1,
+        "Hash": 64,
+        "Skill Level": 5
+      },
+      "own_options": {}
+    }
+  ],
+  "duration_seconds": 39.326177084003575,
+  "limitations": "Short fixed move limits, balanced human opening prefixes excluded from all fitting/hyperparameter validation, both colours. No agent opening book is used. Opponent random skill choices are not seeded. Concurrent local tests; approximate descriptive paired-unit intervals, not Elo, move accuracy or official-clock evidence. Failures/unfinished games are not credited as wins/draws."
+}

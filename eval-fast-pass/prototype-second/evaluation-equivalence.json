@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "positions": 10000,
+  "seed": 620261102,
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "incremental": "0dea507b0582c31161d0d2ac25ac6e5770321ffa1cc7421f8d630eab99cd9326",
+    "cached": "69bb7b8e6416a04c2cc0c2cff0bfb0353936bbcaf088b1ae94ff689eb2af62cf"
+  },
+  "seconds": 3.131702500017127,
+  "note": "Own original C++ score equality on5000legal random-walk positions and colour mirrors; retains each process cache across positions. Finite evidence, not proof."
+}

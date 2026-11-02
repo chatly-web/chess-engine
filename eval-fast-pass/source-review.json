@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "selected_sha256": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+  "byte_exact_public_source_rebuild": true,
+  "source_sha256": "1f3c84e22711fce0eb650beaa194d479cb5cbad95992a3b26ac1aef7576af9d3",
+  "tables_sha256": "333f28be8ede70ff30c80fac1c01b2785d0e5b2f30a0fe9e21f709222e03a125",
+  "baseline_source_unchanged_at_review": true,
+  "evaluation_coefficients_unchanged": true,
+  "sanitizer_passed": true,
+  "sanitizer_sha256": "a0499a60f41e114a4b44edf56bed89541384a62a6e3aebef8d415404fd441b4e",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
+}

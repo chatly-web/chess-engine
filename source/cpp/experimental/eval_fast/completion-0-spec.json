@@ -1,0 +1,39 @@
+{
+  "baseline": "baseline",
+  "engines": {
+    "baseline": "source/cpp/experimental/eval_fast/baseline",
+    "candidate": "source/cpp/experimental/eval_fast/build-combined/clash-native"
+  },
+  "opponents": [
+    {
+      "label": "Stockfish19-Skill5",
+      "command": [
+        "/opt/homebrew/bin/stockfish"
+      ],
+      "options": {
+        "Skill Level": 5
+      }
+    }
+  ],
+  "starts": [
+    {
+      "game_id": "YcmfAFwQ",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c8f5",
+        "h2h4",
+        "f7f6",
+        "f1d3",
+        "f5d3",
+        "d1d3",
+        "f6e5"
+      ],
+      "plies": 12,
+      "own_baseline_cp": -29
+    }
+  ]
+}

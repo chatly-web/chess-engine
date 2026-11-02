@@ -16,6 +16,18 @@ The executable targets Apple Silicon macOS. Rebuild on another hosting platform 
 
 C++ handles every chess move, including rules, evaluation and search. Python runs offline tests and the separate Lichess bridge. Use the validated build flags; the public source archive also preserves exact build provenance.
 
+## Faster C++ alternative
+
+A new original evaluation implementation completes the same fixed-depth work in about **17% less time** (paired median ratio 1.20). It scored **74 wins, 73 draws and 45 losses** against v0.8 in 192 fresh short games: **57.55% game points**, approximate paired 95% interval [52.26%, 62.84%]. This measures improvement against that checkpoint under the tested budget, not Lichess accuracy.
+
+Run the ready-to-use faster alternative:
+
+```sh
+./engine/clash-fast
+```
+
+Rebuild it with `./build-fast-candidate.sh`. It uses original C++ incremental evaluation and shared mobility/king-pressure calculations. All coefficients, search heuristics and clock allocation are unchanged. The resolved external comparison gained points against Stockfish Skill 5 but lost the checkpoint's one GNU win, so it failed the GNU release condition and remains an **experimental alternative**. The recommended `./engine/clash-native` is unchanged. Both executables use their own single frozen implementation for 3+2 and 10+5. See [EVAL-FAST.md](EVAL-FAST.md) for complete results, caps/replays, checks and source.
+
 ## Tactical-strength experiment
 
 Original C++ candidates add safe quiet checking moves and protect forcing pawn moves from search reductions. A focused king-defence check improved from 16/24 to 24/24 at requested main depth 1, but the selected candidate failed the fresh strength gate and lost all four standard-start GNU games at 3+2 and 10+5. It remains experimental; v0.8 stays recommended. The pass preserves 416 short games and four full-clock games. See [STRENGTH-FIRST.md](STRENGTH-FIRST.md) for complete results, finite-check limits, original sources and permitted competitive advantages.

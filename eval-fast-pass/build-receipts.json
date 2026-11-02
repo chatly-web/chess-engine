@@ -1,0 +1,77 @@
+{
+  "control": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=0",
+      "-DCLASH_ACTIVITY=0"
+    ],
+    "sha256": "00f3fdbbeb29cdd489820eb7e82e09a47f6264ea9924d74b028c9fa3613463c0"
+  },
+  "incremental": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=0"
+    ],
+    "sha256": "0dea507b0582c31161d0d2ac25ac6e5770321ffa1cc7421f8d630eab99cd9326"
+  },
+  "cached": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=2",
+      "-DCLASH_ACTIVITY=0"
+    ],
+    "sha256": "69bb7b8e6416a04c2cc0c2cff0bfb0353936bbcaf088b1ae94ff689eb2af62cf"
+  },
+  "activity": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=0",
+      "-DCLASH_ACTIVITY=1"
+    ],
+    "sha256": "07797fd8afbbf250d91f2a11ca68df9656f76272513b8ab7761165a0fc6ad423"
+  },
+  "combined": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1",
+      "-DCLASH_ACTIVITY=1"
+    ],
+    "sha256": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7"
+  }
+}

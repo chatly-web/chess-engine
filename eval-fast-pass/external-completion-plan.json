@@ -1,0 +1,11 @@
+{
+  "reason": "An external game reached the artificial328ply harness cap. It remains unfinished, never a credited draw.",
+  "trigger": "Every external unit containing a score=None without technical failure",
+  "action": "Replay all four games in each affected unit once from the same full prefix, with the same frozen engines/time/options and600ply cap. No changes to chess code or weights.",
+  "original_evidence_retained": true,
+  "own_technical_failure_not_repaired": true,
+  "selection_frozen": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+  "max_replays_per_affected_unit": 1,
+  "gate_evidence": "All untouched original units plus all4replayed games per affected unit. Original partial units remain separately published.",
+  "no_strength_outcome_selection": true
+}

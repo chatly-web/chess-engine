@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "native_binary_sha256": "0dea507b0582c31161d0d2ac25ac6e5770321ffa1cc7421f8d630eab99cd9326",
+  "clock_samples": [
+    {
+      "test": "mate",
+      "move": "f7g7"
+    },
+    {
+      "test": "underpromotion",
+      "move": "c7c8r"
+    },
+    {
+      "test": "ep",
+      "move": "e5d6"
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.9111669971607625,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.8722919921856374,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.8680409993976355,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 3.013999987160787,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 3.1700840045232326,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 2.921750012319535,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.123415992595255,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.16100000985898,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.113749999320135,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.44854199513793,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.47070799628273,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.710000010440126,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 250.6863339804113,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 250.75025000842288,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 250.69324998185039,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.8545000057201833,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.8461669969838113,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 5,
+      "elapsed_ms": 1.7909170128405094,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 2.964457991765812,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 2.929457987193018,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 10,
+      "elapsed_ms": 3.0250829877331853,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 12.999333994230255,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.102625001920387,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 50,
+      "elapsed_ms": 13.148375001037493,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.928209006087855,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.76104201725684,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 200,
+      "elapsed_ms": 50.906333985039964,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 250.8774580201134,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 250.73195798904635,
+      "within_clock": true
+    },
+    {
+      "test": "clock",
+      "clock_ms": 1000,
+      "elapsed_ms": 252.60195799637586,
+      "within_clock": true
+    }
+  ],
+  "interrupted_searches": 20
+}

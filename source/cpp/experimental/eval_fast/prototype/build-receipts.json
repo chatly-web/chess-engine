@@ -1,0 +1,44 @@
+{
+  "control": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=0"
+    ],
+    "sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9"
+  },
+  "incremental": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=1"
+    ],
+    "sha256": "1058684896f57868a901472f1090da4355e4998caad63145010e0bf49ef3aa09"
+  },
+  "cached": {
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "-pthread",
+      "-DCLASH_SEARCH_V2=2",
+      "-DCLASH_TACTICAL_GEN=1",
+      "-DCLASH_SEARCH_V3=3",
+      "-DCLASH_EVAL_STYLE=3",
+      "-DCLASH_EVAL_FAST=2"
+    ],
+    "sha256": "2149cf8a310e6ce680ae59ff7b4fd4f77f02dad82ee5bcfe124befa371d427ee"
+  }
+}

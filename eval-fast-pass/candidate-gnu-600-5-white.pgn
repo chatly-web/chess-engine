@@ -1,0 +1,10 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Clash"]
+[Black "GNU Chess 6.3.0"]
+[Result "0-1"]
+[TimeControl "600.0+5.0"]
+
+1. e4 Nf6 2. e5 Nd5 3. Nf3 d6 4. d4 dxe5 5. dxe5 Bg4 6. Be2 Nc6 7. O-O Qd7 8. h3 Bxf3 9. Bxf3 O-O-O 10. c4 Ndb4 11. Qa4 Nxe5 12. Bxb7+ Kxb7 13. Qxb4+ Ka8 14. Be3 e6 15. Qa5 c5 16. Nd2 Be7 17. Bxc5 Bxc5 18. Qxc5 Qd4 19. Qa5 Qxb2 20. Rab1 Qd4 21. Rfd1 Rb8 22. Nb3 Qf4 23. c5 Rhc8 24. Qc3 Qf5 25. Rbc1 Qf6 26. Re1 Nc6 27. Qxf6 gxf6 28. Rc4 Nb4 29. Re3 Nxa2 30. Rh4 Rh8 31. c6 Rb6 32. Na5 Nb4 33. Rc3 Nd5 34. Rc1 Kb8 35. Rg4 h5 36. Rg7 Rf8 37. Rh7 Kc7 38. Ra1 Nf4 39. Rd1 Rb4 40. Rd7+ Kb6 41. g3 Nd5 42. c7 Nxc7 43. Rxh5 Nd5 44. Nb7 a5 45. Nxa5 Kxa5 46. Rh7 Rb1+ 47. Kg2 Rd1 48. Rdxf7 Rd8 49. h4 Rd2 50. h5 Ne3+ 51. Kf3 Nd1 52. Ra7+ Kb6 53. Rhb7+ Kc6 54. Rc7+ Kd6 55. h6 Rxf2+ 56. Kg4 Ne3+ 57. Kh3 Rf5 58. g4 Rf3+ 59. Kh2 Nxg4+ 60. Kg2 Rb3 61. h7 Rbb8 62. Kg3 f5 63. Rf7 Rb3+ 64. Kf4 Ne5 65. Ra6+ Nc6 66. Ra2 Nb4 67. Rd2+ Nd5+ 68. Kg5 Rh3 69. Rb2 Ra8 70. Rd2 Ra1 71. Rg2 Rah1 72. Rf8 Rh5+ 73. Kg6 Nf4+ 74. Kf7 Nxg2 75. Ra8 Nf4 76. h8=Q Rxh8 77. Rxh8 Rxh8 78. Kg7 Rh4 79. Kf7 Rg4 80. Kf8 Nd3 81. Ke8 Ne5 82. Kf8 f4 83. Ke8 Rg8# 0-1

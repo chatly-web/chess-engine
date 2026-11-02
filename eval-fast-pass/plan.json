@@ -1,0 +1,91 @@
+{
+  "objective": "Search deeper under the same clock by preserving the original evaluation exactly while reducing repeated work",
+  "variants": [
+    "incremental material/PST/phase and occupied scans",
+    "incremental plus collision-checked pawn-structure cache",
+    "activity-only shared geometry",
+    "incremental plus shared geometry"
+  ],
+  "unchanged": [
+    "evaluation coefficients",
+    "search/pruning/ordering",
+    "clock allocation",
+    "board rules"
+  ],
+  "selection": "Among finite-correctness-pass variants, highest median baseline/candidate fixed-depth wall-time ratio; no opponent-result selection",
+  "benchmark": {
+    "positions": 32,
+    "depth": 6,
+    "repeats": 2,
+    "starts": [
+      0,
+      32
+    ]
+  },
+  "direct_confirmation": {
+    "pairs": 96,
+    "games": 192,
+    "seconds": 0.08,
+    "workers": 3,
+    "starts": [
+      32,
+      128
+    ]
+  },
+  "external_confirmation": {
+    "pairs_per_opponent": 12,
+    "opponents": [
+      "GNUChess6.3",
+      "Stockfish19-Skill5"
+    ],
+    "games": 96,
+    "seconds": 0.15,
+    "workers": 2,
+    "starts": [
+      128,
+      152
+    ]
+  },
+  "full_clocks": [
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "white"
+    },
+    {
+      "base": 180,
+      "increment": 2,
+      "colour": "black"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "white"
+    },
+    {
+      "base": 600,
+      "increment": 5,
+      "colour": "black"
+    }
+  ],
+  "promotion_gate": [
+    "median fixed-depth speed ratio at least1.15",
+    "all finite evaluation/rules/protocol/hash/sanitizer and fixed-depth search equivalence checks pass",
+    "positive direct fresh paired-game score lower95 bound vs v0.8",
+    "aggregate external game points no less than baseline, GNU wins no fewer",
+    "all4full-clock games finished with no own technical failures",
+    "frozen source/binary reproduced and results independently audited"
+  ],
+  "early_stop": "No strength collection if neither finite-correctness-pass variant reaches1.10 median fixed-depth speed ratio",
+  "no_foreign_training_or_analysis": true,
+  "freeze_before_confirmation": true,
+  "starting_games_exclude_fitting_and_all_previous_pass_prefixes": true,
+  "max_concurrent_game_searches": 9,
+  "no_prize_or_accuracy_guarantee": true,
+  "implementation_refinements_before_strength_freeze": [
+    "initial incremental/cache prototypes gained about4percent median; no strength games started",
+    "skip bookkeeping on temporary legality/SEE boards: about7percent median; no strength games started",
+    "combine exactly equivalent mobility and king-ring piece geometry; compare activity-only and combined"
+  ],
+  "artificial_cap_completion_policy": "After observing an artificial external ply cap, replay every affected complete four-game paired unit once with unchanged engines/options/time/prefix and600ply cap. Preserve original capped records. Any second cap remains unresolved and fails the complete-external gate. No own technical failure is repaired."
+}

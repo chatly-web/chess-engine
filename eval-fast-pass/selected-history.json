@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "engine": "baseline",
+      "sha256": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+      "mate_priority_halfmove_cases": 5,
+      "retained_table_repetition": true,
+      "insufficient_material": true
+    },
+    {
+      "engine": "combined",
+      "sha256": "06ae951b3d75731b2c0ace364ba2c581f78b6ea195b1b1ddae3994376cb3bed7",
+      "mate_priority_halfmove_cases": 5,
+      "retained_table_repetition": true,
+      "insufficient_material": true
+    }
+  ]
+}

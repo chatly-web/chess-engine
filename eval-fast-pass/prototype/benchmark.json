@@ -1,0 +1,1882 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "repeat": 0,
+      "position": 0,
+      "human_game_id": "Z04P9kNR",
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.0920382089971099,
+          "nodes": 38423,
+          "depth": 6,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+79), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.09003583298181184,
+          "nodes": 38423,
+          "depth": 6,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+79), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09485966598731466,
+          "nodes": 38423,
+          "depth": 6,
+          "move": "e4f6",
+          "score": "PovScore(Cp(+79), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 1,
+      "human_game_id": "tnziqWna",
+      "fen": "r1bqkb1r/pp1npp1p/5np1/3P4/Q7/2N5/PP1P1PPP/R1B1KBNR w KQkq - 0 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.1037558339885436,
+          "nodes": 47519,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.10086245799902827,
+          "nodes": 47519,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.10667891698540188,
+          "nodes": 47519,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 2,
+      "human_game_id": "qUrQGPFP",
+      "fen": "rn1qk2r/ppp2pp1/2bbpn1p/8/3PN3/3B1N2/PPP2PPP/R1BQK2R w KQkq - 2 9",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.09045058299670927,
+          "nodes": 37542,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09033599999384023,
+          "nodes": 37542,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.0881959590187762,
+          "nodes": 37542,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 3,
+      "human_game_id": "dIR6U3xG",
+      "fen": "r1bqkbnr/pp1p1ppp/2n1p3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.11612529199919663,
+          "nodes": 49781,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.1112960419850424,
+          "nodes": 49781,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.11506570901838131,
+          "nodes": 49781,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 4,
+      "human_game_id": "8VXmqLJ1",
+      "fen": "r1bqkb1r/pp3ppp/2n1pn2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.06380579198594205,
+          "nodes": 26333,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.061464957980206236,
+          "nodes": 26333,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.06304025001008995,
+          "nodes": 26333,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 5,
+      "human_game_id": "7yrGpcuE",
+      "fen": "r2qkb1r/pp3pp1/2n1bn1p/2pp4/3P4/P1N2NP1/1P2PPBP/R1BQK2R w KQkq - 3 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04920337500516325,
+          "nodes": 19456,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.04612500002258457,
+          "nodes": 19456,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.045740791014395654,
+          "nodes": 19456,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 6,
+      "human_game_id": "EkrvyAMY",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.053166542027611285,
+          "nodes": 20542,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.053279457992175594,
+          "nodes": 20542,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.05319599999347702,
+          "nodes": 20542,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 7,
+      "human_game_id": "5YlBOrVs",
+      "fen": "r2qkbnr/pp3ppp/2n1p1b1/2ppP3/3P4/2P3N1/PP3PPP/RNBQKB1R w KQkq - 1 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.05983874999219552,
+          "nodes": 23517,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06106174999149516,
+          "nodes": 23517,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.06027166699641384,
+          "nodes": 23517,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 8,
+      "human_game_id": "TPPsLK9z",
+      "fen": "r1bqk2r/pp1n1ppp/2p1p3/8/1bPPQ3/5N2/PP3PPP/R1B1KB1R w KQkq - 1 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0608575830119662,
+          "nodes": 25102,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.06136604200582951,
+          "nodes": 25102,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.059348292008508,
+          "nodes": 25102,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 9,
+      "human_game_id": "WiLeudRc",
+      "fen": "rnbqkb1r/p2ppp1p/5np1/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04572774999542162,
+          "nodes": 21991,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.04315970800234936,
+          "nodes": 21991,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.04464495900901966,
+          "nodes": 21991,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 10,
+      "human_game_id": "AjMctzSA",
+      "fen": "rn1qkb1r/pp3ppp/2p2p2/5b2/3P4/2P5/PP3PPP/R1BQKBNR w KQkq - 1 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.13056554101058282,
+          "nodes": 61717,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+61), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.1443326669977978,
+          "nodes": 61717,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+61), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.13964541698805988,
+          "nodes": 61717,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+61), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 11,
+      "human_game_id": "gRoy043D",
+      "fen": "r2qkb1r/pp1b1pp1/2np2n1/1Bp1p2p/2P1P2P/2NPBN2/PP3PP1/R2QK2R w KQkq - 0 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.10893504100386053,
+          "nodes": 41048,
+          "depth": 6,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+81), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.10702475000289269,
+          "nodes": 41048,
+          "depth": 6,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+81), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.11400833301013336,
+          "nodes": 41048,
+          "depth": 6,
+          "move": "c3d5",
+          "score": "PovScore(Cp(+81), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 12,
+      "human_game_id": "6u1MLV1u",
+      "fen": "rnbqk2r/pp1pppbp/5np1/2p5/2P5/3P2P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04148679200443439,
+          "nodes": 18719,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.039255416020751,
+          "nodes": 18719,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.0388218330044765,
+          "nodes": 18719,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 13,
+      "human_game_id": "3fy5a7E6",
+      "fen": "r1bqr1k1/pppp1ppp/2nb1n2/4p3/B3P3/2NP1N2/PPP2PPP/R1BQK2R w KQ - 3 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.066069124994101,
+          "nodes": 25975,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06761412500054576,
+          "nodes": 25975,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.06405812498996966,
+          "nodes": 25975,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 14,
+      "human_game_id": "V58jMXnH",
+      "fen": "r1bq1rk1/pp2bppp/2pp1n2/4n3/2B1P1P1/2N2N1P/PPP2P2/R1BQK2R w KQ - 0 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0295680419949349,
+          "nodes": 11882,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.028729874989949167,
+          "nodes": 11882,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.029106875008437783,
+          "nodes": 11882,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 15,
+      "human_game_id": "kUk3OVPZ",
+      "fen": "rnbqkbnr/pp3ppp/8/2pp4/8/5NP1/PPPP1P1P/RNBQKB1R w KQkq - 0 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.049040457990486175,
+          "nodes": 22028,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.04764649999560788,
+          "nodes": 22028,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.047889084002235904,
+          "nodes": 22028,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 16,
+      "human_game_id": "OPwF6wCU",
+      "fen": "r1bqkbnr/5ppp/p1npp3/1pp5/4P3/P2P1N2/BPP2PPP/RNBQK2R w KQkq - 0 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0833415410015732,
+          "nodes": 33157,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+131), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.07970716699492186,
+          "nodes": 33157,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+131), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.08223450000514276,
+          "nodes": 33157,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+131), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 17,
+      "human_game_id": "1LgJAapY",
+      "fen": "rnb2rk1/p1p1bppp/1p2p3/3q4/3P1B2/P4N2/1P2PPPP/R2QKB1R w KQ - 0 9",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.14844187500420958,
+          "nodes": 59192,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.14702145801857114,
+          "nodes": 59192,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.15770999999949709,
+          "nodes": 59192,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 18,
+      "human_game_id": "XE9zu7c7",
+      "fen": "r1bqk1nr/ppp1ppbp/2np2p1/8/3PP2P/2N5/PPP2PP1/R1BQKBNR w KQkq - 1 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.06355420799809508,
+          "nodes": 26644,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.06700675000320189,
+          "nodes": 26644,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06747429200913757,
+          "nodes": 26644,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 19,
+      "human_game_id": "QsekFsDd",
+      "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.029390125011559576,
+          "nodes": 12659,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.0282219159998931,
+          "nodes": 12659,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.02832187499734573,
+          "nodes": 12659,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 20,
+      "human_game_id": "lEOvKC6Y",
+      "fen": "rn1q1rk1/p1p2ppp/bp1bp3/3p4/2PPn3/5NP1/PP1N1PBP/R1BQ1RK1 w - - 0 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.020222916005877778,
+          "nodes": 8514,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.021420167002361268,
+          "nodes": 8514,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.022825958003522828,
+          "nodes": 8514,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 21,
+      "human_game_id": "t7tatqdo",
+      "fen": "rn2kbnr/pp2pppp/1qp5/3pPb2/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 3 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.0897288340202067,
+          "nodes": 38420,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.09289962498587556,
+          "nodes": 38420,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09546637500170618,
+          "nodes": 38420,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 22,
+      "human_game_id": "k9MuxPeP",
+      "fen": "rn1qkbnr/pbp2ppp/4p3/8/PpBP4/4PN2/1P3PPP/RNBQK2R w KQkq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.1660586660145782,
+          "nodes": 64699,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+117), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.16346645800513215,
+          "nodes": 64699,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+117), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.15945041700615548,
+          "nodes": 64699,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+117), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 23,
+      "human_game_id": "6ceuscbk",
+      "fen": "rn1qkb1r/1p3ppp/p4n2/3ppP2/8/2NB4/PPP2PPP/R1BQK2R w KQkq - 0 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0809176659968216,
+          "nodes": 34547,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.0789183329907246,
+          "nodes": 34547,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.07793158298591152,
+          "nodes": 34547,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 24,
+      "human_game_id": "NaWZldes",
+      "fen": "r1bqk2r/ppppbppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.03540658298879862,
+          "nodes": 17050,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.035476457996992394,
+          "nodes": 17050,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.03480312498868443,
+          "nodes": 17050,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 25,
+      "human_game_id": "GMMwClOO",
+      "fen": "r1b1kbnr/ppp2ppp/2n5/6q1/2BPp3/4P3/PP1N1PPP/RNBQK2R w KQkq - 2 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.20942075000493787,
+          "nodes": 85979,
+          "depth": 6,
+          "move": "d1b3",
+          "score": "PovScore(Cp(+43), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.20992995900451206,
+          "nodes": 85979,
+          "depth": 6,
+          "move": "d1b3",
+          "score": "PovScore(Cp(+43), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.2124551250017248,
+          "nodes": 85979,
+          "depth": 6,
+          "move": "d1b3",
+          "score": "PovScore(Cp(+43), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 26,
+      "human_game_id": "iHf5hUYs",
+      "fen": "r1bqk2r/p3ppbp/p1p2np1/8/3PP3/2N1B3/PPPQ2PP/R3K1NR w KQkq - 1 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.041850416018860415,
+          "nodes": 21076,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.045318457996472716,
+          "nodes": 21076,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.044028625008650124,
+          "nodes": 21076,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 27,
+      "human_game_id": "YxOzPAyt",
+      "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 3 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.08344191600917839,
+          "nodes": 35058,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.07970650002243929,
+          "nodes": 35058,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.08039141597691923,
+          "nodes": 35058,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 28,
+      "human_game_id": "MUaH3prn",
+      "fen": "rn1qk1nr/pp3ppp/4p3/3pPb2/1b1P4/2N5/PP3PPP/R1BQKBNR w KQkq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.10056750001967885,
+          "nodes": 45826,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.097033250000095,
+          "nodes": 45826,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.10318495900719427,
+          "nodes": 45826,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 29,
+      "human_game_id": "Idc1yMqp",
+      "fen": "r2qkb1r/ppp2ppp/1nn1p3/3pP3/P4P2/2N2Q1P/1PPP2P1/R1B1KB1R w KQkq - 1 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.07420420800917782,
+          "nodes": 30157,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.07362312500481494,
+          "nodes": 30157,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.07361245798529126,
+          "nodes": 30157,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 30,
+      "human_game_id": "1Fm7sXfF",
+      "fen": "rnbqkb1r/pp2pppp/5n2/3P4/8/8/PP1P1PPP/RNBQKBNR w KQkq - 1 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.08830362500157207,
+          "nodes": 42632,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09466608299408108,
+          "nodes": 42632,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.08936920901760459,
+          "nodes": 42632,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "position": 31,
+      "human_game_id": "uJFFCwET",
+      "fen": "rnbqkb1r/pp3ppp/5n2/3pp3/3N4/6P1/PPP1PPBP/RNBQ1RK1 w kq - 0 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.055527082993648946,
+          "nodes": 23344,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.05879620902123861,
+          "nodes": 23344,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.05947541701607406,
+          "nodes": 23344,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 0,
+      "human_game_id": "Z04P9kNR",
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.11967958300374448,
+          "nodes": 52934,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+91), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.12224816699745134,
+          "nodes": 52934,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+91), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.1218020000087563,
+          "nodes": 52934,
+          "depth": 6,
+          "move": "f1d3",
+          "score": "PovScore(Cp(+91), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 1,
+      "human_game_id": "tnziqWna",
+      "fen": "r1bqkb1r/pp1npp1p/5np1/3P4/Q7/2N5/PP1P1PPP/R1B1KBNR w KQkq - 0 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.09341391702764668,
+          "nodes": 42915,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09711254099966027,
+          "nodes": 42915,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.09416212502401322,
+          "nodes": 42915,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+64), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 2,
+      "human_game_id": "qUrQGPFP",
+      "fen": "rn1qk2r/ppp2pp1/2bbpn1p/8/3PN3/3B1N2/PPP2PPP/R1BQK2R w KQkq - 2 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.08971508400281891,
+          "nodes": 37737,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.09444304200587794,
+          "nodes": 37737,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.08886762501788326,
+          "nodes": 37737,
+          "depth": 6,
+          "move": "e4d6",
+          "score": "PovScore(Cp(+20), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 3,
+      "human_game_id": "dIR6U3xG",
+      "fen": "r1bqkbnr/pp1p1ppp/2n1p3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.05884112499188632,
+          "nodes": 26674,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.06039854101254605,
+          "nodes": 26674,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06241654098266736,
+          "nodes": 26674,
+          "depth": 6,
+          "move": "b1c3",
+          "score": "PovScore(Cp(+97), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 4,
+      "human_game_id": "8VXmqLJ1",
+      "fen": "r1bqkb1r/pp3ppp/2n1pn2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+      "measurements": {
+        "cached": {
+          "seconds": 0.05641841600299813,
+          "nodes": 25268,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.05915283298236318,
+          "nodes": 25268,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.059275625011650845,
+          "nodes": 25268,
+          "depth": 6,
+          "move": "e2e3",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 5,
+      "human_game_id": "7yrGpcuE",
+      "fen": "r2qkb1r/pp3pp1/2n1bn1p/2pp4/3P4/P1N2NP1/1P2PPBP/R1BQK2R w KQkq - 3 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04896991699934006,
+          "nodes": 19344,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.04616229099337943,
+          "nodes": 19344,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.045106915989890695,
+          "nodes": 19344,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+47), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 6,
+      "human_game_id": "EkrvyAMY",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.04256524998345412,
+          "nodes": 17995,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.04349916698993184,
+          "nodes": 17995,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.043388916994445026,
+          "nodes": 17995,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+21), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 7,
+      "human_game_id": "5YlBOrVs",
+      "fen": "r2qkbnr/pp3ppp/2n1p1b1/2ppP3/3P4/2P3N1/PP3PPP/RNBQKB1R w KQkq - 1 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.07754770800238475,
+          "nodes": 31617,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.07449087500572205,
+          "nodes": 31617,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.07975224999245256,
+          "nodes": 31617,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 8,
+      "human_game_id": "TPPsLK9z",
+      "fen": "r1bqk2r/pp1n1ppp/2p1p3/8/1bPPQ3/5N2/PP3PPP/R1B1KB1R w KQkq - 1 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.058560874982504174,
+          "nodes": 24960,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.05940125000779517,
+          "nodes": 24960,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.05787308298749849,
+          "nodes": 24960,
+          "depth": 6,
+          "move": "c1d2",
+          "score": "PovScore(Cp(+18), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 9,
+      "human_game_id": "WiLeudRc",
+      "fen": "rnbqkb1r/p2ppp1p/5np1/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.04516800001147203,
+          "nodes": 20624,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.042277750006178394,
+          "nodes": 20624,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.040750332991592586,
+          "nodes": 20624,
+          "depth": 6,
+          "move": "c4b5",
+          "score": "PovScore(Cp(+130), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 10,
+      "human_game_id": "AjMctzSA",
+      "fen": "rn1qkb1r/pp3ppp/2p2p2/5b2/3P4/2P5/PP3PPP/R1BQKBNR w KQkq - 1 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.06717195801320486,
+          "nodes": 32099,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+59), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.07098470799974166,
+          "nodes": 32099,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+59), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.06793250000919215,
+          "nodes": 32099,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+59), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 11,
+      "human_game_id": "gRoy043D",
+      "fen": "r2qkb1r/pp1b1pp1/2np2n1/1Bp1p2p/2P1P2P/2NPBN2/PP3PP1/R2QK2R w KQkq - 0 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.12171599999419414,
+          "nodes": 46498,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.12493504100712016,
+          "nodes": 46498,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.12129249999998137,
+          "nodes": 46498,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 12,
+      "human_game_id": "6u1MLV1u",
+      "fen": "rnbqk2r/pp1pppbp/5np1/2p5/2P5/3P2P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.03546958297374658,
+          "nodes": 18457,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.03455970800132491,
+          "nodes": 18457,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.03737595901475288,
+          "nodes": 18457,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(-8), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 13,
+      "human_game_id": "3fy5a7E6",
+      "fen": "r1bqr1k1/pppp1ppp/2nb1n2/4p3/B3P3/2NP1N2/PPP2PPP/R1BQK2R w KQ - 3 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.06396741699427366,
+          "nodes": 25850,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.06504049999057315,
+          "nodes": 25850,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06766145801520906,
+          "nodes": 25850,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+26), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 14,
+      "human_game_id": "V58jMXnH",
+      "fen": "r1bq1rk1/pp2bppp/2pp1n2/4n3/2B1P1P1/2N2N1P/PPP2P2/R1BQK2R w KQ - 0 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.029477541975211352,
+          "nodes": 11798,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.029688374983379617,
+          "nodes": 11798,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.029180542012909427,
+          "nodes": 11798,
+          "depth": 6,
+          "move": "f3e5",
+          "score": "PovScore(Cp(+3), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 15,
+      "human_game_id": "kUk3OVPZ",
+      "fen": "rnbqkbnr/pp3ppp/8/2pp4/8/5NP1/PPPP1P1P/RNBQKB1R w KQkq - 0 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.04401399998459965,
+          "nodes": 20820,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.04769895802019164,
+          "nodes": 20820,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.04671720799524337,
+          "nodes": 20820,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+88), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 16,
+      "human_game_id": "OPwF6wCU",
+      "fen": "r1bqkbnr/5ppp/p1npp3/1pp5/4P3/P2P1N2/BPP2PPP/RNBQK2R w KQkq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.08309741600533016,
+          "nodes": 36656,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.08187995801563375,
+          "nodes": 36656,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.08635362499626353,
+          "nodes": 36656,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 17,
+      "human_game_id": "1LgJAapY",
+      "fen": "rnb2rk1/p1p1bppp/1p2p3/3q4/3P1B2/P4N2/1P2PPPP/R2QKB1R w KQ - 0 9",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.1583004999847617,
+          "nodes": 61418,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.16146720902179368,
+          "nodes": 61418,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.156738084013341,
+          "nodes": 61418,
+          "depth": 6,
+          "move": "d1c2",
+          "score": "PovScore(Cp(+12), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 18,
+      "human_game_id": "XE9zu7c7",
+      "fen": "r1bqk1nr/ppp1ppbp/2np2p1/8/3PP2P/2N5/PPP2PP1/R1BQKBNR w KQkq - 1 5",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.06481745801283978,
+          "nodes": 27164,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.06541108398232609,
+          "nodes": 27164,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06865850000758655,
+          "nodes": 27164,
+          "depth": 6,
+          "move": "g1f3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 19,
+      "human_game_id": "QsekFsDd",
+      "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.030657167022582144,
+          "nodes": 12447,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.029663125023944303,
+          "nodes": 12447,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.03085000001010485,
+          "nodes": 12447,
+          "depth": 6,
+          "move": "a4b3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 20,
+      "human_game_id": "lEOvKC6Y",
+      "fen": "rn1q1rk1/p1p2ppp/bp1bp3/3p4/2PPn3/5NP1/PP1N1PBP/R1BQ1RK1 w - - 0 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.021253667015116662,
+          "nodes": 8530,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.02212566600064747,
+          "nodes": 8530,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.021567707997746766,
+          "nodes": 8530,
+          "depth": 6,
+          "move": "d2e4",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 21,
+      "human_game_id": "t7tatqdo",
+      "fen": "rn2kbnr/pp2pppp/1qp5/3pPb2/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 3 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.0896954580093734,
+          "nodes": 36802,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.08460100000957027,
+          "nodes": 36802,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.08392033400014043,
+          "nodes": 36802,
+          "depth": 6,
+          "move": "c3a4",
+          "score": "PovScore(Cp(+116), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 22,
+      "human_game_id": "k9MuxPeP",
+      "fen": "rn1qkbnr/pbp2ppp/4p3/8/PpBP4/4PN2/1P3PPP/RNBQK2R w KQkq - 0 7",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.17004212501342408,
+          "nodes": 65980,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.1693774590094108,
+          "nodes": 65980,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.17080620900378563,
+          "nodes": 65980,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+129), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 23,
+      "human_game_id": "6ceuscbk",
+      "fen": "rn1qkb1r/1p3ppp/p4n2/3ppP2/8/2NB4/PPP2PPP/R1BQK2R w KQkq - 0 9",
+      "measurements": {
+        "cached": {
+          "seconds": 0.06912045902572572,
+          "nodes": 29894,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.07115954198525287,
+          "nodes": 29894,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.07522895798319951,
+          "nodes": 29894,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+85), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 24,
+      "human_game_id": "NaWZldes",
+      "fen": "r1bqk2r/ppppbppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.03682995800045319,
+          "nodes": 16689,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.03577429099823348,
+          "nodes": 16689,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.037551417015492916,
+          "nodes": 16689,
+          "depth": 6,
+          "move": "e1g1",
+          "score": "PovScore(Cp(+67), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 25,
+      "human_game_id": "GMMwClOO",
+      "fen": "r1b1kbnr/ppp2ppp/2n5/6q1/2BPp3/4P3/PP1N1PPP/RNBQK2R w KQkq - 2 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.1099186249775812,
+          "nodes": 41095,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.10709062500973232,
+          "nodes": 41095,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+67), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.10438408300979063,
+          "nodes": 41095,
+          "depth": 6,
+          "move": "g2g3",
+          "score": "PovScore(Cp(+67), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 26,
+      "human_game_id": "iHf5hUYs",
+      "fen": "r1bqk2r/p3ppbp/p1p2np1/8/3PP3/2N1B3/PPPQ2PP/R3K1NR w KQkq - 1 9",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.04234033398097381,
+          "nodes": 20110,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.043740499997511506,
+          "nodes": 20110,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.041395500011276454,
+          "nodes": 20110,
+          "depth": 6,
+          "move": "e1c1",
+          "score": "PovScore(Cp(+94), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 27,
+      "human_game_id": "YxOzPAyt",
+      "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 3 5",
+      "measurements": {
+        "cached": {
+          "seconds": 0.07916879199910909,
+          "nodes": 35009,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.08265125000616536,
+          "nodes": 35009,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.08404012498795055,
+          "nodes": 35009,
+          "depth": 6,
+          "move": "c4d5",
+          "score": "PovScore(Cp(-34), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 28,
+      "human_game_id": "MUaH3prn",
+      "fen": "rn1qk1nr/pp3ppp/4p3/3pPb2/1b1P4/2N5/PP3PPP/R1BQKBNR w KQkq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.10531129201990552,
+          "nodes": 48105,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.10816066700499505,
+          "nodes": 48105,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.10653991700382903,
+          "nodes": 48105,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+26), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 29,
+      "human_game_id": "Idc1yMqp",
+      "fen": "r2qkb1r/ppp2ppp/1nn1p3/3pP3/P4P2/2N2Q1P/1PPP2P1/R1B1KB1R w KQkq - 1 9",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.07513770798686892,
+          "nodes": 28617,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.07203999999910593,
+          "nodes": 28617,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.07446866697864607,
+          "nodes": 28617,
+          "depth": 6,
+          "move": "f3g3",
+          "score": "PovScore(Cp(-2), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 30,
+      "human_game_id": "1Fm7sXfF",
+      "fen": "rnbqkb1r/pp2pppp/5n2/3P4/8/8/PP1P1PPP/RNBQKBNR w KQkq - 1 5",
+      "measurements": {
+        "baseline": {
+          "seconds": 0.1066313750052359,
+          "nodes": 44755,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.09438637501443736,
+          "nodes": 44755,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        },
+        "incremental": {
+          "seconds": 0.09798295798827894,
+          "nodes": 44755,
+          "depth": 6,
+          "move": "f1b5",
+          "score": "PovScore(Cp(+13), WHITE)"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "position": 31,
+      "human_game_id": "uJFFCwET",
+      "fen": "rnbqkb1r/pp3ppp/5n2/3pp3/3N4/6P1/PPP1PPBP/RNBQ1RK1 w kq - 0 7",
+      "measurements": {
+        "incremental": {
+          "seconds": 0.05707416697987355,
+          "nodes": 23183,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "cached": {
+          "seconds": 0.05939545898581855,
+          "nodes": 23183,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        },
+        "baseline": {
+          "seconds": 0.06113391698454507,
+          "nodes": 23183,
+          "depth": 6,
+          "move": "d4b3",
+          "score": "PovScore(Cp(+82), WHITE)"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "incremental": {
+      "median_speed_ratio": 1.024793789206588,
+      "total_time_speed_ratio": 1.0197437216125662,
+      "pairs": 64
+    },
+    "cached": {
+      "median_speed_ratio": 1.0421967575456446,
+      "total_time_speed_ratio": 1.0402666278875663,
+      "pairs": 64
+    }
+  },
+  "selection": "cached",
+  "binary_sha256": {
+    "baseline": "b3f8f697330f939fb121c8889d4786cde99df49bd8e9c62e20418ae13158b5e9",
+    "incremental": "1058684896f57868a901472f1090da4355e4998caad63145010e0bf49ef3aa09",
+    "cached": "2149cf8a310e6ce680ae59ff7b4fd4f77f02dad82ee5bcfe124befa371d427ee"
+  },
+  "depth": 6,
+  "seed": 6202632,
+  "note": "Serial wall-time measurements with randomly alternating engine order; identical fixed-depth search results/nodes required. No match outcomes used for selection."
+}
