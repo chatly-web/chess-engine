@@ -1,0 +1,13 @@
+diff --git a/lib/lichess.py b/lib/lichess.py
+index 09ccb54..7f1e8b6 100644
+--- a/lib/lichess.py
++++ b/lib/lichess.py
+@@ -110,6 +110,8 @@ def is_final(exception: Exception) -> bool:
+ 
+ def backoff_handler(details: BackoffDetails) -> None:
+     """Log exceptions inside functions with the backoff decorator."""
++    # Redact a logging copy: backoff reuses its original keyword arguments.
++    details = {**details, "kwargs": dict(details["kwargs"])}
+     args = details["args"]
+     kwargs = details["kwargs"]
+     if "token_test" in args:

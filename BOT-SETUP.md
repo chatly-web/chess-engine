@@ -1,8 +1,12 @@
 # Competition hosting status
 
-Dedicated account: [ayushgohil](https://lichess.org/@/ayushgohil), permanently converted to **BOT** with the user's approval. The private `bot:play` token was validated and the official lichess-bot bridge connected successfully. No live game has completed yet; offline full-clock games are recorded in STRONG-SEARCH.md and the historical LONG-PASS.md.
+Dedicated account: [ayushgohil](https://lichess.org/@/ayushgohil), permanently converted to **BOT** with the user's approval. At the latest check (2026-11-02T23:18:04.812050+05:30), authentication and `bot:play` scope were valid, the bridge was connected, the BOT was online, and there were zero active games. The checked public export contained zero completed games, so human win rate is **unverified**. This is a status snapshot, not a promise of permanent uptime.
 
-The current local setup launches `engine/clash-native` directly with UCI. Python runs the bridge, not chess search. The private bridge configuration and token are stored outside this repository with owner-only permissions. Books, tablebases, online move sources, pondering, automatic matchmaking and automatic chat greetings are disabled. Incoming challenges are restricted to the single friend approved by the user. A local launcher prevents duplicate bridge instances and keeps the Mac awake while running.
+The current private **human trial** launches `engine/clash-history` directly with UCI, frozen SHA256 `bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444`, for both 3+2 and 10+5. The repository's conservative default `engine/clash-native` and the preceding faster alternative are unchanged. The experimental trial is not evidence that the candidate beats every human or engine. Choose one exact executable before submission and make the submitted launch command and bridge configuration agree.
+
+Python runs the official bridge, not chess search. Private configuration and credentials remain outside the public repository with owner-only permissions. Books, tablebases, online move sources, pondering, automatic matchmaking and automatic chat greetings are disabled. Incoming challenges are restricted to the single user-approved friend. No outgoing challenge was sent. The local launcher prevents duplicate bridge instances and keeps the Mac awake.
+
+A bridge startup failure was traced to retry logging modifying the actual token-check retry body. The local utility fix redacts copies while preserving the original retry arguments; token and `bot:play` validation stay enforced. See [source/bot_bridge/README.md](source/bot_bridge/README.md) for the declared utility patch, pinned upstream revision and offline regression tests. Chess code and weights were not changed by this hosting fix. See [HUMAN-VALIDATION.md](HUMAN-VALIDATION.md) for the pending live tests.
 
 ## Remaining before the competition
 
@@ -10,7 +14,7 @@ The current local setup launches `engine/clash-native` directly with UCI. Python
 2. With the hosting Mac awake and connected, have the approved friend challenge `ayushgohil` to casual standard **3+2** and **10+5** games. Test both colours and record completed game links. Do not make human moves from the BOT account. No outgoing challenges have been sent by this setup.
 3. Add the authorised competition accounts to the private challenge allowlist before the event. The current friend-only setting will reject other challengers. Check the bridge's allowed casual blitz/rapid controls against the event invitation.
 4. Supply a separate token scoped only to `challenge:write` to organisers using their designated private channel. Keep `bot:play` private; neither token belongs in the repository, ZIP or chat.
-5. Submit the accessible GitHub repository, BOT username, source, executable, dependencies and exact launch command `./engine/clash-native`. Use the announced deadline, **2 November, 23:59 IST**. Confirm the submission channel and acceptance of AI-assisted code with the organisers.
+5. Submit the accessible GitHub repository, BOT username, source, executable, dependencies and exact chosen launch command. The current human-trial command is `./engine/clash-history`; the repository default is a different build. Confirm which version is submitted and align the private bridge before the event. Use the announced deadline, **2 November, 23:59 IST**. Confirm the submission channel and acceptance of AI-assisted code with the organisers.
 6. Freeze the same tested executable for both tournament stages. Keep the hosting machine powered, awake and connected until every game finishes. Do not change, restart or advise the engine during a tournament game.
 
 ## Hosting on another computer

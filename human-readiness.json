@@ -1,0 +1,25 @@
+{
+  "checked_ist": "2026-11-02T23:18:04.812050+05:30",
+  "bot": "ayushgohil",
+  "bot_verified": true,
+  "online_at_check": true,
+  "active_games_at_check": 0,
+  "public_completed_games_retrieved": 0,
+  "verified_human_results": 0,
+  "human_win_rate": "not measured",
+  "trial_engine": "engine/clash-history",
+  "trial_engine_sha256": "bb117a724f65b35ab376f14afee837870176b95962363d7afc170aa60b663444",
+  "same_trial_version_both_controls": true,
+  "outgoing_challenges_sent": false,
+  "bridge_base_commit": "41266022bb881082b715b1ff080d3cee015fd12a",
+  "bridge_retry_regression": {
+    "passed": true,
+    "redaction_preserves_payload": true,
+    "redaction_hides_secret": true,
+    "transient_retry_preserves_body": true,
+    "scope_and_token_guards_enforced": true,
+    "network_requests": 0
+  },
+  "status_is_snapshot": true,
+  "incoming_allowlist_count": 1
+}

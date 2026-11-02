@@ -100,7 +100,7 @@ The C++ evaluation intentionally changed from the historical Python reference. T
 
 ## Hosting and provenance
 
-BOT account: [ayushgohil](https://lichess.org/@/ayushgohil). See [BOT-SETUP.md](BOT-SETUP.md) for the private bridge, approved incoming challenges, live tests and submission requirements. Keep the Mac powered, awake and online while hosting.
+BOT account: [ayushgohil](https://lichess.org/@/ayushgohil). The current private human trial uses the frozen `clash-history` candidate; human match results remain unverified. See [HUMAN-VALIDATION.md](HUMAN-VALIDATION.md). See [BOT-SETUP.md](BOT-SETUP.md) for the private bridge, approved incoming challenges, live tests and submission requirements. Keep the Mac powered, awake and online while hosting.
 
 Search and evaluation are original AI-assisted implementations. No existing engine source, pretrained evaluation networks, opening books, tablebases, online moves or opponent analysis labels are used. Other engines are separate offline opponents. Organiser acceptance of AI-assisted code still needs confirmation. Credentials stay outside the public repository and ZIP.
 
